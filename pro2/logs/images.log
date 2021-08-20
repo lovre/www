@@ -1,0 +1,32 @@
+       Graph | 'tom_jerry'
+        Type | '0--1'
+       Nodes | 49,152 (7,979)
+       Edges | 132,346 (0)
+      Degree | 5.39
+         LCC | 17.7% (9,375)
+        Time | 0.27 sec
+
+       Graph | 'lora_bella'
+        Type | '0--1'
+       Nodes | 49,152 (2,507)
+       Edges | 111,900 (0)
+      Degree | 4.55
+         LCC | 24.5% (3,754)
+        Time | 0.22 sec
+
+       Graph | 'fmf_logo'
+        Type | '0--1'
+       Nodes | 41,984 (1,920)
+       Edges | 148,150 (0)
+      Degree | 7.06
+         LCC | 85.9% (2,460)
+        Time | 0.26 sec
+
+       Graph | 'corona_beer'
+        Type | '0--1'
+       Nodes | 102,400 (5,934)
+       Edges | 349,025 (0)
+      Degree | 6.82
+         LCC | 77.1% (7,648)
+        Time | 1.40 sec
+

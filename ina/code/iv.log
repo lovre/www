@@ -1,0 +1,302 @@
+
+         ... | LNA
+        Date | 3/8/20 8:22 PM
+
+         ... | GRAPH
+
+     Network | 'imdb-actors'
+       Graph | '---' (array)
+       Nodes | 17,577 (0)
+       Edges | 287,074 (0)
+
+        WCCs | 19 (99.3%)
+     Bow-tie | 83% (8%, 8%)
+    Distance | 4.65 [1, 8]
+
+      Degree | 32.66 (756, 570)
+  Scale-free | 2.55 (2.79, 2.82)
+ Assortative | 0.29 (0.32, 0.30)
+  Complexity | 9.14 (222.65)
+
+  Clustering | 0.34 (0.0258)
+  Modularity | 0.79 (246)
+     Cluster | 0.00 (1)
+
+        Time | 5.46 sec
+      Memory | 0.11 GB
+
+         ... | RANDOM
+
+    0.999993 | 'Gleason, Mary Pat' (4)
+    0.999881 | 'Kuoppala, Ahti' (6)
+    0.999819 | 'Otsuka, Nene' (5)
+    0.999711 | 'Laser, Dieter' (15)
+    0.999630 | 'San Juan, Antonia' (52)
+    0.999593 | 'Seth, Sushma' (33)
+    0.999586 | 'Villanueva, Cris' (11)
+    0.999563 | 'De Pauw, Josse' (7)
+    0.999490 | 'Simony' (18)
+    0.999324 | 'Damien (III)' (1)
+    0.999213 | 'Shaw, Scott (I)' (12)
+    0.999190 | 'Perez, Halina' (15)
+    0.999132 | 'Turner, Tina' (29)
+    0.999122 | 'Storm, Violet' (6)
+    0.999039 | 'Butt, Brent' (35)
+    0.998989 | 'Harris, Estelle' (41)
+    0.998942 | 'Mazzotta, Peppino' (12)
+    0.998920 | 'Storg�rd, Johan' (6)
+    0.998863 | 'Griem, Helmut' (4)
+    0.998831 | 'McDowall, Roddy' (53)
+    0.998818 | 'Hoesl, Tobias' (18)
+    0.998765 | 'Hanewinkel, Elsa' (20)
+    0.998577 | 'Matsushige, Yutaka' (16)
+    0.998561 | 'Seth, Joshua' (126)
+    0.998547 | 'Benz, Julie' (8)
+
+        Time | 0.02 sec
+      Memory | 0.11 GB
+
+         ... | DEGREE
+
+  784.000000 | 'Davis, Mark (V)' (784)
+  610.000000 | 'Sanders, Alex (I)' (610)
+  599.000000 | 'North, Peter (I)' (599)
+  584.000000 | 'Marcus, Mr.' (584)
+  561.000000 | 'Tedeschi, Tony' (561)
+  555.000000 | 'Dough, Jon' (555)
+  545.000000 | 'Stone, Lee (II)' (545)
+  533.000000 | 'Voyeur, Vince' (533)
+  500.000000 | 'Lawrence, Joel (II)' (500)
+  493.000000 | 'Steele, Lexington' (493)
+  490.000000 | 'Ashley, Jay' (490)
+  475.000000 | 'Boy, T.T.' (475)
+  471.000000 | 'Cannon, Chris (III)' (471)
+  471.000000 | 'Jeremy, Ron' (471)
+  463.000000 | 'Bune, Tyce' (463)
+  457.000000 | 'Hanks, Tom' (457)
+  451.000000 | 'Michaels, Sean' (451)
+  450.000000 | 'Stone, Kyle' (450)
+  438.000000 | 'Hardman, Dave' (438)
+  428.000000 | 'Surewood, Brian' (428)
+  427.000000 | 'Jackson, Samuel L.' (427)
+  419.000000 | 'Holmes, Steve' (419)
+  417.000000 | 'St. Jox, Julian' (417)
+  416.000000 | 'Kelly, Jill' (416)
+  410.000000 | 'Lopez, Jennifer (I)' (410)
+
+        Time | 0.05 sec
+      Memory | 0.12 GB
+
+         ... | CLUSTERING
+
+    1.000000 | 'Rachner, Jonathan' (46)
+    1.000000 | 'Doucette, Jeff' (23)
+    1.000000 | 'Andersson, Kris' (20)
+    1.000000 | 'Willis, Susan' (20)
+    1.000000 | 'Kurtis, Bill' (19)
+    1.000000 | 'Cantillana, N�stor' (16)
+    1.000000 | 'Faris, Anna' (15)
+    1.000000 | 'Tolkien, J.R.R.' (15)
+    1.000000 | 'Kurata, Tetsuo' (13)
+    1.000000 | 'Margera, Jess' (12)
+    1.000000 | 'Raab, Chris' (12)
+    1.000000 | 'Rakeyohn' (12)
+    1.000000 | 'Cox, Julie (I)' (11)
+    1.000000 | 'Galindo, Rudy' (11)
+    1.000000 | 'Le Besco, Ma�wenn' (11)
+    1.000000 | 'Emmerich, Roland' (9)
+    1.000000 | 'Fabray, Nanette' (9)
+    1.000000 | 'Jarczyk, Robert' (9)
+    1.000000 | 'Oda, Yuji' (9)
+    1.000000 | 'Savary, Jeanne' (9)
+    1.000000 | 'Simon, Danny' (9)
+    1.000000 | 'Tolkin, Mel' (9)
+    1.000000 | 'Walker, Justin (I)' (9)
+    1.000000 | 'Wells, Julian (II)' (9)
+    1.000000 | 'Burke, Michelle' (8)
+
+        Time | 1.45 sec
+      Memory | 0.30 GB
+
+         ... | Μ-CLUSTERING
+
+    0.002216 | 'Helms, Shane' (216)
+    0.002216 | 'Wilson, Torrie' (217)
+    0.002216 | 'Matthews, Darren (II)' (212)
+    0.002215 | 'Greenwald, Nora' (215)
+    0.002215 | 'Keibler, Stacy' (215)
+    0.002213 | 'Jindrak, Mark' (214)
+    0.002209 | 'Wight, Paul' (221)
+    0.002209 | 'Guerrero Jr., Chavo' (215)
+    0.002208 | 'Bischoff, Eric' (218)
+    0.002208 | 'Hugger, John' (212)
+    0.002206 | 'Flair, Ric' (219)
+    0.002204 | 'Layfield, John' (192)
+    0.002203 | 'Huffman, Booker' (219)
+    0.002201 | 'Gruner, Peter' (218)
+    0.002200 | 'O&apos;Haire, Sean' (210)
+    0.002200 | 'McMahon, Shane' (199)
+    0.002200 | 'Calaway, Mark' (207)
+    0.002198 | 'Howard, Robert William' (193)
+    0.002198 | 'McMahon, Stephanie' (194)
+    0.002197 | 'Levesque, Paul Michael' (206)
+    0.002197 | 'Simmons, Ron (I)' (191)
+    0.002197 | 'Runnels, Dustin' (220)
+    0.002196 | 'Benoit, Chris (I)' (225)
+    0.002196 | 'Guerrero, Eddie' (225)
+    0.002194 | 'Gunn, Billy (II)' (201)
+
+        Time | 0.01 sec
+      Memory | 0.30 GB
+
+         ... | EIGENVECTOR
+
+   92.477817 | 'Benoit, Chris (I)' (225)
+   92.477817 | 'Guerrero, Eddie' (225)
+   92.038972 | 'Storm, Lance' (225)
+   91.947140 | 'Wight, Paul' (221)
+   91.928511 | 'Jericho, Chris' (253)
+   91.506554 | 'Runnels, Dustin' (220)
+   91.446709 | 'Flair, Ric' (219)
+   91.379535 | 'Huffman, Booker' (219)
+   91.268470 | 'Bischoff, Eric' (218)
+   91.260113 | 'Wilson, Torrie' (217)
+   91.110063 | 'Gruner, Peter' (218)
+   91.067621 | 'Levy, Scott (III)' (226)
+   91.056304 | 'Helms, Shane' (216)
+   90.816530 | 'Greenwald, Nora' (215)
+   90.816530 | 'Keibler, Stacy' (215)
+   90.768049 | 'Alfonso, Michael' (221)
+   90.654711 | 'Guerrero Jr., Chavo' (215)
+   90.554051 | 'Nash, Kevin (I)' (221)
+   90.547058 | 'Jindrak, Mark' (214)
+   90.264097 | 'Matthews, Darren (II)' (212)
+   90.133063 | 'Malenko, Dean' (216)
+   90.012183 | 'Hugger, John' (212)
+   90.011012 | 'Hall, Scott (I)' (218)
+   89.413064 | 'O&apos;Haire, Sean' (210)
+   89.333178 | 'Page, Dallas' (217)
+
+        Time | 13.5 sec
+      Memory | 0.75 GB
+
+         ... | PAGERANK
+
+    0.000660 | 'Hanks, Tom' (457)
+    0.000642 | 'Jackson, Samuel L.' (427)
+    0.000607 | 'Goldberg, Whoopi' (398)
+    0.000561 | 'Stiller, Ben' (382)
+    0.000547 | 'Davis, Mark (V)' (784)
+    0.000542 | 'Lopez, Jennifer (I)' (410)
+    0.000540 | 'Berl�and, Fran�ois' (194)
+    0.000536 | 'Berry, Halle' (376)
+    0.000514 | 'Diaz, Cameron' (361)
+    0.000486 | 'Travolta, John' (335)
+    0.000476 | 'Jeremy, Ron' (471)
+    0.000468 | 'Myers, Mike (I)' (345)
+    0.000466 | 'Cruise, Tom' (336)
+    0.000464 | 'Schwarzenegger, Arnold' (333)
+    0.000463 | 'Baldwin, Alec' (318)
+    0.000458 | 'Smith, Will (I)' (326)
+    0.000456 | 'Spears, Britney' (341)
+    0.000450 | 'Williams, Robin (I)' (320)
+    0.000445 | 'Sarandon, Susan' (300)
+    0.000438 | 'Carrey, Jim' (314)
+    0.000435 | 'Madonna (I)' (324)
+    0.000430 | 'Fry, Stephen' (213)
+    0.000430 | 'North, Peter (I)' (599)
+    0.000413 | 'Richardson, Kevin Michael' (275)
+    0.000410 | 'Welker, Frank' (260)
+
+        Time | 3.14 sec
+      Memory | 0.24 GB
+
+         ... | GRAPH
+
+     Network | 'imdb-actors'
+       Graph | '---' (array)
+       Nodes | 17,455 (0)
+       Edges | 286,911 (0)
+
+        WCCs | 1 (100.0%)
+     Bow-tie | 83% (8%, 8%)
+    Distance | 4.99 [1, 11]
+
+      Degree | 32.87 (756, 570)
+  Scale-free | 2.55 (2.79, 2.82)
+ Assortative | 0.29 (0.32, 0.30)
+  Complexity | 9.13 (222.21)
+
+  Clustering | 0.34 (0.0260)
+  Modularity | 0.80 (194)
+     Cluster | 0.00 (1)
+
+        Time | 4.28 sec
+      Memory | 0.55 GB
+
+         ... | CLOSENESS
+
+    0.350630 | 'Goldberg, Whoopi' (398)
+    0.349992 | 'Hanks, Tom' (457)
+    0.349703 | 'Jackson, Samuel L.' (427)
+    0.346814 | 'Berry, Halle' (376)
+    0.345928 | 'Diaz, Cameron' (361)
+    0.345206 | 'Stiller, Ben' (382)
+    0.342719 | 'Lopez, Jennifer (I)' (410)
+    0.340933 | 'Myers, Mike (I)' (345)
+    0.340268 | 'Douglas, Michael (I)' (263)
+    0.340120 | 'Cruise, Tom' (336)
+    0.338780 | 'Travolta, John' (335)
+    0.338506 | 'Schwarzenegger, Arnold' (333)
+    0.337269 | 'De Niro, Robert' (257)
+    0.336657 | 'Madonna (I)' (324)
+    0.336609 | 'Smith, Will (I)' (326)
+    0.335769 | 'Kidman, Nicole' (280)
+    0.335355 | 'Carrey, Jim' (314)
+    0.335332 | 'Hopper, Dennis' (231)
+    0.334235 | 'Williams, Robin (I)' (320)
+    0.334122 | 'Hoffman, Dustin' (259)
+    0.334113 | 'Stone, Sharon (I)' (257)
+    0.334081 | 'Sarandon, Susan' (300)
+    0.333881 | 'Washington, Denzel' (253)
+    0.333838 | 'Ford, Harrison (I)' (256)
+    0.332960 | 'Willis, Bruce (I)' (137)
+
+        Time | 3.64 min
+      Memory | 0.09 GB
+
+         ... | BETWEENNESS
+
+    0.063993 | 'Jeremy, Ron' (471)
+    0.030963 | 'Chan, Jackie (I)' (135)
+    0.028428 | 'Cruz, Pen�lope' (182)
+    0.028197 | 'Shahlavi, Darren' (8)
+    0.028011 | 'Del Rosario, Monsour' (6)
+    0.026503 | 'Depardieu, G�rard' (159)
+    0.016872 | 'Bachchan, Amitabh' (66)
+    0.016671 | 'Jackson, Samuel L.' (427)
+    0.015545 | 'Soualem, Zinedine' (121)
+    0.015206 | 'Del Rio, Olivia' (168)
+    0.014028 | 'Jaenicke, Hannes' (73)
+    0.013899 | 'Hayek, Salma' (185)
+    0.013775 | 'Pel�' (7)
+    0.013539 | 'Knaup, Herbert' (63)
+    0.013468 | 'Goldberg, Whoopi' (398)
+    0.013255 | 'Roth, Cecilia' (62)
+    0.013169 | 'Bellucci, Monica' (81)
+    0.012979 | 'Hanks, Tom' (457)
+    0.012717 | 'August, Pernilla' (44)
+    0.012599 | 'Kier, Udo' (64)
+    0.012521 | 'Puri, Om' (95)
+    0.012253 | 'Dogg, Snoop' (220)
+    0.012206 | 'Deneuve, Catherine' (79)
+    0.011881 | 'Walters, Julie' (149)
+    0.011621 | 'Ice-T' (153)
+
+        Time | 8.76 min
+      Memory | 0.18 GB
+
+         ... | LNA
+
+        Time | 12.9 min
+      Memory | 0.18 GB

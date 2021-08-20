@@ -1,0 +1,441 @@
+
+         ... | LNA
+        Date | 4/17/20 1:18 AM
+
+         ... | GRAPH
+
+     Network | 'karate-club'
+       Graph | '---' (array)
+       Nodes | 34 (0)
+       Edges | 78 (0)
+
+        WCCs | 1 (100.0%)
+     Bow-tie | 50% (24%, 26%)
+    Distance | 2.38 [1, 5]
+
+      Degree | 4.59 (17, 16)
+  Scale-free | NaN (NaN, NaN)
+ Assortative | -0.48 (0.25, 0.36)
+  Complexity | 3.26 (8.94)
+
+  Clustering | 0.57 (0.1374)
+  Modularity | 0.38 (4)
+     Cluster | 0.56 (2)
+
+        Time | 0.08 sec
+      Memory | 0.00 GB
+
+         ... | COMPARE
+
+     Network | 'karate-club'
+       Graph | '---' (array)
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17, 16)
+
+     Default | 97.1%
+        Runs | 100
+
+   Algorithm | Count      Degenerate    Order   Degree  Flake  Diameter   Robustness      Q      NMI     L1O     Time
+       Truth | 2         0.0%   52.9%    0.05    4.00    0.0%    3.00   0.000   0.000   0.371   1.000    0.0%   0.00 sec
+     Infomap | 3        50.0%   50.0%    0.53    3.76    0.0%    2.85   0.000   0.000   0.402   0.699    0.0%   0.01 sec
+         SBM | 2        14.7%   85.3%    0.76    1.41   58.8%    4.70   0.000   0.000  -0.208   0.010    0.0%   0.77 sec
+       DCSBM | 1         0.0%  100.0%    0.00    4.59    0.0%    5.00   0.000   0.000   0.000   0.000    0.0%   0.75 sec
+
+        Time | 2.57 min
+      Memory | 0.00 GB
+
+         ... | GRAPH
+
+     Network | 'southern-women'
+       Graph | '---' (array)
+       Nodes | 32 (0)
+       Edges | 89 (0)
+
+        WCCs | 1 (100.0%)
+     Bow-tie | 0% (44%, 56%)
+    Distance | 2.27 [1, 4]
+
+      Degree | 5.56 (14, 8)
+  Scale-free | NaN (NaN, NaN)
+ Assortative | -0.34 (NaN, NaN)
+  Complexity | 3.34 (8.97)
+
+  Clustering | 0.00 (NaN)
+  Modularity | 0.26 (4)
+     Cluster | 0.31 (3)
+
+        Time | 0.01 sec
+      Memory | 0.00 GB
+
+         ... | COMPARE
+
+     Network | 'southern-women'
+       Graph | '---' (array)
+       Nodes | 32 (0)
+       Edges | 89 (0)
+      Degree | 5.56 (14, 8)
+
+     Default | 0.0%
+        Runs | 100
+
+   Algorithm | Count      Degenerate    Order   Degree  Flake  Diameter   Robustness      Q      NMI     L1O     Time
+       Truth | 3       100.0%   43.8%    0.19    0.00  100.0%    0.00   0.000   0.000  -0.376   1.000    0.0%   0.00 sec
+     Infomap | 2         1.9%   53.6%    0.09    4.60    0.2%    3.84   0.000   0.000   0.313   0.416    0.0%   0.01 sec
+         SBM | 2        43.8%   56.2%    0.11    0.00  100.0%    0.00   0.000   0.000  -0.500   0.779    0.0%   0.80 sec
+       DCSBM | 4        85.9%   35.2%    0.16    0.00  100.0%    0.00   0.000   0.000  -0.321   0.853    0.0%   0.81 sec
+
+        Time | 2.69 min
+      Memory | 0.00 GB
+
+         ... | COMPARE
+
+     Network | 'SB-benchmark'
+       Graph | '---' (array)
+       Nodes | 128 (0)
+       Edges | 1,029 (0)
+      Degree | 16.08 (21, 21)
+
+      Metric | NMI
+        Runs | 10
+
+      Mixing |  Truth  Infomap   SBM    DCSBM  
+        0.00 |  1.000   0.857   1.000   1.000  
+        0.05 |  1.000   0.857   1.000   0.996  
+        0.10 |  1.000   0.857   1.000   1.000  
+        0.15 |  1.000   0.857   1.000   1.000  
+        0.20 |  1.000   0.857   1.000   1.000  
+        0.25 |  1.000   0.857   1.000   1.000  
+        0.30 |  1.000   0.854   1.000   1.000  
+        0.35 |  1.000   0.839   0.980   0.981  
+        0.40 |  1.000   0.480   0.916   0.757  
+        0.45 |  1.000   0.000   0.311   0.000  
+        0.50 |  1.000   0.000   0.000   0.000  
+     Average |  1.000   0.665   0.837   0.794  
+
+        Time | 4.53 min
+      Memory | 0.00 GB
+
+         ... | GRAPH
+
+     Network | 'cdn-jung'
+       Graph | '-->' (array)
+       Nodes | 456 (63)
+       Edges | 935 (0)
+
+        WCCs | 68 (83.6%)
+     Bow-tie | 29% (10%, 45%)
+    Distance | 3.08 [1, 10]
+
+      Degree | 4.10 (81, 11)
+  Scale-free | 2.89 (3.03, NaN)
+ Assortative | -0.18 (0.04, 0.16)
+  Complexity | 5.52 (33.70)
+
+  Clustering | 0.30 (0.0833)
+  Modularity | 0.65 (110)
+     Cluster | 0.68 (39)
+
+        Time | 0.31 sec
+      Memory | 0.05 GB
+
+         ... | ANALYSIS
+
+     0-cores | 68 (381 nodes)
+     1-cores | 5 (381 nodes)
+     2-cores | 1 (309 nodes)
+     3-cores | 1 (211 nodes)
+     4-cores | 2 (110 nodes)
+     5-cores | 2 (43 nodes)
+     6-cores | 1 (11 nodes)
+     7-cores | 0 (0 nodes)
+
+     6-cores | {jung.algorithms.layout.GraphElementAccessor; jung.algorithms.layout.Layout; jung.visualization.BasicVisualizationServer; jung.visualization.RenderContext; jung.visualization.VisualizationImageServer; jung.visualization.VisualizationModel; jung.visualization.VisualizationServer; jung.visualization.VisualizationViewer; jung.visualization.control.SatelliteVisualizationViewer; jung.visualization.picking.PickedState; jung.visualization.renderers.Renderer}
+
+        Time | 0.02 sec
+      Memory | 0.06 GB
+
+         ... | GRAPH
+
+     Network | 'cdn-java'
+       Graph | '-->' (array)
+       Nodes | 1,516 (0)
+       Edges | 10,151 (0)
+
+        WCCs | 1 (100.0%)
+     Bow-tie | 44% (2%, 55%)
+    Distance | 2.17 [1, 4]
+
+      Degree | 13.39 (1312, 59)
+  Scale-free | 2.58 (2.26, 8.50)
+ Assortative | -0.28 (-0.03, 0.08)
+  Complexity | 6.24 (62.82)
+
+  Clustering | 0.69 (0.0039)
+  Modularity | 0.28 (6)
+     Cluster | 0.20 (54)
+
+        Time | 0.15 sec
+      Memory | 0.09 GB
+
+         ... | ANALYSIS
+
+     0-cores | 1 (1516 nodes)
+     1-cores | 1 (1516 nodes)
+     2-cores | 1 (1495 nodes)
+     3-cores | 1 (1472 nodes)
+     4-cores | 1 (1362 nodes)
+     5-cores | 1 (1214 nodes)
+     6-cores | 1 (995 nodes)
+     7-cores | 1 (844 nodes)
+     8-cores | 1 (490 nodes)
+     9-cores | 1 (325 nodes)
+    10-cores | 1 (198 nodes)
+    11-cores | 1 (129 nodes)
+    12-cores | 1 (90 nodes)
+    13-cores | 1 (88 nodes)
+    14-cores | 1 (86 nodes)
+    15-cores | 1 (83 nodes)
+    16-cores | 1 (83 nodes)
+    17-cores | 1 (82 nodes)
+    18-cores | 1 (82 nodes)
+    19-cores | 1 (82 nodes)
+    20-cores | 1 (70 nodes)
+    21-cores | 1 (49 nodes)
+    22-cores | 1 (49 nodes)
+    23-cores | 1 (49 nodes)
+    24-cores | 1 (44 nodes)
+    25-cores | 1 (43 nodes)
+    26-cores | 0 (0 nodes)
+
+    25-cores | {java.applet.Applet; java.awt.AWTEvent; java.awt.Button; java.awt.Canvas; java.awt.Checkbox; java.awt.Choice; java.awt.Color; java.awt.Component; java.awt.Container; java.awt.Dialog; java.awt.Dimension; java.awt.Event; java.awt.FileDialog; java.awt.Font; java.awt.FontMetrics; java.awt.Frame; java.awt.Graphics; java.awt.GraphicsConfiguration; java.awt.Image; java.awt.ImageCapabilities; java.awt.Label; java.awt.List; java.awt.MenuComponent; java.awt.Panel; java.awt.Point; java.awt.PopupMenu; java.awt.Rectangle; java.awt.ScrollPane; java.awt.Scrollbar; java.awt.TextArea; java.awt.TextComponent; java.awt.TextField; java.awt.Toolkit; java.awt.Window; java.awt.im.InputContext; java.awt.image.ColorModel; java.awt.image.ImageObserver; java.awt.image.VolatileImage; java.awt.peer.ComponentPeer; java.lang.Class; java.lang.Object; java.lang.String; java.util.Locale}
+
+        Time | 0.11 sec
+      Memory | 0.04 GB
+
+         ... | GRAPH
+
+     Network | 'wikileaks'
+       Graph | '-->' (array)
+       Nodes | 52,416 (0)
+       Edges | 78,506 (0)
+
+        WCCs | 1 (100.0%)
+     Bow-tie | 44% (23%, 33%)
+    Distance | 23.19 [1, 48]
+
+      Degree | 3.00 (383, 53)
+  Scale-free | 2.58 (2.47, 15.64)
+ Assortative | -0.03 (-0.05, 0.17)
+  Complexity | 10.55 (423.84)
+
+  Clustering | 0.19 (0.0023)
+  Modularity | 0.71 (12,056)
+     Cluster | 0.63 (246)
+
+        Time | 2.62 sec
+      Memory | 0.14 GB
+
+         ... | ANALYSIS
+
+     0-cores | 1 (52416 nodes)
+     1-cores | 1 (52416 nodes)
+     2-cores | 1 (30239 nodes)
+     3-cores | 393 (4804 nodes)
+     4-cores | 195 (701 nodes)
+     5-cores | 83 (84 nodes)
+     6-cores | 36 (75 nodes)
+     7-cores | 21 (75 nodes)
+     8-cores | 14 (71 nodes)
+     9-cores | 9 (64 nodes)
+    10-cores | 2 (61 nodes)
+    11-cores | 2 (14 nodes)
+    12-cores | 0 (0 nodes)
+
+    11-cores | {09COLOMBO1139; 09COLOMBO1145; 09COLOMBO1152; 10COLOMBO11; 10COLOMBO21; 10COLOMBO27; 10COLOMBO40; 10COLOMBO57; 10COLOMBO59; 10COLOMBO61; 10COLOMBO62; 10COLOMBO65; 10COLOMBO7; 10COLOMBO78}
+             | {08NEWDELHI1799; 08NEWDELHI2109; 08NEWDELHI2146; 08NEWDELHI2223; 08NEWDELHI2265; 08NEWDELHI2289; 08NEWDELHI2378; 08NEWDELHI2742; 08NEWDELHI2746; 08NEWDELHI2946; 08NEWDELHI2987; 08NEWDELHI3030; 08NEWDELHI3185}
+
+        Time | 1.12 sec
+      Memory | 0.15 GB
+
+         ... | GRAPH
+
+     Network | 'collaboration-imdb'
+       Graph | '---' (array)
+       Nodes | 17,577 (0)
+       Edges | 287,074 (0)
+
+        WCCs | 19 (99.3%)
+     Bow-tie | 83% (8%, 8%)
+    Distance | 4.71 [1, 11]
+
+      Degree | 32.66 (756, 570)
+  Scale-free | 2.55 (2.79, 2.82)
+ Assortative | 0.29 (0.32, 0.30)
+  Complexity | 9.14 (222.65)
+
+  Clustering | 0.34 (0.0258)
+  Modularity | 0.80 (215)
+     Cluster | 0.00 (1)
+
+        Time | 2.63 sec
+      Memory | 0.28 GB
+
+         ... | ANALYSIS
+
+     0-cores | 19 (17455 nodes)
+     1-cores | 19 (17455 nodes)
+     2-cores | 7 (17000 nodes)
+     3-cores | 5 (16364 nodes)
+     4-cores | 2 (15651 nodes)
+     5-cores | 2 (14841 nodes)
+     6-cores | 2 (13812 nodes)
+     7-cores | 2 (12894 nodes)
+     8-cores | 2 (12016 nodes)
+     9-cores | 2 (11138 nodes)
+    10-cores | 2 (10290 nodes)
+    11-cores | 3 (9609 nodes)
+    12-cores | 5 (8718 nodes)
+    13-cores | 5 (8054 nodes)
+    14-cores | 4 (7449 nodes)
+    15-cores | 4 (6894 nodes)
+    16-cores | 3 (6390 nodes)
+    17-cores | 2 (5820 nodes)
+    18-cores | 2 (5495 nodes)
+    19-cores | 2 (5213 nodes)
+    20-cores | 3 (4888 nodes)
+    21-cores | 3 (4570 nodes)
+    22-cores | 3 (4360 nodes)
+    23-cores | 3 (4126 nodes)
+    24-cores | 3 (3761 nodes)
+    25-cores | 3 (3455 nodes)
+    26-cores | 3 (3144 nodes)
+    27-cores | 3 (3045 nodes)
+    28-cores | 3 (2934 nodes)
+    29-cores | 2 (2807 nodes)
+    30-cores | 2 (2583 nodes)
+    31-cores | 2 (2493 nodes)
+    32-cores | 2 (2351 nodes)
+    33-cores | 2 (2287 nodes)
+    34-cores | 1 (2218 nodes)
+    35-cores | 1 (2160 nodes)
+    36-cores | 1 (2091 nodes)
+    37-cores | 1 (2037 nodes)
+    38-cores | 1 (2006 nodes)
+    39-cores | 1 (1954 nodes)
+    40-cores | 1 (1913 nodes)
+    41-cores | 1 (1863 nodes)
+    42-cores | 1 (1823 nodes)
+    43-cores | 1 (1790 nodes)
+    44-cores | 1 (1721 nodes)
+    45-cores | 1 (1654 nodes)
+    46-cores | 1 (1532 nodes)
+    47-cores | 1 (1455 nodes)
+    48-cores | 1 (1430 nodes)
+    49-cores | 1 (1401 nodes)
+    50-cores | 1 (1282 nodes)
+    51-cores | 1 (1259 nodes)
+    52-cores | 1 (1173 nodes)
+    53-cores | 1 (1151 nodes)
+    54-cores | 1 (1126 nodes)
+    55-cores | 1 (1101 nodes)
+    56-cores | 1 (1088 nodes)
+    57-cores | 2 (778 nodes)
+    58-cores | 2 (756 nodes)
+    59-cores | 2 (754 nodes)
+    60-cores | 2 (747 nodes)
+    61-cores | 2 (708 nodes)
+    62-cores | 2 (699 nodes)
+    63-cores | 1 (687 nodes)
+    64-cores | 1 (680 nodes)
+    65-cores | 1 (673 nodes)
+    66-cores | 1 (668 nodes)
+    67-cores | 1 (652 nodes)
+    68-cores | 1 (648 nodes)
+    69-cores | 1 (635 nodes)
+    70-cores | 1 (620 nodes)
+    71-cores | 1 (591 nodes)
+    72-cores | 1 (571 nodes)
+    73-cores | 1 (555 nodes)
+    74-cores | 1 (541 nodes)
+    75-cores | 1 (521 nodes)
+    76-cores | 1 (519 nodes)
+    77-cores | 1 (463 nodes)
+    78-cores | 1 (221 nodes)
+    79-cores | 1 (221 nodes)
+    80-cores | 1 (221 nodes)
+    81-cores | 1 (219 nodes)
+    82-cores | 1 (219 nodes)
+    83-cores | 1 (216 nodes)
+    84-cores | 1 (207 nodes)
+    85-cores | 1 (204 nodes)
+    86-cores | 1 (204 nodes)
+    87-cores | 1 (204 nodes)
+    88-cores | 1 (204 nodes)
+    89-cores | 1 (204 nodes)
+    90-cores | 1 (204 nodes)
+    91-cores | 1 (204 nodes)
+    92-cores | 1 (203 nodes)
+    93-cores | 1 (203 nodes)
+    94-cores | 1 (203 nodes)
+    95-cores | 1 (203 nodes)
+    96-cores | 1 (202 nodes)
+    97-cores | 1 (199 nodes)
+    98-cores | 1 (199 nodes)
+    99-cores | 1 (196 nodes)
+   100-cores | 1 (195 nodes)
+   101-cores | 1 (192 nodes)
+   102-cores | 1 (192 nodes)
+   103-cores | 1 (190 nodes)
+   104-cores | 1 (190 nodes)
+   105-cores | 1 (187 nodes)
+   106-cores | 1 (187 nodes)
+   107-cores | 1 (187 nodes)
+   108-cores | 1 (187 nodes)
+   109-cores | 1 (185 nodes)
+   110-cores | 1 (185 nodes)
+   111-cores | 1 (185 nodes)
+   112-cores | 1 (184 nodes)
+   113-cores | 1 (184 nodes)
+   114-cores | 1 (184 nodes)
+   115-cores | 1 (184 nodes)
+   116-cores | 1 (184 nodes)
+   117-cores | 1 (184 nodes)
+   118-cores | 1 (183 nodes)
+   119-cores | 1 (182 nodes)
+   120-cores | 1 (178 nodes)
+   121-cores | 1 (178 nodes)
+   122-cores | 1 (177 nodes)
+   123-cores | 1 (177 nodes)
+   124-cores | 1 (177 nodes)
+   125-cores | 1 (174 nodes)
+   126-cores | 1 (174 nodes)
+   127-cores | 1 (174 nodes)
+   128-cores | 1 (174 nodes)
+   129-cores | 1 (171 nodes)
+   130-cores | 1 (171 nodes)
+   131-cores | 1 (168 nodes)
+   132-cores | 1 (168 nodes)
+   133-cores | 1 (168 nodes)
+   134-cores | 1 (168 nodes)
+   135-cores | 1 (167 nodes)
+   136-cores | 1 (167 nodes)
+   137-cores | 1 (167 nodes)
+   138-cores | 1 (167 nodes)
+   139-cores | 1 (167 nodes)
+   140-cores | 1 (162 nodes)
+   141-cores | 1 (162 nodes)
+   142-cores | 1 (162 nodes)
+   143-cores | 1 (162 nodes)
+   144-cores | 1 (162 nodes)
+   145-cores | 0 (0 nodes)
+
+   144-cores | {Adams, Brian (VI); Aguilera, Aaron; Alfonso, Michael; Anderson, Arn; Angle, Kurt; Anoai, Solofatu; Austin, Steve (IV); Bass, Nicole; Batista, Dave; Benjamin, Shelton; Benoit, Chris (I); Bischoff, Eric; Blackman, Steve (I); Bloom, Matt (I); Brisco, Gerald; Bucci, Michael; Buchanan, Barry (II); Calaway, Mark; Carter, Stacy; Chimel, Tony; Chioda, Mike; Clarke, Bryan; Clemont, Pierre; Coachman, Jonathan; Cole, Michael (V); Connor, A.C.; Constantino, Rico; Conway, Rob; Copeland, Adam (I); Daniels, Christopher (I); DeMott, William; Dinsmore, Nick; Doan, Jack; Dumas, Amy; Dupree, Rene (II); Durham, Michael; Fifita, Uliuli; Finkel, Howard; Flair, Ric; Foley, Mick; Frazier Jr., Nelson; Funaki, Sho; Garc�a, Lili�n; Gayda, Jackie; Gerin, Terry; Goldberg, Bill (I); Greenwald, Nora; Grenier, Sylvain; Gruner, Peter; Guenard, Nidia; Guerrero Jr., Chavo; Guerrero, Eddie; Gunn, Billy (II); Guttierrez, Oscar; Hall, Scott (I); Hardy, Jeff (I); Hardy, Matt; Harris, Don (VII); Harris, Ron (IV); Hart, Owen; Heath, David (I); Hebner, Brian; Hebner, Earl; Heffron, Brian (II); Hegstrand, Michael; Heidenreich, Jon; Helms, Shane; Hennig, Curt; Henry, Mark (I); Heyman, Paul; Hickenbottom, Michael; Hogan, Hulk; Howard, Robert William; Huffman, Booker; Huffman, Maven; Hugger, John; Hughes, Devon; Hyson, Matt; Jacobs, Glen; James, Brian (II); Jarrett, Jeff (I); Jericho, Chris; Jindrak, Mark; Kanyon, Chris; Keibler, Stacy; Killings, Ron; Knight, Dennis (II); Korderas, Jimmy; Laughlin, Tom (IV); Laurer, Joanie; Laurinaitis, Joe; Lawler, Brian (II); Lawler, Jerry; Layfield, John; Lesnar, Brock; Levesque, Paul Michael; Levy, Scott (III); LoMonaco, Mark; Lockwood, Michael; Long, Teddy; Lynn, Jerry; Malenko, Dean; Manna, Michael; Martin, Andrew (II); Matthews, Darren (II); McMahon, Linda; McMahon, Shane; McMahon, Stephanie; McMahon, Vince; McMichael, Debra; Mero, Marc; Mero, Rena; Moody, William (I); Moore, Carlene (II); Moore, Jacqueline (VI); Moretti, Lisa; Morley, Sean; Nash, Kevin (I); O&apos;Haire, Sean; Orton, Randy; Page, Dallas; Palumbo, Chuck (I); Patrick, Nick (II); Petty, Ted; Piper, Roddy; Plotcheck, Michael; Poch, Terri; Reso, Jason; Robinson, Charles (IV); Rock, The; Ross, Jim (III); Runnels, Dustin; Runnels, Terri; Ruth, Glen; Saturn, Perry; Scaggs, Charles; Seitz, Michael; Seldano, Jose; Senerca, Pete; Shamrock, Ken; Simmons, Ron (I); Smith, Davey Boy; Snow, Al; Stipich, Sean; Storm, Lance; Stratus, Trish; Tajiri, Yoshihiro; Taylor, Scott (IX); Traylor, Raymond; Vachon, Angelle; Van Dam, Rob; Varon, Lisa Marie; Walker, P.J.; Waltman, Sean; Warrington, Chaz; White, Leon; White, Tim (V); Wight, Paul; Wilson, Torrie; Wright, Charles (II); Yang, Jimmy (I); Yoshida, Takao}
+
+        Time | 2.40 sec
+      Memory | 0.36 GB
+
+         ... | LNA
+
+        Time | 9.95 min
+      Memory | 0.36 GB

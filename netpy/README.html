@@ -1,0 +1,920 @@
+<!DOCTYPE html><html>
+
+<head>
+<meta charset="utf-8">
+<title>README</title>
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+<style type="text/css">
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+</style>
+<style type="text/css">
+div.prism-show-language {
+	position: relative;
+}
+
+div.prism-show-language > div.prism-show-language-label {
+	color: black;
+	background-color: #CFCFCF;
+	display: inline-block;
+	position: absolute;
+	bottom: auto;
+	left: auto;
+	top: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	font-size: 0.9em;
+	border-radius: 0 0 0 5px;
+	padding: 0 0.5em;
+	text-shadow: none;
+	z-index: 1;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
+}
+</style>
+</head>
+<body>
+<h1 id="toc_0">NetPy &#39;19: Introduction to Network Analysis in Python</h1>
+
+<h6 id="toc_1">Workshop instructor</h6>
+
+<p><strong>Asst. Prof. <a href="http://lovro.lpt.fri.uni-lj.si">Lovro Šubelj</a>, PhD</strong>, University of Ljubljana</p>
+
+<h6 id="toc_2">Workshop schedule</h6>
+
+<p>Tuesday, <strong>10th December 2019 at 3:30 PM</strong> (4 hours with breaks)</p>
+
+<h6 id="toc_3">Workshop location</h6>
+
+<p><strong>Lecture room 3 at <a href="http://www.fri.uni-lj.si">UL FRI</a></strong>, Večna pot 113, Ljubljana, Slovenia</p>
+
+<h6 id="toc_4">Materials and forum</h6>
+
+<ul>
+<li><strong>GitHub</strong> repository at <a href="http://github.com/lovre/netpy"><strong>http://github.com/lovre/netpy</strong></a></li>
+<li><strong>WWW</strong> repository at <a href="http://lovro.lpt.fri.uni-lj.si/netpy"><strong>http://lovro.lpt.fri.uni-lj.si/netpy</strong></a></li>
+<li><strong>Piazza</strong> forum at <a href="http://piazza.com/fri.uni-lj.si/winter2020/netpy"><strong>http://piazza.com/fri.uni-lj.si/winter2020/netpy</strong></a></li>
+<li><strong>Slovenian</strong> dictionary at <a href="http://lovro.lpt.fri.uni-lj.si/netpy/dict.pdf"><strong>http://lovro.lpt.fri.uni-lj.si/netpy/dict.pdf</strong></a></li>
+</ul>
+
+<h6 id="toc_5">High-level description</h6>
+
+<p><strong>The workshop is primarily aimed at Python programmers, either academics, professionals or students, that wish to learn the basics of modern network science and practical analyses of complex real networks, such as social, information and biological networks.</strong> Familiarity with the basics of probability theory, statistics and linear algebra is strongly encouraged.
+The workshop is based on masters level course <a href="http://lovro.lpt.fri.uni-lj.si/posters/frinets.pdf"><strong>Network Analysis</strong></a> offered at University of Ljubljana, Faculty of Computer and Information Science.</p>
+
+<h6 id="toc_6">Recommended prerequisites</h6>
+
+<p><strong>It is recommended that attendees bring a laptop with working installation of <a href="http://www.python.org">Python</a>, <a href="http://networkx.github.io">NetworkX</a> and <a href="http://cdlib.readthedocs.io">CDlib</a> packages, and necessary dependencies. Alternatively, you can work with any other network analysis package such as <a href="http://igraph.org">igraph</a>, <a href="http://graph-tool.skewed.de">graph-tool</a> or <a href="http://snap.stanford.edu/snappy/">SNAP.py</a>.</strong> Finally, for the purposes of visualization of smaller networks, it is recommended to have working installation of some network analysis software such as <a href="http://gephi.org">Gephi</a> or <a href="http://visone.info">visone</a>.</p>
+
+<h6 id="toc_7">Tentative syllabus</h6>
+
+<ul>
+<li><p><strong>Challenge</strong>: Warmup Guimera&#39;s four knights challenge (10 min)</p></li>
+</ul>
+
+<ol>
+<li>From classical graph theory to <strong>modern network science</strong> (30 min)</li>
+<li><strong>Large-scale structure</strong> of real networks and graph <strong>models</strong> (50 min)</li>
+<li>Measures of <strong>node importance</strong> and link analysis <strong>algorithms</strong> (50 min)</li>
+<li>Network <strong>community</strong>, <strong>core-periphery</strong> and other <strong>structures</strong> (50 min)</li>
+<li><p>Network-based <strong>mining</strong>, <strong>visualization</strong> and some <strong>applications</strong> (50 min)</p></li>
+</ol>
+
+<ul>
+<li><strong>Hands-on</strong>: Abstraction, centrality, communities, mining, visualization etc. </li>
+</ul>
+
+<h6 id="toc_8">Networks data</h6>
+
+<p>All networks are available in Pajek, edge list in LNA formats.</p>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/toy.net"><strong>Simple toy example network</strong></a> (5 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/karate.net"><strong>Zachary&#39;s karate club network</strong></a> (34 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/women.net"><strong>Davis&#39;s southern women network</strong></a> (32 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/dolphins.net"><strong>Lusseau&#39;s bottlenose dolphins network</strong></a> (62 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/got-appearance.net"><strong>Game of Thrones character appearance network</strong></a> (107 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/diseasome.net"><strong>Human diseasome network by common symptoms</strong></a> (117 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/wars.net"><strong>Conflicts and alliances between world nations</strong></a> (180 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/got-kills.net"><strong>Game of Thrones character kills network</strong></a> (284 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/lpp.net"><strong>Ljubljana public bus transport network</strong></a> (416 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/transport.net"><strong>US airplane traffic transport network</strong></a> (1,323 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/java.net"><strong>Java software class dependency network</strong></a> (1,516 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/ingredients.net"><strong>Ingredients network by common compounds</strong></a> (1,525 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/darknet.net"><strong>Map of Darknet from Tor network</strong></a> (7,178 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/imdb.net"><strong>IMDb actors collaboration network</strong></a> (17,577 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/ppi.net"><strong>Human protein-protein interaction network</strong></a> (19,634 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/wikileaks.net"><strong>WikiLeaks cable reference network</strong></a> (52,416 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/internet.net"><strong>Internet map of autonomous systems</strong></a> (75,885 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/amazon.net"><strong>Amazon product copurchase network</strong></a> (262,111 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/aps.net"><strong>Paper citation network of APS</strong></a> (438,943 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/google.net"><strong>Small part of Google web graph</strong></a> (875,713 nodes)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/texas.net"><strong>Road/highway network of Texas</strong></a> (1,379,917 nodes)</li>
+</ul>
+
+<h2 id="toc_9">Let&#39;s start with Guimera&#39;s four knights challenge</h2>
+
+<h6 id="toc_10">Tentative duration</h6>
+
+<p><strong>5+5 min</strong></p>
+
+<h6 id="toc_11">Challenge description</h6>
+
+<p>To be <strong>revealed in class</strong> =)</p>
+
+<p><img src="figs/4knights.png" alt="4knights"></p>
+
+<h2 id="toc_12">1. Classical graph theory → modern network science</h2>
+
+<h6 id="toc_13">Tentative duration</h6>
+
+<p><strong>20+10 min</strong></p>
+
+<h6 id="toc_14">Brief description</h6>
+
+<p><strong>Introduction</strong> of networks and selected <strong>motivational examples</strong>. From <strong>classical graph theory</strong> to social network analysis and <strong>modern network science</strong>. Network perspectives in different <strong>fields of science</strong>.</p>
+
+<p><img src="figs/transportation.png" alt="transportation"></p>
+
+<h6 id="toc_15">Lecture slides</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/intro.pdf"><strong>Networks introduction and motivational examples</strong></a></li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/history.pdf"><strong>Brief historical development of network science</strong></a></li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/perspects.pdf"><strong>Network perspectives through science</strong></a> (tentative)</li>
+</ul>
+
+<h6 id="toc_16">Book chapters</h6>
+
+<ul>
+<li>Ch. 1: <a href="http://networksciencebook.com/chapter/1">Introduction</a> in Barabási, A.-L., <a href="http://networksciencebook.com"><em>Network Science</em></a> (Cambridge University Press, 2016).</li>
+<li>Ch. 1-5: Introduction etc. in Newman, M.E.J., <a href="https://global.oup.com/academic/product/networks-9780198805090?cc=si&amp;lang=en&amp;"><em>Networks: An Introduction</em></a> (Oxford University Press, 2010).</li>
+<li>Ch. 1: <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch01.pdf">Overview</a> in Easley, D. &amp; Kleinberg, J., <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/"><em>Networks, Crowds, and Markets</em></a> (Cambridge University Press, 2010).</li>
+</ul>
+
+<h6 id="toc_17">Selected must-reads</h6>
+
+<ul>
+<li>Barabási, A.-L., The network takeover, <em>Nat. Phys.</em> <strong>8</strong>(1), 14-16 (2012).</li>
+<li>Motter, A.E. &amp; Yang, Y., The unfolding and control of network cascades, <em>Phys. Today</em> <strong>70</strong>(1), 33-39 (2017).</li>
+<li>Cramer, C., Porter, M.A. et al., <a href="https://sites.google.com/a/binghamton.edu/netscied/Network-Literacy-low-res.pdf?attredirects=0"><em>Network Literacy: Essential Concepts and Core Ideas</em></a> (Creative Commons Licence, 2015).</li>
+</ul>
+
+<h6 id="toc_18">Selected papers</h6>
+
+<ul>
+<li>Newman, M.E.J., The physics of networks, <em>Phys. Today</em> <strong>61</strong>(11), 33-38 (2008).</li>
+<li>Cimini, G., Squartini, T. et al., <a href="https://arxiv.org/abs/1810.05095">The statistical physics of real-world networks</a>, <em>Nat. Rev. Phys.</em> <strong>1</strong>(1), 58-71 (2019).</li>
+<li>Newman, M.E.J., Communities, modules and large-scale structure in networks, <em>Nat. Phys.</em> <strong>8</strong>(1), 25-31 (2012).</li>
+<li>Vespignani, A., Modelling dynamical processes in complex socio-technical systems, <em>Nat. Phys.</em> <strong>8</strong>(1), 32-39 (2012).</li>
+<li>Hegeman, T. &amp; Iosup, A., <a href="https://arxiv.org/abs/1807.00382">Survey of graph analysis applications</a>, e-print <em>arXiv:180700382v1</em>, pp. 23 (2018).</li>
+<li>Hidalgo, C.A., Disconnected, fragmented, or united? A trans-disciplinary review of network science, <em>Appl. Netw. Sci.</em> <strong>1</strong>, 6 (2016).</li>
+</ul>
+
+<h2 id="toc_19">2. Large-scale network structure and graph models</h2>
+
+<h6 id="toc_20">Tentative duration</h6>
+
+<p><strong>30+20 min</strong></p>
+
+<h6 id="toc_21">Brief description</h6>
+
+<p>Classical <strong>graph theory</strong> and modern <strong>network analysis</strong>. <strong>Random graphs</strong>, <strong>scale-free</strong> and <strong>small-world</strong> network <strong>models</strong>, and real network structure. <strong>Network representations</strong>, data formats and repositories. </p>
+
+<p><img src="figs/smallworld.png" alt="smallworld"></p>
+
+<h6 id="toc_22">Lecture slides</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/networkology.pdf"><strong>Graph theory and modern network analysis</strong></a></li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/randoms.pdf"><strong>Random graph models and network structure</strong></a></li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/models.pdf"><strong>Scale-free and small-world network models</strong></a></li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/represent.pdf"><strong>Network representations, formats and data</strong></a></li>
+</ul>
+
+<h6 id="toc_23">Hands-on analysis</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/networks.pdf"><strong>Analysis</strong></a> of network structure and random graphs</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/networks-starter.py"><strong>Starter script</strong></a> for network structure and random graphs</li>
+</ul>
+
+<h6 id="toc_24">Networks data</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/karate.net"><strong>Zachary&#39;s karate club network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/women.net"><strong>Davis&#39;s southern women network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/dolphins.net"><strong>Lusseau&#39;s bottlenose dolphins network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/ingredients.net"><strong>Ingredients network by common compounds</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/darknet.net"><strong>Map of Darknet from Tor network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/ppi.net"><strong>Human protein-protein interaction network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/internet.net"><strong>Internet map of autonomous systems</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/amazon.net"><strong>Amazon product copurchase network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/aps.net"><strong>Paper citation network of APS</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/google.net"><strong>Small part of Google web graph</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/texas.net"><strong>Road/highway network of Texas</strong></a> in Pajek format</li>
+</ul>
+
+<h6 id="toc_25">Book chapters</h6>
+
+<ul>
+<li>Ch. 2: <a href="http://networksciencebook.com/chapter/2">Graph theory</a>, Ch. 3.8-3.9: <a href="http://networksciencebook.com/chapter/3">Small worlds etc.</a> &amp; Ch. 4-5: <a href="http://networksciencebook.com/chapter/4">Scale-free property etc.</a> in Barabási, A.-L., Network Science (Cambridge University Press, 2016).</li>
+<li>Ch. 6: Mathematics of networks &amp; Ch. 12-15: Random graphs etc. in Newman, M.E.J., <a href="https://global.oup.com/academic/product/networks-9780198805090?cc=si&amp;lang=en&amp;"><em>Networks: An Introduction</em></a> (Oxford University Press, 2010).</li>
+<li>Ch. 2: <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch02.pdf">Graphs</a>, Ch. 18: <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch18.pdf">Power laws etc.</a> &amp; Ch. 20: <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch20.pdf">Small-world phenomenon</a> in Easley, D. &amp; Kleinberg, J., Networks, Crowds, and Markets (Cambridge University Press, 2010).</li>
+</ul>
+
+<h6 id="toc_26">Selected must-reads</h6>
+
+<ul>
+<li>Newman, M.E.J., Watts, D.J. &amp; Strogatz, S.H., <a href="https://www.pnas.org/content/pnas/99/suppl_1/2566.full.pdf?sid=2662d769-c2c0-48a5-afe5-6da549153812">Random graph models of social networks</a>, <em>P. Natl. Acad. Sci. USA</em> <strong>99</strong>, 2566-2572 (2002).</li>
+<li>Ugander, J., Karrer, B. et al., <a href="https://arxiv.org/abs/1111.4503">The anatomy of the Facebook social graph</a>, e-print <em>arXiv:1111.4503v1</em>, pp. 17 (2011).</li>
+<li>Backstrom, L., Boldi, P. et al., <a href="https://arxiv.org/abs/1111.4570">Four degrees of separation</a>, In: <em>Proceedings of WebSci &#39;12</em> (Evanston, IL, USA, 2012), pp. 45-54.</li>
+</ul>
+
+<h6 id="toc_27">Selected papers</h6>
+
+<ul>
+<li>Erdős, P. &amp; Rényi, A., <a href="http://ftp.math-inst.hu/%7Ep_erdos/1959-11.pdf">On random graphs I</a>, <em>Publ. Math. Debrecen</em> <strong>6</strong>, 290-297 (1959).</li>
+<li>Milgram, S., The small world problem, Psychol. Today 1(1), 60-67 (1967). 
+Granovetter, M.S., The strength of weak ties, <em>Am. J. Sociol.</em> <strong>78</strong>(6), 1360-1380 (1973).</li>
+<li>Watts, D.J. &amp; Strogatz, S.H., Collective dynamics of &#39;small-world&#39; networks, <em>Nature</em> <strong>393</strong>(6684), 440-442 (1998).</li>
+<li>Barabási, A.-L. &amp; Albert, R., Emergence of scaling in random networks, <em>Science</em> <strong>286</strong>(5439), 509-512 (1999).</li>
+<li>Faloutsos, M., Faloutsos, P. &amp; Faloutsos, C., On power-law relationships of the Internet topology, <em>Comput. Commun. Rev.</em> <strong>29</strong>(4), 251-262 (1999).</li>
+<li>Albert, R., Jeong, H. &amp; Barabási, A.-L., Error and attack tolerance of complex networks, <em>Nature</em> <strong>406</strong>(6794), 378-382 (2000).</li>
+<li>Dorogovtsev, S.N. &amp; Mendes, J.F.F., <a href="https://arxiv.org/abs/cond-mat/0106144">Evolution of networks</a>, <em>Adv. Phys.</em> <strong>51</strong>(4), 1079-1187 (2002).</li>
+<li>Clauset, A., Shalizi, C.R. &amp; Newman, M.E.J., <a href="https://arxiv.org/abs/0706.1062">Power-law distributions in empirical data</a>, <em>SIAM Rev.</em> <strong>51</strong>, 661-703 (2009).</li>
+<li>De Domenico, M. &amp; Arenas, A., <a href="https://arxiv.org/abs/1612.01284">Modeling structure and resilience of the dark network</a>, <em>Phys. Rev. E</em> <strong>95</strong>(2), 022313 (2017).</li>
+<li>Broido, A.D. &amp; Clauset, A., <a href="https://www.nature.com/articles/s41467-019-08746-5">Scale-free networks are rare</a>, <em>Nat. Commun.</em> <strong>10</strong>(1), 1017 (2019).</li>
+<li>Barabási, A.-L., <a href="https://uploads-ssl.webflow.com/58bcae2c9d6c401e73a26fed/5aa01d3e24eebb000199a0a2_loveisallyouneed.pdf">Love is all you need</a>, reply to e-print <em>arXiv:1801.03400v1</em>, pp. 6 (2018).</li>
+<li>Holme, P., <a href="https://www.nature.com/articles/s41467-019-09038-8">Rare and everywhere</a>, <em>Nat. Commun.</em> <strong>10</strong>(1), 1016 (2019).</li>
+</ul>
+
+<h2 id="toc_28">3. Measures of node importance and link analysis</h2>
+
+<h6 id="toc_29">Tentative duration</h6>
+
+<p><strong>30+20 min</strong></p>
+
+<h6 id="toc_30">Brief description</h6>
+
+<p><strong>Node importance</strong> and <strong>measures of centrality</strong>, i.e. clustering coefficients, spectral, closeness and betweenness centrality, and link analysis algorithms. <strong>Link importance</strong> and <strong>measures of bridging</strong>, i.e. betweenness centrality, embeddedness and topological overlap.</p>
+
+<p><img src="figs/centrality.png" alt="centrality"></p>
+
+<h6 id="toc_31">Lecture slides</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/centrality.pdf"><strong>Node importance and measures of centrality</strong></a></li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/analysis.pdf"><strong>Link analysis for web page importance</strong></a> (tentative)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/bridging.pdf"><strong>Link importance and measures of bridging</strong></a> (tentative)</li>
+</ul>
+
+<h6 id="toc_32">Hands-on analysis</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/position.pdf"><strong>Analysis</strong></a> of IMDb actors collaboration network</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/position-starter.py"><strong>Starter script</strong></a> for IMDb actors collaboration network</li>
+</ul>
+
+<h6 id="toc_33">Networks data</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/imdb.net"><strong>IMDb actors collaboration network</strong></a> in Pajek format</li>
+</ul>
+
+<h6 id="toc_34">Book chapters</h6>
+
+<ul>
+<li>Ch. 7: Measures and metrics in Newman, M.E.J., <a href="https://global.oup.com/academic/product/networks-9780198805090?cc=si&amp;lang=en&amp;"><em>Networks: An Introduction</em></a> (Oxford University Press, 2010).</li>
+<li>Ch. 14: <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch14.pdf">Link analysis and Web search</a> in Easley, D. &amp; Kleinberg, J., <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/"><em>Networks, Crowds, and Markets</em></a> (Cambridge University Press, 2010).</li>
+<li>Ch. 14-15: Classical node centrality etc. in Estrada, E. &amp; Knight, P.A., <a href="https://global.oup.com/academic/product/a-first-course-in-network-theory-9780198726463?cc=si&amp;lang=en&amp;"><em>A First Course in Network Theory</em></a> (Oxford University Press, 2015).</li>
+</ul>
+
+<h6 id="toc_35">Selected must-reads</h6>
+
+<ul>
+<li>Jeong, H., Mason, S.P. et al., Lethality and centrality in protein networks, <em>Nature</em> <strong>411</strong>, 41-42 (2001).</li>
+<li>Jensen, P., Morini, M. et al., <a href="https://arxiv.org/abs/1509.08295">Detecting global bridges in networks</a>, <em>J. Complex Netw.</em> <strong>4</strong>(3), 319-329 (2015).</li>
+<li>Tong, H., Faloutsos, C. &amp; Pan, J.-Y., Fast random walk with restart and its applications, In: <em>Proceedings of ICDM ’06</em> (Washington, DC, USA, 2006), pp. 613-622.</li>
+</ul>
+
+<h6 id="toc_36">Selected papers</h6>
+
+<ul>
+<li>Freeman, L., A set of measures of centrality based on betweenness, <em>Sociometry</em> <strong>40</strong>(1), 35-41 (1977).</li>
+<li>Bonacich, P., Power and centrality: A family of measures, <em>Am. J. Sociology</em> <strong>92</strong>(5), 1170-1182 (1987).</li>
+<li>Kleinberg, J., Authoritative sources in a hyperlinked environment, <em>J. ACM</em> <strong>46</strong>(5), 604-632 (1999).</li>
+<li>Franceschet, M. &amp; Bozzo, E., <a href="https://arxiv.org/abs/1510.08332">A theory on power in networks</a>, e-print <em>arXiv:1510.08332v2</em>, pp. 19 (2016).</li>
+<li>Everett, M.G. &amp; Valente, T.W., Bridging, brokerage and betweenness, <em>Soc. Networks</em> <strong>44</strong>, 202-208 (2016).</li>
+<li>Berkhin, P., A survey on PageRank computing, <em>Internet Math.</em> <strong>2</strong>(1), 73-120 (2005).</li>
+</ul>
+
+<h2 id="toc_37">4. Clusters of nodes and network mesoscopic structure</h2>
+
+<h6 id="toc_38">Tentative duration</h6>
+
+<p><strong>30+20 min</strong></p>
+
+<h6 id="toc_39">Brief description</h6>
+
+<p>Network <strong>community</strong>, <strong>core-periphery</strong> and other <strong>mesoscopic</strong> structures. Graph <strong>partitioning</strong>, community <strong>detection</strong>, <strong>blockmodeling</strong>, stochastic block models and core-periphery detection.</p>
+
+<p><img src="figs/community.png" alt="community"></p>
+
+<h6 id="toc_40">Lecture slides</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/community.pdf"><strong>Node clustering and community structure</strong></a></li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/clustering.pdf"><strong>Graph partitioning and community detection</strong></a></li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/blockmodeling.pdf"><strong>Blockmodeling and block models</strong></a> (tentative)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/cores.pdf"><strong>Core-periphery decomposition</strong></a> (tentative)</li>
+</ul>
+
+<h6 id="toc_41">Hands-on analysis</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/clusters.pdf"><strong>Analysis</strong></a> of community and \(k\)-cores structure</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/clusters-starter.py"><strong>Starter script</strong></a> for community and \(k\)-cores detection</li>
+</ul>
+
+<h6 id="toc_42">Networks data</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/karate.net"><strong>Zachary&#39;s karate club network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/women.net"><strong>Davis&#39;s southern women network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/dolphins.net"><strong>Lusseau&#39;s bottlenose dolphins network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/got-appearance.net"><strong>Game of Thrones character appearance network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/diseasome.net"><strong>Human diseasome network by common symptoms</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/wars.net"><strong>Conflicts and alliances between world nations</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/transport.net"><strong>US airplane traffic transport network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/java.net"><strong>Java software class dependency network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/imdb.net"><strong>IMDb actors collaboration network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/wikileaks.net"><strong>WikiLeaks cable reference network</strong></a> in Pajek format</li>
+</ul>
+
+<h6 id="toc_43">Book chapters</h6>
+
+<ul>
+<li>Ch. 9: <a href="http://networksciencebook.com/chapter/9">Communities</a> in Barabási, A.-L., <a href="http://networksciencebook.com"><em>Network Science</em></a> (Cambridge University Press, 2016).</li>
+<li>Ch. 7.12-7.13: Homophily etc. &amp; Ch. 11: Graph partitioning in Newman, M.E.J., <a href="https://global.oup.com/academic/product/networks-9780198805090?cc=si&amp;lang=en&amp;"><em>Networks: An Introduction</em></a> (Oxford University Press, 2010).</li>
+<li>Ch. 21: Communities in networks in Estrada, E. &amp; Knight, P.A., <a href="https://global.oup.com/academic/product/a-first-course-in-network-theory-9780198726463?cc=si&amp;lang=en&amp;"><em>A First Course in Network Theory</em></a> (Oxford University Press, 2015).</li>
+<li>Ch. 3: <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf">Strong and weak ties</a> in Easley, D. &amp; Kleinberg, J., <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/"><em>Networks, Crowds, and Markets</em></a> (Cambridge University Press, 2010).</li>
+</ul>
+
+<h6 id="toc_44">Selected must-reads</h6>
+
+<ul>
+<li>Hric, D., Darst, R.K. &amp; Fortunato, S., <a href="https://arxiv.org/abs/1406.0146">Community detection in networks: Structural communities versus ground truth</a>, <em>Phys. Rev. E</em> <strong>90</strong>(6), 062805 (2014).</li>
+<li>Fortunato, S. &amp; Hric, D., <a href="https://arxiv.org/abs/1608.00163">Community detection in networks: A user guide</a>, <em>Phys. Rep.</em> <strong>659</strong>, 1-44 (2016).</li>
+<li>Schaub, M.T., Delvenne, J.-C. et al., <a href="https://arxiv.org/abs/1611.07769">The many facets of community detection in complex networks</a>, <em>Appl. Netw. Sci.</em> <strong>2</strong>, 4 (2017).</li>
+<li>Rossetti, G., Milli, L., &amp; Cazabet, R., <a href="https://link.springer.com/article/10.1007/s41109-019-0165-9">CDlib: A python library to extract, compare and evaluate communities from complex networks</a>, <em>Appl. Netw. Sci.</em> <strong>4</strong>(1), 1–26 (2019).</li>
+</ul>
+
+<h6 id="toc_45">Selected papers</h6>
+
+<ul>
+<li>Granovetter, M.S., The strength of weak ties, <em>Am. J. Sociol.</em> <strong>78</strong>(6), 1360-1380 (1973).</li>
+<li>Girvan, M. &amp; Newman, M.E.J., <a href="https://arxiv.org/abs/cond-mat/0112110">Community structure in social and biological networks</a>, <em>P. Natl. Acad. Sci. USA</em> <strong>99</strong>(12), 7821-7826 (2002).</li>
+<li>Fortunato, S., <a href="https://arxiv.org/abs/0906.0612">Community detection in graphs</a>, <em>Phys. Rep.</em> <strong>486</strong>(3-5), 75-174 (2010).</li>
+<li>Leskovec, J., Lang, K.J. et al., <a href="https://arxiv.org/abs/0810.1355">Community structure in large networks</a>, <em>Internet Math.</em> <strong>6</strong>(1), 29–123 (2009).</li>
+<li>Borgatti, S.P. &amp; Everett, M.G., Models of core/periphery structures, <em>Soc. Networks</em> <strong>21</strong>(4), 375–395 (2000).</li>
+<li>Holme, P., <a href="https://arxiv.org/abs/physics/0506035">Core-periphery organization of complex networks</a>, <em>Phys. Rev. E</em> <strong>72</strong>(4), 46111 (2005).</li>
+<li>Newman, M.E.J. &amp; Leicht, E.A., <a href="https://arxiv.org/abs/physics/0611158">Mixture models and exploratory analysis in networks</a>, <em>P. Natl. Acad. Sci. USA</em> <strong>104</strong>(23), 9564 (2007).</li>
+<li>Raghavan, U.N., Albert, R. &amp; Kumara, S., <a href="https://arxiv.org/abs/0709.2938">Near linear time algorithm to detect community structures in large-scale networks</a>, <em>Phys. Rev. E</em> <strong>76</strong>(3), 036106 (2007).</li>
+<li>Rosvall, M. &amp; Bergstrom, C.T., Maps of random walks on complex networks reveal community structure, <em>P. Natl. Acad. Sci. USA</em> <strong>105</strong>(4), 1118-1123 (2008).</li>
+<li>Blondel, V.D., Guillaume, J.-L. et al., <a href="https://arxiv.org/abs/0803.0476">Fast unfolding of communities in large networks</a>, <em>J. Stat. Mech.</em>, P10008 (2008).</li>
+<li>Traag, V.A., Waltman, L. &amp; Van Eck, N.J., <a href="https://www.nature.com/articles/s41598-019-41695-z">From Louvain to Leiden: Guaranteeing well-connected communities</a>, <em>Sci. Rep.</em> <strong>9</strong>, 5233 (2019).</li>
+<li>Peixoto, T.P., <a href="http://arxiv.org/abs/1705.10225">Bayesian stochastic blockmodeling</a>, e-print <em>arXiv:170510225v7</em>, pp. 44 (2018).</li>
+</ul>
+
+<h2 id="toc_46">5. Network-based mining, visualization and applications</h2>
+
+<h6 id="toc_47">Tentative duration</h6>
+
+<p><strong>30+20 min</strong></p>
+
+<h6 id="toc_48">Brief description</h6>
+
+<p>Network-based node <strong>clustering, classification and regression</strong>. Force-directed node layout and <strong>network visualization</strong>. Selected applications of network analysis (i.e. <strong>automobile insurance fraud</strong> and <strong>historical development of science</strong>).</p>
+
+<p><img src="figs/collisions.png" alt="collisions"></p>
+
+<h6 id="toc_49">Lecture slides</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/mining.pdf"><strong>Network-based node classification etc.</strong></a></li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/visuals.pdf"><strong>Network layout and visualization</strong></a> (tentative)</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/fraud.pdf"><strong>Fraud detection and automobile insurance</strong></a></li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/science.pdf"><strong>Historical development of scientific knowledge</strong></a></li>
+</ul>
+
+<h6 id="toc_50">Hands-on analysis</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/applications-demo.py"><strong>Demo script</strong></a> for network-based classification</li>
+</ul>
+
+<h6 id="toc_51">Networks data</h6>
+
+<ul>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/karate.net"><strong>Zachary&#39;s karate club network</strong></a> in Pajek format</li>
+<li><a href="http://lovro.lpt.fri.uni-lj.si/netpy/java.net"><strong>Java software class dependency network</strong></a> in Pajek format</li>
+</ul>
+
+<h6 id="toc_52">Selected must-reads</h6>
+
+<ul>
+<li>Grover, A. &amp; Leskovec, J., <a href="https://arxiv.org/abs/1607.00653">node2vec</a>, In: <em>Proceedings of KDD ’16</em> (San Francisco, CA, USA, 2016), pp. 855-864.</li>
+<li>Zanin, M., Papo, D. et al., <a href="https://arxiv.org/abs/1604.08816">Combining complex networks and data mining: Why and how</a>, <em>Phys. Rep.</em> <strong>635</strong>, 1-44 (2016).</li>
+<li>Ma, K.-L. &amp; Muelder, C.W., Large-scale graph visualization and analytics, <em>Computer</em> <strong>46</strong>(7), 39-46 (2013).</li>
+</ul>
+
+<h6 id="toc_53">Selected papers</h6>
+
+<ul>
+<li>Getoor, L. &amp; Diehl, C.P., Link mining: A survey, <em>SIGKDD Explor.</em> <strong>7</strong>(2), 3–12 (2005).</li>
+<li>Getoor, L., Friedman, N. et al., Learning probabilistic models of link structure, <em>J. Mach. Learn. Res.</em> <strong>3</strong>, 679–707 (2002).</li>
+<li>Neville, J. &amp; Jensen, D., Iterative classification in relational data, In: <em>Proceedings of SRL ’00</em> (Austin, TX, USA, 2000), pp. 13–20.</li>
+<li>Macskassy, S.A. &amp; Provost, F., Classification in networked data: A toolkit and a univariate case study, <em>J. Mach. Learn. Res.</em> <strong>8</strong>, 935-983 (2007).</li>
+<li>Bhagat, S., Cormode, G. &amp; Muthukrishnan, S., Node classification in social networks, e-print <em>arXiv:1101.3291v1</em>, pp. 37 (2011).</li>
+<li>Šubelj, L., Exploratory and predictive tasks of network community detection, In: <em>Proceedings of NetSci &#39;15</em> (Zaragoza, Spain, 2015), p. 1.</li>
+<li>Hric, D., Peixoto, T.P. &amp; Fortunato, S., <a href="https://arxiv.org/abs/1604.00255">Network structure, metadata and the prediction of missing nodes</a>, <em>Phys. Rev. X</em> <strong>6</strong>(3), 031038 (2016).</li>
+<li>Perozzi, B., Al-Rfou, R. &amp; Skiena, S., <a href="https://arxiv.org/abs/1403.6652">DeepWalk</a>, In: <em>Proceedings of KDD ’14</em> (New York, NY, USA, 2014), pp. 701-710.</li>
+<li>Figueiredo, D.R., Ribeiro, L.F.R. &amp; Saverese, P.H.P., <a href="https://arxiv.org/abs/1704.03165">struc2vec</a>, In: <em>Proceedings of KDD ’17</em> (Halifax, Canada, 2017), pp. 1–9.</li>
+<li>Peel, L., <a href="https://arxiv.org/abs/1612.05001">Graph-based semi-supervised learning for relational networks</a>, In: <em>Proceedings of SDM ’17</em> (Houston, TX, USA, 2017), pp. 1-11.</li>
+</ul>
+
+<p><span> </span></p>
+
+<ul>
+<li>Eades, P., A heuristic for graph drawing, <em>Congressus Numerantium</em> <strong>42</strong>, 146-160 (1984).</li>
+<li>Kamada, T. &amp; Kawai, S., An algorithm for drawing general undirected graphs, <em>Inform. Process. Lett.</em> <strong>31</strong>(1), 7-15 (1989).</li>
+<li>Fruchterman, T.M.J. &amp; Reingold, E.M., Graph drawing by force-directed placement, <em>Softw: Pract. Exper</em>. <strong>21</strong>(11), 1129-1164 (1991).</li>
+<li>Kobourov, S.G., <a href="https://arxiv.org/abs/1201.3011">Spring embedders and force directed graph drawing algorithms</a>, e-print <em>arXiv:1201.3011v1</em>, pp. 23 (2012).</li>
+<li>Gibson, H., Faith, J. &amp; Vickers, P., A survey of two-dimensional graph layout techniques for information visualisation, <em>Infor. Visual.</em> <strong>12</strong>(3-4), 324-357 (2013).</li>
+</ul>
+
+<p><span> </span></p>
+
+<ul>
+<li>Šubelj, L., Furlan, Š. &amp; Bajec, M., <a href="https://arxiv.org/abs/1104.3904">An expert system for detecting automobile insurance fraud using social network analysis</a>, <em>Expert Syst. Appl.</em> <strong>38</strong>(1), 1039-1052 (2011).</li>
+<li>Šubelj, L., Waltman, L. et al., <a href="https://arxiv.org/abs/1812.08259">Intermediacy of publications</a>, <em>R. Soc. Open Sci.</em>, pp. 19 (2019). </li>
+</ul>
+
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(?!\*)(\w+)\b/i,t=_self.Prism={util:{encode:function(e){return e instanceof n?new n(e.type,t.util.encode(e.content),e.alias):"Array"===t.util.type(e)?e.map(t.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},clone:function(e){var n=t.util.type(e);switch(n){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=t.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return t.util.clone(e)})}return e}},languages:{extend:function(e,n){var a=t.util.clone(t.languages[e]);for(var r in n)a[r]=n[r];return a},insertBefore:function(e,n,a,r){r=r||t.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==n)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return t.languages.DFS(t.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,n,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(n.call(e,l,e[l],a||l),"Object"!==t.util.type(e[l])||r[e[l]]?"Array"!==t.util.type(e[l])||r[e[l]]||(r[e[l]]=!0,t.languages.DFS(e[l],n,l,r)):(r[e[l]]=!0,t.languages.DFS(e[l],n,null,r)))}},plugins:{},highlightAll:function(e,n){for(var a,r=document.querySelectorAll('code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'),l=0;a=r[l++];)t.highlightElement(a,e===!0,n)},highlightElement:function(n,a,r){for(var l,i,o=n;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=t.languages[l]),n.className=n.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=n.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=n.textContent,u={element:n,language:l,grammar:i,code:s};if(!s||!i)return t.hooks.run("complete",u),void 0;if(t.hooks.run("before-highlight",u),a&&_self.Worker){var g=new Worker(t.filename);g.onmessage=function(e){u.highlightedCode=e.data,t.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),t.hooks.run("after-highlight",u),t.hooks.run("complete",u)},g.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=t.highlight(u.code,u.grammar,u.language),t.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(n),t.hooks.run("after-highlight",u),t.hooks.run("complete",u)},highlight:function(e,a,r){var l=t.tokenize(e,a);return n.stringify(t.util.encode(l),r)},tokenize:function(e,n){var a=t.Token,r=[e],l=n.rest;if(l){for(var i in l)n[i]=l[i];delete n.rest}e:for(var i in n)if(n.hasOwnProperty(i)&&n[i]){var o=n[i];o="Array"===t.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],g=u.inside,c=!!u.lookbehind,f=0,h=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var d=r[p];if(r.length>e.length)break e;if(!(d instanceof a)){u.lastIndex=0;var m=u.exec(d);if(m){c&&(f=m[1].length);var y=m.index-1+f,m=m[0].slice(f),v=m.length,k=y+v,b=d.slice(0,y+1),w=d.slice(k+1),P=[p,1];b&&P.push(b);var A=new a(i,g?t.tokenize(m,g):m,h);P.push(A),w&&P.push(w),Array.prototype.splice.apply(r,P)}}}}}return r},hooks:{all:{},add:function(e,n){var a=t.hooks.all;a[e]=a[e]||[],a[e].push(n)},run:function(e,n){var a=t.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(n)}}},n=t.Token=function(e,t,n){this.type=e,this.content=t,this.alias=n};if(n.stringify=function(e,a,r){if("string"==typeof e)return e;if("Array"===t.util.type(e))return e.map(function(t){return n.stringify(t,a,e)}).join("");var l={type:e.type,content:n.stringify(e.content,a,r),tag:"span",classes:["token",e.type],attributes:{},language:a,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===t.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}t.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var n=JSON.parse(e.data),a=n.language,r=n.code,l=n.immediateClose;_self.postMessage(t.highlight(r,t.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var a=document.getElementsByTagName("script");return a=a[a.length-1],a&&(t.filename=a.src,document.addEventListener&&!a.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",t.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
+<script type="text/javascript">
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var e={css:"CSS",clike:"C-like",javascript:"JavaScript",abap:"ABAP",actionscript:"ActionScript",apacheconf:"Apache Configuration",apl:"APL",applescript:"AppleScript",asciidoc:"AsciiDoc",aspnet:"ASP.NET (C#)",autoit:"AutoIt",autohotkey:"AutoHotkey",basic:"BASIC",csharp:"C#",cpp:"C++",coffeescript:"CoffeeScript","css-extras":"CSS Extras",fsharp:"F#",glsl:"GLSL",http:"HTTP",inform7:"Inform 7",json:"JSON",latex:"LaTeX",lolcode:"LOLCODE",matlab:"MATLAB",mel:"MEL",nasm:"NASM",nginx:"nginx",nsis:"NSIS",objectivec:"Objective-C",ocaml:"OCaml",parigp:"PARI/GP",php:"PHP","php-extras":"PHP Extras",powershell:"PowerShell",jsx:"React JSX",rest:"reST (reStructuredText)",sas:"SAS",sass:"Sass (Sass)",scss:"Sass (Scss)",sql:"SQL",typescript:"TypeScript",vhdl:"VHDL",vim:"vim",wiki:"Wiki markup",yaml:"YAML"};Prism.hooks.add("before-highlight",function(s){var a=s.element.parentNode;if(a&&/pre/i.test(a.nodeName)){var t,i,r=a.getAttribute("data-language")||e[s.language]||s.language.substring(0,1).toUpperCase()+s.language.substring(1),l=a.previousSibling;l&&/\s*\bprism-show-language\b\s*/.test(l.className)&&l.firstChild&&/\s*\bprism-show-language-label\b\s*/.test(l.firstChild.className)?i=l.firstChild:(t=document.createElement("div"),i=document.createElement("div"),i.className="prism-show-language-label",t.className="prism-show-language",t.appendChild(i),a.parentNode.insertBefore(t,a)),i.innerHTML=r}})}}();
+</script>
+<script type="text/x-mathjax-config">
+if (typeof MathJaxListener !== 'undefined') {
+  MathJax.Hub.Register.StartupHook('End', function () {
+    MathJaxListener.invokeCallbackForKey_('End');
+  });
+}
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>

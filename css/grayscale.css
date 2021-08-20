@@ -1,0 +1,270 @@
+
+html {
+  width: 100%; height: 100%;
+}
+
+body {
+  width: 100%; height: 100%;
+  color: #fff; background-color: #000;
+  font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  webkit-tap-highlight-color: rgba(255, 255, 255, .2);
+}
+
+footer {
+  padding: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 35px; letter-spacing: 1px;
+  font-weight: 700; text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 0 0 25px; font-size: 18px; line-height: 1.5;
+}
+
+@media(min-width:768px) { p {
+  margin: 0 0 35px; font-size: 20px; line-height: 1.6;
+}}
+
+a {
+  color: #42dca3; transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+}
+
+a:hover, a:focus {
+  color: #1d9b6c; text-decoration: none;
+}
+
+ul.banner {
+  margin-top: 0;
+}
+
+@media(max-width:1199px) { ul.banner {
+  margin-top: 15px;
+}}
+
+@media(max-width:767px) { ul.banner li {
+  margin-bottom: 20px; padding: 0;
+}}
+
+@media(max-width:767px) { ul.banner li:last-child {
+  margin-bottom: 0;
+}}
+
+::selection, ::-moz-selection {
+  background: #fcfcfc; background: rgba(255, 255, 255, .2); text-shadow: none;
+}
+
+img::selection, img::-moz-selection {
+  background: 0 0;
+}
+
+.img-picture {
+  width: 160px;
+}
+
+.navbar-custom {
+  margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, .3);
+  background-color: #000; text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media(min-width:768px) { .navbar-custom {
+  padding: 20px 0; border-bottom: 0;
+  background: 0 0; letter-spacing: 1px;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}}
+
+@media(min-width:768px) { .navbar-custom.top-nav-collapse {
+  padding: 0; border-bottom: 1px solid rgba(255, 255, 255, .3); background: #000;
+}}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+  padding: 4px 6px; font-size: 16px; color: #fff;
+}
+
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active,
+.navbar-custom .nav li.active {
+  outline: 0;
+}
+
+.navbar-custom a, .navbar-custom .nav li.active a:hover {
+  color: #fff;
+}
+
+.navbar-custom .nav li a {
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: 0; background-color: transparent;
+}
+
+.navbar-custom .nav li a:hover {
+  outline: 0; color: rgba(255, 255, 255, .8);
+  background-color: transparent;
+}
+
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.intro {
+  display: table; width: 100%; height: auto;
+  padding: 100px 0; text-align: center;
+  background-color: #000; color: #fff;
+  background: url(../img/background.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover; -moz-background-size: cover;
+  -o-background-size: cover; background-size: cover;
+}
+
+@media(min-width:768px) { .intro {
+  height: 100%; padding: 0;
+}}
+
+.intro .intro-body {
+  display: table-cell; vertical-align: middle;
+}
+
+.intro .intro-body .intro-heading {
+  font-size: 40px;
+}
+
+@media(min-width:768px) { .intro .intro-body .intro-heading {
+  font-size: 76px; /* font-size: 92px; */
+}}
+
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+
+@media(min-width:768px) { .intro .intro-body .intro-text {
+  font-size: 24px; /* font-size: 26px; */
+}}
+
+.content-section {
+  padding-top: 100px;
+}
+
+@media(min-width:767px) { .content-section {
+  padding-top: 250px;
+}}
+
+.content-subsection {
+  width: 100%; padding: 50px 0; background-color: #636363;
+}
+
+@media(min-width:767px) { .content-subsection {
+  padding: 100px 0;
+}}
+
+.subrow {
+  margin-top: 50px;
+}
+
+#map {
+  width: 100%; height: 200px; margin-top: 100px;
+}
+
+@media(min-width:767px) { #map {
+  height: 400px; margin-top: 250px;
+}}
+
+.btn {
+  border-radius: 0; font-weight: 400; text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-default {
+  border: 1px solid #42dca3;
+  color: #42dca3; background-color: transparent;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-file:hover, .btn-file:focus {
+  border: 1px solid #42dca3; outline: 0;
+  color: #000; background-color: #42dca3;
+}
+
+.btn-file, .btn-pending, .btn-pending:hover, .btn-pending:focus {
+  color: #42dca3; background-color: transparent;
+  padding-left: 1px; padding-right: 1px;
+}
+
+.btn-file:hover, .btn-file:focus {
+  padding-left: 5px; padding-right: 5px;
+}
+
+.btn-pending, .btn-pending:hover, .btn-pending:focus {
+  cursor: default;
+}
+
+.btn-circle {
+  width: 70px; height: 70px;
+  padding: 7px 16px; margin-top: 15px;
+  border: 2px solid #fff; border-radius: 100%!important;
+  font-size: 40px; color: #fff; background: 0 0;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover, .btn-circle:focus {
+  outline: 0; color: #fff; background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+  -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform;
+  -webkit-transition-duration: 1s; -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+  -webkit-animation-name: pulse; -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s; -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite; -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear; -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1); transform: scale(1);
+    }
+  50% {
+    -webkit-transform: scale(1.2); transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1); transform: scale(1);
+  }
+}
+
+@-moz-keyframes pulse {    
+  0% {
+    -moz-transform: scale(1); transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.2); transform: scale(1.2);
+  }
+  100% {
+    -moz-transform: scale(1); transform: scale(1);
+  }
+}

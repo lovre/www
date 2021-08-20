@@ -1,0 +1,709 @@
+<!DOCTYPE html><html>
+
+<head>
+<meta charset="utf-8">
+<title>Pii</title>
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+<style type="text/css">
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+</style>
+<style type="text/css">
+div.prism-show-language {
+	position: relative;
+}
+
+div.prism-show-language > div.prism-show-language-label {
+	color: black;
+	background-color: #CFCFCF;
+	display: inline-block;
+	position: absolute;
+	bottom: auto;
+	left: auto;
+	top: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	font-size: 0.9em;
+	border-radius: 0 0 0 5px;
+	padding: 0 0.5em;
+	text-shadow: none;
+	z-index: 1;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
+}
+</style>
+</head>
+<body>
+<h6 id="toc_0">Programiranje 2 2020/21 (Pii)</h6>
+
+<h2 id="toc_1">Delo s podatki v programskem jeziku Python</h2>
+
+<p>Splošnonamenski programski jezik <strong>Python</strong> je trenutno <strong>najpopularnejši jezik</strong> zaradi enostavne sintakse in obilice prosto-dostopnih programskih knjižnic, dočim pa ni najhitrejši jezik. Jezik se interpretira, kar pomeni, da program <code>demo.py</code> v ukazni vrstici izvedemo kot <code>python demo.py</code>. </p>
+
+<p><em>Programming is not science, it is a skill! If you want to run as fast as Usain Bolt, you have to do a lot of running. There is no other way! And it is the same with programming. Just try to run a lot =)</em></p>
+
+<h3 id="toc_2">Programske knjižnice in skripte</h3>
+
+<p>V programskem jeziku <strong>Python knjižnice in skripte</strong> uvozimo z ukazom <code>import</code>. Knjižnice je potrebno uvoziti pred uporabo, dočim obstajajo različne oblike uporabe ukaza <code>import</code>.</p>
+
+<div><pre><code class="language-python">import demo
+import requests
+import requests as req
+from requests import *</code></pre></div>
+
+<h3 id="toc_3">Programske zbirke podatkov</h3>
+
+<p>V programskem jeziku <strong>Python nabor</strong> določimo z običajnimi oklepaji <code>(...)</code> pri čimer ni potrebno, da so elementi nabora enakega tipa. Nabor je <strong>urejena nesprejemljiva zbirka</strong> podatkov kar pomeni, da <em>ne moremo</em> dodajati ali brisati elementov.</p>
+
+<div><pre><code class="language-python">t = (0, 1, &#39;foo&#39;, &#39;bar&#39;)
+st = t[:2]
+ln = len(t)</code></pre></div>
+
+<p>V programskem jeziku <strong>Python seznam</strong> določimo z oglatimi oklepaji <code>[...]</code> pri čimer ni potrebno, da so elementi seznama enakega tipa. Seznam je <strong>urejena sprejemljiva zbirka</strong> podatkov kar pomeni, da <em>lahko</em> dodajamo ali brišemo elemente po vrednosti in indeksu.</p>
+
+<div><pre><code class="language-python">l = [0, 1, &#39;foo&#39;, &#39;bar&#39;]
+sl = l[:2]
+ln = len(l)
+l[1] = -1
+del l[0]
+l.remove(-1)
+l.append(9.81)
+l.extend([0, &#39;baz&#39;])</code></pre></div>
+
+<p>V programskem jeziku <strong>Python množico</strong> določimo z zavitimi oklepaji <code>{...}</code> ali ukazom <code>set()</code> pri čimer ni potrebno, da so elementi množice enakega tipa. Množica je <strong>neurejena sprejemljiva zbirka</strong> podatkov kar pomeni, da <em>lahko</em> dodajamo ali brišemo elemente po vrednosti.</p>
+
+<div><pre><code class="language-python">s = {0, 1, &#39;foo&#39;, &#39;bar&#39;}
+ln = len(s)
+s.remove(1)
+s.add(9.81)
+s.update([0, &#39;baz&#39;])</code></pre></div>
+
+<p>V programskem jeziku <strong>Python slovar</strong> določimo z zavitimi oklepaji <code>{...}</code> ali ukazom <code>dict()</code> pri čimer ni potrebno, da so ključi ali vrednosti slovarja enakega tipa. Slovar je <strong>neurejena sprejemljiva zbirka</strong> podatkov kar pomeni, da <em>lahko</em> dodajamo ali brišemo vrednosti po ključu.</p>
+
+<div><pre><code class="language-python">d = {0: &#39;foo&#39;, &#39;bar&#39;: 1}
+ln = len(d)
+d[1] = &#39;baz&#39;
+d.pop(&#39;bar&#39;)
+d.update({&#39;bar&#39;: 1})
+l = dict.values()
+l = dict.keys()</code></pre></div>
+
+<p>V programskem jeziku <strong>Python zbirko uredimo</strong> z uporabo funkcije <code>sorted</code>, ki vrne urejen seznam elementov, dočim morajo biti elementi enakega tipa. Na drugi strani pa metoda <code>shuffle</code> ustvari naključno permutacijo elementov seznama, dočim ni potrebno, da so elementi enakega tipa.</p>
+
+<div><pre><code class="language-python">s = {&#39;foo&#39;, &#39;bar&#39;, &#39;baz&#39;}
+l = sorted(s)
+
+import random
+random.shuffle(l)</code></pre></div>
+
+<p>Kaj vrneta funkciji <code>iter</code> in <code>enumerate</code>, če ju uporabimo nad <strong>Python zbirko</strong>? Slednja se izkaže kot uporabno, ko iteriramo čez elemente zbirke in hkrati potrebujemo indeks (tj. zaporedno številko) elementa.</p>
+
+<h3 id="toc_4">Branje podatkov iz datoteke</h3>
+
+<p>V programskem jeziku <strong>Python datoteko odpremo</strong> s funkcijo <code>open</code>, <strong>beremo</strong> z uporabo funkcij <code>read</code> ali <code>readline</code> in <strong>zapremo</strong> z metodo <code>close</code>. Pri tem je priporočena uporaba programskega konstrukta <code>with open(..., &#39;r&#39;) as ...</code>, ki po koncu branja samodejno zapre datoteko. Vsebino datoteke lahko preberemo v celoti, dočim navadno beremo zaporedoma po vrsticah.</p>
+
+<div><pre><code class="language-python">file = open(&#39;file.txt&#39;, &#39;r&#39;)
+print(file.readline())
+print(file.read())
+file.close()
+
+file = open(&#39;file.txt&#39;, &#39;r&#39;)
+for line in file:
+  print(line)
+file.close()
+
+with open(&#39;file.txt&#39;, &#39;r&#39;) as file:
+    for line in file:
+        print(line)</code></pre></div>
+
+<h3 id="toc_5">Pisanje podatkov v datoteko</h3>
+
+<p>V programskem jeziku <strong>Python datoteko odpremo</strong> s funkcijo <code>open</code>, <strong>pišemo</strong> z uporabo metode <code>write</code> in <strong>zapremo</strong> z metodo <code>close</code>. Pri tem je priporočena uporaba programskega konstrukta <code>with open(..., &#39;w&#39;|&#39;a&#39;) as ...</code>, ki po koncu pisanja samodejno zapre datoteko. Vsebino datoteke lahko zapišemo v celoti, dočim navadno pišemo zaporedoma po vrsticah.</p>
+
+<div><pre><code class="language-python">file = open(&#39;file.txt&#39;, &#39;w&#39;)
+file.write(&#39;line\nline\n&#39;)
+file.write(&#39;line\n&#39;)
+file.close()
+
+with open(&#39;file.txt&#39;, &#39;w&#39;) as file:
+    for i in range(10):
+        file.write(&#39;{:d}. line\n&#39;.format(i + 1))</code></pre></div>
+
+<h3 id="toc_6">Luščenje vsebine spletnih strani</h3>
+
+<p>V programskem jeziku <strong>Python spletno stran</strong> preberemo z uporabo programskih knjižnic <code>http.client</code>, <code>requests</code> ali drugih. Pri tem spletno stran vedno preberemo v celoti, dočim lahko naknadno iteriramo po vsebini spletne strani z uporabo programskih zank.</p>
+
+<p>Primer uporabe <strong>Python knjižnice <code>http.client</code></strong> je prikazan spodaj.</p>
+
+<div><pre><code class="language-python">import http.client
+conn = http.client.HTTPSConnection(&#39;urnik.fmf.uni-lj.si&#39;)
+conn.request(&#39;GET&#39;, &#39;/letnik/11/&#39;)
+text = conn.getresponse().read().decode()
+for char in text:
+  print(char)</code></pre></div>
+
+<p>Primera uporabe <strong>Python knjižnice <code>requests</code></strong> je prikazan spodaj.</p>
+
+<div><pre><code class="language-python">import requests
+req = requests.get(&#39;https://urnik.fmf.uni-lj.si/letnik/11/&#39;)
+text = req.text
+for char in text:
+  print(char)
+  
+req = requests.get(&#39;http://ip.jsontest.com/&#39;)
+json = req.json()
+for elem in json:
+  print(elem)</code></pre></div>
+
+<h3 id="toc_7">Razčlenjevanje nizov z regularnimi izrazi</h3>
+
+<p>V programskem jeziku <strong>Python regularne izraze</strong> uporabljamo za razpoznavanje, razčlenjevanje in iskanje nizov znakov. Regularni izraz predstavlja želeni oziroma iskani vzorec znakov, ki ga definiramo kot <code>r&#39;...&#39;</code>. Pri tem lahko uporabljamo rezervirane znake oziroma vzorce naštete spodaj.</p>
+
+<ul>
+<li><code>.</code> predstavlja poljuben znak razen nove vrstice</li>
+<li><code>^</code> predstavlja začetek niza znakov ali vrstice</li>
+<li><code>$</code> predstavlja konec niza znakov ali vrstice</li>
+<li><code>\d</code> predstavlja poljubno števko ali cifro</li>
+<li><code>\D</code> predstavlja poljubno neštevko in necifro</li>
+<li><code>\w</code> predstavlja poljuben alfanumerični znak</li>
+<li><code>\W</code> predstavlja poljuben nealfanumerični znak</li>
+<li><code>\s</code> predstavlja poljuben beli znak (npr. presledek)</li>
+<li><code>\S</code> predstavlja poljuben nebeli znak (npr. števko)</li>
+<li><code>\</code> omogoča iskanje ubežnih znakov (npr. <code>r&#39;\.&#39;</code>)</li>
+</ul>
+
+<p>(Rezervirane) znake oziroma vzorce lahko združujemo, ponavljamo in gnezdimo kot je našteto spodaj.</p>
+
+<ul>
+<li><code>(...)</code> predstavlja zaporedje znakov (npr. <code>r&#39;(abc)&#39;</code>)</li>
+<li><code>[...]</code> predstavlja množico znakov (npr. <code>r&#39;[a-zčšžA-ZČŠŽ]&#39;</code>)</li>
+<li><code>[^...]</code> predstavlja negacijo znakov (npr. <code>r&#39;[^a-c]&#39;</code>)</li>
+<li><code>|</code> predstavlja disjunkcijo znakov (npr. <code>r&#39;\d|[a-c]&#39;</code>)</li>
+<li><code>*</code> predstavlja nič ali več ponovitev vzorca (npr. <code>r&#39;\d*&#39;</code>)</li>
+<li><code>+</code> predstavlja eno ali več ponovitev vzorca (npr. <code>r&#39;[abc]+&#39;</code>)</li>
+<li><code>?</code> predstavlja največ eno ponovitev vzorca (npr. <code>r&#39;[a-c]?&#39;</code>)</li>
+<li><code>{n}</code> predstavlja natanko \(n\) ponovitev vzorca (npr. <code>r&#39;[a-c]{3}&#39;</code>)</li>
+<li><code>{n,m}</code> predstavlja med \(n\) in \(m\) ponovitev vzorca (npr. <code>r&#39;[a-c]{1,3}&#39;</code>)</li>
+</ul>
+
+<p>Pri delu z regularnimi izrazi navadno uporabljamo <strong>Python knjižnico <code>re</code></strong> (<a href="https://docs.python.org/3.7/library/re.html">https://docs.python.org/3.7/library/re.html</a>). </p>
+
+<p><strong>Funkcija <code>match</code></strong> preveri ali <em>začetek</em> niza znakov ustreza podanemu regularnemu izrazu. Funkcija vrne <code>None</code>, če se niz ne začne z regularnim izrazom, sicer pa objekt razreda <code>Match</code>, ki vrne ujemanje z uporabo funkcije <code>group</code>.</p>
+
+<div><pre><code class="language-python">import re
+string = &#39;-123.45&#39;
+regex = r&#39;[+-]?[1-9][0-9]*&#39;
+res = re.match(regex, string)
+if res == None:
+    print(&#39;Not integer!&#39;)
+else:
+    print(res.group())</code></pre></div>
+
+<p><strong>Funkcija <code>search</code></strong> preveri ali niz znakov <em>vsebuje</em> podani regularni izraz. Funkcija vrne <code>None</code>, če niz ne vsebuje regularnega izraza, sicer pa objekt razreda <code>Match</code>, ki vrne ujemanje z uporabo funkcije <code>group</code>.</p>
+
+<div><pre><code class="language-python">import re
+string = &#39;Is this integer -123?&#39;
+regex = r&#39;[+-]?[1-9][0-9]*&#39;
+res = re.search(regex, string)
+if res == None:
+    print(&#39;No integer found!&#39;)
+else:
+    print(res.group())</code></pre></div>
+
+<p><strong>Funkcija <code>findall</code></strong> poišče vse <em>pojavitve</em> podanega regularnega izraza v nizu znakov. Funkcija vrne seznam ujemanj regularnega izraza, ki je lahko prazen.</p>
+
+<div><pre><code class="language-python">import re
+string = &#39;Find all integers in 123.45!&#39;
+regex = r&#39;[+-]?[1-9][0-9]*&#39;
+res = re.findall(regex, string)
+for int in res:
+    print(int)</code></pre></div>
+
+<p><strong>Funkcija <code>split</code></strong> <em>razbije</em> niz znakov glede na podan regularni izraz. Funkcija vrne seznam razbitja niza znakov, ki je lahko prazen.</p>
+
+<div><pre><code class="language-python">import re
+string = &#39;Split by integers -123 and 45!&#39;
+regex = r&#39;[+-]?[1-9][0-9]*&#39;
+res = re.split(regex, string)
+for str in res:
+    print(str)</code></pre></div>
+
+<p><strong>Funkcija <code>sub</code></strong> <em>zamenja</em> vse pojavitve podanega regularnega izraza v nizu znakov. Pri tem lahko zamenjavo določimo kot niz znakov&hellip;</p>
+
+<div><pre><code class="language-python">import re
+string = &#39;Replace integers 123 and 45!&#39;
+regex = r&#39;[+-]?[1-9][0-9]*&#39;
+res = re.sub(regex, &#39;&lt;int&gt;&#39;, string)
+print(res)</code></pre></div>
+
+<p>&hellip;ali pa zamenjavo določimo z uporabo podane funkcije.</p>
+
+<div><pre><code class="language-python">import re
+string = &#39;Replace integers -123 and 45!&#39;
+regex = r&#39;[+-]?[1-9][0-9]*&#39;
+# def replace(res):
+#   return &#39;x&#39; * len(res.group())
+replace = lambda res: &#39;x&#39; * len(res.group())
+res = re.sub(regex, replace, string)
+print(res)</code></pre></div>
+
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(?!\*)(\w+)\b/i,t=_self.Prism={util:{encode:function(e){return e instanceof n?new n(e.type,t.util.encode(e.content),e.alias):"Array"===t.util.type(e)?e.map(t.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},clone:function(e){var n=t.util.type(e);switch(n){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=t.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return t.util.clone(e)})}return e}},languages:{extend:function(e,n){var a=t.util.clone(t.languages[e]);for(var r in n)a[r]=n[r];return a},insertBefore:function(e,n,a,r){r=r||t.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==n)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return t.languages.DFS(t.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,n,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(n.call(e,l,e[l],a||l),"Object"!==t.util.type(e[l])||r[e[l]]?"Array"!==t.util.type(e[l])||r[e[l]]||(r[e[l]]=!0,t.languages.DFS(e[l],n,l,r)):(r[e[l]]=!0,t.languages.DFS(e[l],n,null,r)))}},plugins:{},highlightAll:function(e,n){for(var a,r=document.querySelectorAll('code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'),l=0;a=r[l++];)t.highlightElement(a,e===!0,n)},highlightElement:function(n,a,r){for(var l,i,o=n;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=t.languages[l]),n.className=n.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=n.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=n.textContent,u={element:n,language:l,grammar:i,code:s};if(!s||!i)return t.hooks.run("complete",u),void 0;if(t.hooks.run("before-highlight",u),a&&_self.Worker){var g=new Worker(t.filename);g.onmessage=function(e){u.highlightedCode=e.data,t.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),t.hooks.run("after-highlight",u),t.hooks.run("complete",u)},g.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=t.highlight(u.code,u.grammar,u.language),t.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(n),t.hooks.run("after-highlight",u),t.hooks.run("complete",u)},highlight:function(e,a,r){var l=t.tokenize(e,a);return n.stringify(t.util.encode(l),r)},tokenize:function(e,n){var a=t.Token,r=[e],l=n.rest;if(l){for(var i in l)n[i]=l[i];delete n.rest}e:for(var i in n)if(n.hasOwnProperty(i)&&n[i]){var o=n[i];o="Array"===t.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],g=u.inside,c=!!u.lookbehind,f=0,h=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var d=r[p];if(r.length>e.length)break e;if(!(d instanceof a)){u.lastIndex=0;var m=u.exec(d);if(m){c&&(f=m[1].length);var y=m.index-1+f,m=m[0].slice(f),v=m.length,k=y+v,b=d.slice(0,y+1),w=d.slice(k+1),P=[p,1];b&&P.push(b);var A=new a(i,g?t.tokenize(m,g):m,h);P.push(A),w&&P.push(w),Array.prototype.splice.apply(r,P)}}}}}return r},hooks:{all:{},add:function(e,n){var a=t.hooks.all;a[e]=a[e]||[],a[e].push(n)},run:function(e,n){var a=t.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(n)}}},n=t.Token=function(e,t,n){this.type=e,this.content=t,this.alias=n};if(n.stringify=function(e,a,r){if("string"==typeof e)return e;if("Array"===t.util.type(e))return e.map(function(t){return n.stringify(t,a,e)}).join("");var l={type:e.type,content:n.stringify(e.content,a,r),tag:"span",classes:["token",e.type],attributes:{},language:a,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===t.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}t.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var n=JSON.parse(e.data),a=n.language,r=n.code,l=n.immediateClose;_self.postMessage(t.highlight(r,t.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var a=document.getElementsByTagName("script");return a=a[a.length-1],a&&(t.filename=a.src,document.addEventListener&&!a.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",t.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
+<script type="text/javascript">
+Prism.languages.python={"triple-quoted-string":{pattern:/"""[\s\S]+?"""|'''[\s\S]+?'''/,alias:"string"},comment:{pattern:/(^|[^\\])#.*/,lookbehind:!0},string:/("|')(?:\\?.)*?\1/,"function":{pattern:/((?:^|\s)def[ \t]+)[a-zA-Z_][a-zA-Z0-9_]*(?=\()/g,lookbehind:!0},"class-name":{pattern:/(\bclass\s+)[a-z0-9_]+/i,lookbehind:!0},keyword:/\b(?:as|assert|async|await|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|pass|print|raise|return|try|while|with|yield)\b/,"boolean":/\b(?:True|False)\b/,number:/\b-?(?:0[bo])?(?:(?:\d|0x[\da-f])[\da-f]*\.?\d*|\.\d+)(?:e[+-]?\d+)?j?\b/i,operator:/[-+%=]=?|!=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]|\b(?:or|and|not)\b/,punctuation:/[{}[\];(),.:]/};
+</script>
+<script type="text/javascript">
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var e={css:"CSS",clike:"C-like",javascript:"JavaScript",abap:"ABAP",actionscript:"ActionScript",apacheconf:"Apache Configuration",apl:"APL",applescript:"AppleScript",asciidoc:"AsciiDoc",aspnet:"ASP.NET (C#)",autoit:"AutoIt",autohotkey:"AutoHotkey",basic:"BASIC",csharp:"C#",cpp:"C++",coffeescript:"CoffeeScript","css-extras":"CSS Extras",fsharp:"F#",glsl:"GLSL",http:"HTTP",inform7:"Inform 7",json:"JSON",latex:"LaTeX",lolcode:"LOLCODE",matlab:"MATLAB",mel:"MEL",nasm:"NASM",nginx:"nginx",nsis:"NSIS",objectivec:"Objective-C",ocaml:"OCaml",parigp:"PARI/GP",php:"PHP","php-extras":"PHP Extras",powershell:"PowerShell",jsx:"React JSX",rest:"reST (reStructuredText)",sas:"SAS",sass:"Sass (Sass)",scss:"Sass (Scss)",sql:"SQL",typescript:"TypeScript",vhdl:"VHDL",vim:"vim",wiki:"Wiki markup",yaml:"YAML"};Prism.hooks.add("before-highlight",function(s){var a=s.element.parentNode;if(a&&/pre/i.test(a.nodeName)){var t,i,r=a.getAttribute("data-language")||e[s.language]||s.language.substring(0,1).toUpperCase()+s.language.substring(1),l=a.previousSibling;l&&/\s*\bprism-show-language\b\s*/.test(l.className)&&l.firstChild&&/\s*\bprism-show-language-label\b\s*/.test(l.firstChild.className)?i=l.firstChild:(t=document.createElement("div"),i=document.createElement("div"),i.className="prism-show-language-label",t.className="prism-show-language",t.appendChild(i),a.parentNode.insertBefore(t,a)),i.innerHTML=r}})}}();
+</script>
+<script type="text/x-mathjax-config">
+if (typeof MathJaxListener !== 'undefined') {
+  MathJax.Hub.Register.StartupHook('End', function () {
+    MathJaxListener.invokeCallbackForKey_('End');
+  });
+}
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>

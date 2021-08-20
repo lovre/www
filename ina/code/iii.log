@@ -1,0 +1,80 @@
+
+         ... | LNA
+        Date | 3/3/20 12:33 PM
+
+       Graph | 'toy'
+       Nodes | 5 (1, 1)
+       Edges | 4
+      Degree | 1.600 (3)
+     Density | 4.000e-01
+  Clustering | 0.467
+    Distance | 0.640 (2)
+         LCC | 80.0% (2)
+
+       Graph | 'erdos_renyi'
+       Nodes | 5 (1, 0)
+       Edges | 4
+      Degree | 1.600 (2)
+     Density | 4.000e-01
+  Clustering | 0.000
+    Distance | 0.640 (2)
+         LCC | 80.0% (2)
+
+       Graph | 'karate_club'
+       Nodes | 34 (0, 1)
+       Edges | 78
+      Degree | 4.588 (17)
+     Density | 1.390e-01
+  Clustering | 0.571
+    Distance | 2.337 (5)
+         LCC | 100.0% (1)
+
+       Graph | 'erdos_renyi'
+       Nodes | 34 (0, 0)
+       Edges | 78
+      Degree | 4.588 (9)
+     Density | 1.390e-01
+  Clustering | 0.153
+    Distance | 2.334 (4)
+         LCC | 100.0% (1)
+
+       Graph | 'collaboration_imdb'
+       Nodes | 17,577 (0, 475)
+       Edges | 287,074
+      Degree | 32.665 (784)
+     Density | 1.858e-03
+  Clustering | 0.339
+    Distance | 4.823 (16)
+         LCC | 99.3% (19)
+
+       Graph | 'erdos_renyi'
+       Nodes | 17,577 (0, 0)
+       Edges | 287,074
+      Degree | 32.665 (58)
+     Density | 1.858e-03
+  Clustering | 0.002
+    Distance | 3.084 (4)
+         LCC | 100.0% (1)
+
+       Graph | 'www_google'
+       Nodes | 875,713 (0, 130,912)
+       Edges | 5,105,039
+      Degree | 11.659 (6,353)
+     Density | 1.331e-05
+  Clustering | 0.514
+    Distance | NaN (-1)
+         LCC | 97.7% (2,746)
+
+       Graph | 'erdos_renyi'
+       Nodes | 875,713 (4, 98)
+       Edges | 5,105,039
+      Degree | 11.659 (31)
+     Density | 1.331e-05
+  Clustering | 0.000
+    Distance | NaN (-1)
+         LCC | 100.0% (5)
+
+         ... | LNA
+
+        Time | 12.9 min
+      Memory | 1.21 GB

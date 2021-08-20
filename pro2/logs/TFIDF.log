@@ -1,0 +1,100 @@
+        Document | 'grimms'_fairy_tales.txt'
+        'gretel' | 1.16691086
+        'tailor' | 1.16228911
+         'dwarf' | 1.16117352
+        'hansel' | 1.15878296
+      'snowdrop' | 1.15702988
+   'chanticleer' | 1.15687051
+       'goodbye' | 1.15575492
+      'rapunzel' | 1.15543618
+
+        Document | 'war_and_peace.txt'
+        'pierre' | 1.21637497
+          'rost' | 1.18328671
+        'moscow' | 1.17523015
+           'kut' | 1.16903024
+           'zov' | 1.16883132
+      'countess' | 1.16747198
+           'nya' | 1.16624526
+           'sov' | 1.16588056
+
+        Document | 'moby_dick.txt'
+          'ahab' | 1.19174231
+         'stubb' | 1.17171303
+      'queequeg' | 1.17108711
+      'starbuck' | 1.16686218
+        'pequod' | 1.16521916
+       'whaling' | 1.16169838
+     'nantucket' | 1.15888177
+     'leviathan' | 1.15880353
+
+        Document | 'frankenstein.txt'
+       'clerval' | 1.16683276
+       'justine' | 1.16577918
+  'frankenstein' | 1.15972114
+         'safie' | 1.15787738
+     'cottagers' | 1.15735059
+    'ingolstadt' | 1.15550684
+         'hovel' | 1.15498005
+        'ernest' | 1.15471666
+
+        Document | 'dracula.txt'
+       'helsing' | 1.19724182
+          'lucy' | 1.19411215
+          'mina' | 1.18600345
+        'harker' | 1.17618767
+        'seward' | 1.17106638
+     'godalming' | 1.16395349
+       'quincey' | 1.16338446
+        'morris' | 1.16238866
+
+        Document | 'alice's_adventures_in_wonderland.txt'
+         'alice' | 1.40650206
+        'hatter' | 1.18675590
+       'gryphon' | 1.18612263
+       'duchess' | 1.17789006
+      'dormouse' | 1.17662352
+         'dinah' | 1.16015839
+          'dodo' | 1.15952511
+       'croquet' | 1.15699201
+
+        Document | 'metamorphosis.txt'
+        'gregor' | 1.40886400
+         'samsa' | 1.18067989
+     'charwoman' | 1.15907155
+ 'metamorphosis' | 1.15647855
+       'alright' | 1.15561422
+        'wyllie' | 1.15561422
+         'kafka' | 1.15474988
+   'nonetheless' | 1.15474988
+
+        Document | 'peter_pan.txt'
+         'wendy' | 1.31498772
+          'nana' | 1.18023313
+          'smee' | 1.17616336
+       'tootles' | 1.17164139
+          'nibs' | 1.16847602
+        'lagoon' | 1.16621503
+       'starkey' | 1.16440625
+      'redskins' | 1.16304966
+
+        Document | 'iliad.txt'
+        'hector' | 1.18465068
+          'troy' | 1.17722157
+        'trojan' | 1.16789878
+          'ajax' | 1.16323738
+     'patroclus' | 1.16316455
+       'ulysses' | 1.16025117
+       'trojans' | 1.15988700
+      'coursers' | 1.15857598
+
+        Document | 'adventures_of_huckleberry_finn.txt'
+           'jim' | 1.22100285
+        'nigger' | 1.18078537
+          'huck' | 1.16809452
+        'knowed' | 1.16809452
+        'sawyer' | 1.16076600
+       'niggers' | 1.16005102
+         'gwyne' | 1.15951479
+           'ben' | 1.15844232
+

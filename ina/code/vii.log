@@ -1,0 +1,282 @@
+
+         ... | LNA
+        Date | 3/28/21 1:43 AM
+
+         ... | GRAPH
+
+     Network | 'toy'
+       Graph | '-->' (array)
+       Nodes | 5 (1)
+       Edges | 4 (0)
+      Degree | 1.60 (1, 2)
+
+        Time | 0.03 sec
+      Memory | 0.00 GB
+
+         ... | GRAPH
+
+     Network | 'karate'
+       Graph | '---' (array)
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17, 16)
+
+        Time | 0.00 sec
+      Memory | 0.00 GB
+
+         ... | GRAPH
+
+     Network | 'java'
+       Graph | '-->' (array)
+       Nodes | 2,378 (0)
+       Edges | 14,727 (0)
+      Degree | 12.39 (2163, 62)
+
+        Time | 0.05 sec
+      Memory | 0.01 GB
+
+         ... | GRAPH
+
+     Network | 'imdb'
+       Graph | '---' (array)
+       Nodes | 17,577 (0)
+       Edges | 287,074 (0)
+      Degree | 32.66 (756, 570)
+
+        Time | 0.20 sec
+      Memory | 0.06 GB
+
+         ... | GRAPH
+
+     Network | 'facebook'
+       Graph | '---' (array)
+       Nodes | 63,731 (0)
+       Edges | 817,035 (0)
+      Degree | 25.64 (219, 998)
+
+        Time | 0.46 sec
+      Memory | 0.18 GB
+
+         ... | GRAPH
+
+     Network | 'internet'
+       Graph | '-->' (array)
+       Nodes | 75,885 (0)
+       Edges | 357,317 (0)
+      Degree | 9.42 (12941, 12368)
+
+        Time | 0.27 sec
+      Memory | 0.24 GB
+
+         ... | GRAPH
+
+     Network | 'google'
+       Graph | '-->' (array)
+       Nodes | 875,713 (0)
+       Edges | 5,105,039 (0)
+      Degree | 11.66 (6326, 456)
+
+        Time | 5.45 sec
+      Memory | 0.77 GB
+
+         ... | GRAPH
+
+     Network | 'estrada'
+       Graph | '---' (array)
+       Nodes | 8 (1)
+       Edges | 10 (0)
+      Degree | 2.50 (3, 3)
+
+        Time | 0.00 sec
+      Memory | 0.77 GB
+
+         ... | GRAPH
+
+     Network | 'football'
+       Graph | '---' (array)
+       Nodes | 115 (0)
+       Edges | 616 (0)
+      Degree | 10.71 (12, 11)
+
+        Time | 0.00 sec
+      Memory | 0.77 GB
+
+         ... | GRAPH
+
+     Network | 'women'
+       Graph | '---' (array)
+       Nodes | 32 (0)
+       Edges | 89 (0)
+      Degree | 5.56 (14, 8)
+
+        Time | 0.00 sec
+      Memory | 0.77 GB
+
+         ... | GRAPH
+
+     Network | 'random'
+       Graph | '---' (array)
+       Nodes | 10,000 (0)
+       Edges | 80,000 (0)
+      Degree | 16.00 (21, 23)
+
+        Time | 0.03 sec
+      Memory | 0.79 GB
+
+         ... | GRAPH
+
+     Network | 'scalefree'
+       Graph | '-->' (array)
+       Nodes | 10,000 (0)
+       Edges | 80,000 (0)
+      Degree | 16.00 (477, 16)
+
+        Time | 0.03 sec
+      Memory | 0.81 GB
+
+         ... | GRAPH
+
+     Network | 'copying'
+       Graph | '-->' (array)
+       Nodes | 10,000 (0)
+       Edges | 80,000 (0)
+      Degree | 16.00 (1782, 8)
+
+        Time | 0.02 sec
+      Memory | 0.84 GB
+
+         ... | GRAPH
+
+     Network | 'amazon'
+       Graph | '---' (array)
+       Nodes | 262,111 (0)
+       Edges | 1,234,877 (0)
+      Degree | 9.42 (420, 5)
+
+        Time | 0.80 sec
+      Memory | 1.24 GB
+
+         ... | GRAPH
+
+     Network | 'aps'
+       Graph | '-->' (array)
+       Nodes | 438,943 (4,227)
+       Edges | 4,731,330 (105)
+      Degree | 21.56 (5466, 514)
+
+        Time | 3.99 sec
+      Memory | 1.01 GB
+
+         ... | GRAPH
+
+     Network | 'proteins'
+       Graph | '---' (array)
+       Nodes | 19,634 (0)
+       Edges | 195,781 (2,245)
+      Degree | 19.94 (1939, 1924)
+
+        Time | 0.10 sec
+      Memory | 1.14 GB
+
+         ... | GRAPH
+
+     Network | 'gnutella'
+       Graph | '-->' (array)
+       Nodes | 62,586 (0)
+       Edges | 147,892 (0)
+      Degree | 4.73 (68, 78)
+
+        Time | 0.10 sec
+      Memory | 1.26 GB
+
+         ... | GRAPH
+
+     Network | 'lucene'
+       Graph | '-->' (array)
+       Nodes | 2,956 (0)
+       Edges | 10,872 (0)
+      Degree | 7.36 (423, 22)
+
+        Time | 0.01 sec
+      Memory | 1.28 GB
+
+         ... | GRAPH
+
+     Network | 'petrol'
+       Graph | '-->' (array)
+       Nodes | 19,867 (0)
+       Edges | 1,382,087 (0)
+      Degree | 139.13 (9414, 954)
+
+        Time | 0.54 sec
+      Memory | 1.21 GB
+
+         ... | MIXING
+
+        Runs | 10
+
+     Network |    r     r(S)   r(M)
+       'toy' | -0.714 -0.714 -0.143
+    'karate' | -0.476 -0.276  0.064
+      'java' | -0.310 -0.309 -0.002
+      'imdb' |  0.293 -0.018 -0.000
+  'facebook' |  0.177 -0.005  0.001
+  'internet' | -0.146 -0.143 -0.000
+   'estrada' | -0.538 -0.179 -0.205
+  'football' |  0.162 -0.004 -0.005
+     'women' | -0.337 -0.131 -0.009
+    'random' |  0.000  0.001 -0.001
+ 'scalefree' | -0.017 -0.027 -0.000
+   'copying' | -0.106 -0.096  0.001
+    'amazon' | -0.002 -0.000 -0.000
+  'proteins' | -0.088 -0.066 -0.001
+  'gnutella' | -0.093 -0.000  0.001
+    'lucene' | -0.268 -0.167 -0.001
+    'petrol' | -0.638 -0.638  0.000
+
+        Time | 65.4 min
+      Memory | 6.36 GB
+
+     Network |    r    r(ii)  r(io)  r(oi)  r(oo)
+       'toy' | -0.714    NaN    NaN    NaN -0.707
+      'java' | -0.307 -0.027 -0.017 -0.321  0.065
+  'internet' | -0.146 -0.072 -0.009 -0.102 -0.012
+    'google' | -0.049 -0.014  0.033 -0.065  0.058
+ 'scalefree' | -0.017  0.303 -0.069  0.076 -0.008
+   'copying' | -0.102  0.135    NaN    NaN    NaN
+       'aps' | -0.022  0.014 -0.009 -0.002  0.058
+  'gnutella' | -0.093  0.035  0.008 -0.006 -0.003
+    'lucene' | -0.267  0.011 -0.002  0.042  0.142
+    'petrol' | -0.624 -0.003 -0.007 -0.307  0.331
+
+        Time | 13.8 sec
+      Memory | 5.78 GB
+
+     Network |    r      C        D      r(C)   r(D)
+       'toy' | -0.714  0.467  0.533333  0.172  0.200
+    'karate' | -0.476  0.571  0.137396 -0.229  0.133
+      'java' | -0.307  0.715  0.002071 -0.619  0.086
+      'imdb' |  0.293  0.339  0.025820  0.599  0.832
+  'facebook' |  0.177  0.221  0.017814  0.238  0.570
+  'internet' | -0.146  0.160  0.000154  0.511  0.602
+    'google' | -0.049  0.514  0.001405  0.120  0.705
+   'estrada' | -0.538  0.000       NaN    NaN    NaN
+  'football' |  0.142  0.403  0.489982  0.369  0.446
+     'women' | -0.337  0.000       NaN    NaN    NaN
+    'random' |  0.000  0.002  0.012765  0.110  0.120
+ 'scalefree' | -0.017  0.012  0.003111  0.025  0.074
+   'copying' | -0.102  0.058  0.001378 -0.094  0.090
+    'amazon' | -0.003  0.420  0.024938  0.476  0.610
+       'aps' | -0.022  0.227  0.000980  0.114  0.438
+  'proteins' | -0.085  0.111  0.003481  0.186  0.470
+  'gnutella' | -0.093  0.005  0.002481  0.094  0.252
+    'lucene' | -0.267  0.421  0.009622 -0.343  0.303
+    'petrol' | -0.624  0.633  0.006933 -0.798 -0.130
+
+        Time | 37.0 sec
+      Memory | 5.19 GB
+
+         ... | LNA
+
+        Time | 66.4 min
+      Memory | 5.19 GB
