@@ -1,0 +1,28 @@
+       Graph | 'demo'
+        Type | 'x==y'
+       Nodes | 4
+       Edges | 3
+      Degree | 1.50
+         LCC | 75.0% (2)
+
+       Graph | 'G(n,p)'
+        Type | '0--1'
+       Nodes | 1,000
+       Edges | 2,501
+      Degree | 5.00
+         LCC | 99.0% (10)
+
+       Graph | 'G(n,m)'
+        Type | '0==1'
+       Nodes | 1,000
+       Edges | 2,500
+      Degree | 5.00
+         LCC | 99.2% (9)
+
+       Graph | 'karate_club'
+        Type | '0--1'
+       Nodes | 34
+       Edges | 78
+      Degree | 4.59
+         LCC | 100.0% (1)
+
