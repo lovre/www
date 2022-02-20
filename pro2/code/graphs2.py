@@ -85,11 +85,11 @@ def read(name, path = '.'):
       elif re.match(r'^\*(edges|arcs)', line): # line.startswith('*edges') or line.startswith('*arcs')
         break
       else:
-        node = re.split('\s+', line) # node = line.split()
+        node = re.split('"', line) # node = line.split('"')
         if len(node) > 1 and len(node[1]):
           if not L:
             L = [None for _ in range(n)]
-          L[int(node[0]) - 1] = node[1][1:-1]
+          L[int(node[0]) - 1] = node[1]
 
     for line in file:
       edge = re.split('\s+', line) # line.split()
@@ -109,7 +109,7 @@ def write(G, path = '.'):
   with open(os.path.join(path, name + '.net'), 'w') as file:
     file.write('*vertices {:d}\n'.format(len(A)))
     for i in range(len(A)):
-      file.write('{:d}{:s}\n'.format(i + 1, ' "' + L[i] + '"' if L is not None else ''))
+      file.write('{:d}{:s}\n'.format(i + 1, ' "' + L[i] + '"' if L is not None and L[i] is not None else ''))
 
     file.write('*edges {:d}\n'.format(sum([len(a) for a in A]) // 2))
     for i, a in enumerate(A):
