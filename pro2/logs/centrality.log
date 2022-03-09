@@ -1,0 +1,100 @@
+       Graph | 'got_kills'
+        Type | 'x--y'
+       Nodes | 293 (0)
+       Edges | 226 (0)
+      Degree | 1.54
+         LCC | 7.2% (67)
+        Time | 0.00 sec
+
+                     Node | Degree
+             'Arya Stark' | 0.04109589
+               'Jon Snow' | 0.04109589
+         'Sandor Clegane' | 0.03424658
+          'Ramsay Bolton' | 0.03082192
+     'Daenerys Targaryen' | 0.02397260
+                 'Drogon' | 0.02054795
+         'Daario Naharis' | 0.02054795
+                 'Cersei' | 0.02054795
+                  'Hound' | 0.02054795
+        'Jaime Lannister' | 0.01712329
+                'Brienne' | 0.01712329
+                'Ygritte' | 0.01712329
+
+                     Node | Eigenvector
+             'Arya Stark' | 0.17119138
+               'Jon Snow' | 0.13544179
+             'Night King' | 0.02971235
+            'Lothar Frey' | 0.02669213
+               'Polliver' | 0.02440686
+    'Black Walder Rivers' | 0.02440686
+              'Stableboy' | 0.02248205
+  'Several Frey Soldiers' | 0.02248205
+                  'Rorge' | 0.02248205
+                  'Ghita' | 0.02248205
+        'Ser Meryn Trant' | 0.02248205
+               'The Waif' | 0.02248205
+
+                     Node | PageRank
+               'Jon Snow' | 0.01958440
+             'Arya Stark' | 0.01942593
+         'Sandor Clegane' | 0.01691388
+          'Ramsay Bolton' | 0.01510266
+     'Daenerys Targaryen' | 0.01215272
+         'Daario Naharis' | 0.01138842
+                 'Cersei' | 0.01138842
+                  'Hound' | 0.01101886
+                 'Drogon' | 0.01018739
+                'Brienne' | 0.00979333
+        'Jaime Lannister' | 0.00939999
+                'Ygritte' | 0.00881249
+
+       Graph | 'imdb_actors'
+        Type | 'x--y'
+       Nodes | 17,577 (0)
+       Edges | 287,074 (0)
+      Degree | 32.66
+         LCC | 99.3% (19)
+        Time | 0.14 sec
+
+                     Node | Degree
+        'Davis, Mark (V)' | 0.04460628
+      'Sanders, Alex (I)' | 0.03470642
+       'North, Peter (I)' | 0.03408056
+            'Marcus, Mr.' | 0.03322713
+         'Tedeschi, Tony' | 0.03191853
+             'Dough, Jon' | 0.03157715
+        'Stone, Lee (II)' | 0.03100819
+          'Voyeur, Vince' | 0.03032544
+    'Lawrence, Joel (II)' | 0.02844788
+      'Steele, Lexington' | 0.02804961
+            'Ashley, Jay' | 0.02787893
+              'Boy, T.T.' | 0.02702549
+
+                     Node | Eigenvector
+        'Davis, Mark (V)' | 0.00248137
+      'Benoit, Chris (I)' | 0.00240680
+        'Guerrero, Eddie' | 0.00240680
+           'Storm, Lance' | 0.00239758
+         'Jericho, Chris' | 0.00239339
+            'Wight, Paul' | 0.00239293
+        'Runnels, Dustin' | 0.00238146
+             'Flair, Ric' | 0.00237991
+        'Huffman, Booker' | 0.00237817
+         'Bischoff, Eric' | 0.00237529
+         'Wilson, Torrie' | 0.00237504
+      'Levy, Scott (III)' | 0.00237231
+
+                     Node | PageRank
+             'Hanks, Tom' | 0.00066003
+     'Jackson, Samuel L.' | 0.00064249
+       'Goldberg, Whoopi' | 0.00060672
+           'Stiller, Ben' | 0.00056084
+        'Davis, Mark (V)' | 0.00054710
+    'Lopez, Jennifer (I)' | 0.00054242
+     'Berl�and, Fran�ois' | 0.00054012
+           'Berry, Halle' | 0.00053634
+          'Diaz, Cameron' | 0.00051441
+         'Travolta, John' | 0.00048647
+            'Jeremy, Ron' | 0.00047575
+        'Myers, Mike (I)' | 0.00046803
+
