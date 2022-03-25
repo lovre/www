@@ -1,0 +1,275 @@
+       Graph | 'karate_club'
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17)
+     Density | 1.39e-01
+       Gamma | 2.68 (5)
+         LCC | 100.0% (1)
+    Distance | 2.41 (5)
+  Clustering | 0.5706
+        Time | 0.0 s
+
+       Graph | 'price'
+       Nodes | 34 (0)
+       Edges | 64 (2)
+      Degree | 3.76 (19)
+     Density | 1.14e-01
+       Gamma | 2.71 (5)
+         LCC | 100.0% (1)
+    Distance | 2.54 (5)
+  Clustering | 0.1782
+        Time | 0.0 s
+
+       Graph | 'barabasi_albert'
+       Nodes | 34 (0)
+       Edges | 64 (2)
+      Degree | 3.76 (15)
+     Density | 1.14e-01
+       Gamma | 2.86 (5)
+         LCC | 100.0% (1)
+    Distance | 2.52 (5)
+  Clustering | 0.2881
+        Time | 0.0 s
+
+       Graph | 'darknet'
+       Nodes | 7,178 (0)
+       Edges | 25,104 (0)
+      Degree | 6.99 (5,583)
+     Density | 9.75e-04
+       Gamma | 2.38 (5)
+         LCC | 100.0% (1)
+    Distance | 2.35 (5)
+  Clustering | 0.7061
+        Time | 3.1 s
+
+       Graph | 'price'
+       Nodes | 7,178 (0)
+       Edges | 21,525 (10)
+      Degree | 6.00 (1,204)
+     Density | 8.36e-04
+       Gamma | 2.63 (5)
+         LCC | 100.0% (1)
+    Distance | 3.42 (6)
+  Clustering | 0.0579
+        Time | 1.3 s
+
+       Graph | 'barabasi_albert'
+       Nodes | 7,178 (0)
+       Edges | 21,525 (10)
+      Degree | 6.00 (284)
+     Density | 8.36e-04
+       Gamma | 2.75 (5)
+         LCC | 100.0% (1)
+    Distance | 4.10 (6)
+  Clustering | 0.0080
+        Time | 1.0 s
+
+       Graph | 'collaboration_imdb'
+       Nodes | 17,577 (0)
+       Edges | 287,074 (0)
+      Degree | 32.66 (784)
+     Density | 1.86e-03
+       Gamma | 1.62 (5)
+         LCC | 99.3% (19)
+    Distance | 4.84 (15)
+  Clustering | 0.3391
+        Time | 15.8 s
+
+       Graph | 'price'
+       Nodes | 17,577 (0)
+       Edges | 280,976 (61)
+      Degree | 31.97 (1,599)
+     Density | 1.82e-03
+       Gamma | 1.57 (5)
+         LCC | 100.0% (1)
+    Distance | 2.90 (4)
+  Clustering | 0.0110
+        Time | 10.4 s
+
+       Graph | 'barabasi_albert'
+       Nodes | 17,577 (0)
+       Edges | 280,976 (52)
+      Degree | 31.97 (1,459)
+     Density | 1.82e-03
+       Gamma | 1.57 (5)
+         LCC | 100.0% (1)
+    Distance | 2.88 (4)
+  Clustering | 0.0108
+        Time | 9.5 s
+
+       Graph | 'wikileaks'
+       Nodes | 52,416 (0)
+       Edges | 78,506 (0)
+      Degree | 3.00 (384)
+     Density | 5.71e-05
+       Gamma | 3.53 (5)
+         LCC | 100.0% (1)
+    Distance | 22.83 (80)
+  Clustering | 0.1864
+        Time | 8.7 s
+
+       Graph | 'price'
+       Nodes | 52,416 (0)
+       Edges | 52,415 (9)
+      Degree | 2.00 (263)
+     Density | 3.82e-05
+       Gamma | 3.01 (5)
+         LCC | 71.5% (10)
+    Distance | 11.86 (27)
+  Clustering | 0.0000
+        Time | 5.2 s
+
+       Graph | 'barabasi_albert'
+       Nodes | 52,416 (0)
+       Edges | 52,415 (5)
+      Degree | 2.00 (729)
+     Density | 3.82e-05
+       Gamma | 2.72 (5)
+         LCC | 85.2% (6)
+    Distance | 9.67 (25)
+  Clustering | 0.0000
+        Time | 5.2 s
+
+       Graph | 'enron'
+       Nodes | 87,273 (0)
+       Edges | 1,148,072 (13,082)
+      Degree | 26.31 (38,785)
+     Density | 3.01e-04
+       Gamma | 1.63 (5)
+         LCC | 96.7% (1,331)
+    Distance | 4.87 (11)
+  Clustering | 0.1193
+        Time | 20.1 s
+
+       Graph | 'price'
+       Nodes | 87,273 (0)
+       Edges | 1,134,380 (60)
+      Degree | 26.00 (2,214)
+     Density | 2.98e-04
+       Gamma | 1.65 (5)
+         LCC | 100.0% (1)
+    Distance | 3.37 (5)
+  Clustering | 0.0025
+        Time | 62.7 s
+
+       Graph | 'barabasi_albert'
+       Nodes | 87,273 (0)
+       Edges | 1,134,380 (71)
+      Degree | 26.00 (3,031)
+     Density | 2.98e-04
+       Gamma | 1.65 (5)
+         LCC | 100.0% (1)
+    Distance | 3.36 (5)
+  Clustering | 0.0027
+        Time | 57.9 s
+
+       Graph | 'www_google'
+       Nodes | 875,713 (0)
+       Edges | 5,105,039 (0)
+      Degree | 11.66 (6,353)
+     Density | 1.33e-05
+       Gamma | 1.93 (5)
+         LCC | 97.7% (2,746)
+    Distance | 6.21 (21)
+  Clustering | 0.5143
+        Time | 341.9 s
+
+       Graph | 'price'
+       Nodes | 875,713 (0)
+       Edges | 5,254,242 (29)
+      Degree | 12.00 (8,656)
+     Density | 1.37e-05
+       Gamma | 2.31 (5)
+         LCC | 100.0% (1)
+    Distance | 4.67 (7)
+  Clustering | 0.0002
+        Time | 512.2 s
+
+       Graph | 'barabasi_albert'
+       Nodes | 875,713 (0)
+       Edges | 5,254,242 (31)
+      Degree | 12.00 (5,498)
+     Density | 1.37e-05
+       Gamma | 2.31 (5)
+         LCC | 100.0% (1)
+    Distance | 4.61 (7)
+  Clustering | 0.0002
+        Time | 446.1 s
+
+       Graph | 'price_2.01'
+       Nodes | 100,000 (0)
+       Edges | 999,900 (1)
+      Degree | 20.00 (290,279)
+     Density | 2.00e-04
+       Gamma | 2.10 (25)
+         LCC | 100.0% (1)
+    Distance | 2.00 (4)
+  Clustering | 0.1689
+        Time | 1138.1 s
+
+       Graph | 'price_2.25'
+       Nodes | 100,000 (0)
+       Edges | 999,900 (17)
+      Degree | 20.00 (25,567)
+     Density | 2.00e-04
+       Gamma | 2.51 (25)
+         LCC | 100.0% (1)
+    Distance | 2.71 (4)
+  Clustering | 0.0736
+        Time | 284.9 s
+
+       Graph | 'price_2.5'
+       Nodes | 100,000 (0)
+       Edges | 999,900 (27)
+      Degree | 20.00 (12,076)
+     Density | 2.00e-04
+       Gamma | 2.68 (25)
+         LCC | 100.0% (1)
+    Distance | 3.17 (5)
+  Clustering | 0.0124
+        Time | 84.2 s
+
+       Graph | 'price_2.75'
+       Nodes | 100,000 (0)
+       Edges | 999,900 (44)
+      Degree | 20.00 (3,747)
+     Density | 2.00e-04
+       Gamma | 2.83 (25)
+         LCC | 100.0% (1)
+    Distance | 3.47 (5)
+  Clustering | 0.0038
+        Time | 67.3 s
+
+       Graph | 'price_3.0'
+       Nodes | 100,000 (0)
+       Edges | 999,900 (47)
+      Degree | 20.00 (3,201)
+     Density | 2.00e-04
+       Gamma | 2.94 (25)
+         LCC | 100.0% (1)
+    Distance | 3.61 (5)
+  Clustering | 0.0020
+        Time | 60.4 s
+
+       Graph | 'price_4.0'
+       Nodes | 100,000 (0)
+       Edges | 999,900 (56)
+      Degree | 20.00 (696)
+     Density | 2.00e-04
+       Gamma | 3.27 (25)
+         LCC | 100.0% (1)
+    Distance | 3.85 (5)
+  Clustering | 0.0006
+        Time | 60.7 s
+
+       Graph | 'price_5.0'
+       Nodes | 100,000 (0)
+       Edges | 999,900 (74)
+      Degree | 20.00 (390)
+     Density | 2.00e-04
+       Gamma | 3.47 (25)
+         LCC | 100.0% (1)
+    Distance | 3.93 (5)
+  Clustering | 0.0005
+        Time | 63.9 s
+
