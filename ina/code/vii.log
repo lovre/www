@@ -1,0 +1,136 @@
+       Graph | 'karate_club'
+        Type | MultiGraph
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17)
+     Density | 1.39e-01
+       Gamma | 3.88 (10)
+      Mixing | -0.4756
+
+       Graph | 'dolphins'
+        Type | MultiGraph
+       Nodes | 62 (0)
+       Edges | 159 (0)
+      Degree | 5.13 (12)
+     Density | 8.41e-02
+       Gamma | 8.94 (10)
+      Mixing | -0.0436
+
+       Graph | 'java'
+        Type | MultiDiGraph
+       Nodes | 2,378 (0)
+       Edges | 14,727 (0)
+      Degree | 12.39 (2,173)
+     Density | 5.21e-03
+       Gamma | 2.48 (10)
+      Mixing | -0.3073
+
+       Graph | 'darknet'
+        Type | MultiGraph
+       Nodes | 7,178 (0)
+       Edges | 25,104 (0)
+      Degree | 6.99 (5,583)
+     Density | 9.75e-04
+       Gamma | 2.03 (10)
+      Mixing | -0.4398
+
+       Graph | 'collaboration_imdb'
+        Type | MultiGraph
+       Nodes | 17,577 (0)
+       Edges | 287,074 (0)
+      Degree | 32.66 (784)
+     Density | 1.86e-03
+       Gamma | 1.85 (10)
+      Mixing | 0.2934
+
+       Graph | 'gnutella'
+        Type | MultiDiGraph
+       Nodes | 62,586 (0)
+       Edges | 147,892 (0)
+      Degree | 4.73 (95)
+     Density | 7.55e-05
+       Gamma | 4.00 (10)
+      Mixing | -0.0926
+
+       Graph | 'facebook'
+        Type | MultiGraph
+       Nodes | 63,731 (0)
+       Edges | 817,035 (0)
+      Degree | 25.64 (1,098)
+     Density | 4.02e-04
+       Gamma | 1.81 (10)
+      Mixing | 0.1770
+
+       Graph | 'nec'
+        Type | MultiDiGraph
+       Nodes | 75,885 (0)
+       Edges | 357,317 (0)
+      Degree | 9.42 (13,346)
+     Density | 1.24e-04
+       Gamma | 2.62 (10)
+      Mixing | -0.1458
+
+                Graph |    r     r(ii)   r(io)   r(oi)   r(oo) 
+        'karate_club' | -0.476    nan     nan     nan     nan  
+           'dolphins' | -0.044    nan     nan     nan     nan  
+               'java' | -0.307  -0.027  -0.017  -0.321   0.065 
+            'darknet' | -0.440    nan     nan     nan     nan  
+ 'collaboration_imdb' |  0.293    nan     nan     nan     nan  
+           'gnutella' | -0.093   0.035   0.008  -0.006  -0.003 
+           'facebook' |  0.177    nan     nan     nan     nan  
+                'nec' | -0.146  -0.072  -0.009  -0.102  -0.012 
+
+                Graph |    r      r'   
+        'karate_club' | -0.476  -0.341  -0.194 
+           'dolphins' | -0.044   0.016  -0.098 
+               'java' | -0.307  -0.309   0.013 
+            'darknet' | -0.440  -0.443  -0.002 
+ 'collaboration_imdb' |  0.293  -0.018  -0.004 
+           'gnutella' | -0.093   0.003   0.001 
+           'facebook' |  0.177  -0.006  -0.002 
+                'nec' | -0.146  -0.143  -0.001 
+
+                Graph |  r(w)  
+           'highways' |  0.600 
+
+       Graph | 'java'
+        Type | Graph
+       Nodes | 2,378 (0)
+       Edges | 14,619 (0)
+      Degree | 12.30 (2,166)
+     Density | 5.17e-03
+
+       Graph | 'darknet'
+        Type | Graph
+       Nodes | 7,178 (0)
+       Edges | 24,879 (0)
+      Degree | 6.93 (5,582)
+     Density | 9.66e-04
+
+       Graph | 'collaboration_imdb'
+        Type | Graph
+       Nodes | 17,577 (0)
+       Edges | 287,074 (0)
+      Degree | 32.66 (784)
+     Density | 1.86e-03
+
+       Graph | 'gnutella'
+        Type | Graph
+       Nodes | 62,586 (0)
+       Edges | 147,892 (0)
+      Degree | 4.73 (95)
+     Density | 7.55e-05
+
+       Graph | 'facebook'
+        Type | Graph
+       Nodes | 63,731 (0)
+       Edges | 817,035 (0)
+      Degree | 25.64 (1,098)
+     Density | 4.02e-04
+
+       Graph | 'nec'
+        Type | Graph
+       Nodes | 75,885 (0)
+       Edges | 357,317 (0)
+      Degree | 9.42 (13,346)
+     Density | 1.24e-04
