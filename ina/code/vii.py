@@ -146,14 +146,14 @@ def orca(G, path = PATH):
     for edge in G.edges():
       file.write(str(edge[0]) + " " + str(edge[1]) + "\n")
 
-  os.system("./orca node 4 " + name + ".in " + path + "/" + name + ".orca")
-  os.remove(name + ".in")
+  os.system("./orca node 4 " + G.name + ".in " + path + "/" + G.name + ".orca")
+  os.remove(G.name + ".in")
   
 Gs = []
 for name in ["karate_club", "dolphins", "java", "darknet", "collaboration_imdb", "gnutella", "facebook", "nec"]:
   G = read(name)
   Gs.append(G)
-  
+
   info(G, fast = False)
 
 print("{:>21s} | {:^7s} {:^7s} {:^7s} {:^7s} {:^7s}".format('Graph', 'r', 'r(ii)', 'r(io)', 'r(oi)', 'r(oo)'))
@@ -208,11 +208,11 @@ print()
 
 for name in ["java" , "darknet", "collaboration_imdb", "gnutella", "facebook", "nec"]:
   G = nx.Graph(read(name))
-  
+
   info(G)
-  
+
   orca(G)
-  
+
   orbits = []
   with open(PATH + "/" + name + ".orca", 'r') as file:
     for line in file:
