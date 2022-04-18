@@ -1,0 +1,273 @@
+
+       Graph | 'karate_club'
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17)
+     Density | 1.39e-01
+
+   Algorithm | Count   Q      NMI    ARI    VI  
+     'Truth' |   2.0  0.371  1.000  1.000  0.000
+   'Louvain' |   4.0  0.417  0.645  0.524  1.022
+   'Infomap' |   3.0  0.402  0.699  0.702  0.732
+   '(DC)SBM' |   1.0  0.000  0.000  0.000  0.998
+    '(N)SBM' |   1.0  0.000  0.000  0.000  0.998
+    'EM(MM)' |   2.0  0.222  0.682  0.699  0.565
+
+       Graph | 'southern_women'
+       Nodes | 32 (0)
+       Edges | 89 (0)
+      Degree | 5.56 (14)
+     Density | 1.79e-01
+
+   Algorithm | Count   Q      NMI    ARI    VI  
+     'Truth' |   3.0 -0.376  1.000  1.000  0.000
+   'Louvain' |   3.3  0.328  0.284  0.155  2.260
+   'Infomap' |   2.0  0.319  0.265  0.161  1.867
+   '(DC)SBM' |   2.8 -0.422  0.764  0.642  0.658
+    '(N)SBM' |   2.0 -0.474  0.739  0.637  0.615
+    'EM(MM)' |   2.0 -0.436  0.729  0.624  0.687
+
+       Graph | 'subelj_bajec'
+       Nodes | 128 (0)
+       Edges | 1,018 (0)
+      Degree | 15.91 (27)
+     Density | 1.25e-01
+
+      Mixing | 0.050 0.100 0.150 0.200 0.250 0.300 0.350 0.400 0.450 0.500 0.550 0.600
+     'Truth' | 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+   'Louvain' | 0.857 0.857 0.857 0.854 0.852 0.848 0.808 0.683 0.482 0.313 0.165 0.109
+   'Infomap' | 0.857 0.857 0.857 0.856 0.839 0.591 0.219 0.000 0.000 0.000 0.000 0.000
+    'EM(MM)' | 0.959 0.947 0.944 0.933 0.909 0.856 0.769 0.624 0.433 0.246 0.123 0.060
+    '(N)SBM' | 1.000 0.999 0.997 0.994 0.994 0.990 0.966 0.943 0.148 0.000 0.000 0.000
+   '(DC)SBM' | 0.959 0.917 0.957 0.929 0.943 0.953 0.915 0.881 0.165 0.000 0.000 0.000
+
+       Graph | 'cdn_jung'
+       Nodes | 456 (63)
+       Edges | 935 (0)
+      Degree | 4.10 (84)
+     Density | 9.01e-03
+
+             | # (nodes)
+     0-cores | 68 (381, 5, 3, 2, 2...)
+     1-cores | 5 (381, 5, 3, 2, 2)
+     2-cores | 1 (309)
+     3-cores | 1 (211)
+     4-cores | 2 (110, 22)
+     5-cores | 2 (43, 20)
+     6-cores | 1 (11)
+
+     6-cores | jung.algorithms.layout.GraphElementAccessor; jung.algorithms.layout.Layout; jung.visualization.BasicVisualizationServer; jung.visualization.RenderContext; jung.visualization.VisualizationImageServer; jung.visualization.VisualizationModel; jung.visualization.VisualizationServer; jung.visualization.VisualizationViewer; jung.visualization.control.SatelliteVisualizationViewer; jung.visualization.picking.PickedState; jung.visualization.renderers.Renderer
+
+       Graph | 'cdn_java'
+       Nodes | 1,516 (0)
+       Edges | 10,151 (0)
+      Degree | 13.39 (1,322)
+     Density | 8.84e-03
+
+             | # (nodes)
+     0-cores | 1 (1516)
+     1-cores | 1 (1516)
+     2-cores | 1 (1495)
+     3-cores | 1 (1472)
+     4-cores | 1 (1362)
+     5-cores | 1 (1214)
+     6-cores | 1 (995)
+     7-cores | 1 (844)
+     8-cores | 1 (490)
+     9-cores | 1 (325)
+    10-cores | 1 (198)
+    11-cores | 1 (129)
+    12-cores | 1 (90)
+    13-cores | 1 (88)
+    14-cores | 1 (86)
+    15-cores | 1 (83)
+    16-cores | 1 (83)
+    17-cores | 1 (82)
+    18-cores | 1 (82)
+    19-cores | 1 (82)
+    20-cores | 1 (70)
+    21-cores | 1 (49)
+    22-cores | 1 (49)
+    23-cores | 1 (49)
+    24-cores | 1 (44)
+    25-cores | 1 (43)
+
+    25-cores | java.applet.Applet; java.awt.AWTEvent; java.awt.Button; java.awt.Canvas; java.awt.Checkbox; java.awt.Choice; java.awt.Color; java.awt.Component; java.awt.Container; java.awt.Dialog; java.awt.Dimension; java.awt.Event; java.awt.FileDialog; java.awt.Font; java.awt.FontMetrics; java.awt.Frame; java.awt.Graphics; java.awt.GraphicsConfiguration; java.awt.Image; java.awt.ImageCapabilities; java.awt.Label; java.awt.List; java.awt.MenuComponent; java.awt.Panel; java.awt.Point; java.awt.PopupMenu; java.awt.Rectangle; java.awt.ScrollPane; java.awt.Scrollbar; java.awt.TextArea; java.awt.TextComponent; java.awt.TextField; java.awt.Toolkit; java.awt.Window; java.awt.im.InputContext; java.awt.image.ColorModel; java.awt.image.ImageObserver; java.awt.image.VolatileImage; java.awt.peer.ComponentPeer; java.lang.Class; java.lang.Object; java.lang.String; java.util.Locale
+
+       Graph | 'wikileaks'
+       Nodes | 52,416 (0)
+       Edges | 78,506 (0)
+      Degree | 3.00 (384)
+     Density | 5.71e-05
+
+             | # (nodes)
+     0-cores | 1 (52416)
+     1-cores | 1 (52416)
+     2-cores | 1 (30239)
+     3-cores | 393 (4804, 295, 203, 178, 127...)
+     4-cores | 195 (701, 105, 98, 97, 84...)
+     5-cores | 83 (84, 72, 51, 34, 26...)
+     6-cores | 36 (75, 23, 23, 22, 20...)
+     7-cores | 21 (75, 23, 22, 22, 18...)
+     8-cores | 14 (71, 22, 20, 20, 18...)
+     9-cores | 9 (64, 17, 17, 15, 13...)
+    10-cores | 2 (61, 13)
+    11-cores | 2 (14, 13)
+
+    11-cores | 08NEWDELHI1799; 08NEWDELHI2109; 08NEWDELHI2146; 08NEWDELHI2223; 08NEWDELHI2265; 08NEWDELHI2289; 08NEWDELHI2378; 08NEWDELHI2742; 08NEWDELHI2746; 08NEWDELHI2946; 08NEWDELHI2987; 08NEWDELHI3030; 08NEWDELHI3185; 09COLOMBO1139; 09COLOMBO1145; 09COLOMBO1152; 10COLOMBO11; 10COLOMBO21; 10COLOMBO27; 10COLOMBO40; 10COLOMBO57; 10COLOMBO59; 10COLOMBO61; 10COLOMBO62; 10COLOMBO65; 10COLOMBO7; 10COLOMBO78
+
+       Graph | 'collaboration_imdb'
+       Nodes | 17,577 (0)
+       Edges | 287,074 (0)
+      Degree | 32.66 (784)
+     Density | 1.86e-03
+
+             | # (nodes)
+     0-cores | 19 (17455, 33, 23, 22, 11...)
+     1-cores | 19 (17455, 33, 23, 22, 11...)
+     2-cores | 7 (17000, 27, 17, 12, 11...)
+     3-cores | 5 (16364, 12, 11, 4, 4)
+     4-cores | 2 (15651, 7)
+     5-cores | 2 (14841, 7)
+     6-cores | 2 (13812, 197)
+     7-cores | 2 (12894, 179)
+     8-cores | 2 (12016, 166)
+     9-cores | 2 (11138, 146)
+    10-cores | 2 (10290, 127)
+    11-cores | 3 (9609, 122, 35)
+    12-cores | 5 (8718, 192, 109, 31, 27)
+    13-cores | 5 (8054, 189, 103, 26, 24)
+    14-cores | 4 (7449, 189, 93, 32)
+    15-cores | 4 (6894, 185, 32, 28)
+    16-cores | 3 (6390, 184, 17)
+    17-cores | 2 (5820, 183)
+    18-cores | 2 (5495, 183)
+    19-cores | 2 (5213, 182)
+    20-cores | 3 (4888, 182, 86)
+    21-cores | 3 (4570, 180, 83)
+    22-cores | 3 (4360, 180, 77)
+    23-cores | 3 (4126, 178, 73)
+    24-cores | 3 (3761, 174, 72)
+    25-cores | 3 (3455, 172, 69)
+    26-cores | 3 (3144, 166, 69)
+    27-cores | 3 (3045, 161, 67)
+    28-cores | 3 (2934, 155, 65)
+    29-cores | 2 (2807, 149)
+    30-cores | 2 (2583, 140)
+    31-cores | 2 (2493, 136)
+    32-cores | 2 (2351, 95)
+    33-cores | 2 (2287, 87)
+    34-cores | 1 (2218)
+    35-cores | 1 (2160)
+    36-cores | 1 (2091)
+    37-cores | 1 (2037)
+    38-cores | 1 (2006)
+    39-cores | 1 (1954)
+    40-cores | 1 (1913)
+    41-cores | 1 (1863)
+    42-cores | 1 (1823)
+    43-cores | 1 (1790)
+    44-cores | 1 (1721)
+    45-cores | 1 (1654)
+    46-cores | 1 (1532)
+    47-cores | 1 (1455)
+    48-cores | 1 (1430)
+    49-cores | 1 (1401)
+    50-cores | 1 (1282)
+    51-cores | 1 (1259)
+    52-cores | 1 (1173)
+    53-cores | 1 (1151)
+    54-cores | 1 (1126)
+    55-cores | 1 (1101)
+    56-cores | 1 (1088)
+    57-cores | 2 (778, 127)
+    58-cores | 2 (756, 86)
+    59-cores | 2 (754, 86)
+    60-cores | 2 (747, 85)
+    61-cores | 2 (708, 79)
+    62-cores | 2 (699, 79)
+    63-cores | 1 (687)
+    64-cores | 1 (680)
+    65-cores | 1 (673)
+    66-cores | 1 (668)
+    67-cores | 1 (652)
+    68-cores | 1 (648)
+    69-cores | 1 (635)
+    70-cores | 1 (620)
+    71-cores | 1 (591)
+    72-cores | 1 (571)
+    73-cores | 1 (555)
+    74-cores | 1 (541)
+    75-cores | 1 (521)
+    76-cores | 1 (519)
+    77-cores | 1 (463)
+    78-cores | 1 (221)
+    79-cores | 1 (221)
+    80-cores | 1 (221)
+    81-cores | 1 (219)
+    82-cores | 1 (219)
+    83-cores | 1 (216)
+    84-cores | 1 (207)
+    85-cores | 1 (204)
+    86-cores | 1 (204)
+    87-cores | 1 (204)
+    88-cores | 1 (204)
+    89-cores | 1 (204)
+    90-cores | 1 (204)
+    91-cores | 1 (204)
+    92-cores | 1 (203)
+    93-cores | 1 (203)
+    94-cores | 1 (203)
+    95-cores | 1 (203)
+    96-cores | 1 (202)
+    97-cores | 1 (199)
+    98-cores | 1 (199)
+    99-cores | 1 (196)
+   100-cores | 1 (195)
+   101-cores | 1 (192)
+   102-cores | 1 (192)
+   103-cores | 1 (190)
+   104-cores | 1 (190)
+   105-cores | 1 (187)
+   106-cores | 1 (187)
+   107-cores | 1 (187)
+   108-cores | 1 (187)
+   109-cores | 1 (185)
+   110-cores | 1 (185)
+   111-cores | 1 (185)
+   112-cores | 1 (184)
+   113-cores | 1 (184)
+   114-cores | 1 (184)
+   115-cores | 1 (184)
+   116-cores | 1 (184)
+   117-cores | 1 (184)
+   118-cores | 1 (183)
+   119-cores | 1 (182)
+   120-cores | 1 (178)
+   121-cores | 1 (178)
+   122-cores | 1 (177)
+   123-cores | 1 (177)
+   124-cores | 1 (177)
+   125-cores | 1 (174)
+   126-cores | 1 (174)
+   127-cores | 1 (174)
+   128-cores | 1 (174)
+   129-cores | 1 (171)
+   130-cores | 1 (171)
+   131-cores | 1 (168)
+   132-cores | 1 (168)
+   133-cores | 1 (168)
+   134-cores | 1 (168)
+   135-cores | 1 (167)
+   136-cores | 1 (167)
+   137-cores | 1 (167)
+   138-cores | 1 (167)
+   139-cores | 1 (167)
+   140-cores | 1 (162)
+   141-cores | 1 (162)
+   142-cores | 1 (162)
+   143-cores | 1 (162)
+   144-cores | 1 (162)
+
+   144-cores | Adams, Brian (VI); Aguilera, Aaron; Alfonso, Michael; Anderson, Arn; Angle, Kurt; Anoai, Solofatu; Austin, Steve (IV); Bass, Nicole; Batista, Dave; Benjamin, Shelton; Benoit, Chris (I); Bischoff, Eric; Blackman, Steve (I); Bloom, Matt (I); Brisco, Gerald; Bucci, Michael; Buchanan, Barry (II); Calaway, Mark; Carter, Stacy; Chimel, Tony; Chioda, Mike; Clarke, Bryan; Clemont, Pierre; Coachman, Jonathan; Cole, Michael (V); Connor, A.C.; Constantino, Rico; Conway, Rob; Copeland, Adam (I); Daniels, Christopher (I); DeMott, William; Dinsmore, Nick; Doan, Jack; Dumas, Amy; Dupree, Rene (II); Durham, Michael; Fifita, Uliuli; Finkel, Howard; Flair, Ric; Foley, Mick; Frazier Jr., Nelson; Funaki, Sho; Garc�a, Lili�n; Gayda, Jackie; Gerin, Terry; Goldberg, Bill (I); Greenwald, Nora; Grenier, Sylvain; Gruner, Peter; Guenard, Nidia; Guerrero Jr., Chavo; Guerrero, Eddie; Gunn, Billy (II); Guttierrez, Oscar; Hall, Scott (I); Hardy, Jeff (I); Hardy, Matt; Harris, Don (VII); Harris, Ron (IV); Hart, Owen; Heath, David (I); Hebner, Brian; Hebner, Earl; Heffron, Brian (II); Hegstrand, Michael; Heidenreich, Jon; Helms, Shane; Hennig, Curt; Henry, Mark (I); Heyman, Paul; Hickenbottom, Michael; Hogan, Hulk; Howard, Robert William; Huffman, Booker; Huffman, Maven; Hugger, John; Hughes, Devon; Hyson, Matt; Jacobs, Glen; James, Brian (II); Jarrett, Jeff (I); Jericho, Chris; Jindrak, Mark; Kanyon, Chris; Keibler, Stacy; Killings, Ron; Knight, Dennis (II); Korderas, Jimmy; Laughlin, Tom (IV); Laurer, Joanie; Laurinaitis, Joe; Lawler, Brian (II); Lawler, Jerry; Layfield, John; Lesnar, Brock; Levesque, Paul Michael; Levy, Scott (III); LoMonaco, Mark; Lockwood, Michael; Long, Teddy; Lynn, Jerry; Malenko, Dean; Manna, Michael; Martin, Andrew (II); Matthews, Darren (II); McMahon, Linda; McMahon, Shane; McMahon, Stephanie; McMahon, Vince; McMichael, Debra; Mero, Marc; Mero, Rena; Moody, William (I); Moore, Carlene (II); Moore, Jacqueline (VI); Moretti, Lisa; Morley, Sean; Nash, Kevin (I); O&apos;Haire, Sean; Orton, Randy; Page, Dallas; Palumbo, Chuck (I); Patrick, Nick (II); Petty, Ted; Piper, Roddy; Plotcheck, Michael; Poch, Terri; Reso, Jason; Robinson, Charles (IV); Rock, The; Ross, Jim (III); Runnels, Dustin; Runnels, Terri; Ruth, Glen; Saturn, Perry; Scaggs, Charles; Seitz, Michael; Seldano, Jose; Senerca, Pete; Shamrock, Ken; Simmons, Ron (I); Smith, Davey Boy; Snow, Al; Stipich, Sean; Storm, Lance; Stratus, Trish; Tajiri, Yoshihiro; Taylor, Scott (IX); Traylor, Raymond; Vachon, Angelle; Van Dam, Rob; Varon, Lisa Marie; Walker, P.J.; Waltman, Sean; Warrington, Chaz; White, Leon; White, Tim (V); Wight, Paul; Wilson, Torrie; Wright, Charles (II); Yang, Jimmy (I); Yoshida, Takao
+
