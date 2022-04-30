@@ -1,0 +1,57 @@
+
+       Graph | 'nec'
+       Nodes | 75,885
+       Edges | 357,317
+      Degree | 9.42 (13,346)
+        Time | 0.2 s
+
+   Estimated | 1660.35
+   Corrected | 10.10
+        Time | 0.9 s
+
+       Graph | 'facebook'
+       Nodes | 63,392
+       Edges | 816,831
+      Degree | 25.77 (1,098)
+        Time | 0.4 s
+
+   Estimated | 87.17
+   Corrected | 26.35
+        Time | 1.6 s
+
+       Graph | 'enron'
+       Nodes | 84,384
+       Edges | 1,131,042
+      Degree | 26.81 (38,651)
+        Time | 0.2 s
+
+   Estimated | 2900.05
+   Corrected | 31.96
+        Time | 0.7 s
+
+       Graph | 'www_google'
+       Nodes | 855,802
+       Edges | 5,066,842
+      Degree | 11.84 (6,353)
+        Time | 2.5 s
+
+   Estimated | 143.87
+   Corrected | 12.23
+        Time | 10.7 s
+
+       Graph | 'facebook_1'
+       Nodes | 8,217,272
+       Edges | 12,582,912
+      Degree | 3.06 (518)
+         LCC | 100.0% (67)
+           Q | 0.709 (47,996)
+        Time | 177.4 s
+
+       Graph | 'facebook_2'
+       Nodes | 7,698,354
+       Edges | 7,839,141
+      Degree | 2.04 (402)
+         LCC | 94.1% (11,469)
+           Q | 0.976 (48,020)
+        Time | 88.7 s
+
