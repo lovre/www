@@ -1,0 +1,55 @@
+
+       Graph | 'karate_club'
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17)
+         LCC | 100.0% (1)
+
+       Graph | 'southern_women'
+       Nodes | 32 (0)
+       Edges | 89 (0)
+      Degree | 5.56 (14)
+         LCC | 100.0% (1)
+
+       Graph | 'dolphins'
+       Nodes | 62 (0)
+       Edges | 159 (0)
+      Degree | 5.13 (12)
+         LCC | 100.0% (1)
+
+       Graph | 'foodweb_littlerock'
+       Nodes | 183 (0)
+       Edges | 2,434 (0)
+      Degree | 26.60 (105)
+         LCC | 100.0% (1)
+
+       Graph | 'foodweb_baydry'
+       Nodes | 128 (0)
+       Edges | 2,106 (0)
+      Degree | 32.91 (110)
+         LCC | 100.0% (1)
+
+       Graph | 'foodweb_baywet'
+       Nodes | 128 (0)
+       Edges | 2,075 (0)
+      Degree | 32.42 (110)
+         LCC | 100.0% (1)
+
+       Graph | 'erdos_renyi_1'
+       Nodes | 500 (0)
+       Edges | 1,500 (0)
+      Degree | 6.00 (14)
+         LCC | 100.0% (1)
+
+       Graph | 'barabasi_albert_1'
+       Nodes | 500 (0)
+       Edges | 1,491 (0)
+      Degree | 5.96 (63)
+         LCC | 100.0% (1)
+
+       Graph | 'watts_strogatz_1'
+       Nodes | 500 (0)
+       Edges | 1,500 (0)
+      Degree | 6.00 (8)
+         LCC | 100.0% (1)
+
