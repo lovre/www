@@ -1,0 +1,96 @@
+     Graph | 'toy'
+     Nodes | 5 (1, 1)
+     Edges | 4 (0)
+    Degree | 1.60 (3)
+       LCC | 80.0% (2)
+  Distance | 1.33 (2)
+Clustering | 0.4667
+
+     Graph | 'erdos_renyi'
+     Nodes | 5 (0, 3)
+     Edges | 4 (0)
+    Degree | 1.60 (3)
+       LCC | 100.0% (1)
+  Distance | 1.80 (3)
+Clustering | 0.0000
+
+     Graph | 'configuration'
+     Nodes | 5 (1, 1)
+     Edges | 4 (1)
+    Degree | 1.60 (3)
+       LCC | 80.0% (2)
+  Distance | 1.67 (3)
+Clustering | 0.0000
+
+     Graph | 'karate_club'
+     Nodes | 34 (0, 1)
+     Edges | 78 (0)
+    Degree | 4.59 (17)
+       LCC | 100.0% (1)
+  Distance | 2.41 (5)
+Clustering | 0.5706
+
+     Graph | 'erdos_renyi'
+     Nodes | 34 (1, 1)
+     Edges | 78 (0)
+    Degree | 4.59 (8)
+       LCC | 97.1% (2)
+  Distance | 2.33 (4)
+Clustering | 0.0743
+
+     Graph | 'configuration'
+     Nodes | 34 (0, 1)
+     Edges | 78 (1)
+    Degree | 4.59 (17)
+       LCC | 100.0% (1)
+  Distance | 2.48 (5)
+Clustering | 0.1830
+
+     Graph | 'collaboration_imdb'
+     Nodes | 17,577 (0, 475)
+     Edges | 287,074 (0)
+    Degree | 32.66 (784)
+       LCC | 99.3% (19)
+  Distance | 4.91 (15)
+Clustering | 0.3391
+
+     Graph | 'erdos_renyi'
+     Nodes | 17,577 (0, 0)
+     Edges | 287,074 (0)
+    Degree | 32.66 (58)
+       LCC | 100.0% (1)
+  Distance | 3.08 (4)
+Clustering | 0.0019
+
+     Graph | 'configuration'
+     Nodes | 17,577 (0, 475)
+     Edges | 287,074 (57)
+    Degree | 32.66 (784)
+       LCC | 100.0% (1)
+  Distance | 3.06 (6)
+Clustering | 0.0164
+
+     Graph | 'www_google'
+     Nodes | 875,713 (0, 153,407)
+     Edges | 4,322,051 (0)
+    Degree | 9.87 (6,332)
+       LCC | 97.7% (2,746)
+  Distance | 6.39 (19)
+Clustering | 0.5143
+
+     Graph | 'erdos_renyi'
+     Nodes | 875,713 (47, 425)
+     Edges | 4,322,051 (0)
+    Degree | 9.87 (27)
+       LCC | 100.0% (48)
+  Distance | 6.23 (9)
+Clustering | 0.0000
+
+     Graph | 'configuration'
+     Nodes | 875,713 (0, 153,407)
+     Edges | 4,322,051 (74)
+    Degree | 9.87 (6,332)
+       LCC | 99.7% (1,404)
+  Distance | 4.36 (10)
+Clustering | 0.0020
+
