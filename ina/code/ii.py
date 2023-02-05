@@ -26,9 +26,9 @@ def components(G):
     C.append(component(G, N, next(iter(N))))
   return C
 
-for name in ["toy", "karate_club", "www_google"]:
+for name in ["toy", "karate_club", "collaboration_imdb", "www_google"]:
   G, n, m = None, 0, 0
-  with open("/Users/lovre/Downloads/" + name + ".net", 'r') as file:
+  with open("./" + name + ".net", 'r') as file:
     n = int(file.readline().split()[1])
     G = [[] for _ in range(n)]
 

@@ -12,6 +12,13 @@
    Density | 1.39e-01
        LCC | 100.0% (1)
 
+     Graph | 'collaboration_imdb'
+     Nodes | 17,577 (0, 475)
+     Edges | 287,074
+    Degree | 32.66 (784)
+   Density | 1.86e-03
+       LCC | 99.3% (19)
+
      Graph | 'www_google'
      Nodes | 875,713 (0, 130,912)
      Edges | 5,105,039
