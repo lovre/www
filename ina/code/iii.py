@@ -110,16 +110,14 @@ def info(G):
     
   print("{:>10s} | {:.4f}".format('Clustering', nx.average_clustering(G)))
   print()
-  
-PWD = "/Users/lovre/Documents/office/coding/repositories/www/ina/nets"
 
 for name in ["toy", "karate_club", "collaboration_imdb", "www_google"]:
-#  G = nx.Graph(nx.read_pajek(PWD + "/" + name + ".net"))
+#  G = nx.Graph(nx.read_pajek("./" + name + ".net"))
 #  G = nx.convert_node_labels_to_integers(G, label_attribute = 'label')
 #  G.name = name
   
   G = nx.Graph(name = name)
-  with open(PWD + "/" + name + ".net", 'r') as file:
+  with open("./" + name + ".net", 'r') as file:
     file.readline()
 
     for line in file:
