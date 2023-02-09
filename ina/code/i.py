@@ -50,8 +50,15 @@ print(G.edges(data = True))
 #
 
 print(list(G.neighbors('foo')))
-print(G['foo'])
+print(G.adj['foo']) # G['foo']
 print(G.edges('foo', data = True))
+
+#
+# Get attributes of a node
+#
+
+print(G.nodes['foo'])
+print(G.degree['foo'])
 
 #
 # Compute basic graph statistics
@@ -102,6 +109,15 @@ print(M.edges())
 print(list(M.neighbors('foo')))
 print(M['foo'])
 print(M.edges('foo', data = True))
+
+#
+# Construct small random graph
+#
+
+G = nx.gnm_random_graph(100, 250)
+
+print(G)
+draw(G)
 
 #
 # Read network from Pajek file
