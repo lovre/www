@@ -106,7 +106,6 @@ map.fillcontinents(color = [0.95] * 3)
 #map.bluemarble()
 
 for i, country in enumerate(countries):
-  pass
   plt.scatter([details[country]["longitude"]], [details[country]["latitude"]], zorder = 3 * i + 10, \
     marker = 'o', s = 500 * (cases[country] / details[country]["population"]), c = [GRAY + [0.75]], edgecolors = ['white'], \
     label = "Cases (total)" if country == "SVN" else None)
