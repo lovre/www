@@ -137,7 +137,7 @@ for p in [0.0, 0.0001, 0.001, 0.01, 0.05, 0.1, 0.25, 0.5, 1.0]:
   info(G)
 
 for name in ["darknet", "collaboration_imdb", "wikileaks", "enron", "www_google"]:
-  G = read(name, PWD)
+  G = read(name)
 
   info(G)
   plot(G)
