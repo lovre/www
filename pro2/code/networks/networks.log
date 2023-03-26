@@ -1,0 +1,36 @@
+       Graph | 'demo'
+        Type | 'x==y'
+       Nodes | 4
+       Edges | 3
+      Degree | 1.50
+
+       Graph | 'path'
+        Type | '0--1'
+       Nodes | 10
+       Edges | 9
+      Degree | 1.80
+
+       Graph | 'cycle'
+        Type | '0--1'
+       Nodes | 10
+       Edges | 10
+      Degree | 2.00
+
+       Graph | 'karate_club'
+        Type | 'x--y'
+       Nodes | 34
+       Edges | 78
+      Degree | 4.59
+
+       Graph | 'dolphins'
+        Type | 'x--y'
+       Nodes | 62
+       Edges | 159
+      Degree | 5.13
+
+       Graph | 'imdb'
+        Type | 'x--y'
+       Nodes | 17,577
+       Edges | 287,074
+      Degree | 32.66
+
