@@ -12,8 +12,8 @@ for i in range(h):
 
 edg = np.ones((h, w, 3))
 
-for i in range(3, h - 2):
-  for j in range(3, w - 2):
+for i in range(1, h - 1):
+  for j in range(1, w - 1):
     pixels = img[i - 1:i + 2, j - 1:j + 2, 0]
     hor = abs((MASK * pixels).sum()) / 4
     ver = abs((np.transpose(MASK) * pixels).sum()) / 4
