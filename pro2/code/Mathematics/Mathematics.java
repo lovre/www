@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.List;
 import java.util.Map;
 
@@ -78,7 +79,7 @@ class Mathematic implements Comparable<Mathematic> {
 	public boolean equals(Object obj) {
 		if (!(obj instanceof Mathematic))
 			return false;
-		
+
 		return id == ((Mathematic)obj).id;
 	}
 
