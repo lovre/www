@@ -1,0 +1,150 @@
+       Graph | 'karate_club'
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17)
+         LCC | 100.0% (1)
+  Clustering | 0.5706
+
+   Algorithm | Count   Q      NMI    ARI    VI  
+     'Known' |     2  0.371  1.000  1.000  0.000
+   'Infomap' |     3  0.402  0.699  0.702  0.732
+   'Louvain' |     4  0.416  0.639  0.521  1.037
+    'Leiden' |     4  0.420  0.687  0.541  0.908
+       'LPA' |     3  0.325  0.445  0.473  1.299
+      'FLPA' |     3  0.328  0.642  0.629  0.726
+       'MCL' |     2  0.360  0.836  0.882  0.325
+        'EB' |     2  0.360  0.836  0.882  0.325
+
+       Graph | 'dolphins'
+       Nodes | 62 (0)
+       Edges | 159 (0)
+      Degree | 5.13 (12)
+         LCC | 100.0% (1)
+  Clustering | 0.2590
+
+   Algorithm | Count   Q      NMI    ARI    VI  
+     'Known' |     2  0.373  1.000  1.000  0.000
+   'Infomap' |     5  0.525  0.613  0.418  1.148
+   'Louvain' |     5  0.521  0.517  0.337  1.514
+    'Leiden' |     5  0.527  0.587  0.376  1.279
+       'LPA' |     6  0.499  0.527  0.361  1.460
+      'FLPA' |     4  0.479  0.617  0.496  1.075
+       'MCL' |    12  0.455  0.448  0.205  2.233
+        'EB' |     2  0.379  0.889  0.935  0.204
+
+       Graph | 'american_football'
+       Nodes | 115 (0)
+       Edges | 616 (0)
+      Degree | 10.71 (13)
+         LCC | 100.0% (1)
+  Clustering | 0.4032
+
+   Algorithm | Count   Q      NMI    ARI    VI  
+     'Known' |    12  0.551  1.000  1.000  0.000
+   'Infomap' |    10  0.601  0.892  0.817  0.737
+   'Louvain' |    10  0.600  0.878  0.778  0.827
+    'Leiden' |    10  0.601  0.890  0.807  0.749
+       'LPA' |    10  0.580  0.840  0.672  1.079
+      'FLPA' |    11  0.590  0.889  0.786  0.756
+       'MCL' |    12  0.597  0.927  0.889  0.517
+        'EB' |     2  0.396  0.359  0.140  2.912
+
+       Graph | 'cdn_java'
+       Nodes | 1,516 (0)
+       Edges | 10,151 (0)
+      Degree | 13.39 (1,322)
+         LCC | 100.0% (1)
+  Clustering | 0.6851
+
+   Algorithm | Count   Q      NMI    ARI    VI  
+     'Known' |    54  0.208  1.000  1.000  0.000
+   'Infomap' |    51  0.424  0.561  0.186  4.204
+   'Louvain' |    12  0.445  0.452  0.155  4.504
+    'Leiden' |    13  0.458  0.441  0.128  4.589
+       'LPA' |     1 -0.010  0.000  0.000  5.049
+      'FLPA' |     3  0.208  0.103  0.007  5.046
+
+       Graph | 'wikileaks'
+       Nodes | 52,416 (0)
+       Edges | 78,506 (0)
+      Degree | 3.00 (384)
+         LCC | 100.0% (1)
+  Clustering | 0.1864
+
+   Algorithm | Count   Q      NMI    ARI    VI  
+     'Known' |   246  0.818  1.000  1.000  0.000
+   'Infomap' |    32  0.951  0.577  0.293  4.908
+   'Louvain' |   173  0.978  0.699  0.465  4.178
+    'Leiden' |   182  0.979  0.701  0.464  4.175
+       'LPA' | 11134  0.735  0.632  0.026  7.280
+      'FLPA' |  8671  0.778  0.636  0.028  7.075
+
+       Graph | 'dormitory'
+       Nodes | 11,219 (0)
+       Edges | 663,336 (0)
+      Degree | 118.25 (1,061)
+         LCC | 100.0% (1)
+  Clustering | 0.1973
+
+   Algorithm | Count   Q      NMI    ARI    VI  
+     'Known' |    66  0.138  1.000  1.000  0.000
+   'Infomap' |    32  0.398  0.193  0.037  5.595
+   'Louvain' |     8  0.452  0.163  0.032  5.843
+    'Leiden' |     8  0.450  0.167  0.033  5.735
+       'LPA' |    10  0.083  0.185  0.033  4.066
+      'FLPA' |     8  0.153  0.187  0.036  4.228
+
+       Graph | 'girvan_newman'
+       Nodes | 128 (0)
+       Edges | 1,027 (0)
+      Degree | 16.05 (24)
+         LCC | 100.0% (1)
+  Clustering | 0.3909
+
+       Graph | 'erdos_renyi'
+       Nodes | 1,000 (1)
+       Edges | 5,000 (0)
+      Degree | 10.00 (21)
+         LCC | 99.9% (2)
+  Clustering | 0.0092
+
+       Graph | 'karate_club'
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17)
+         LCC | 100.0% (1)
+  Clustering | 0.5706
+
+   Algorithm | Count   Q      NMI    ARI    VI  
+     'Known' |     2  0.371  1.000  1.000  0.000
+   'Louvain' |     4  0.416  0.632  0.513  1.060
+    'Leiden' |     4  0.420  0.687  0.541  0.908
+       'LPA' |     3  0.325  0.445  0.473  1.299
+      'FLPA' |     3  0.346  0.689  0.681  0.657
+       'MCL' |     2  0.360  0.836  0.882  0.325
+        'EB' |     2  0.360  0.836  0.882  0.325
+     'DCSBM' |     1  0.000  0.000  0.000  0.998
+
+       Graph | 'southern_women'
+       Nodes | 32 (0)
+       Edges | 89 (0)
+      Degree | 5.56 (14)
+         LCC | 100.0% (1)
+  Clustering | 0.0000
+
+   Algorithm | Count   Q      NMI    ARI    VI  
+     'Known' |     3 -0.376  1.000  1.000  0.000
+   'Louvain' |     3  0.325  0.308  0.178  2.137
+    'Leiden' |     3  0.334  0.261  0.132  2.293
+       'LPA' |     2  0.041  0.072  0.010  1.857
+      'FLPA' |     2  0.146  0.141  0.076  1.743
+       'MCL' |     3 -0.274  0.618  0.538  1.119
+        'EB' |     2  0.306  0.328  0.217  1.708
+     'DCSBM' |     3 -0.406  0.747  0.627  0.686
+
+       Graph | 'subelj_bajec'
+       Nodes | 128 (0)
+       Edges | 1,050 (0)
+      Degree | 16.41 (24)
+         LCC | 100.0% (1)
+  Clustering | 0.2165
