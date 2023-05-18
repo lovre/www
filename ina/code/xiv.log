@@ -1,0 +1,48 @@
+       Graph | 'karate_club'
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17)
+         LCC | 100.0% (1)
+  Clustering | 0.5706
+  Modularity | 0.4151 (4)
+
+       Graph | 'southern_women'
+       Nodes | 32 (0)
+       Edges | 89 (0)
+      Degree | 5.56 (14)
+         LCC | 100.0% (1)
+  Clustering | 0.0000
+  Modularity | 0.3345 (3)
+
+       Graph | 'american_football'
+       Nodes | 115 (0)
+       Edges | 616 (0)
+      Degree | 10.71 (13)
+         LCC | 100.0% (1)
+  Clustering | 0.4032
+  Modularity | 0.6010 (10)
+
+       Graph | 'sicris_collaboration'
+       Nodes | 680 (138)
+       Edges | 9,763 (0)
+      Degree | 28.71 (747)
+         LCC | 69.9% (160)
+  Clustering | 0.4075
+  Modularity | 0.0193 (174)
+
+       Graph | 'cdn_java'
+       Nodes | 1,516 (0)
+       Edges | 10,151 (0)
+      Degree | 13.39 (1,322)
+         LCC | 100.0% (1)
+  Clustering | 0.6851
+  Modularity | 0.4452 (13)
+
+       Graph | 'board_directors'
+       Nodes | 1,421 (0)
+       Edges | 3,855 (0)
+      Degree | 5.43 (34)
+         LCC | 60.1% (125)
+  Clustering | 0.9137
+  Modularity | 0.9225 (144)
+
