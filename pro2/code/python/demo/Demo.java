@@ -6,6 +6,7 @@ public class Demo {
     int x = 1;
     double y;
     y = 1.23;
+    boolean z = true;
     char ch = 'a';
     String st = "niz znakov";
 

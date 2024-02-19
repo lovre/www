@@ -2,6 +2,7 @@ print('Pozdravljeni pri predmetu PRO2!')
 
 x = 1
 y = 1.23
+z = True
 ch = 'a'
 st = "niz znakov"
 
