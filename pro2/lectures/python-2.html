@@ -647,7 +647,7 @@ conn.request(&#39;GET&#39;, &#39;/layer_one/44/&#39;)
 text = conn.getresponse().read().decode()
 print(text)</code></pre></div>
 
-<p>Primera uporabe <strong>Python knjižnice <code>requests</code></strong> je prikazan spodaj.</p>
+<p>Primera uporabe <strong>Python knjižnice <code>requests</code></strong> sta prikazana spodaj.</p>
 
 <div><pre><code class="language-python">import requests
 req = requests.get(&#39;https://urnik.fmf.uni-lj.si/layer_one/44/&#39;)
@@ -698,14 +698,14 @@ string = &#39;-123.45&#39;
 regex = r&#39;[+-]?[1-9][0-9]*|0&#39;
 res = re.match(regex, string)
 if res == None:
-    print(&#39;Not integer!&#39;)
+    print(&#39;Not an integer!&#39;)
 else:
     print(res.group())</code></pre></div>
 
 <p><strong>Funkcija <code>search</code></strong> preveri ali niz znakov <em>vsebuje</em> podani regularni izraz. Funkcija vrne <code>None</code>, če niz ne vsebuje regularnega izraza, sicer pa objekt razreda <code>Match</code>, ki vrne ujemanje z uporabo funkcije <code>group</code>.</p>
 
 <div><pre><code class="language-python">import re
-string = &#39;Is this integer -123?&#39;
+string = &#39;Is this an integer -123?&#39;
 regex = r&#39;[+-]?[1-9][0-9]*|0&#39;
 res = re.search(regex, string)
 if res == None:
