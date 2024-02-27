@@ -502,13 +502,13 @@ from requests import * # ni priporočljivo</code></pre></div>
 
 <h3 id="toc_3">Programske zbirke podatkov</h3>
 
-<p>V programskem jeziku <strong>Python nabor</strong> določimo z običajnimi oklepaji <code>(...)</code>ali konstruktorjem <code>tuple()</code> pri čimer ni potrebno, da so elementi nabora enakega tipa. Nabor je <strong>urejena nesprejemljiva zbirka</strong> podatkov kar pomeni, da <em>ne moremo</em> dodajati ali brisati elementov.</p>
+<p>V programskem jeziku <strong>Python nabor</strong> določimo z običajnimi oklepaji <code>(...)</code>ali konstruktorjem <code>tuple()</code> pri čimer ni potrebno, da so elementi nabora enakega tipa. Nabor je <strong>urejena nespremenljiva zbirka</strong> podatkov kar pomeni, da <em>ne moremo</em> dodajati ali brisati elementov.</p>
 
 <div><pre><code class="language-python">t = (0, 1, &#39;foo&#39;, &#39;bar&#39;)
 st = t[:2]
 ln = len(t)</code></pre></div>
 
-<p>V programskem jeziku <strong>Python seznam</strong> določimo z oglatimi oklepaji <code>[...]</code> ali konstruktorjem <code>list()</code> pri čimer ni potrebno, da so elementi seznama enakega tipa. Seznam je <strong>urejena sprejemljiva zbirka</strong> podatkov kar pomeni, da <em>lahko</em> dodajamo ali brišemo elemente po vrednosti in indeksu.</p>
+<p>V programskem jeziku <strong>Python seznam</strong> določimo z oglatimi oklepaji <code>[...]</code> ali konstruktorjem <code>list()</code> pri čimer ni potrebno, da so elementi seznama enakega tipa. Seznam je <strong>urejena spremenljiva zbirka</strong> podatkov kar pomeni, da <em>lahko</em> dodajamo ali brišemo elemente po vrednosti in indeksu.</p>
 
 <div><pre><code class="language-python">l = [0, 1, &#39;foo&#39;, &#39;bar&#39;]
 sl = l[:2]
@@ -519,7 +519,7 @@ l.remove(-1) # zbriše prvo pojavitev
 l.append(9.81)
 l.extend([0, &#39;baz&#39;])</code></pre></div>
 
-<p>V programskem jeziku <strong>Python množico</strong> določimo z zavitimi oklepaji <code>{...}</code> ali konstruktorjem <code>set()</code> pri čimer ni potrebno, da so elementi množice enakega tipa. Množica je <strong>neurejena sprejemljiva zbirka</strong> podatkov kar pomeni, da <em>lahko</em> dodajamo ali brišemo elemente po vrednosti.</p>
+<p>V programskem jeziku <strong>Python množico</strong> določimo z zavitimi oklepaji <code>{...}</code> ali konstruktorjem <code>set()</code> pri čimer ni potrebno, da so elementi množice enakega tipa. Množica je <strong>neurejena spremenljiva zbirka</strong> podatkov kar pomeni, da <em>lahko</em> dodajamo ali brišemo elemente po vrednosti.</p>
 
 <div><pre><code class="language-python">s = {0, 1, &#39;foo&#39;, &#39;bar&#39;}
 ln = len(s)
@@ -527,16 +527,16 @@ s.remove(1) # zbriše edino pojavitev
 s.add(9.81)
 s.update([0, &#39;baz&#39;])</code></pre></div>
 
-<p>V programskem jeziku <strong>Python slovar</strong> določimo z zavitimi oklepaji <code>{...}</code> ali konstruktorjem <code>dict()</code> pri čimer ni potrebno, da so ključi ali vrednosti slovarja enakega tipa. Slovar je <strong>neurejena sprejemljiva zbirka</strong> podatkov kar pomeni, da <em>lahko</em> dodajamo ali brišemo vrednosti po ključu.</p>
+<p>V programskem jeziku <strong>Python slovar</strong> določimo z zavitimi oklepaji <code>{...}</code> ali konstruktorjem <code>dict()</code> pri čimer ni potrebno, da so ključi ali vrednosti slovarja enakega tipa. Slovar je <strong>neurejena spremenljiva zbirka</strong> podatkov kar pomeni, da <em>lahko</em> dodajamo ali brišemo vrednosti po ključu.</p>
 
 <div><pre><code class="language-python">d = {0: &#39;foo&#39;, &#39;bar&#39;: 1}
 ln = len(d)
 d[1] = &#39;baz&#39;
 d.pop(&#39;bar&#39;) # zbriše edino pojavitev
 d.update({&#39;bar&#39;: 1})
-l = dict.values() # iterator vrednosti
-l = dict.keys() # iterator ključev
-l = dict.items() # iterator parov</code></pre></div>
+l = d.values() # iterator vrednosti
+l = d.keys() # iterator ključev
+l = d.items() # iterator parov</code></pre></div>
 
 <p>V programskem jeziku <strong>Python zbirko uredimo</strong> z uporabo metode <code>sort</code> ali funkcije <code>sorted</code>. Slednja vrne urejen seznam elementov, dočim morajo biti elementi enakega tipa. Na drugi strani pa metoda <code>shuffle</code> ustvari naključno permutacijo elementov seznama, dočim ni potrebno, da so elementi enakega tipa.</p>
 
