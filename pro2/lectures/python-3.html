@@ -534,7 +534,7 @@ plt.plot(X, Y2, color = &#39;g&#39;, linestyle = &#39;-&#39;, linewidth = 1, mar
 
 <p><img src="plots-plot.pdf" alt=""></p>
 
-<p><strong>Krivuljo z intervali napak</strong> narišemo z uporabo metode <code>errorbar</code>, ki deluje podobno kot metoda <code>plot</code>, le da ji lahko podamo tudi seznam napak <code>E</code> preko parametra <code>yerr</code>. Barvo intervalov napak določimo s parametrom <code>ecolor</code> (npr. <code>&#39;k&#39;</code>, <code>&#39;y&#39;</code>, <code>&#39;g&#39;</code>) debelino intervalov napak s parametrom <code>elinewidth</code> (npr. <code>2</code>) in širino krajišč intervalov s parametrom <code>capsize</code> (npr. <code>4</code>). Vsi podprti parametri metode so opisani v dokumentaciji na naslovu <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html">https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html</a>.</p>
+<p><strong>Krivuljo z intervali napak</strong> narišemo z uporabo metode <code>errorbar</code>, ki deluje podobno kot metoda <code>plot</code>, le da ji lahko podamo tudi seznam napak <code>E</code> preko parametra <code>yerr</code>. Barvo intervalov napak določimo s parametrom <code>ecolor</code> (npr. <code>&#39;k&#39;</code>, <code>&#39;y&#39;</code>, <code>&#39;g&#39;</code>), debelino intervalov napak s parametrom <code>elinewidth</code> (npr. <code>2</code>) in širino krajišč intervalov s parametrom <code>capsize</code> (npr. <code>4</code>). Vsi podprti parametri metode so opisani v dokumentaciji na naslovu <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html">https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html</a>.</p>
 
 <div><pre><code class="language-python">X = np.arange(-10, 10, 0.5)
 Y = [1 / (1 + math.exp(-x)) for x in X]
@@ -575,7 +575,7 @@ plt.pie(X, colors = C, labels = L, radius = 1)</code></pre></div>
 <div><pre><code class="language-python">X = np.arange(-5, 5, 0.01)
 Y1 = [max(0, x / 5) for x in X] # ReLU
 Y2 = [(math.tanh(x) + 1) / 2 for x in X] # tanh
-Y3 = [1 / (1 + math.exp(-x)) for x in X] # logistic
+Y3 = [1 / (1 + math.exp(-x)) for x in X] # sigmoid
 
 plt.plot(X, Y1, &#39;:k&#39;, label = r&quot;$\max(0,ax)$&quot;)
 plt.plot(X, Y2, &#39;-g&#39;, linewidth = 2, label = r&quot;$\frac{{\rm tanh}(x)+1}{2}$&quot;)
@@ -640,7 +640,7 @@ axs[2].legend()</code></pre></div>
 <p><strong>Vrednosti osi</strong> niso nujno numerične vrednosti, ampak so lahko nizi znakov, datumi, labele itd.</p>
 
 <div><pre><code class="language-python">C = [&quot;Foo&quot;, &quot;Bar&quot;, &quot;Baz&quot;]
-D = [datetime.datetime(2022, 12, 31), datetime.datetime(2023, 1, 1), datetime.datetime(2023, 1, 2)]
+D = [datetime.datetime(2023, 12, 31), datetime.datetime(2024, 1, 1), datetime.datetime(2024, 1, 2)]
 Y = [3, 9, 6]
 
 axs[0].bar(C, Y, color = &#39;y&#39;, edgecolor = &#39;g&#39;, linewidth = 3)
@@ -703,7 +703,7 @@ conc = np.concatenate((img, np.ones((h, 300, 3)), gs), axis = 1)</code></pre></d
 
 <p><img src="images-grayscale.png" alt=""></p>
 
-<p>Sliko lahko <strong>narišemo na graf</strong> z uporabo metode <code>imshow</code>. Pri tem se <strong>koordinatno izhodišče</strong> privzeto postavi v zgornji levi kot in vrednosti na ordinatni osi naraščajo od zgoraj navzdol.</p>
+<p>Sliko lahko <strong>narišemo na graf</strong> z uporabo metode <code>imshow</code>. Pazi da, se pri tem <strong>koordinatno izhodišče</strong> privzeto postavi v zgornji levi kot in vrednosti na ordinatni osi naraščajo od zgoraj navzdol.</p>
 
 <div><pre><code class="language-python">fig = plt.figure()
 
