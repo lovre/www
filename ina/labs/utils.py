@@ -1,5 +1,6 @@
 """network analysis utilities"""
 
+from cdlib.classes import NodeClustering
 from collections import defaultdict, deque
 import math
 import networkx as nx
@@ -11,7 +12,7 @@ import os
 from tqdm import tqdm
 import re
 
-DEFAULT_DATA_FOLDER = "./networks"
+DEFAULT_DATA_FOLDER = "../networks"
 
 
 def read_edgelist(filename: str, data_folder=DEFAULT_DATA_FOLDER, progress_bar=False) -> nx.Graph:
@@ -314,3 +315,80 @@ def ER_random_graph(n: int, m: int) -> nx.MultiGraph:
 
     G.add_edges_from(edges)  # avoids checking presence of edges
     return G
+
+
+def known_clustering(G: nx.Graph, cluster_attr="value") -> NodeClustering:
+    """Extracts known node clustering from their attrubute with supplied name."""
+
+    C = defaultdict(list)
+    for i, data in G.nodes(data=True):
+        C[data[cluster_attr]].append(i)
+
+    return NodeClustering(list(C.values()), G, "Known")
+
+
+def CD_comparison(G: nx.Graph, algs: Dict[str, Callable[..., NodeClustering]], runs=1) -> None:
+    """Compare quality of community-detection algorithms on G.
+    Algorithms must conform to the cdlib format (returning a NodeClustering object)."""
+    K = known_clustering(G)
+
+    print("{:>12s} | {:5s} {:^6s}  {:^5s}  {:^5s}  {:^5s}".format(
+        'Algorithm', 'Count', 'Q', 'NMI', 'ARI', 'VI'))
+
+    for alg in algs:
+        s, Q, NMI, ARI, VI = 0, 0, 0, 0, 0
+
+        for _ in range(runs):
+            C = algs[alg](G)
+            s += len(C.communities) / runs # C.communities is a list of lists of node IDs
+            Q += C.newman_girvan_modularity().score / runs
+            NMI += K.normalized_mutual_information(C).score / runs
+            ARI += K.adjusted_rand_index(C).score / runs
+            VI += K.variation_of_information(C).score / runs
+
+        print("{:>12s} | {:>5.0f} {:6.3f}  {:5.3f}  {:5.3f}  {:5.3f}".format(
+            '\'' + alg + '\'', s, Q, NMI, ARI, VI))
+    print()
+
+
+def fast_label_propagation(G):
+    assert (type(G) == nx.MultiGraph)
+
+    N = list(G.nodes())
+    random.shuffle(N)
+
+    Q = deque(N)
+    S = [True] * len(G)
+
+    C = [i for i in range(len(G))]
+
+    while Q:
+        i = Q.popleft()
+        S[i] = False
+
+        if len(G[i]) > 0:
+            L = {}
+            for j in G[i]:
+                if C[j] not in L:
+                    L[C[j]] = 0
+                L[C[j]] += len(G[i][j])
+
+            maxl = max(L.values())
+            c = random.choice([c for c in L if L[c] == maxl])
+
+            if C[i] != c:
+                C[i] = c
+
+                for j in G[i]:
+                    if C[j] != c and not S[j]:
+                        Q.append(j)
+                        S[j] = True
+
+    L = {}
+    for i in N:
+        if C[i] in L:
+            L[C[i]].append(i)
+        else:
+            L[C[i]] = [i]
+
+    return NodeClustering(list(L.values()), G)
