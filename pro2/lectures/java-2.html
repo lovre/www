@@ -743,7 +743,64 @@ for (int i = 0; i &lt; array2.length; i++) {
     System.out.println();
 }</code></pre></div>
 
-<h3 id="toc_11">Branje in pisanje tekstovnih datotek</h3>
+<h6 id="toc_11">Časovne zahtevnosti</h6>
+
+<p>V spodnji tabeli so prikazane <strong>časovne zahtevnosti osnovnih operacij</strong> nad standardnimi Java podatkovnimi zbirkami, kjer je \(n\) število elementov zbirke.</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center">Vmesnik</th>
+<th style="text-align: center">Razred</th>
+<th style="text-align: center">Iskanje</th>
+<th style="text-align: center">Dodajanje</th>
+<th style="text-align: center">Brisanje</th>
+<th style="text-align: center">Urejanje</th>
+<th style="text-align: center">Duplikati?</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: center">/</td>
+<td style="text-align: center"><code>[]</code> (tabela)</td>
+<td style="text-align: center">\(\mathcal{O}(n)\)</td>
+<td style="text-align: center">/</td>
+<td style="text-align: center">/</td>
+<td style="text-align: center">\(\mathcal{O}(n\log n)\)</td>
+<td style="text-align: center">ja</td>
+</tr>
+<tr>
+<td style="text-align: center"><code>List</code></td>
+<td style="text-align: center"><code>ArrayList</code></td>
+<td style="text-align: center">\(\mathcal{O}(n)\)</td>
+<td style="text-align: center">\(\sim\mathcal{O}(1)\)</td>
+<td style="text-align: center">\(\mathcal{O}(n)\)</td>
+<td style="text-align: center">\(\mathcal{O}(n\log n)\)</td>
+<td style="text-align: center">ja</td>
+</tr>
+<tr>
+<td style="text-align: center"><code>Set</code></td>
+<td style="text-align: center"><code>HashSet</code></td>
+<td style="text-align: center">\(\approx\mathcal{O}(1)\)</td>
+<td style="text-align: center">\(\approx\mathcal{O}(1)\)</td>
+<td style="text-align: center">\(\approx\mathcal{O}(1)\)</td>
+<td style="text-align: center">/</td>
+<td style="text-align: center">ne</td>
+</tr>
+<tr>
+<td style="text-align: center"><code>Map</code></td>
+<td style="text-align: center"><code>HashMap</code></td>
+<td style="text-align: center">\(\approx\mathcal{O}(1)\)</td>
+<td style="text-align: center">\(\approx\mathcal{O}(1)\)</td>
+<td style="text-align: center">\(\approx\mathcal{O}(1)\)</td>
+<td style="text-align: center">/</td>
+<td style="text-align: center">ne</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_12">Branje in pisanje tekstovnih datotek</h3>
 
 <p>V programskem jeziku Java lahko <strong>tekstovno datoteko preberete</strong> s pomočjo spodnjega programa&hellip;</p>
 
@@ -774,7 +831,7 @@ for (int i = 0; i &lt; array2.length; i++) {
     e.printStackTrace();
 }</code></pre></div>
 
-<h3 id="toc_12">Nizi znakov in regularni izrazi</h3>
+<h3 id="toc_13">Nizi znakov in regularni izrazi</h3>
 
 <p>Za <strong>delo z nizi znakov</strong> v programskem jeziku Java si lahko ogledate javne metode in funkcije v razredu <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/String.html"><code>String</code></a> (npr. <code>length()</code>, <code>charAt(int index)</code>, <code>indexOf(String str)</code>, <code>substring​(int index)</code>), za <strong>delo z regularnimi izrazi</strong> pa dokumentacijo razreda <a href="https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html"><code>Pattern</code></a>.</p>
 
