@@ -1,0 +1,84 @@
+       Graph | 'imdb_actors'
+        Type | 'x--y'
+       Nodes | 17,577
+       Edges | 287,074
+      Degree | 32.66
+
+    0.044606 | 'Davis, Mark (V)'
+    0.034706 | 'Sanders, Alex (I)'
+    0.034081 | 'North, Peter (I)'
+    0.033227 | 'Marcus, Mr.'
+    0.031919 | 'Tedeschi, Tony'
+    0.031577 | 'Dough, Jon'
+    0.031008 | 'Stone, Lee (II)'
+    0.030325 | 'Voyeur, Vince'
+    0.028448 | 'Lawrence, Joel (II)'
+    0.028050 | 'Steele, Lexington'
+
+    0.000660 | 'Hanks, Tom'
+    0.000642 | 'Jackson, Samuel L.'
+    0.000607 | 'Goldberg, Whoopi'
+    0.000561 | 'Stiller, Ben'
+    0.000547 | 'Davis, Mark (V)'
+    0.000542 | 'Lopez, Jennifer (I)'
+    0.000540 | 'Berl�and, Fran�ois'
+    0.000536 | 'Berry, Halle'
+    0.000514 | 'Diaz, Cameron'
+    0.000486 | 'Travolta, John'
+
+       Graph | 'got_coappear'
+        Type | 'x--y'
+       Nodes | 107
+       Edges | 352
+      Degree | 6.58
+
+    0.339623 | 'Tyrion'
+    0.245283 | 'Jon'
+    0.245283 | 'Sansa'
+    0.235849 | 'Robb'
+    0.226415 | 'Jaime'
+    0.207547 | 'Tywin'
+    0.188679 | 'Cersei'
+    0.179245 | 'Arya'
+    0.169811 | 'Robert'
+    0.169811 | 'Joffrey'
+
+    0.042885 | 'Tyrion'
+    0.035829 | 'Jon'
+    0.030171 | 'Robb'
+    0.030010 | 'Sansa'
+    0.028814 | 'Daenerys'
+    0.028728 | 'Jaime'
+    0.025700 | 'Tywin'
+    0.022292 | 'Robert'
+    0.022287 | 'Cersei'
+    0.022050 | 'Arya'
+
+       Graph | 'got_kills'
+        Type | 'x--y'
+       Nodes | 293
+       Edges | 226
+      Degree | 1.54
+
+    0.041096 | 'Arya Stark'
+    0.041096 | 'Jon Snow'
+    0.034247 | 'Sandor Clegane'
+    0.030822 | 'Ramsay Bolton'
+    0.023973 | 'Daenerys Targaryen'
+    0.020548 | 'Drogon'
+    0.020548 | 'Daario Naharis'
+    0.020548 | 'Cersei'
+    0.020548 | 'Hound'
+    0.017123 | 'Jaime Lannister'
+
+    0.019410 | 'Jon Snow'
+    0.019344 | 'Arya Stark'
+    0.016715 | 'Sandor Clegane'
+    0.015050 | 'Ramsay Bolton'
+    0.012096 | 'Daenerys Targaryen'
+    0.011254 | 'Daario Naharis'
+    0.011254 | 'Cersei'
+    0.010926 | 'Hound'
+    0.010148 | 'Drogon'
+    0.009685 | 'Brienne'
+

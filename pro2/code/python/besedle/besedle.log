@@ -1,0 +1,28 @@
+
+   GREEN | '.U...'
+    GRAY | 'DIO'
+  YELLOW | {'A': {0}}
+
+   Words | 380
+         | ['AUFAR', 'AUTAN', 'BUAAA', 'BUBAL', 'BUCKA', 'BUHAR', 'BUHAČ', 'BUHTA', 'BUKAL', 'BUKAČ', 'BUKLA', 'BUKNA', 'BUKVA', 'BULAT', 'BULAV', 'BULBA', 'BULJA', 'BUMFA', 'BUMTA', 'BUNAR', 'BUNJA', 'BUNKA', 'BUNTA', 'BURAK', 'BURAN', 'BURAŠ', 'BURGA', 'BURJA', 'BURKA', 'BURLA', 'BURSA', 'BURZA', 'BUSNA', 'BUSTA', 'BUTAN', 'BUTKA', 'BUČAV', 'BUČAČ', 'BUČKA', 'BUČNA', 'BUŠAK', 'BUŠAR', 'BUŠKA', 'BUŽAV', 'CUHTA', 'CULKA', 'CULPA', 'CUNJA', 'EULAN', 'FUCAR', 'FUKAČ', 'FUKSA', 'FULJA', 'FURAN', 'FURBA', 'FURKA', 'FURLA', 'FUČAR', 'FUČKA', 'FUŠAR', 'GUARA', 'GUAVA', 'GUBAT', 'GUBAV', 'GUBAČ', 'GUGAV', 'GUGAČ', 'GULAG', 'GULJA', 'GUMAK', 'GUMAR', 'GUMBA', 'GUMLA', 'GUMNA', 'GUMPA', 'GUNGA', 'GUNJA', 'GURAN', 'GURKA', 'GURTA', 'GUSAR', 'GUSTA', 'GUŽVA', 'HUANA', 'HUBAR', 'HUBAČ', 'HUJSA', 'HULJA', 'HULKA', 'HUMAN', 'HUNTA', 'HUPAČ', 'HURAL', 'HURLA', 'HUTBA', 'HUZAR', 'HUŠKA', 'JUCKA', 'JUGLA', 'JUHAN', 'JUHAR', 'JUHTA', 'JUMAR', 'JUNAK', 'JUNTA', 'JURAT', 'JURAČ', 'JURKA', 'JURTA', 'JUSAR', 'JUŽAN', 'KUARR', 'KUEKA', 'KUGAR', 'KUGAV', 'KUGLA', 'KUHAR', 'KUHAČ', 'KUHTA', 'KUHVA', 'KUJAV', 'KUJCA', 'KUJŽA', 'KUKAV', 'KUKCA', 'KUKLA', 'KUKMA', 'KULAK']
+
+         | # | Google (new)
+   LUGAR | 1 | 30,400,000 (3)
+   SURLA | 2 | 17,200,000 (3)
+   GUSTA | 3 | 6,750,000 (3)
+   JUNTA | 4 | 2,040,000 (3)
+   PUNTA | 5 | 1,500,000 (3)
+   LUNAR | 6 | 1,360,000 (3)
+   BURSA | 7 | 1,340,000 (3)
+   PUTRA | 8 | 769,000 (3)
+
+         | # | Close (new)
+   BUAAA | 1 | 2.884 (1)
+   BURKA | 2 | 3.058 (3)
+   PURKA | 3 | 3.069 (3)
+   MUKAR | 4 | 3.074 (3)
+   MURKA | 5 | 3.074 (3)
+   TURKA | 6 | 3.095 (3)
+   BUNKA | 7 | 3.106 (3)
+   SURKA | 8 | 3.106 (3)
+
