@@ -18,17 +18,17 @@ page = conn.getresponse().read().decode()
 
 # establishes connection to FMF weekly schedule
 
-req = requests.get('https://urnik.fmf.uni-lj.si/layer_one/44/?day=2025-02-25')
+res = requests.get('https://urnik.fmf.uni-lj.si/layer_one/44/?day=2025-02-25')
 
 # retrieves schedule in format of HTML web page
 
-page = req.text
+page = res.text
 
 # parses names of courses in schedule
 
 courses = set()
 for course in re.findall(r'<a href="/subject/[^>]+>[^<]+</a>', page):
-  courses.add(re.split('[<>]', course)[2].strip())
+  courses.add(re.split(r'[<>]', course)[2].strip())
 
 # prints out names of courses in schedule
 
