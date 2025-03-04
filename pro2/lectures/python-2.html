@@ -547,7 +547,7 @@ l.sort() # urejanje na mestu
 import random
 random.shuffle(l)</code></pre></div>
 
-<p>Kaj vrneta funkciji <code>iter</code> in <code>enumerate</code>, če ju uporabimo nad Python zbirko? Slednja se izkaže kot uporabno, ko iteriramo čez elemente zbirke in hkrati potrebujemo indeks (tj. zaporedno številko) elementa.</p>
+<p>Kaj vrneta funkciji <code>iter</code> in <code>enumerate</code>, če ju uporabimo nad Python zbirko? Slednja se izkaže kot uporabna, ko iteriramo čez elemente zbirke in hkrati potrebujemo indeks (tj. zaporedno številko) elementa.</p>
 
 <p>V spodnji tabeli so prikazane <strong>časovne zahtevnosti osnovnih operacij</strong> nad Python zbirkami, kjer je \(n\) število elementov zbirke in \(i\) indeks (tj. zaporedna številka) elementa.</p>
 
@@ -650,12 +650,12 @@ print(text)</code></pre></div>
 <p>Primera uporabe <strong>Python knjižnice <code>requests</code></strong> sta prikazana spodaj.</p>
 
 <div><pre><code class="language-python">import requests
-req = requests.get(&#39;https://urnik.fmf.uni-lj.si/layer_one/44/&#39;)
-text = req.text # HTML format
+res = requests.get(&#39;https://urnik.fmf.uni-lj.si/layer_one/44/&#39;)
+text = res.text # HTML format
 print(text)
   
-req = requests.get(&#39;https://api.ipify.org/?format=json&#39;)
-json = req.json() # JSON format
+res = requests.get(&#39;https://api.ipify.org/?format=json&#39;)
+json = res.json() # JSON format
 print(json)</code></pre></div>
 
 <h3 id="toc_7">Razčlenjevanje nizov z regularnimi izrazi</h3>
