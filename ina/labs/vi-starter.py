@@ -1,3 +1,4 @@
+import random
 import networkx as nx
 
 def read(name, path = "."):
@@ -42,3 +43,5 @@ def tops(G, C, centrality, n = 15):
 G = read("collaboration_imdb")
   
 info(G)
+
+tops(G, {i: random.random() for i in G.nodes()}, 'random')
