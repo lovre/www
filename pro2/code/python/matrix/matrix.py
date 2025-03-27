@@ -207,7 +207,7 @@ class Vector(Matrix):
   def add(self, vector):
     if not isinstance(vector, list) and not isinstance(vector, Vector):
       raise VectorException("argument must be vector or list of numbers")
-    elif self.get_dims() != vector.get_dims():
+    elif len(self) != len(vector):
       raise VectorException("vectors' dimensions mismatch")
       
     for i in range(self.get_n()):
@@ -216,7 +216,7 @@ class Vector(Matrix):
   def multiply(self, vector):
     if not isinstance(vector, list) and not isinstance(vector, Vector):
       raise VectorException("argument must be vector or list of numbers")
-    elif self.get_dims() != vector.get_dims():
+    elif len(self) != len(vector):
       raise VectorException("vectors' dimensions mismatch")
       
     for i in range(self.get_n()):
@@ -225,7 +225,7 @@ class Vector(Matrix):
   def __add__(self, vector):
     if not isinstance(vector, list) and not isinstance(vector, Vector):
       raise VectorException("argument must be vector or list of numbers")
-    elif self.get_dims() != vector.get_dims():
+    elif len(self) != len(vector):
       raise VectorException("vectors' dimensions mismatch")
       
     V = Vector(self.get_n())
@@ -237,7 +237,7 @@ class Vector(Matrix):
   def __mul__(self, vector):
     if not isinstance(vector, list) and not isinstance(vector, Vector):
       raise VectorException("argument must be vector or list of numbers")
-    elif self.get_dims() != vector.get_dims():
+    elif len(self) != len(vector):
       raise VectorException("vectors' dimensions mismatch")
       
     return Vector.dot_product(self, vector)
