@@ -28,7 +28,7 @@ def read(name, path = "."):
 
   return G
   
-def info(G, fast = False):
+def info(G):
   print("{:>12s} | '{:s}'".format('Graph', G.name))
 
   n = G.number_of_nodes()
