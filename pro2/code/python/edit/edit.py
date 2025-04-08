@@ -1,4 +1,3 @@
-import operator as op
 
 def edit_dist(fst, snd):
   """
