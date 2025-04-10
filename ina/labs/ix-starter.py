@@ -78,7 +78,7 @@ def comparison(G, algs, runs = 1):
     print("{:>12s} | {:>7.1f} {:6.3f}  {:5.3f}  {:5.3f}  {:5.3f}".format('\'' + alg + '\'', s, Q, NMI, ARI, NVI))
   print()
   
-algs = {"Known": lambda G: clustering(G), "Graph": lambda G: NodeClustering([range(len(G))], G, 'Graph'), "Isolates": lambda G: NodeClustering([[i] for i in range(len(G))], G, 'Isolates')}
+algs = {"Known": lambda G: clustering(G), "Graph": lambda G: NodeClustering([range(len(G))], G, 'Graph'), "Isolates": lambda G: NodeClustering([[i] for i in range(len(G))], G, 'Isolates')} # "DCSBM": algorithms.sbm_dl
 
 for name in ["karate_club", "southern_women"]:
   G = read(name)
