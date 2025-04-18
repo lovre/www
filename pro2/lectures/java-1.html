@@ -5,7 +5,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>syllabus</title>
+<title>java-1</title>
 
 
 <style type="text/css">
@@ -485,139 +485,193 @@ div.prism-show-language > div.prism-show-language-label {
 
 <body>
 
-<h1 id="toc_0">Programiranje 2 2024/25</h1>
+<h6 id="toc_0">Programiranje 2 2024/25</h6>
 
-<table>
-<thead>
-<tr>
-<th style="text-align: center">Teden</th>
-<th style="text-align: center">Datum</th>
-<th style="text-align: center">Predavanja</th>
-<th style="text-align: center">Vaje</th>
-<th style="text-align: center">Roki</th>
-</tr>
-</thead>
+<h2 id="toc_1">Uvod in predstavitev programskega jezika Java</h2>
 
-<tbody>
-<tr>
-<td style="text-align: center">1</td>
-<td style="text-align: center">17. februar</td>
-<td style="text-align: center"><em>Python</em></td>
-<td style="text-align: center">/</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">2</td>
-<td style="text-align: center">24. februar</td>
-<td style="text-align: center">/</td>
-<td style="text-align: center"><em>Python</em> naloge</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">3</td>
-<td style="text-align: center">3. marec</td>
-<td style="text-align: center"><em>Python</em></td>
-<td style="text-align: center">/</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">4</td>
-<td style="text-align: center">10. marec</td>
-<td style="text-align: center"><em>Python</em></td>
-<td style="text-align: center"><em>Python</em> naloge</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">5</td>
-<td style="text-align: center">17. marec</td>
-<td style="text-align: center"><em>Python</em></td>
-<td style="text-align: center"><em>Python</em> naloge</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">6</td>
-<td style="text-align: center">24. marec</td>
-<td style="text-align: center"><em>Python</em></td>
-<td style="text-align: center"><em>Python</em> naloge</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">7</td>
-<td style="text-align: center">31. marec</td>
-<td style="text-align: center"><em>Python</em></td>
-<td style="text-align: center"><em>Python</em> konzultacije</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">8</td>
-<td style="text-align: center">7. april</td>
-<td style="text-align: center"><em>Python</em></td>
-<td style="text-align: center"><em>Python</em> konzultacije</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">9</td>
-<td style="text-align: center">14. april</td>
-<td style="text-align: center"><em>Python</em></td>
-<td style="text-align: center"><em>Python</em> konzultacije</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">10</td>
-<td style="text-align: center">21. april</td>
-<td style="text-align: center"><em>Java</em></td>
-<td style="text-align: center">/</td>
-<td style="text-align: center"><em>Python</em> projekt (27. april)</td>
-</tr>
-<tr>
-<td style="text-align: center">11</td>
-<td style="text-align: center">28. april</td>
-<td style="text-align: center"><em>Java</em></td>
-<td style="text-align: center"><em>Java</em> naloge</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">12</td>
-<td style="text-align: center">5. maj</td>
-<td style="text-align: center"><em>Java</em></td>
-<td style="text-align: center"><em>Java</em> naloge</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">13</td>
-<td style="text-align: center">12. maj</td>
-<td style="text-align: center"><em>Java</em></td>
-<td style="text-align: center"><em>Java</em> naloge</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">14</td>
-<td style="text-align: center">19. maj</td>
-<td style="text-align: center"><em>Java</em></td>
-<td style="text-align: center"><em>Java</em> konzultacije</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">15</td>
-<td style="text-align: center">26. maj</td>
-<td style="text-align: center"><em>Java</em></td>
-<td style="text-align: center"><em>Java</em> konzultacije</td>
-<td style="text-align: center"></td>
-</tr>
-<tr>
-<td style="text-align: center">16</td>
-<td style="text-align: center">2. junij</td>
-<td style="text-align: center">/</td>
-<td style="text-align: center"><em>Java</em> konzultacije</td>
-<td style="text-align: center"><em>Java</em> projekt (8. junij)</td>
-</tr>
-</tbody>
-</table>
+<p>Splošnonamenski programski jezik <strong>Java</strong> je bil razvit kot <strong>varen jezik za poljubno napravo</strong> (npr. preverjanje tipov, vidljivost konstruktov, virtualni stroj). Sintaksa zahteva daljše programe kot v programskem jeziku Python, ki pa so lahko tudi desetkrat hitrejši. Jezik se prevaja, kar pomeni, da program <code>Demo.java</code> v ukazni vrstici najprej prevedemo z <code>javac Demo.java</code>, kar ustvari vmesno datoteko <code>Demo.class</code>, katero nato izvedemo z <code>java Demo</code>.</p>
+
+<h3 id="toc_2">Najkrajši program in izpis na zaslon</h3>
+
+<p>V programskem jeziku <strong>Java</strong> mora vsaka <strong>izvorna datoteka</strong> s programsko kodo vsebovati <strong>javni razred</strong> katerega ime je enako imenu datoteke (npr. <code>Demo</code>). V kolikor želimo program tudi izvajati, mora omenjen razred vsebovati <strong>javno statično metodo</strong> <code>main(String[] args)</code>, kjer se začne izvajanje programa. Pri tem je parameter <code>args</code> tabela nizov znakov, ki jih uporabnik doda klicu programa. Na primer, če program v ukazni vrstici izvedemo kot </p>
+
+<div><pre><code class="language-bash">java Demo 1 -x fast</code></pre></div>
+
+<p>bo tabela <code>args</code> vsebovala nize znakov <code>&quot;1&quot;</code>, <code>&quot;-x&quot;</code> in <code>&quot;fast&quot;</code>.</p>
+
+<p>V programskem jeziku <strong>Java bloke kode</strong>, ki naj se izvedejo skupaj oziroma zaporedoma, določimo z zavitimi oklepaji <code>{...}</code>. Vsak programski stavek zaključimo s podpičjem <code>;</code>, dočim pa je celoten program lahko v eni vrstici. V ukazni vrstici lahko <strong>izpišemo niz znakov</strong> <code>str</code> z uporabo metode <code>println(String str)</code> objekta <code>out</code> v razredu <code>System</code>.</p>
+
+<div><pre><code class="language-java">public class Demo {
+
+    /** Javadoc komentar */
+    public static void main(String[] args) {
+        System.out.println(&quot;Pozdravljeni pri predmetu PRO2!&quot;); // vrstični komentar
+        /* 
+            večvrstični ali bločni komentar 
+        */
+    }
+    
+}</code></pre></div>
+
+<h3 id="toc_3">Programske spremenljivke in konstante</h3>
+
+<p>V programskem jeziku <strong>Java spremenljivke</strong> definiramo in jim določimo začetno vrednost <em>preden</em> so prvič uporabljene. Pri definiciji <strong>moramo določiti tip</strong> spremenljivke, ki ga v nadaljevanju ni moč spremeniti! <strong>Primitivni tipi spremenljivk</strong> obsegajo logične vrednosti enake <code>true</code> ali <code>false</code> (tj. <code>boolean</code>), cela števila (npr. <code>int</code>, <code>long</code>), realna števila (tj. <code>float</code>, <code>double</code>) in posamezne znake <code>&#39;.&#39;</code> (tj. <code>char</code>). Med <strong>osnovne tipe spremenljivk</strong> navadno štejemo tudi nize znakov <code>&quot;...&quot;</code>, ki pa so objekti razreda <code>String</code>.</p>
+
+<div><pre><code class="language-java">int x = 1;
+double y;
+y = 1.23 * 9;
+char ch = &#39;a&#39;; // enojni narekovaji &#39;.&#39;
+String str = &quot;niz znakov&quot;; // dvojni narekovaji &quot;...&quot;
+int len = str.length();
+boolean b = x &gt; 1;</code></pre></div>
+
+<p>V programskem jeziku <strong>Java konstante</strong> označimo z določilom <code>final</code>, ki jih po določitvi začetne vrednosti ni več moč spremeniti. Navadno jih označimo z velikimi črkami.</p>
+
+<div><pre><code class="language-java">final float G = 9.81f;</code></pre></div>
+
+<p>Spremenljivke in konstante so <strong>veljavne le znotraj bloka kode</strong>, v katerem so definirane. <strong>Med osnovnimi tipi</strong> spremenljivk in konstant lahko <strong>pretvarjamo</strong> z uporabo javnih statičnih funkcij razredov <code>Integer</code>, <code>Double</code>, <code>String</code> ipd., kot je prikazano spodaj. (V vseh primerih operator <code>+</code> predstavlja konkatenacijo nizov znakov, ker je vsaj en od argumentov niz znakov.)</p>
+
+<div><pre><code class="language-java">int z = (int)y; // celi del števila
+double w = (double)x; // 1.0 * x
+z = Integer.parseInt(&quot;7&quot;);
+w = Double.parseDouble(&quot;1.23&quot;);
+str = &quot;Vrednost spremenljivke w je enaka &quot; + w; // konkatenacija nizov
+str = String.format(&quot;Vrednost spremenljivke w je enaka %.3f&quot;, w); // formatiranje nizov
+System.out.println(x + &quot; &quot; + y + &quot; &quot; + z + &quot; &quot; + w + &quot; &quot; + str);</code></pre></div>
+
+<p>S spremenljivkami <strong>primitivnih številskih tipov</strong> lahko <strong>računamo</strong> z uporabo standardnih operatorjev in javnih statičnih funkcij razreda <code>Math</code>, kot je prikazano spodaj. (Pri tem operator <code>+</code> predstavlja seštevanje, ker sta oba argumenta števili.)</p>
+
+<div><pre><code class="language-java">System.out.println(x + y * z / w);
+System.out.println(x % z); // ostanek pri deljenju
+System.out.println(Math.pow(y, 2.0)); // potenciranje števil
+System.out.println(42.0 * Math.random()); // naključno število iz [0, 42)
+System.out.println((int)(3.0 * Math.random())); // naključno število iz {0, 1, 2}</code></pre></div>
+
+<h3 id="toc_4">Pogojni stavki in programske vejitve</h3>
+
+<p>Programske vejitve omogočajo <strong>selektivno izvajanje</strong> programske kode glede na določen logičen pogoj. Najpogosteje se uporabljajo pogojni stavki (tj. <code>if else</code> stavki), dočim v večini programskih jezikih obstajajo tudi izbirni stavki (tj. <code>switch</code> stavki) in drugi. Vse pogojne stavke je moč gnezditi ipd.</p>
+
+<p>V programskem jeziku <strong>Java pogojne stavke</strong> zapišemo kot je prikazano spodaj. Pri tem bloke kode, ki vsebujejo le en programski stavek, ni potrebno posebej označiti z zavitimi oklepaji <code>{...}</code>.</p>
+
+<div><pre><code class="language-java">if (x &lt; 1) {
+    System.out.println(&quot;Vrednost spremenljivke x je manjša od 1&quot;);
+}
+else if (x &lt; 2)
+    System.out.println(&quot;Vrednost spremenljivke x je med 1 in 2&quot;);
+else
+    System.out.println(&quot;Vrednost spremenljivke x je večja ali enaka 2&quot;);</code></pre></div>
+
+<p><strong>Vgnezdene pogojne stavke</strong> <code>? :</code> zapišemo kot je prikazano spodaj. (Operator <code>+</code> predstavlja konkatenacijo nizov znakov, ker je v obeh primerih vsaj en od argumentov niz znakov.)</p>
+
+<div><pre><code class="language-java">System.out.println(&quot;Vrednost spremenljivke x je &quot; + (x &lt; 1? &quot;manjša od &quot;: &quot;večja ali enaka &quot;) + 1);</code></pre></div>
+
+<p><strong>Logične vrednosti v pogoju</strong> lahko združujemo z uporabo negacije <code>!</code>, konjunkcije <code>&amp;&amp;</code> in disjunkcije <code>||</code>, kot je prikazano spodaj.</p>
+
+<div><pre><code class="language-java">if (x == 1 || x == 2)
+    System.out.println(&quot;Vrednost spremenljivke x je enaka 1 ali 2&quot;);
+if (x == 1 &amp;&amp; x == 2)
+    System.out.println(&quot;To ni mogoče!&quot;);
+if (x != 1 &amp;&amp; x != 2) // if (!(x == 1 || x == 2))
+    System.out.println(&quot;Vrednost spremenljivke x ni enaka 1 ali 2&quot;);</code></pre></div>
+
+<p>V programskem jeziku <strong>Java izbirne stavke</strong> zapišemo kot je prikazano spodaj. Pri tem lahko izbiramo le preko vrednosti primitivnih spremenljivk, dočim posamezne vrednosti določimo z uporabo ukaza <code>case</code> in privzeto vrednost z uporabo ukaza <code>default</code>. Pomembno je, da vsako izbiro zaključimo z ukazom <code>break</code>.</p>
+
+<div><pre><code class="language-java">switch (x) {
+    case 1:
+        System.out.println(&quot;Vrednost spremenljivke x je enaka 1&quot;);
+        break;
+    case 2:
+        System.out.println(&quot;Vrednost spremenljivke x je enaka 2&quot;);
+        break;
+    default:
+        System.out.println(&quot;Vrednost spremenljivke x ni enaka 1 ali 2&quot;);
+        break;
+}
+
+switch (ch) {
+    case &#39;a&#39;:
+        System.out.println(&quot;Vrednost spremenljivke ch je enaka &#39;a&#39;&quot;);
+        break;
+    default:
+        System.out.println(&quot;Vrednost spremenljivke ch ni enaka &#39;a&#39;&quot;);
+        break;
+}</code></pre></div>
+
+<h3 id="toc_5">Iterativno izvajanje in programske zanke</h3>
+
+<p>Programske zanke omogočajo <strong>iterativno izvajanje</strong> programske kode dokler velja določen logičen pogoj. Najpogosteje se uporabljajo standardne zanke (tj. <code>for</code> in <code>while</code> zanke), dočim v večini programskih jezikih obstajajo tudi npr. <code>do while</code> zanke in druge. Vse zanke je moč gnezditi ipd.</p>
+
+<p>V programskem jeziku <strong>Java <code>for</code> zanko</strong> zapišemo kot je prikazano spodaj. Pri tem se najprej izvede prvi parameter zanke (ločen s podpičjem <code>;</code>), ki v spodnjem primeru definira in nastavi začetno vrednost števca <code>i = 0</code>. Pred vsako iteracijo zanke se izvede drugi parameter (ločen s podpičjem <code>;</code>), ki določi pogoj dokler se zanka še izvaja <code>i &lt; 3</code>. Po vsaki iteraciji zanke se izvede tretji parameter, ki v spodnjem primeru poveča vrednost števca za ena <code>i += 1</code>.</p>
+
+<div><pre><code class="language-java">for (int i = 0; i &lt; 3; i += 1) {
+    System.out.println(&quot;Vrednost spremenljivke i je enaka &quot; + i);
+}</code></pre></div>
+
+<p>Ekvivalentno lahko v programskem jeziku <strong>Java <code>while</code> zanko</strong> zapišemo kot je prikazano spodaj.</p>
+
+<div><pre><code class="language-java">int ind = 0;
+while (ind &lt; 3) {
+    System.out.println(&quot;Vrednost spremenljivke ind je enaka &quot; + ind);
+    ind++; // ind += 1;
+}</code></pre></div>
+
+<p>Z <strong>Java <code>for</code> zanko</strong> lahko iteriramo tudi <strong>preko podatkovnih zbirk</strong>, kot je prikazano spodaj. Pri tem je podatkovna zbirka lahko tabela (npr. <code>args</code> tipa <code>String[]</code>), seznam (tj. objekt razreda <code>List</code>) ali množica (tj. objekt razreda <code>Set</code>), dočim moramo pri uporabi navesti tip elementov zbirke po kateri iteriramo (npr. <code>arg</code> tipa <code>String</code>).</p>
+
+<div><pre><code class="language-java">for (String arg: args)
+    System.out.println(arg);</code></pre></div>
+
+<p>Programske <strong>zanke predčasno zaključimo</strong> z uporabo ukaza <code>break</code>, dočim naslednjo iteracijo zanke <strong>predčasno pričnemo</strong> z uporabo ukaza <code>continue</code>.</p>
+
+<h3 id="toc_6">Programske metode in funkcije</h3>
+
+<p>Programske metode in funkcije omogočajo <strong>ponovljeno izvajanje</strong> enake programske kode upoštevajoč podane argumente. Pri tem metode zgolj izvedejo določeno programsko kodo, funkcije pa vrnejo tudi rezultat z uporabo stavka <code>return</code>.</p>
+
+<p>V programskem jeziku <strong>Java metodo</strong> zapišemo kot je prikazano spodaj.
+Pri tem zaporedoma določimo vidljivost metode (npr. <code>public</code>), ali gre za statično metodo razreda (tj. <code>static</code>) ali metodo objekta, tip rezultata (tj. <code>void</code> v primeru metode) ter na koncu samo ime metode (npr. <code>method</code> v spodnjem primeru). </p>
+
+<div><pre><code class="language-java">public static void method(int x, double y) {
+    System.out.println(&quot;Vrednost produkta x*y je enaka &quot; + x * y);
+}</code></pre></div>
+
+<p><strong>Argumentom</strong> metode moramo obvezno <strong>določiti tip</strong> (npr. <code>double y</code>), dočim lahko <strong>privzete vrednosti argumentov</strong> določimo preko metod z enakim imenom in različnim seznamom parametrov (tj. preobteževanje metod).</p>
+
+<div><pre><code class="language-java">static void method(int x) {
+    method(x, 2.0);
+}
+
+static void method(double y) {
+    method(42, y);
+}
+
+static void method() {
+    method(1);
+}</code></pre></div>
+
+<p>V programskem jeziku <strong>Java funkcijo</strong> zapišemo kot je prikazano spodaj. Za razliko od metode moramo <strong>določiti tip rezultata</strong> (npr. <code>int</code> v spodnjem primeru) in le-tega na koncu funkcije vrniti z uporabo stavka <code>return</code>.</p>
+
+<div><pre><code class="language-java">public static int function(int i) {
+    System.out.println(&quot;Vrednost vhodnega argumenta funkcije je enaka &quot; + i);
+    i += 13;
+    System.out.println(&quot;Vrednost rezultata funkcije je enaka &quot; + i);
+    return i;
+}</code></pre></div>
 
 
 
 <script type="text/javascript">
 var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==t)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,l=a.elements||document.querySelectorAll(a.selector),i=0;r=l[i++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=t.textContent,u={element:t,language:l,grammar:i,code:s};if(!s||!i)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var l=n.tokenize(e,t);return a.stringify(n.util.encode(l),r)},tokenize:function(e,t){var a=n.Token,r=[e],l=t.rest;if(l){for(var i in l)t[i]=l[i];delete t.rest}e:for(var i in t)if(t.hasOwnProperty(i)&&t[i]){var o=t[i];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],c=u.inside,g=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var m=r[p];if(r.length>e.length)break e;if(!(m instanceof a)){u.lastIndex=0;var y=u.exec(m),v=1;if(!y&&h&&p!=r.length-1){var b=r[p+1].matchedStr||r[p+1],k=m+b;if(p<r.length-2&&(k+=r[p+2].matchedStr||r[p+2]),u.lastIndex=0,y=u.exec(k),!y)continue;var w=y.index+(g?y[1].length:0);if(w>=m.length)continue;var _=y.index+y[0].length,P=m.length+b.length;if(v=3,P>=_){if(r[p+1].greedy)continue;v=2,k=k.slice(0,P)}m=k}if(y){g&&(f=y[1].length);var w=y.index+f,y=y[0].slice(f),_=w+y.length,S=m.slice(0,w),O=m.slice(_),j=[p,v];S&&j.push(S);var A=new a(i,c?n.tokenize(y,c):y,d,y,h);j.push(A),O&&j.push(O),Array.prototype.splice.apply(r,j)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.matchedStr=a||null,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",n.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
+
+<script type="text/javascript">
+Prism.languages.clike={comment:[{pattern:/(^|[^\\])\/\*[\w\W]*?\*\//,lookbehind:!0},{pattern:/(^|[^\\:])\/\/.*/,lookbehind:!0}],string:{pattern:/(["'])(\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/,greedy:!0},"class-name":{pattern:/((?:\b(?:class|interface|extends|implements|trait|instanceof|new)\s+)|(?:catch\s+\())[a-z0-9_\.\\]+/i,lookbehind:!0,inside:{punctuation:/(\.|\\)/}},keyword:/\b(if|else|while|do|for|return|in|instanceof|function|new|try|throw|catch|finally|null|break|continue)\b/,"boolean":/\b(true|false)\b/,"function":/[a-z0-9_]+(?=\()/i,number:/\b-?(?:0x[\da-f]+|\d*\.?\d+(?:e[+-]?\d+)?)\b/i,operator:/--?|\+\+?|!=?=?|<=?|>=?|==?=?|&&?|\|\|?|\?|\*|\/|~|\^|%/,punctuation:/[{}[\];(),.:]/};
+</script>
+
+<script type="text/javascript">
+Prism.languages.java=Prism.languages.extend("clike",{keyword:/\b(abstract|continue|for|new|switch|assert|default|goto|package|synchronized|boolean|do|if|private|this|break|double|implements|protected|throw|byte|else|import|public|throws|case|enum|instanceof|return|transient|catch|extends|int|short|try|char|final|interface|static|void|class|finally|long|strictfp|volatile|const|float|native|super|while)\b/,number:/\b0b[01]+\b|\b0x[\da-f]*\.?[\da-fp\-]+\b|\b\d*\.?\d+(?:e[+-]?\d+)?[df]?\b/i,operator:{pattern:/(^|[^.])(?:\+[+=]?|-[-=]?|!=?|<<?=?|>>?>?=?|==?|&[&=]?|\|[|=]?|\*=?|\/=?|%=?|\^=?|[?:~])/m,lookbehind:!0}}),Prism.languages.insertBefore("java","function",{annotation:{alias:"punctuation",pattern:/(^|[^.])@\w+/,lookbehind:!0}});
+</script>
+
+<script type="text/javascript">
+!function(e){var t={variable:[{pattern:/\$?\(\([\w\W]+?\)\)/,inside:{variable:[{pattern:/(^\$\(\([\w\W]+)\)\)/,lookbehind:!0},/^\$\(\(/],number:/\b-?(?:0x[\dA-Fa-f]+|\d*\.?\d+(?:[Ee]-?\d+)?)\b/,operator:/--?|-=|\+\+?|\+=|!=?|~|\*\*?|\*=|\/=?|%=?|<<=?|>>=?|<=?|>=?|==?|&&?|&=|\^=?|\|\|?|\|=|\?|:/,punctuation:/\(\(?|\)\)?|,|;/}},{pattern:/\$\([^)]+\)|`[^`]+`/,inside:{variable:/^\$\(|^`|\)$|`$/}},/\$(?:[a-z0-9_#\?\*!@]+|\{[^}]+\})/i]};e.languages.bash={shebang:{pattern:/^#!\s*\/bin\/bash|^#!\s*\/bin\/sh/,alias:"important"},comment:{pattern:/(^|[^"{\\])#.*/,lookbehind:!0},string:[{pattern:/((?:^|[^<])<<\s*)(?:"|')?(\w+?)(?:"|')?\s*\r?\n(?:[\s\S])*?\r?\n\2/g,lookbehind:!0,inside:t},{pattern:/(["'])(?:\\\\|\\?[^\\])*?\1/g,inside:t}],variable:t.variable,"function":{pattern:/(^|\s|;|\||&)(?:alias|apropos|apt-get|aptitude|aspell|awk|basename|bash|bc|bg|builtin|bzip2|cal|cat|cd|cfdisk|chgrp|chmod|chown|chroot|chkconfig|cksum|clear|cmp|comm|command|cp|cron|crontab|csplit|cut|date|dc|dd|ddrescue|df|diff|diff3|dig|dir|dircolors|dirname|dirs|dmesg|du|egrep|eject|enable|env|ethtool|eval|exec|expand|expect|export|expr|fdformat|fdisk|fg|fgrep|file|find|fmt|fold|format|free|fsck|ftp|fuser|gawk|getopts|git|grep|groupadd|groupdel|groupmod|groups|gzip|hash|head|help|hg|history|hostname|htop|iconv|id|ifconfig|ifdown|ifup|import|install|jobs|join|kill|killall|less|link|ln|locate|logname|logout|look|lpc|lpr|lprint|lprintd|lprintq|lprm|ls|lsof|make|man|mkdir|mkfifo|mkisofs|mknod|more|most|mount|mtools|mtr|mv|mmv|nano|netstat|nice|nl|nohup|notify-send|nslookup|open|op|passwd|paste|pathchk|ping|pkill|popd|pr|printcap|printenv|printf|ps|pushd|pv|pwd|quota|quotacheck|quotactl|ram|rar|rcp|read|readarray|readonly|reboot|rename|renice|remsync|rev|rm|rmdir|rsync|screen|scp|sdiff|sed|seq|service|sftp|shift|shopt|shutdown|sleep|slocate|sort|source|split|ssh|stat|strace|su|sudo|sum|suspend|sync|tail|tar|tee|test|time|timeout|times|touch|top|traceroute|trap|tr|tsort|tty|type|ulimit|umask|umount|unalias|uname|unexpand|uniq|units|unrar|unshar|uptime|useradd|userdel|usermod|users|uuencode|uudecode|v|vdir|vi|vmstat|wait|watch|wc|wget|whereis|which|who|whoami|write|xargs|xdg-open|yes|zip)(?=$|\s|;|\||&)/,lookbehind:!0},keyword:{pattern:/(^|\s|;|\||&)(?:let|:|\.|if|then|else|elif|fi|for|break|continue|while|in|case|function|select|do|done|until|echo|exit|return|set|declare)(?=$|\s|;|\||&)/,lookbehind:!0},"boolean":{pattern:/(^|\s|;|\||&)(?:true|false)(?=$|\s|;|\||&)/,lookbehind:!0},operator:/&&?|\|\|?|==?|!=?|<<<?|>>|<=?|>=?|=~/,punctuation:/\$?\(\(?|\)\)?|\.\.|[{}[\];]/};var a=t.variable[1].inside;a["function"]=e.languages.bash["function"],a.keyword=e.languages.bash.keyword,a.boolean=e.languages.bash.boolean,a.operator=e.languages.bash.operator,a.punctuation=e.languages.bash.punctuation}(Prism);
 </script>
 
 <script type="text/javascript">
