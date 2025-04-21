@@ -549,7 +549,7 @@ System.out.println((int)(3.0 * Math.random())); // naključno število iz {0, 1,
 
 <h3 id="toc_4">Pogojni stavki in programske vejitve</h3>
 
-<p>Programske vejitve omogočajo <strong>selektivno izvajanje</strong> programske kode glede na določen logičen pogoj. Najpogosteje se uporabljajo pogojni stavki (tj. <code>if else</code> stavki), dočim v večini programskih jezikih obstajajo tudi izbirni stavki (tj. <code>switch</code> stavki) in drugi. Vse pogojne stavke je moč gnezditi ipd.</p>
+<p>Programske vejitve omogočajo <strong>selektivno izvajanje</strong> programske kode glede na določen logičen pogoj. Najpogosteje se uporabljajo pogojni stavki (tj. <code>if else</code> stavki), dočim v večini programskih jezikov obstajajo tudi izbirni stavki (tj. <code>switch</code> stavki) in drugi. Vse pogojne stavke je moč gnezditi ipd.</p>
 
 <p>V programskem jeziku <strong>Java pogojne stavke</strong> zapišemo kot je prikazano spodaj. Pri tem bloke kode, ki vsebujejo le en programski stavek, ni potrebno posebej označiti z zavitimi oklepaji <code>{...}</code>.</p>
 
@@ -599,9 +599,9 @@ switch (ch) {
 
 <h3 id="toc_5">Iterativno izvajanje in programske zanke</h3>
 
-<p>Programske zanke omogočajo <strong>iterativno izvajanje</strong> programske kode dokler velja določen logičen pogoj. Najpogosteje se uporabljajo standardne zanke (tj. <code>for</code> in <code>while</code> zanke), dočim v večini programskih jezikih obstajajo tudi npr. <code>do while</code> zanke in druge. Vse zanke je moč gnezditi ipd.</p>
+<p>Programske zanke omogočajo <strong>iterativno izvajanje</strong> programske kode dokler velja določen logičen pogoj. Najpogosteje se uporabljajo standardne zanke (tj. <code>for</code> in <code>while</code> zanke), dočim v večini programskih jezikov obstajajo tudi npr. <code>do while</code> zanke in druge. Vse zanke je moč gnezditi ipd.</p>
 
-<p>V programskem jeziku <strong>Java <code>for</code> zanko</strong> zapišemo kot je prikazano spodaj. Pri tem se najprej izvede prvi parameter zanke (ločen s podpičjem <code>;</code>), ki v spodnjem primeru definira in nastavi začetno vrednost števca <code>i = 0</code>. Pred vsako iteracijo zanke se izvede drugi parameter (ločen s podpičjem <code>;</code>), ki določi pogoj dokler se zanka še izvaja <code>i &lt; 3</code>. Po vsaki iteraciji zanke se izvede tretji parameter, ki v spodnjem primeru poveča vrednost števca za ena <code>i += 1</code>.</p>
+<p>V programskem jeziku <strong>Java <code>for</code> zanko</strong> zapišemo kot je prikazano spodaj. Pri tem se najprej izvede prvi parameter zanke (ločen s podpičjem <code>;</code>), ki v spodnjem primeru definira in nastavi začetno vrednost števca <code>i = 0</code>. Pred vsako iteracijo zanke se izvede drugi parameter, ki določi pogoj dokler se zanka še izvaja <code>i &lt; 3</code>. Po vsaki iteraciji zanke se izvede tretji parameter, ki v spodnjem primeru poveča vrednost števca za ena <code>i += 1</code>.</p>
 
 <div><pre><code class="language-java">for (int i = 0; i &lt; 3; i += 1) {
     System.out.println(&quot;Vrednost spremenljivke i je enaka &quot; + i);
@@ -615,7 +615,7 @@ while (ind &lt; 3) {
     ind++; // ind += 1;
 }</code></pre></div>
 
-<p>Z <strong>Java <code>for</code> zanko</strong> lahko iteriramo tudi <strong>preko podatkovnih zbirk</strong>, kot je prikazano spodaj. Pri tem je podatkovna zbirka lahko tabela (npr. <code>args</code> tipa <code>String[]</code>), seznam (tj. objekt razreda <code>List</code>) ali množica (tj. objekt razreda <code>Set</code>), dočim moramo pri uporabi navesti tip elementov zbirke po kateri iteriramo (npr. <code>arg</code> tipa <code>String</code>).</p>
+<p>Z <strong>Java <code>for</code> zanko</strong> lahko iteriramo tudi <strong>preko podatkovnih zbirk</strong>, kot je prikazano spodaj. Pri tem je podatkovna zbirka lahko tabela (npr. <code>args</code> tipa <code>String[]</code>), seznam (tj. objekt podrazreda vmesnika <code>List</code>) ali množica (tj. objekt podrazreda vmesnika <code>Set</code>), dočim moramo pri uporabi navesti tip elementov zbirke po kateri iteriramo (npr. <code>arg</code> tipa <code>String</code>).</p>
 
 <div><pre><code class="language-java">for (String arg: args)
     System.out.println(arg);</code></pre></div>
