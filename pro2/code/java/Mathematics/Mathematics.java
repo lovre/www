@@ -12,23 +12,22 @@ import java.util.TreeMap;
 public class Mathematics {
 
 	public static void main(String[] args) throws IOException {
-		Map<Mathematic, Integer> papers = new HashMap<Mathematic, Integer>();
-		/* Map<Mathematic, Integer> papers = new TreeMap<Mathematic, Integer>(); */ 
+		Map<Mathematic, Double> papers = new HashMap<Mathematic, Double>();
+		/* Map<Mathematic, Double> papers = new TreeMap<Mathematic, Double>(); */ 
 
-		BufferedReader reader = new BufferedReader(new FileReader("mathematics.tab")); // 1986-2010
-
+		BufferedReader reader = new BufferedReader(new FileReader("mathematics.csv"));
+		
 		String line = reader.readLine();
 		while ((line = reader.readLine()) != null) {
-			String[] array = line.split("\t");
+			String[] array = line.split(",");
 
-			if (array[14].equals("1.01")) {
-				Mathematic mathematic = new Mathematic(Integer.parseInt(array[2]), array[0] + " " + array[1]);
+			Mathematic mathematic = new Mathematic(Integer.parseInt(array[0]), array[1] + " " + array[2]);
+			double value = Double.parseDouble(array[6]);
 
-				if (papers.containsKey(mathematic))
-					papers.put(mathematic, papers.get(mathematic) + 1);
-				else
-					papers.put(mathematic, 1);
-			}
+			if (papers.containsKey(mathematic))
+				papers.put(mathematic, papers.get(mathematic) + value);
+			else
+				papers.put(mathematic, value);
 		}
 
 		reader.close();
@@ -41,13 +40,13 @@ public class Mathematics {
 				if (papers.get(fst) == papers.get(snd))
 					return fst.compareTo(snd);
 
-				return -new Integer(papers.get(fst)).compareTo(papers.get(snd));
+				return -new Double(papers.get(fst)).compareTo(papers.get(snd));
 			}
 
 		});
 
 		for (int i = 0; i < list.size(); i++)
-			System.out.format("%4d | %s\n", papers.get(list.get(i)), list.get(i));
+			System.out.format("%8.1f | %s\n", papers.get(list.get(i)), list.get(i));
 	}
 
 }
