@@ -499,13 +499,13 @@ div.prism-show-language > div.prism-show-language-label {
 import java.util.List;
 import java.io.*;</code></pre></div>
 
-<p><strong>Vsak Java razred</strong> se nahaja <strong>v nekem paketu</strong> <code>package</code> (npr. <code>java.util</code>), pri čimer je hierarhija paketov dejansko predstavljena z mapami datotečnega sistema. Na primer, če bi se izvorna datoteka razreda <code>Demo2</code> nahajala v mapi <code>./pro2/demo</code>, bi morali na samem začetku dodati še spodnji stavek. Le-tega lahko izpustimo, če se izvorna datoteka nahaja v korenski mapi <code>.</code></p>
+<p><strong>Vsak Java razred</strong> se nahaja <strong>v nekem paketu</strong> <code>package</code> (npr. <code>java.util</code>), pri čimer je hierarhija paketov dejansko predstavljena z mapami datotečnega sistema. Na primer, če bi se izvorna datoteka razreda <code>Demo2</code> nahajala v mapi <code>./pro2/demo</code>, bi morali na samem začetku dodati še spodnji stavek. Le-tega lahko izpustimo, če se izvorna datoteka nahaja v korenski mapi <code>.</code>.</p>
 
 <div><pre><code class="language-java">package pro2.demo;</code></pre></div>
 
 <h3 id="toc_3">Vidljivost programskih konstruktov</h3>
 
-<p>V programskem jeziku <strong>Java</strong> lahko vsakemu <strong>programskemu konstruktu</strong> (npr. spremenljivki, metodi, funkciji, razredu) pri definiciji <strong>določimo vidljivost</strong> in s tem omejimo dostop. Slednje seveda ne velja za lokalne spremenljivke ter argumente metod in funkcij (tj. vse spremenljivke doslej), ki so vedno vidne le lokalno. Določila za omejitev dostopa programskih konstruktov so našteta spodaj.</p>
+<p>V programskem jeziku <strong>Java</strong> lahko vsakemu <strong>programskemu konstruktu</strong> (npr. spremenljivki, metodi, funkciji, razredu) pri definiciji <strong>določimo vidljivost</strong> in s tem omejimo dostop. Slednje ne velja za lokalne spremenljivke ter argumente metod in funkcij (tj. vse spremenljivke doslej), ki so vedno vidne le lokalno. Določila za omejitev dostopa programskih konstruktov so našteta spodaj.</p>
 
 <ul>
 <li><code>private</code> — dostopno znotraj razreda</li>
@@ -528,9 +528,9 @@ import java.io.*;</code></pre></div>
 
 <p>Pri <strong>objektno orientiranem programiranju</strong> skupke programskih konstruktov, s katerimi želimo upravljati kot s celoto, združujemo v objekte, ki so določeni z razredi in vmesniki. Pri tem razredi predstavljajo tip objekta, ki združuje atribute, metode in funkcije objekta. </p>
 
-<p>V programskem jeziku <strong>Java razrede definiramo</strong> z ukazom <code>class</code> (npr. <code>class Demo2</code>), dočim <strong>vmesnike definiramo</strong> z ukazom <code>interface</code>. S preobteževanjem metod lahko razredu definiramo več <strong>konstruktorjev</strong>, ki so javne metode z enakim imenom kot je ime razreda (npr. <code>public Demo2()</code>) in poskrbijo za začetno stanje objekta. Pri tem rezervirana beseda <code>this</code> predstavlja sam objekt razreda, rezervirana beseda <code>super</code> pa objekt nadrazreda (tj. očeta). Navadno redefiniramo tudi funkcijo <code>toString()</code>, ki vrne niz znakov z berljivim opisom objekta razreda, in funkcijo <code>equals(Object object)</code>, ki preveri ali je objekt razreda enak podanemu objektu <code>object</code>. Pazite, da pri definiciji atributov, metod in funkcij ne uporabite določila <code>static</code>!</p>
+<p>V programskem jeziku <strong>Java razrede definiramo</strong> z ukazom <code>class</code> (npr. <code>class Demo2</code>), dočim <strong>vmesnike definiramo</strong> z ukazom <code>interface</code>. S preobteževanjem metod lahko razredu definiramo več <strong>konstruktorjev</strong>, ki so javne metode z enakim imenom kot je ime razreda (npr. <code>public Demo2()</code>) in poskrbijo za začetno stanje objekta. Pri tem rezervirana beseda <code>this</code> predstavlja sam objekt razreda, rezervirana beseda <code>super</code> pa objekt nadrazreda (tj. očeta). Navadno redefiniramo tudi funkcijo <code>toString()</code>, ki vrne niz znakov z berljivim opisom objekta razreda, in funkcijo <code>equals(Object object)</code>, ki preveri ali je objekt razreda enak podanemu objektu <code>object</code>. Pazite, da pri definiciji atributov, metod in funkcij ne uporabite določila <code>static</code>.</p>
 
-<p>Definicija razreda <code>XY</code>, ki naj predstavlja točko v ravnini, je prikazana spodaj. Zaradi enostavnosti je razred <code>XY</code> vključen kar v izvorno datoteko razreda <code>Demo2</code>, dočim je navadno vsak razred v svoji izvorni datoteki. To hkrati pomeni, da pri definiciji razreda ne smemo uporabiti določila <code>public</code>!</p>
+<p>Definicija razreda <code>XY</code>, ki naj predstavlja točko v ravnini, je prikazana spodaj. Zaradi enostavnosti je razred <code>XY</code> vključen kar v izvorno datoteko razreda <code>Demo2</code>, dočim je navadno vsak razred v svoji izvorni datoteki. To hkrati pomeni, da pri definiciji razreda ne smemo uporabiti določila <code>public</code>.</p>
 
 <div><pre><code class="language-java">class XY {
 
@@ -649,7 +649,7 @@ point.print();
 XYZ xyz = point;
 System.out.println(xyz);</code></pre></div>
 
-<p>V programskem jeziku <strong>Java abstraktni razred</strong> definiramo z ukazom <code>abstract class</code> (npr. <code>abstract class Demo</code>), ki predstavlja vmesno možnost med razredi in vmesniki.</p>
+<p>V programskem jeziku <strong>Java abstraktni razred</strong> definiramo z ukazom <code>abstract class</code> (npr. <code>abstract class Demo2</code>), ki predstavlja vmesno možnost med razredi in vmesniki.</p>
 
 <h3 id="toc_6">Programske zbirke podatkov in tabele</h3>
 
@@ -661,7 +661,7 @@ System.out.println(xyz);</code></pre></div>
 import java.util.ArrayList;
 import java.util.List;</code></pre></div>
 
-<p>Seznam je <strong>urejena zbirka podatkov spremenljive velikosti</strong> kar pomeni, da lahko dodajamo, spreminjamo in brišemo elemente ter dostopamo do elementov po indeksu. Pri tem morajo biti elementi seznama objekti istega razreda ali njegovih podrazredov, dočim <strong>tip elementov določimo</strong> s trikotnimi oklepaji <code>&lt;...&gt;</code> (npr. <code>ArrayList&lt;Double&gt;</code>). Tako ni moč ustvariti seznama elementov primitivnega tipa (npr. <code>double</code>)!</p>
+<p>Seznam je <strong>urejena zbirka podatkov spremenljive velikosti</strong> kar pomeni, da lahko dodajamo, spreminjamo in brišemo elemente ter dostopamo do elementov po indeksu. Pri tem morajo biti elementi seznama objekti istega razreda ali njegovih podrazredov, dočim <strong>tip elementov določimo</strong> s trikotnimi oklepaji <code>&lt;...&gt;</code> (npr. <code>ArrayList&lt;Double&gt;</code>). Tako ni moč ustvariti seznama elementov primitivnega tipa (npr. <code>double</code>).</p>
 
 <div><pre><code class="language-java">List&lt;Double&gt; list = new ArrayList&lt;Double&gt;();
 list.add(1.0);
@@ -688,7 +688,7 @@ for (double value: list)
 <div><pre><code class="language-java">import java.util.HashSet;
 import java.util.Set;</code></pre></div>
 
-<p>Množica je <strong>neurejena zbirka enoličnih podatkov spremenljive velikosti</strong> kar pomeni, da lahko dodajamo in brišemo elemente ter dostopamo do elementov po vrednosti. Pri tem morajo biti elementi množice objekti istega razreda ali njegovih podrazredov, dočim <strong>tip vrednosti določimo</strong> s trikotnimi oklepaji <code>&lt;...&gt;</code> (npr. <code>HashSet&lt;Double&gt;</code>). Tako ni moč ustvariti množice vrednosti primitivnega tipa (npr. <code>double</code>)!</p>
+<p>Množica je <strong>neurejena zbirka enoličnih podatkov spremenljive velikosti</strong> kar pomeni, da lahko dodajamo in brišemo elemente ter dostopamo do elementov po vrednosti. Pri tem morajo biti elementi množice objekti istega razreda ali njegovih podrazredov, dočim <strong>tip vrednosti določimo</strong> s trikotnimi oklepaji <code>&lt;...&gt;</code> (npr. <code>HashSet&lt;Double&gt;</code>). Tako ni moč ustvariti množice vrednosti primitivnega tipa (npr. <code>double</code>).</p>
 
 <div><pre><code class="language-java">Set&lt;Double&gt; set = new HashSet&lt;Double&gt;();
 set.add(1.0);
@@ -706,7 +706,7 @@ set.remove(1.0);</code></pre></div>
 <div><pre><code class="language-java">import java.util.HashMap;
 import java.util.Map;</code></pre></div>
 
-<p>Slovar je <strong>neurejena zbirka enoličnih preslikav spremenljive velikosti</strong> kar pomeni, da lahko dodajamo, brišemo in dostopamo do vrednosti po ključu. Pri tem morajo biti ključi in vrednosti slovarja objekti istega razreda ali njegovih podrazredov, dočim <strong>tip ključev in vrednosti določimo</strong> s trikotnimi oklepaji <code>&lt;...&gt;</code> (npr. <code>HashMap&lt;String, Integer&gt;</code>). Tako ni moč ustvariti slovarja vrednosti primitivnega tipa (npr. <code>int</code>)!</p>
+<p>Slovar je <strong>neurejena zbirka enoličnih preslikav spremenljive velikosti</strong> kar pomeni, da lahko dodajamo, brišemo in dostopamo do vrednosti po ključu. Pri tem morajo biti ključi in vrednosti slovarja objekti istega razreda ali njegovih podrazredov, dočim <strong>tip ključev in vrednosti določimo</strong> s trikotnimi oklepaji <code>&lt;...&gt;</code> (npr. <code>HashMap&lt;String, Integer&gt;</code>). Tako ni moč ustvariti slovarja vrednosti primitivnega tipa (npr. <code>int</code>).</p>
 
 <div><pre><code class="language-java">Map&lt;String, Integer&gt; map = new HashMap&lt;String, Integer&gt;();
 map.put(&quot;foo&quot;, 0);
