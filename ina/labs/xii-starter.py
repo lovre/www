@@ -15,7 +15,7 @@ def read(name, path = "."):
         break
       else:
         node = line.strip().split("\"")
-        G.add_node(int(node[0]) - 1, label = node[1], cluster = int(node[2]) if len(node) > 2 and node[2].isdigit() else 0)
+        G.add_node(int(node[0]) - 1, label = node[1], cluster = int(node[2]) if len(node) > 2 and node[2].strip().isdigit() else 0)
 
     for line in file:
       i, j = (int(x) - 1 for x in line.split()[:2])
