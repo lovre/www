@@ -32,9 +32,11 @@ public class Snake {
 				graphics.setColor(Color.BLACK);
 				graphics.setStroke(new BasicStroke(4.0f, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND));
 
-				graphics.fillOval(snake.get(0).x - SIZE / 2, snake.get(0).y - SIZE / 2, SIZE, SIZE);
-				for (int i = 0; i < snake.size() - 1; i++)
-					graphics.drawLine(snake.get(i).x, snake.get(i).y, snake.get(i + 1).x, snake.get(i + 1).y);
+        if (snake.size() > 0) {
+          graphics.fillOval(snake.get(0).x - SIZE / 2, snake.get(0).y - SIZE / 2, SIZE, SIZE);
+          for (int i = 0; i < snake.size() - 1; i++)
+            graphics.drawLine(snake.get(i).x, snake.get(i).y, snake.get(i + 1).x, snake.get(i + 1).y);
+        }
 			}
 		};
 		panel.setBackground(Color.WHITE);
