@@ -514,7 +514,7 @@ ln = len(t)</code></pre></div>
 sl = l[:2]
 ln = len(l)
 l[1] = -1
-l.pop(0) # ali del l[0]
+l.pop(0) # del l[0]
 l.remove(-1) # zbriše prvo pojavitev
 l.append(9.81)
 l.extend([0, &#39;baz&#39;])</code></pre></div>
@@ -534,8 +534,8 @@ ln = len(d)
 d[1] = &#39;baz&#39;
 d.pop(&#39;bar&#39;) # zbriše edino pojavitev
 d.update({&#39;bar&#39;: 1})
-l = d.values() # iterator vrednosti
 l = d.keys() # iterator ključev
+l = d.values() # iterator vrednosti
 l = d.items() # iterator ključev in vrednosti</code></pre></div>
 
 <p>V programskem jeziku <strong>Python zbirko uredimo</strong> z uporabo metode <code>sort</code> ali funkcije <code>sorted</code>. Slednja vrne urejen seznam elementov, dočim morajo biti elementi enakega tipa. Na drugi strani pa metoda <code>shuffle</code> ustvari naključno permutacijo elementov seznama, dočim ni potrebno, da so elementi enakega tipa.</p>
