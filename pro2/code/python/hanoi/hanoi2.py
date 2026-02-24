@@ -1,6 +1,8 @@
 import time
 
-N = 7 # number of disks
+import matplotlib.pyplot as plt
+
+N = 9 # number of disks
 
 def init(n = N):
 
@@ -31,6 +33,25 @@ def info(rods, n = N):
     print()
   print()
   
+  # graphic visualization of rods with bars as disks
+  
+  H, W = 1, 2
+  CM = plt.get_cmap('cividis')
+  
+  plt.clf()
+  
+  for j in range(3):
+    for i in range(len(rods[j])):
+      plt.bar(j, H, width = (rods[j][i] + W) / (n + W), bottom = 1.1 * H * i, color = CM(rods[j][i] / n), edgecolor = 'k')
+      plt.text(j, 1.1 * H * i + 0.5 * H, str(rods[j][i]), ha = 'center', va = 'center')
+      
+  plt.plot([-0.75, 2.75], [0, 0], '-k', linewidth = 2, zorder = 1)
+  for j in range(3):
+    plt.plot([j, j], [0, 1.1 * H * n], '-k', linewidth = 2, zorder = -1)
+  
+  plt.axis('off')
+  plt.pause(0.01)
+  
   # pause program for 100 ms after print out
   
   time.sleep(0.1)
@@ -54,6 +75,11 @@ def hanoi(rods, source, destination, auxiliary, n = N):
 
 rods = init() # initialize rods with disks
 
+plt.ion()
+
 info(rods) # print out rods and disks
 
-hanoi(rods, rods[0], rods[2], rods[1]) # move all disks from first to last rod
+print(hanoi(rods, rods[0], rods[2], rods[1])) # move all disks from first to last rod
+
+plt.ioff()
+plt.show()

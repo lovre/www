@@ -12,7 +12,7 @@ def actors(movies):
             cnts[pair] += 1
           else:
             cnts[pair] = 1
-  return sorted(cnts.items(), key = lambda item: item[1])[-1]
+  return max(cnts.items(), key = lambda item: item[1])
 
 movies = requests.get("https://lovro.fri.uni-lj.si/api/movies").json()
 
