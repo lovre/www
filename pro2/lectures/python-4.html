@@ -791,7 +791,7 @@ TypeError: can only concatenate str (not &quot;int&quot;) to str</code></pre></d
   def __setitem__(self, i, child):
     if i &lt; 0 or i &gt;= len(self.children):
       raise HumanException(&#39;child index out of range&#39;)
-    elif type(child) is not Human: # not isinstance(child, Human)
+    elif not isinstance(child, Human): # type(child) is not Human
       raise HumanException(&#39;child must be human&#39;)
     self.children[i] = child</code></pre></div>
 
@@ -807,7 +807,7 @@ Human &#39;Otrok&#39; with 2 leg(s) saying `hey hey`
 &gt;&gt;&gt;   print(e)
 child index out of range</code></pre></div>
 
-<p><u>Dočim programski jezik Python omogoča, da podrazredi dedujejo več kot en nadrazred, kar pomeni, da ima sin lahko več očetov, to v programskih jezikih kot je Java ni mogoče. Za ta namen so na voljo vmesniki razredov.</u></p>
+<p><em>Dočim programski jezik Python omogoča, da podrazredi dedujejo več kot en nadrazred, kar pomeni, da ima sin lahko več očetov, to v programskih jezikih kot je Java ni mogoče. Za ta namen so na voljo vmesniki razredov.</em></p>
 
 
 
