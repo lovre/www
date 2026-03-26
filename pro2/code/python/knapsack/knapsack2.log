@@ -1,0 +1,6 @@
+ITEMS: [Green(4€,12kg), Gray(2€,1kg), Orange(1€,1kg), Blue(2€,2kg), Yellow(10€,4kg)]
+VALUE: 19€
+BUDGET: 15kg
+
+Optimal: 15€ / 8kg
+Selected: [Gray(2€,1kg), Orange(1€,1kg), Blue(2€,2kg), Yellow(10€,4kg)]
