@@ -1,0 +1,15 @@
+  Collection | ArrayList
+        Size | 10,000,000
+       Space | 424.7 MB
+        Time | 471.0 s
+
+  Collection | TreeSet
+        Size | 10,000,000
+       Space | 661.0 MB
+        Time | 10.9 s
+
+  Collection | HashSet
+        Size | 10,000,000
+       Space | 766.9 MB
+        Time | 0.6 s
+
