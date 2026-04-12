@@ -27,6 +27,7 @@ public class Demo {
 
     System.out.println(x + y * z / w);
     System.out.println(x % z); // ostanek pri deljenju
+    System.out.println(Math.round(y)); // zaokroževanje števil
     System.out.println(Math.pow(y, 2.0)); // potenciranje števil
     System.out.println(42.0 * Math.random()); // naključno število iz [0, 42)
     System.out.println((int)(3.0 * Math.random())); // naključno število iz {0, 1, 2}
