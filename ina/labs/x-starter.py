@@ -1,9 +1,13 @@
 import math
+import random
+import numpy as np
 
 import networkx as nx
 
 from cdlib import viz, algorithms
 from cdlib.classes import NodeClustering
+
+from matplotlib import pyplot as plt
 
 def read(name, path = "../nets"):
   G = nx.MultiGraph(name = name)
@@ -86,12 +90,41 @@ for name in ["karate_club", "southern_women"]:
   info(G)
 
   comparison(G, algs, runs = 1)
+  
+  viz.plot_network_clusters(G, algs["Known"](G), nx.spring_layout(G), plot_labels = True)
+  plt.show()
 
 ###
 ### Blockmodeling of Šubelj-Bajec benchmark graphs
 ###
 
-pass
+def subelj_bajec(mu = 0.1):
+  G = nx.MultiGraph(name = "subelj_bajec")
+  for i in range(128):
+    G.add_node(i, cluster = i // 32 + 1)
+    
+  for i in range(128):
+    for j in range(i + 1, 128):
+      if G.nodes[i]['cluster'] <= 2 and G.nodes[j]['cluster'] <= 2:
+        if G.nodes[i]['cluster'] == G.nodes[j]['cluster']:
+          if random.random() < 16 * (1 - mu) / 31:
+            G.add_edge(i, j)
+        else:
+          if random.random() < mu / 6:
+            G.add_edge(i, j)
+      elif G.nodes[i]['cluster'] >= 3 and G.nodes[j]['cluster'] >= 3:
+        if G.nodes[i]['cluster'] != G.nodes[j]['cluster']:
+          if random.random() < (1 - mu) / 2:
+            G.add_edge(i, j)
+        else:
+          if random.random() < 16 * mu / 95:
+            G.add_edge(i, j)
+      elif random.random() < mu / 6:
+        G.add_edge(i, j)
+        
+  return G
+
+info(subelj_bajec())
 
 ###
 ### Network k-core decomposition
