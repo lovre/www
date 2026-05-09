@@ -1,4 +1,6 @@
 import random
+import numpy as np
+from collections import deque
 
 import networkx as nx
 from cdlib import algorithms
@@ -55,8 +57,11 @@ def info(G, fast = False):
 ### Estimation by random-walk sampling
 ###
 
+def lcc(G):
+  return nx.convert_node_labels_to_integers(G.subgraph(max(nx.connected_components(G), key = len)))
+
 for name in ["java", "facebook", "nec", "enron", "www_google"]:
-  G = read(name)
+  G = lcc(read(name))
 
   info(G, fast = True)
 
@@ -111,4 +116,40 @@ for name in ["karate_club", "dolphins", "american_football", "foodweb_littlerock
 for label, measure in MEASURES.items():
   Ds = dists(Gs, measure)
   
+  map(Gs, Ds, label)
+
+###
+### Network sampling methods
+###
+
+def random_nodes(G, sample = 0.5, by_degree = False):
+  nodes = sorted(G)
+  if by_degree:
+    weights = np.array([k for _, k in sorted(G.degree())]) / (2 * G.number_of_edges())
+    g = G.subgraph(np.random.choice(nodes, size = int(sample * len(G)), replace = False, p = weights)).copy()
+    g.name = G.name + "_rnd"
+  else:
+    g = G.subgraph(random.sample(nodes, k = int(sample * len(G)))).copy()
+    g.name = G.name + "_rns"
+  return g
+
+SAMPLERS = [random_nodes, lambda G: random_nodes(G, by_degree = True)]
+  
+G = lcc(read("social"))
+Gs = [G]
+
+info(G)
+
+for sampler in SAMPLERS:
+  for i in range(2):
+    g = nx.convert_node_labels_to_integers(sampler(G))
+    g.name += "_" + str(i + 1)
+    Gs.append(g)
+  
+    if i == 0:
+      info(g)
+
+for label, measure in MEASURES.items():
+  Ds = dists(Gs, measure)
+
   map(Gs, Ds, label)
