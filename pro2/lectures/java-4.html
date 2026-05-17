@@ -597,7 +597,7 @@ class Panel2 extends JPanel {
 
 <p>Grafični elementi <strong>preko dogodkov</strong> (npr. pritisk gumba, sprememba drsnika) <strong>omogočajo nadzor</strong> nad delovanjem programa oziroma grafičnega vmesnika. Na same dogodke se odzovemo tako, da grafičnemu elementu <strong>dodamo poslušalca</strong>, ki implementira vmesnik <code>java.util.EventListener</code> in s tem vse potrebne metode za odziv na dogodke grafičnega elementa.</p>
 
-<p>Spodnji program <strong>doda gumb</strong> razreda <code>JButton</code> severnemu panelu programskega okna. Gumbu <strong>dodamo poslušalca</strong>, ki implementira vmesnik <code>java.awt.event.ActionListener</code> kot anonimni razred in ob kliku na gumb nogometno žogo prestavi nazaj prv središče osrednjega panela.</p>
+<p>Spodnji program <strong>doda gumb</strong> razreda <code>JButton</code> severnemu panelu programskega okna. Gumbu <strong>dodamo poslušalca</strong>, ki implementira vmesnik <code>java.awt.event.ActionListener</code> kot anonimni razred in ob kliku na gumb nogometno žogo prestavi nazaj v središče osrednjega panela.</p>
 
 <div><pre><code class="language-java">JButton button = new JButton(&quot;Center&quot;);
 button.setPreferredSize(new Dimension(96, 40));

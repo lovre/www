@@ -102,7 +102,6 @@ public class GUI2 {
       south.add(subsouth);
     }
     
-    frame.getRootPane().putClientProperty("apple.awt.brushMetalLook", true);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setVisible(true);
     
