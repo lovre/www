@@ -1,0 +1,53 @@
+       Graph | 'karate_club'
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17)
+  Components | 100.0% (1)
+  Clustering | 0.571
+   Distances | 2.41 (5)
+  Modularity | 0.420 (4)
+
+       Graph | 'southern_women'
+       Nodes | 32 (0)
+       Edges | 89 (0)
+      Degree | 5.56 (14)
+  Components | 100.0% (1)
+  Clustering | 0.000
+   Distances | 2.31 (4)
+  Modularity | 0.334 (3)
+
+       Graph | 'dolphins'
+       Nodes | 62 (0)
+       Edges | 159 (0)
+      Degree | 5.13 (12)
+  Components | 100.0% (1)
+  Clustering | 0.259
+   Distances | 3.36 (8)
+  Modularity | 0.527 (4)
+
+       Graph | 'american_football'
+       Nodes | 115 (0)
+       Edges | 613 (0)
+      Degree | 10.66 (12)
+  Components | 100.0% (1)
+  Clustering | 0.403
+   Distances | 2.51 (4)
+  Modularity | 0.605 (10)
+
+       Graph | 'highways'
+       Nodes | 124 (0)
+       Edges | 125 (0)
+      Degree | 2.02 (4)
+  Components | 100.0% (1)
+  Clustering | 0.000
+   Distances | 23.09 (60)
+  Modularity | 0.817 (11)
+
+       Graph | 'foodweb_littlerock'
+       Nodes | 183 (0)
+       Edges | 2,434 (0)
+      Degree | 26.60 (105)
+  Components | 100.0% (1)
+  Clustering | 0.323
+   Distances | 2.15 (4)
+  Modularity | 0.361 (4)

@@ -1,0 +1,198 @@
+       Graph | 'java'
+       Nodes | 2,378 (0)
+       Edges | 14,619 (0)
+      Degree | 12.30 (2,166)
+
+   Estimated | 482.83
+   Corrected | 12.99
+      Random | 9.03
+
+       Graph | 'facebook'
+       Nodes | 63,392 (0)
+       Edges | 816,831 (0)
+      Degree | 25.77 (1,098)
+
+   Estimated | 88.99
+   Corrected | 26.33
+      Random | 26.28
+
+       Graph | 'nec'
+       Nodes | 75,885 (0)
+       Edges | 357,317 (0)
+      Degree | 9.42 (13,346)
+
+   Estimated | 771.82
+   Corrected | 8.47
+      Random | 8.07
+
+       Graph | 'enron'
+       Nodes | 84,384 (0)
+       Edges | 295,889 (0)
+      Degree | 7.01 (1,726)
+
+   Estimated | 174.38
+   Corrected | 7.64
+      Random | 6.69
+
+       Graph | 'www_google'
+       Nodes | 855,802 (0)
+       Edges | 4,291,352 (0)
+      Degree | 10.03 (6,332)
+
+   Estimated | 171.61
+   Corrected | 10.06
+      Random | 10.15
+
+       Graph | 'facebook_1'
+       Nodes | 8,217,272 (0)
+       Edges | 12,582,912 (0)
+      Degree | 3.06 (518)
+  Components | 100.0% (67)
+  Clustering | 0.0188
+  Modularity | 0.8711 (786)
+
+       Graph | 'facebook_2'
+       Nodes | 7,698,354 (0)
+       Edges | 7,839,141 (0)
+      Degree | 2.04 (402)
+  Components | 94.1% (11,469)
+  Clustering | 0.0014
+  Modularity | 0.9912 (12,853)
+
+       Graph | 'karate_club'
+       Nodes | 34 (0)
+       Edges | 78 (0)
+      Degree | 4.59 (17)
+  Components | 100.0% (1)
+  Clustering | 0.5706
+  Modularity | 0.4198 (4)
+
+       Graph | 'dolphins'
+       Nodes | 62 (0)
+       Edges | 159 (0)
+      Degree | 5.13 (12)
+  Components | 100.0% (1)
+  Clustering | 0.2590
+  Modularity | 0.5241 (5)
+
+       Graph | 'american_football'
+       Nodes | 115 (0)
+       Edges | 613 (0)
+      Degree | 10.66 (12)
+  Components | 100.0% (1)
+  Clustering | 0.4032
+  Modularity | 0.6046 (10)
+
+       Graph | 'foodweb_littlerock'
+       Nodes | 183 (0)
+       Edges | 2,434 (0)
+      Degree | 26.60 (105)
+  Components | 100.0% (1)
+  Clustering | 0.3226
+  Modularity | 0.3549 (3)
+
+       Graph | 'foodweb_baydry'
+       Nodes | 128 (0)
+       Edges | 2,106 (0)
+      Degree | 32.91 (110)
+  Components | 100.0% (1)
+  Clustering | 0.3346
+  Modularity | 0.1811 (3)
+
+       Graph | 'foodweb_baywet'
+       Nodes | 128 (0)
+       Edges | 2,075 (0)
+      Degree | 32.42 (110)
+  Components | 100.0% (1)
+  Clustering | 0.3346
+  Modularity | 0.1804 (4)
+
+       Graph | 'erdos_renyi_1'
+       Nodes | 500 (1)
+       Edges | 1,500 (0)
+      Degree | 6.00 (16)
+  Components | 99.8% (2)
+  Clustering | 0.0132
+  Modularity | 0.4120 (14)
+
+       Graph | 'barabasi_albert_1'
+       Nodes | 500 (0)
+       Edges | 1,491 (0)
+      Degree | 5.96 (67)
+  Components | 100.0% (1)
+  Clustering | 0.0439
+  Modularity | 0.3974 (12)
+
+       Graph | 'watts_strogatz_1'
+       Nodes | 500 (0)
+       Edges | 1,500 (0)
+      Degree | 6.00 (9)
+  Components | 100.0% (1)
+  Clustering | 0.4425
+  Modularity | 0.8038 (17)
+
+       Graph | 'social'
+       Nodes | 10,680 (0)
+       Edges | 24,316 (0)
+      Degree | 4.55 (205)
+  Components | 100.0% (1)
+  Clustering | 0.2659
+  Modularity | 0.8852 (98)
+
+       Graph | 'social_rns_1'
+       Nodes | 5,340 (1,479)
+       Edges | 5,779 (0)
+      Degree | 2.16 (104)
+  Components | 39.6% (1,918)
+  Clustering | 0.1579
+  Modularity | 0.9286 (1,950)
+
+       Graph | 'social_rnd_1'
+       Nodes | 5,340 (331)
+       Edges | 15,977 (0)
+      Degree | 5.98 (196)
+  Components | 86.3% (465)
+  Clustering | 0.3400
+  Modularity | 0.8549 (518)
+
+       Graph | 'social_rls_1'
+       Nodes | 5,475 (0)
+       Edges | 6,079 (0)
+      Degree | 2.22 (57)
+  Components | 46.6% (980)
+  Clustering | 0.0460
+  Modularity | 0.9281 (1,014)
+
+       Graph | 'social_rws_1'
+       Nodes | 5,340 (0)
+       Edges | 16,956 (0)
+      Degree | 6.35 (194)
+  Components | 100.0% (1)
+  Clustering | 0.3566
+  Modularity | 0.8497 (56)
+
+       Graph | 'social_dfs_1'
+       Nodes | 5,340 (0)
+       Edges | 10,067 (0)
+      Degree | 3.77 (65)
+  Components | 100.0% (1)
+  Clustering | 0.2554
+  Modularity | 0.9526 (84)
+
+       Graph | 'social_bfs_1'
+       Nodes | 5,340 (0)
+       Edges | 16,352 (0)
+      Degree | 6.12 (205)
+  Components | 100.0% (1)
+  Clustering | 0.3359
+  Modularity | 0.8377 (45)
+
+       Graph | 'social_comms_1'
+       Nodes | 89 (0)
+       Edges | 347 (0)
+      Degree | 7.80 (40)
+  Components | 100.0% (1)
+  Clustering | 0.4496
+  Modularity | 0.1647 (5)
+
+
