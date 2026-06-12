@@ -1,0 +1,6234 @@
+[
+  {
+    "road": "A1",
+    "segment": "0030",
+    "type": "AC",
+    "vehicles": 25553.5,
+    "longitude": 549608.0,
+    "latitude": 172057.5
+  },
+  {
+    "road": "A1",
+    "segment": "0199",
+    "type": "AC",
+    "vehicles": 523.0,
+    "longitude": 549614.0,
+    "latitude": 172027.0
+  },
+  {
+    "road": "A1",
+    "segment": "0031",
+    "type": "AC",
+    "vehicles": 33289.0,
+    "longitude": 549969.0,
+    "latitude": 166969.0
+  },
+  {
+    "road": "A1",
+    "segment": "0071",
+    "type": "AC",
+    "vehicles": 42532.5,
+    "longitude": 552678.0,
+    "latitude": 158007.0
+  },
+  {
+    "road": "A1",
+    "segment": "0066",
+    "type": "AC",
+    "vehicles": 50227.5,
+    "longitude": 551515.0,
+    "latitude": 152823.0
+  },
+  {
+    "road": "A1",
+    "segment": "0035",
+    "type": "AC",
+    "vehicles": 51339.0,
+    "longitude": 550548.0,
+    "latitude": 147668.0
+  },
+  {
+    "road": "A1",
+    "segment": "0134",
+    "type": "AC",
+    "vehicles": 5614.5,
+    "longitude": 550170.0,
+    "latitude": 145899.0
+  },
+  {
+    "road": "A1",
+    "segment": "0036",
+    "type": "AC",
+    "vehicles": 47418.0,
+    "longitude": 546829.5,
+    "latitude": 140802.5
+  },
+  {
+    "road": "A1",
+    "segment": "0135",
+    "type": "AC",
+    "vehicles": 8447.5,
+    "longitude": 543994.5,
+    "latitude": 138504.0
+  },
+  {
+    "road": "A1",
+    "segment": "0037",
+    "type": "AC",
+    "vehicles": 42895.0,
+    "longitude": 539614.0,
+    "latitude": 136234.0
+  },
+  {
+    "road": "A1",
+    "segment": "0038",
+    "type": "AC",
+    "vehicles": 41317.0,
+    "longitude": 533821.0,
+    "latitude": 128160.0
+  },
+  {
+    "road": "A1",
+    "segment": "0137",
+    "type": "AC",
+    "vehicles": 4403.5,
+    "longitude": 530253.5,
+    "latitude": 124859.5
+  },
+  {
+    "road": "A1",
+    "segment": "0039",
+    "type": "AC",
+    "vehicles": 44864.0,
+    "longitude": 524174.0,
+    "latitude": 123900.0
+  },
+  {
+    "road": "A1",
+    "segment": "0040",
+    "type": "AC",
+    "vehicles": 52144.5,
+    "longitude": 517288.5,
+    "latitude": 124643.0
+  },
+  {
+    "road": "A1",
+    "segment": "0041",
+    "type": "AC",
+    "vehicles": 47124.0,
+    "longitude": 508051.0,
+    "latitude": 124619.0
+  },
+  {
+    "road": "A1",
+    "segment": "0042",
+    "type": "AC",
+    "vehicles": 46888.0,
+    "longitude": 499113.0,
+    "latitude": 124019.0
+  },
+  {
+    "road": "A1",
+    "segment": "0043",
+    "type": "AC",
+    "vehicles": 44851.0,
+    "longitude": 494206.0,
+    "latitude": 119797.0
+  },
+  {
+    "road": "A1",
+    "segment": "0067",
+    "type": "AC",
+    "vehicles": 47447.0,
+    "longitude": 489144.0,
+    "latitude": 115967.0
+  },
+  {
+    "road": "A1",
+    "segment": "0044",
+    "type": "AC",
+    "vehicles": 49632.0,
+    "longitude": 476649.0,
+    "latitude": 114504.0
+  },
+  {
+    "road": "A1",
+    "segment": "0143",
+    "type": "AC",
+    "vehicles": 3906.0,
+    "longitude": 472981.0,
+    "latitude": 112699.0
+  },
+  {
+    "road": "A1",
+    "segment": "0045",
+    "type": "AC",
+    "vehicles": 54098.0,
+    "longitude": 470774.0,
+    "latitude": 110902.0
+  },
+  {
+    "road": "A1",
+    "segment": "0046",
+    "type": "AC",
+    "vehicles": 62192.0,
+    "longitude": 468892.0,
+    "latitude": 107364.0
+  },
+  {
+    "road": "A1",
+    "segment": "0047",
+    "type": "AC",
+    "vehicles": 64974.333333333336,
+    "longitude": 467404.5,
+    "latitude": 103743.0
+  },
+  {
+    "road": "A1",
+    "segment": "0146",
+    "type": "AC",
+    "vehicles": 36806.5,
+    "longitude": 466956.0,
+    "latitude": 103205.5
+  },
+  {
+    "road": "A1",
+    "segment": "0050",
+    "type": "AC",
+    "vehicles": 53877.5,
+    "longitude": 466300.0,
+    "latitude": 98508.5
+  },
+  {
+    "road": "A1",
+    "segment": "0119",
+    "type": "AC",
+    "vehicles": 26145.0,
+    "longitude": 465698.0,
+    "latitude": 97376.0
+  },
+  {
+    "road": "A1",
+    "segment": "0019",
+    "type": "AC",
+    "vehicles": 78684.0,
+    "longitude": 465136.0,
+    "latitude": 97162.0
+  },
+  {
+    "road": "A1",
+    "segment": "0118",
+    "type": "AC",
+    "vehicles": 12405.0,
+    "longitude": 464812.5,
+    "latitude": 97235.5
+  },
+  {
+    "road": "A1",
+    "segment": "0018",
+    "type": "AC",
+    "vehicles": 67337.5,
+    "longitude": 463199.5,
+    "latitude": 97663.0
+  },
+  {
+    "road": "A1",
+    "segment": "0016",
+    "type": "AC",
+    "vehicles": 77516.0,
+    "longitude": 458361.0,
+    "latitude": 99691.0
+  },
+  {
+    "road": "A1",
+    "segment": "0051",
+    "type": "AC",
+    "vehicles": 61093.0,
+    "longitude": 457318.5,
+    "latitude": 99396.5
+  },
+  {
+    "road": "A1",
+    "segment": "0052",
+    "type": "AC",
+    "vehicles": 71433.0,
+    "longitude": 447850.0,
+    "latitude": 94820.0
+  },
+  {
+    "road": "A1",
+    "segment": "0053",
+    "type": "AC",
+    "vehicles": 62896.0,
+    "longitude": 444594.0,
+    "latitude": 89727.0
+  },
+  {
+    "road": "A1",
+    "segment": "0054",
+    "type": "AC",
+    "vehicles": 58379.0,
+    "longitude": 442776.0,
+    "latitude": 82229.0
+  },
+  {
+    "road": "A1",
+    "segment": "0152",
+    "type": "AC",
+    "vehicles": 4153.0,
+    "longitude": 444627.5,
+    "latitude": 76355.5
+  },
+  {
+    "road": "A1",
+    "segment": "0055",
+    "type": "AC",
+    "vehicles": 56425.0,
+    "longitude": 441005.0,
+    "latitude": 73262.0
+  },
+  {
+    "road": "A1",
+    "segment": "0153",
+    "type": "AC",
+    "vehicles": 7932.0,
+    "longitude": 437562.0,
+    "latitude": 69240.5
+  },
+  {
+    "road": "A1",
+    "segment": "0056",
+    "type": "AC",
+    "vehicles": 51194.0,
+    "longitude": 430502.0,
+    "latitude": 69481.5
+  },
+  {
+    "road": "A1",
+    "segment": "0197",
+    "type": "AC",
+    "vehicles": 1548.0,
+    "longitude": 428027.0,
+    "latitude": 69255.5
+  },
+  {
+    "road": "A1",
+    "segment": "0154",
+    "type": "AC",
+    "vehicles": 9973.0,
+    "longitude": 426278.0,
+    "latitude": 69040.5
+  },
+  {
+    "road": "A1",
+    "segment": "0057",
+    "type": "AC",
+    "vehicles": 37690.0,
+    "longitude": 425729.0,
+    "latitude": 68512.0
+  },
+  {
+    "road": "A1",
+    "segment": "0058",
+    "type": "AC",
+    "vehicles": 36975.0,
+    "longitude": 421282.0,
+    "latitude": 62796.0
+  },
+  {
+    "road": "A1",
+    "segment": "0059",
+    "type": "AC",
+    "vehicles": 29798.0,
+    "longitude": 420132.0,
+    "latitude": 60409.0
+  },
+  {
+    "road": "A1",
+    "segment": "0157",
+    "type": "AC",
+    "vehicles": 2486.5,
+    "longitude": 419475.0,
+    "latitude": 59275.0
+  },
+  {
+    "road": "A1",
+    "segment": "0060",
+    "type": "AC",
+    "vehicles": 30863.0,
+    "longitude": 417997.0,
+    "latitude": 53545.0
+  },
+  {
+    "road": "A1",
+    "segment": "0158",
+    "type": "AC",
+    "vehicles": 4607.5,
+    "longitude": 416947.5,
+    "latitude": 52987.0
+  },
+  {
+    "road": "A1",
+    "segment": "0061",
+    "type": "AC",
+    "vehicles": 31334.0,
+    "longitude": 415220.0,
+    "latitude": 49541.0
+  },
+  {
+    "road": "A1",
+    "segment": "0062",
+    "type": "AC",
+    "vehicles": 29520.5,
+    "longitude": 408855.0,
+    "latitude": 46435.0
+  },
+  {
+    "road": "A2",
+    "segment": "0001",
+    "type": "AC",
+    "vehicles": 13150.0,
+    "longitude": 422512.0,
+    "latitude": 146305.0
+  },
+  {
+    "road": "A2",
+    "segment": "0002",
+    "type": "AC",
+    "vehicles": 18374.0,
+    "longitude": 427477.0,
+    "latitude": 143751.0
+  },
+  {
+    "road": "A2",
+    "segment": "0003",
+    "type": "AC",
+    "vehicles": 26599.0,
+    "longitude": 432961.0,
+    "latitude": 141094.0
+  },
+  {
+    "road": "A2",
+    "segment": "0103",
+    "type": "AC",
+    "vehicles": 9769.0,
+    "longitude": 435291.5,
+    "latitude": 136776.5
+  },
+  {
+    "road": "A2",
+    "segment": "0004",
+    "type": "AC",
+    "vehicles": 37907.0,
+    "longitude": 437883.0,
+    "latitude": 133929.0
+  },
+  {
+    "road": "A2",
+    "segment": "0005",
+    "type": "AC",
+    "vehicles": 42695.0,
+    "longitude": 442669.0,
+    "latitude": 130763.0
+  },
+  {
+    "road": "A2",
+    "segment": "0006",
+    "type": "AC",
+    "vehicles": 48948.0,
+    "longitude": 445937.0,
+    "latitude": 127770.0
+  },
+  {
+    "road": "A2",
+    "segment": "0007",
+    "type": "AC",
+    "vehicles": 43583.0,
+    "longitude": 453494.0,
+    "latitude": 122728.0
+  },
+  {
+    "road": "A2",
+    "segment": "0008",
+    "type": "AC",
+    "vehicles": 51407.0,
+    "longitude": 456216.0,
+    "latitude": 120423.0
+  },
+  {
+    "road": "A2",
+    "segment": "0009",
+    "type": "AC",
+    "vehicles": 55762.0,
+    "longitude": 457695.0,
+    "latitude": 119157.0
+  },
+  {
+    "road": "A2",
+    "segment": "0010",
+    "type": "AC",
+    "vehicles": 61529.0,
+    "longitude": 459848.0,
+    "latitude": 113098.0
+  },
+  {
+    "road": "A2",
+    "segment": "0013",
+    "type": "AC",
+    "vehicles": 59250.0,
+    "longitude": 458267.0,
+    "latitude": 104826.0
+  },
+  {
+    "road": "A2",
+    "segment": "0113",
+    "type": "AC",
+    "vehicles": 14466.0,
+    "longitude": 458292.0,
+    "latitude": 103695.0
+  },
+  {
+    "road": "A2",
+    "segment": "0014",
+    "type": "AC",
+    "vehicles": 66937.0,
+    "longitude": 457903.5,
+    "latitude": 102786.0
+  },
+  {
+    "road": "A2",
+    "segment": "0015",
+    "type": "AC",
+    "vehicles": 59270.5,
+    "longitude": 457279.0,
+    "latitude": 100640.0
+  },
+  {
+    "road": "A2",
+    "segment": "0115",
+    "type": "AC",
+    "vehicles": 42421.0,
+    "longitude": 457358.0,
+    "latitude": 99717.0
+  },
+  {
+    "road": "A2",
+    "segment": "0020",
+    "type": "AC",
+    "vehicles": 51032.0,
+    "longitude": 467308.5,
+    "latitude": 95342.0
+  },
+  {
+    "road": "A2",
+    "segment": "0021",
+    "type": "AC",
+    "vehicles": 57757.0,
+    "longitude": 472005.0,
+    "latitude": 92262.0
+  },
+  {
+    "road": "A2",
+    "segment": "0022",
+    "type": "AC",
+    "vehicles": 48231.0,
+    "longitude": 480360.0,
+    "latitude": 90882.0
+  },
+  {
+    "road": "A2",
+    "segment": "0023",
+    "type": "AC",
+    "vehicles": 38821.0,
+    "longitude": 487729.0,
+    "latitude": 88171.0
+  },
+  {
+    "road": "A2",
+    "segment": "0024",
+    "type": "AC",
+    "vehicles": 34709.0,
+    "longitude": 510030.0,
+    "latitude": 80516.0
+  },
+  {
+    "road": "A2",
+    "segment": "0025",
+    "type": "AC",
+    "vehicles": 30034.0,
+    "longitude": 515520.0,
+    "latitude": 76713.0
+  },
+  {
+    "road": "A2",
+    "segment": "0026",
+    "type": "AC",
+    "vehicles": 29054.0,
+    "longitude": 522116.0,
+    "latitude": 81081.0
+  },
+  {
+    "road": "A2",
+    "segment": "0027",
+    "type": "AC",
+    "vehicles": 27074.0,
+    "longitude": 535331.0,
+    "latitude": 86143.0
+  },
+  {
+    "road": "A2",
+    "segment": "0418",
+    "type": "AC",
+    "vehicles": 4546.5,
+    "longitude": 536348.5,
+    "latitude": 86063.0
+  },
+  {
+    "road": "A2",
+    "segment": "0028",
+    "type": "AC",
+    "vehicles": 23510.0,
+    "longitude": 545346.0,
+    "latitude": 83972.0
+  },
+  {
+    "road": "A2",
+    "segment": "0029",
+    "type": "AC",
+    "vehicles": 19551.0,
+    "longitude": 550853.5,
+    "latitude": 80933.0
+  },
+  {
+    "road": "A3",
+    "segment": "0068",
+    "type": "AC",
+    "vehicles": 12638.0,
+    "longitude": 414765.0,
+    "latitude": 64248.0
+  },
+  {
+    "road": "A3",
+    "segment": "0070",
+    "type": "AC",
+    "vehicles": 12683.0,
+    "longitude": 409568.0,
+    "latitude": 63043.5
+  },
+  {
+    "road": "A3",
+    "segment": "0486",
+    "type": "AC",
+    "vehicles": 8326.0,
+    "longitude": 409772.0,
+    "latitude": 63117.0
+  },
+  {
+    "road": "A4",
+    "segment": "0091",
+    "type": "AC",
+    "vehicles": 30662.0,
+    "longitude": 559280.0,
+    "latitude": 145546.0
+  },
+  {
+    "road": "A4",
+    "segment": "0093",
+    "type": "AC",
+    "vehicles": 18044.5,
+    "longitude": 567115.0,
+    "latitude": 134200.0
+  },
+  {
+    "road": "A4",
+    "segment": "0094",
+    "type": "AC",
+    "vehicles": 15511.0,
+    "longitude": 566428.0,
+    "latitude": 126981.0
+  },
+  {
+    "road": "A5",
+    "segment": "0806",
+    "type": "AC",
+    "vehicles": 29679.5,
+    "longitude": 557550.0,
+    "latitude": 160893.0
+  },
+  {
+    "road": "A5",
+    "segment": "0463",
+    "type": "AC",
+    "vehicles": 1148.0,
+    "longitude": 557496.0,
+    "latitude": 159729.5
+  },
+  {
+    "road": "A5",
+    "segment": "0807",
+    "type": "AC",
+    "vehicles": 23152.0,
+    "longitude": 565995.0,
+    "latitude": 158196.0
+  },
+  {
+    "road": "A5",
+    "segment": "0808",
+    "type": "AC",
+    "vehicles": 21681.5,
+    "longitude": 573191.0,
+    "latitude": 159520.5
+  },
+  {
+    "road": "A5",
+    "segment": "0809",
+    "type": "AC",
+    "vehicles": 19352.0,
+    "longitude": 578259.0,
+    "latitude": 161503.0
+  },
+  {
+    "road": "A5",
+    "segment": "0174",
+    "type": "AC",
+    "vehicles": 2083.5,
+    "longitude": 584867.0,
+    "latitude": 162082.0
+  },
+  {
+    "road": "A5",
+    "segment": "0810",
+    "type": "AC",
+    "vehicles": 18694.0,
+    "longitude": 585757.0,
+    "latitude": 162589.0
+  },
+  {
+    "road": "A5",
+    "segment": "0175",
+    "type": "AC",
+    "vehicles": 3726.5,
+    "longitude": 588590.5,
+    "latitude": 166688.5
+  },
+  {
+    "road": "A5",
+    "segment": "0811",
+    "type": "AC",
+    "vehicles": 14820.0,
+    "longitude": 590651.0,
+    "latitude": 166829.0
+  },
+  {
+    "road": "A5",
+    "segment": "0812",
+    "type": "AC",
+    "vehicles": 14730.0,
+    "longitude": 597996.0,
+    "latitude": 166040.0
+  },
+  {
+    "road": "A5",
+    "segment": "0813",
+    "type": "AC",
+    "vehicles": 13426.0,
+    "longitude": 607669.0,
+    "latitude": 163090.0
+  },
+  {
+    "road": "A5",
+    "segment": "0814",
+    "type": "AC",
+    "vehicles": 11752.0,
+    "longitude": 609921.0,
+    "latitude": 161314.0
+  },
+  {
+    "road": "A5",
+    "segment": "0185",
+    "type": "AC",
+    "vehicles": 2405.0,
+    "longitude": 610705.5,
+    "latitude": 158314.0
+  },
+  {
+    "road": "A5",
+    "segment": "0816",
+    "type": "AC",
+    "vehicles": 7081.0,
+    "longitude": 616079.0,
+    "latitude": 154924.0
+  },
+  {
+    "road": "H3",
+    "segment": "0085",
+    "type": "HC",
+    "vehicles": 64848.0,
+    "longitude": 466202.0,
+    "latitude": 103178.0
+  },
+  {
+    "road": "H3",
+    "segment": "0198",
+    "type": "HC",
+    "vehicles": 17550.0,
+    "longitude": 465947.0,
+    "latitude": 103158.0
+  },
+  {
+    "road": "H3",
+    "segment": "0089",
+    "type": "HC",
+    "vehicles": 76418.0,
+    "longitude": 461430.0,
+    "latitude": 105074.0
+  },
+  {
+    "road": "H3",
+    "segment": "0090",
+    "type": "HC",
+    "vehicles": 62761.333333333336,
+    "longitude": 458646.5,
+    "latitude": 103919.0
+  },
+  {
+    "road": "H4",
+    "segment": "0374",
+    "type": "HC",
+    "vehicles": 19945.0,
+    "longitude": 426024.0,
+    "latitude": 69025.0
+  },
+  {
+    "road": "H4",
+    "segment": "0451",
+    "type": "HC",
+    "vehicles": 2511.5,
+    "longitude": 418786.0,
+    "latitude": 77838.5
+  },
+  {
+    "road": "H4",
+    "segment": "0375",
+    "type": "HC",
+    "vehicles": 20983.0,
+    "longitude": 416716.0,
+    "latitude": 81734.0
+  },
+  {
+    "road": "H4",
+    "segment": "0376",
+    "type": "HC",
+    "vehicles": 21642.0,
+    "longitude": 412051.0,
+    "latitude": 83384.0
+  },
+  {
+    "road": "H4",
+    "segment": "0443",
+    "type": "HC",
+    "vehicles": 1913.0,
+    "longitude": 405956.5,
+    "latitude": 84691.5
+  },
+  {
+    "road": "H4",
+    "segment": "0379",
+    "type": "HC",
+    "vehicles": 17233.0,
+    "longitude": 398273.0,
+    "latitude": 87206.0
+  },
+  {
+    "road": "H4",
+    "segment": "0380",
+    "type": "HC",
+    "vehicles": 12743.0,
+    "longitude": 393655.0,
+    "latitude": 87601.0
+  },
+  {
+    "road": "H5",
+    "segment": "0388",
+    "type": "HC",
+    "vehicles": 15578.0,
+    "longitude": 405707.5,
+    "latitude": 49140.5
+  },
+  {
+    "road": "H5",
+    "segment": "0456",
+    "type": "HC",
+    "vehicles": 1565.5,
+    "longitude": 406098.0,
+    "latitude": 49468.5
+  },
+  {
+    "road": "H5",
+    "segment": "0237",
+    "type": "HC",
+    "vehicles": 48474.0,
+    "longitude": 403251.0,
+    "latitude": 45880.0
+  },
+  {
+    "road": "1",
+    "segment": "0240",
+    "type": "G1",
+    "vehicles": 2953.0,
+    "longitude": 499586.0,
+    "latitude": 162125.0
+  },
+  {
+    "road": "1",
+    "segment": "0241",
+    "type": "G1",
+    "vehicles": 8200.0,
+    "longitude": 509352.0,
+    "latitude": 162948.0
+  },
+  {
+    "road": "1",
+    "segment": "0242",
+    "type": "G1",
+    "vehicles": 6358.0,
+    "longitude": 516071.0,
+    "latitude": 163858.0
+  },
+  {
+    "road": "1",
+    "segment": "0243",
+    "type": "G1",
+    "vehicles": 4679.0,
+    "longitude": 524202.0,
+    "latitude": 161968.0
+  },
+  {
+    "road": "1",
+    "segment": "0244",
+    "type": "G1",
+    "vehicles": 4418.0,
+    "longitude": 529424.0,
+    "latitude": 160594.0
+  },
+  {
+    "road": "1",
+    "segment": "0245",
+    "type": "G1",
+    "vehicles": 9537.0,
+    "longitude": 542305.0,
+    "latitude": 158530.33333333334
+  },
+  {
+    "road": "1",
+    "segment": "0326",
+    "type": "G1",
+    "vehicles": 28427.0,
+    "longitude": 548112.0,
+    "latitude": 158270.0
+  },
+  {
+    "road": "1",
+    "segment": "0246",
+    "type": "G1",
+    "vehicles": 21146.0,
+    "longitude": 552042.0,
+    "latitude": 153958.0
+  },
+  {
+    "road": "2",
+    "segment": "1290",
+    "type": "G1",
+    "vehicles": 8763.0,
+    "longitude": 546667.0,
+    "latitude": 140076.0
+  },
+  {
+    "road": "2",
+    "segment": "0392",
+    "type": "G1",
+    "vehicles": 5013.0,
+    "longitude": 554184.0,
+    "latitude": 141208.0
+  },
+  {
+    "road": "2",
+    "segment": "0393",
+    "type": "G1",
+    "vehicles": 8350.0,
+    "longitude": 558412.0,
+    "latitude": 141464.5
+  },
+  {
+    "road": "2",
+    "segment": "0395",
+    "type": "G1",
+    "vehicles": 16897.0,
+    "longitude": 567415.0,
+    "latitude": 141281.0
+  },
+  {
+    "road": "2",
+    "segment": "0249",
+    "type": "G1",
+    "vehicles": 15767.0,
+    "longitude": 568786.0,
+    "latitude": 141891.0
+  },
+  {
+    "road": "2",
+    "segment": "0250",
+    "type": "G1",
+    "vehicles": 7527.5,
+    "longitude": 577088.5,
+    "latitude": 142289.5
+  },
+  {
+    "road": "2",
+    "segment": "0398",
+    "type": "G1",
+    "vehicles": 4359.0,
+    "longitude": 589516.0,
+    "latitude": 142193.0
+  },
+  {
+    "road": "2",
+    "segment": "1313",
+    "type": "G1",
+    "vehicles": 2025.5,
+    "longitude": 598296.5,
+    "latitude": 139933.0
+  },
+  {
+    "road": "4",
+    "segment": "1257",
+    "type": "G1",
+    "vehicles": 13691.0,
+    "longitude": 501771.0,
+    "latitude": 160594.0
+  },
+  {
+    "road": "4",
+    "segment": "1258",
+    "type": "G1",
+    "vehicles": 10537.0,
+    "longitude": 503767.0,
+    "latitude": 156670.0
+  },
+  {
+    "road": "4",
+    "segment": "1259",
+    "type": "G1",
+    "vehicles": 11787.5,
+    "longitude": 511291.5,
+    "latitude": 147725.5
+  },
+  {
+    "road": "4",
+    "segment": "1260",
+    "type": "G1",
+    "vehicles": 9682.0,
+    "longitude": 510838.0,
+    "latitude": 137437.0
+  },
+  {
+    "road": "4",
+    "segment": "1261",
+    "type": "G1",
+    "vehicles": 17967.0,
+    "longitude": 511057.0,
+    "latitude": 134270.0
+  },
+  {
+    "road": "4",
+    "segment": "1262",
+    "type": "G1",
+    "vehicles": 14610.0,
+    "longitude": 513855.0,
+    "latitude": 126908.0
+  },
+  {
+    "road": "5",
+    "segment": "1401",
+    "type": "G1",
+    "vehicles": 7706.0,
+    "longitude": 516756.0,
+    "latitude": 124182.0
+  },
+  {
+    "road": "5",
+    "segment": "0370",
+    "type": "G1",
+    "vehicles": 13359.0,
+    "longitude": 518947.0,
+    "latitude": 121973.0
+  },
+  {
+    "road": "5",
+    "segment": "0328",
+    "type": "G1",
+    "vehicles": 13778.666666666666,
+    "longitude": 517562.0,
+    "latitude": 115260.5
+  },
+  {
+    "road": "5",
+    "segment": "0329",
+    "type": "G1",
+    "vehicles": 6679.0,
+    "longitude": 515619.0,
+    "latitude": 109099.0
+  },
+  {
+    "road": "5",
+    "segment": "0330",
+    "type": "G1",
+    "vehicles": 5056.0,
+    "longitude": 514220.0,
+    "latitude": 105354.0
+  },
+  {
+    "road": "5",
+    "segment": "0331",
+    "type": "G1",
+    "vehicles": 6548.0,
+    "longitude": 514541.0,
+    "latitude": 103026.0
+  },
+  {
+    "road": "5",
+    "segment": "0332",
+    "type": "G1",
+    "vehicles": 5155.0,
+    "longitude": 517390.0,
+    "latitude": 99960.0
+  },
+  {
+    "road": "5",
+    "segment": "0333",
+    "type": "G1",
+    "vehicles": 10110.0,
+    "longitude": 522472.0,
+    "latitude": 97066.0
+  },
+  {
+    "road": "5",
+    "segment": "0334",
+    "type": "G1",
+    "vehicles": 6406.0,
+    "longitude": 525513.0,
+    "latitude": 95628.0
+  },
+  {
+    "road": "5",
+    "segment": "0335",
+    "type": "G1",
+    "vehicles": 5216.0,
+    "longitude": 529464.0,
+    "latitude": 94388.0
+  },
+  {
+    "road": "5",
+    "segment": "0361",
+    "type": "G1",
+    "vehicles": 8018.0,
+    "longitude": 536233.0,
+    "latitude": 94082.0
+  },
+  {
+    "road": "5",
+    "segment": "1395",
+    "type": "G1",
+    "vehicles": 6630.0,
+    "longitude": 538361.0,
+    "latitude": 89635.0
+  },
+  {
+    "road": "5",
+    "segment": "0336",
+    "type": "G1",
+    "vehicles": 12494.0,
+    "longitude": 545524.5,
+    "latitude": 125190.0
+  },
+  {
+    "road": "6",
+    "segment": "0338",
+    "type": "G1",
+    "vehicles": 13630.0,
+    "longitude": 436670.0,
+    "latitude": 66252.0
+  },
+  {
+    "road": "6",
+    "segment": "0339",
+    "type": "G1",
+    "vehicles": 3422.0,
+    "longitude": 433901.0,
+    "latitude": 55920.0
+  },
+  {
+    "road": "6",
+    "segment": "0340",
+    "type": "G1",
+    "vehicles": 4214.0,
+    "longitude": 436012.0,
+    "latitude": 52444.0
+  },
+  {
+    "road": "6",
+    "segment": "0341",
+    "type": "G1",
+    "vehicles": 4550.0,
+    "longitude": 438439.0,
+    "latitude": 49786.0
+  },
+  {
+    "road": "6",
+    "segment": "1377",
+    "type": "G1",
+    "vehicles": 5303.0,
+    "longitude": 439718.0,
+    "latitude": 48701.0
+  },
+  {
+    "road": "6",
+    "segment": "0343",
+    "type": "G1",
+    "vehicles": 7453.0,
+    "longitude": 442018.5,
+    "latitude": 42924.5
+  },
+  {
+    "road": "7",
+    "segment": "0356",
+    "type": "G1",
+    "vehicles": 4973.0,
+    "longitude": 438194.0,
+    "latitude": 39613.0
+  },
+  {
+    "road": "7",
+    "segment": "0355",
+    "type": "G1",
+    "vehicles": 6748.0,
+    "longitude": 430019.0,
+    "latitude": 44840.0
+  },
+  {
+    "road": "7",
+    "segment": "0354",
+    "type": "G1",
+    "vehicles": 7130.0,
+    "longitude": 426431.0,
+    "latitude": 46180.0
+  },
+  {
+    "road": "7",
+    "segment": "0353",
+    "type": "G1",
+    "vehicles": 5605.0,
+    "longitude": 414571.0,
+    "latitude": 54144.0
+  },
+  {
+    "road": "8",
+    "segment": "0213",
+    "type": "G1",
+    "vehicles": 41917.0,
+    "longitude": 459366.0,
+    "latitude": 105349.0
+  },
+  {
+    "road": "11",
+    "segment": "1062",
+    "type": "G1",
+    "vehicles": 14241.666666666666,
+    "longitude": 397477.6666666667,
+    "latitude": 39313.0
+  },
+  {
+    "road": "101",
+    "segment": "0232",
+    "type": "G2",
+    "vehicles": 2677.0,
+    "longitude": 443116.0,
+    "latitude": 143946.0
+  },
+  {
+    "road": "101",
+    "segment": "0231",
+    "type": "G2",
+    "vehicles": 11390.0,
+    "longitude": 444779.0,
+    "latitude": 133187.0
+  },
+  {
+    "road": "101",
+    "segment": "0230",
+    "type": "G2",
+    "vehicles": 10800.0,
+    "longitude": 444425.0,
+    "latitude": 131358.0
+  },
+  {
+    "road": "102",
+    "segment": "1031",
+    "type": "G2",
+    "vehicles": 1329.5,
+    "longitude": 385413.0,
+    "latitude": 122475.5
+  },
+  {
+    "road": "102",
+    "segment": "1030",
+    "type": "G2",
+    "vehicles": 2150.0,
+    "longitude": 390249.0,
+    "latitude": 124140.0
+  },
+  {
+    "road": "102",
+    "segment": "1005",
+    "type": "G2",
+    "vehicles": 4509.0,
+    "longitude": 391202.0,
+    "latitude": 122564.0
+  },
+  {
+    "road": "102",
+    "segment": "1006",
+    "type": "G2",
+    "vehicles": 4967.0,
+    "longitude": 400570.0,
+    "latitude": 116773.0
+  },
+  {
+    "road": "102",
+    "segment": "1040",
+    "type": "G2",
+    "vehicles": 4456.0,
+    "longitude": 403123.0,
+    "latitude": 115362.0
+  },
+  {
+    "road": "102",
+    "segment": "1039",
+    "type": "G2",
+    "vehicles": 4211.0,
+    "longitude": 404590.0,
+    "latitude": 112492.0
+  },
+  {
+    "road": "102",
+    "segment": "1038",
+    "type": "G2",
+    "vehicles": 2667.0,
+    "longitude": 407300.0,
+    "latitude": 109992.0
+  },
+  {
+    "road": "102",
+    "segment": "1037",
+    "type": "G2",
+    "vehicles": 2026.0,
+    "longitude": 414945.0,
+    "latitude": 108097.0
+  },
+  {
+    "road": "102",
+    "segment": "1036",
+    "type": "G2",
+    "vehicles": 2495.0,
+    "longitude": 422165.0,
+    "latitude": 103779.0
+  },
+  {
+    "road": "102",
+    "segment": "1034",
+    "type": "G2",
+    "vehicles": 4077.0,
+    "longitude": 425181.0,
+    "latitude": 95462.0
+  },
+  {
+    "road": "102",
+    "segment": "1033",
+    "type": "G2",
+    "vehicles": 4223.0,
+    "longitude": 433363.0,
+    "latitude": 87624.0
+  },
+  {
+    "road": "102",
+    "segment": "1460",
+    "type": "G2",
+    "vehicles": 6790.0,
+    "longitude": 437436.0,
+    "latitude": 84288.0
+  },
+  {
+    "road": "102",
+    "segment": "1461",
+    "type": "G2",
+    "vehicles": 11385.0,
+    "longitude": 440224.0,
+    "latitude": 86067.0
+  },
+  {
+    "road": "103",
+    "segment": "1007",
+    "type": "G2",
+    "vehicles": 3950.0,
+    "longitude": 400275.0,
+    "latitude": 115395.0
+  },
+  {
+    "road": "103",
+    "segment": "1008",
+    "type": "G2",
+    "vehicles": 5027.5,
+    "longitude": 395465.5,
+    "latitude": 105635.5
+  },
+  {
+    "road": "103",
+    "segment": "1009",
+    "type": "G2",
+    "vehicles": 6901.0,
+    "longitude": 395487.0,
+    "latitude": 93855.0
+  },
+  {
+    "road": "103",
+    "segment": "1390",
+    "type": "G2",
+    "vehicles": 8789.0,
+    "longitude": 395439.0,
+    "latitude": 93471.0
+  },
+  {
+    "road": "103",
+    "segment": "1486",
+    "type": "G2",
+    "vehicles": 23189.0,
+    "longitude": 394849.0,
+    "latitude": 90316.0
+  },
+  {
+    "road": "103",
+    "segment": "1447",
+    "type": "G2",
+    "vehicles": 13074.0,
+    "longitude": 394763.0,
+    "latitude": 88995.0
+  },
+  {
+    "road": "104",
+    "segment": "1136",
+    "type": "G2",
+    "vehicles": 18987.0,
+    "longitude": 455427.5,
+    "latitude": 122179.0
+  },
+  {
+    "road": "104",
+    "segment": "1137",
+    "type": "G2",
+    "vehicles": 9539.0,
+    "longitude": 463811.0,
+    "latitude": 118166.0
+  },
+  {
+    "road": "104",
+    "segment": "1138",
+    "type": "G2",
+    "vehicles": 8970.0,
+    "longitude": 465994.0,
+    "latitude": 116238.0
+  },
+  {
+    "road": "104",
+    "segment": "1139",
+    "type": "G2",
+    "vehicles": 13912.333333333334,
+    "longitude": 467022.0,
+    "latitude": 113059.5
+  },
+  {
+    "road": "104",
+    "segment": "0295",
+    "type": "G2",
+    "vehicles": 33778.0,
+    "longitude": 465676.0,
+    "latitude": 109608.0
+  },
+  {
+    "road": "104",
+    "segment": "0087",
+    "type": "G2",
+    "vehicles": 39063.5,
+    "longitude": 464639.0,
+    "latitude": 107256.0
+  },
+  {
+    "road": "105",
+    "segment": "0257",
+    "type": "G2",
+    "vehicles": 20479.0,
+    "longitude": 513790.0,
+    "latitude": 76191.0
+  },
+  {
+    "road": "105",
+    "segment": "1511",
+    "type": "G2",
+    "vehicles": 17991.0,
+    "longitude": 513303.0,
+    "latitude": 75399.0
+  },
+  {
+    "road": "105",
+    "segment": "0255",
+    "type": "G2",
+    "vehicles": 13028.0,
+    "longitude": 514050.0,
+    "latitude": 73498.0
+  },
+  {
+    "road": "105",
+    "segment": "0256",
+    "type": "G2",
+    "vehicles": 5030.0,
+    "longitude": 518725.5,
+    "latitude": 64015.5
+  },
+  {
+    "road": "105",
+    "segment": "0258",
+    "type": "G2",
+    "vehicles": 3920.0,
+    "longitude": 525154.0,
+    "latitude": 55169.0
+  },
+  {
+    "road": "106",
+    "segment": "0215",
+    "type": "G2",
+    "vehicles": 16605.0,
+    "longitude": 466060.0,
+    "latitude": 95006.0
+  },
+  {
+    "road": "106",
+    "segment": "0261",
+    "type": "G2",
+    "vehicles": 8723.0,
+    "longitude": 468226.0,
+    "latitude": 85042.0
+  },
+  {
+    "road": "106",
+    "segment": "0262",
+    "type": "G2",
+    "vehicles": 7262.0,
+    "longitude": 476374.0,
+    "latitude": 69464.0
+  },
+  {
+    "road": "106",
+    "segment": "0263",
+    "type": "G2",
+    "vehicles": 7785.75,
+    "longitude": 483455.5,
+    "latitude": 62099.0
+  },
+  {
+    "road": "106",
+    "segment": "0264",
+    "type": "G2",
+    "vehicles": 6410.5,
+    "longitude": 489656.0,
+    "latitude": 54393.0
+  },
+  {
+    "road": "106",
+    "segment": "0265",
+    "type": "G2",
+    "vehicles": 1911.5,
+    "longitude": 489848.0,
+    "latitude": 44680.5
+  },
+  {
+    "road": "106",
+    "segment": "0266",
+    "type": "G2",
+    "vehicles": 1036.5,
+    "longitude": 488542.5,
+    "latitude": 36069.0
+  },
+  {
+    "road": "106",
+    "segment": "0216",
+    "type": "G2",
+    "vehicles": 6933.0,
+    "longitude": 467202.0,
+    "latitude": 93857.0
+  },
+  {
+    "road": "107",
+    "segment": "1274",
+    "type": "G2",
+    "vehicles": 12584.5,
+    "longitude": 526331.5,
+    "latitude": 120544.5
+  },
+  {
+    "road": "107",
+    "segment": "1275",
+    "type": "G2",
+    "vehicles": 9020.5,
+    "longitude": 538418.0,
+    "latitude": 120233.5
+  },
+  {
+    "road": "107",
+    "segment": "1238",
+    "type": "G2",
+    "vehicles": 8415.0,
+    "longitude": 544182.0,
+    "latitude": 122893.0
+  },
+  {
+    "road": "107",
+    "segment": "1276",
+    "type": "G2",
+    "vehicles": 5958.0,
+    "longitude": 548994.3333333334,
+    "latitude": 122466.0
+  },
+  {
+    "road": "107",
+    "segment": "1277",
+    "type": "G2",
+    "vehicles": 2026.0,
+    "longitude": 558614.0,
+    "latitude": 119140.0
+  },
+  {
+    "road": "108",
+    "segment": "1180",
+    "type": "G2",
+    "vehicles": 9955.0,
+    "longitude": 467423.0,
+    "latitude": 105791.0
+  },
+  {
+    "road": "108",
+    "segment": "1181",
+    "type": "G2",
+    "vehicles": 10345.5,
+    "longitude": 476085.5,
+    "latitude": 105537.0
+  },
+  {
+    "road": "108",
+    "segment": "1182",
+    "type": "G2",
+    "vehicles": 7985.0,
+    "longitude": 486785.0,
+    "latitude": 104558.0
+  },
+  {
+    "road": "108",
+    "segment": "1183",
+    "type": "G2",
+    "vehicles": 3884.0,
+    "longitude": 496195.0,
+    "latitude": 105931.0
+  },
+  {
+    "road": "108",
+    "segment": "1184",
+    "type": "G2",
+    "vehicles": 7163.0,
+    "longitude": 502697.0,
+    "latitude": 109393.0
+  },
+  {
+    "road": "108",
+    "segment": "1185",
+    "type": "G2",
+    "vehicles": 5330.0,
+    "longitude": 506864.0,
+    "latitude": 109049.0
+  },
+  {
+    "road": "108",
+    "segment": "1186",
+    "type": "G2",
+    "vehicles": 1482.0,
+    "longitude": 509363.0,
+    "latitude": 107544.0
+  },
+  {
+    "road": "109",
+    "segment": "1453",
+    "type": "G2",
+    "vehicles": 4392.0,
+    "longitude": 611804.0,
+    "latitude": 162541.0
+  },
+  {
+    "road": "109",
+    "segment": "0357",
+    "type": "G2",
+    "vehicles": 3697.0,
+    "longitude": 610686.0,
+    "latitude": 156173.0
+  },
+  {
+    "road": "111",
+    "segment": "0373",
+    "type": "G2",
+    "vehicles": 19709.0,
+    "longitude": 394116.0,
+    "latitude": 43770.0
+  },
+  {
+    "road": "111",
+    "segment": "1509",
+    "type": "G2",
+    "vehicles": 22254.0,
+    "longitude": 393283.0,
+    "latitude": 44297.0
+  },
+  {
+    "road": "111",
+    "segment": "0239",
+    "type": "G2",
+    "vehicles": 10792.333333333334,
+    "longitude": 391898.5,
+    "latitude": 38747.5
+  },
+  {
+    "road": "112",
+    "segment": "1254",
+    "type": "G2",
+    "vehicles": 2095.0,
+    "longitude": 487830.0,
+    "latitude": 158576.0
+  },
+  {
+    "road": "112",
+    "segment": "1255",
+    "type": "G2",
+    "vehicles": 11820.5,
+    "longitude": 494088.0,
+    "latitude": 156003.0
+  },
+  {
+    "road": "112",
+    "segment": "1256",
+    "type": "G2",
+    "vehicles": 6466.0,
+    "longitude": 498710.0,
+    "latitude": 156668.0
+  },
+  {
+    "road": "114",
+    "segment": "0861",
+    "type": "G2",
+    "vehicles": 16866.0,
+    "longitude": 402519.0,
+    "latitude": 46573.0
+  },
+  {
+    "road": "201",
+    "segment": "0201",
+    "type": "R1",
+    "vehicles": 2016.0,
+    "longitude": 404177.0,
+    "latitude": 153673.0
+  },
+  {
+    "road": "201",
+    "segment": "0203",
+    "type": "R1",
+    "vehicles": 7579.0,
+    "longitude": 409599.5,
+    "latitude": 150213.5
+  },
+  {
+    "road": "201",
+    "segment": "0204",
+    "type": "R1",
+    "vehicles": 7304.0,
+    "longitude": 419000.0,
+    "latitude": 147777.0
+  },
+  {
+    "road": "201",
+    "segment": "0205",
+    "type": "R1",
+    "vehicles": 9286.0,
+    "longitude": 423654.0,
+    "latitude": 145956.0
+  },
+  {
+    "road": "202",
+    "segment": "0234",
+    "type": "R1",
+    "vehicles": 2603.0,
+    "longitude": 400794.0,
+    "latitude": 151637.0
+  },
+  {
+    "road": "202",
+    "segment": "0233",
+    "type": "R1",
+    "vehicles": 4257.0,
+    "longitude": 404516.0,
+    "latitude": 151017.0
+  },
+  {
+    "road": "203",
+    "segment": "1002",
+    "type": "R1",
+    "vehicles": 1299.0,
+    "longitude": 391279.0,
+    "latitude": 139951.0
+  },
+  {
+    "road": "203",
+    "segment": "1003",
+    "type": "R1",
+    "vehicles": 2661.0,
+    "longitude": 388612.0,
+    "latitude": 133682.0
+  },
+  {
+    "road": "203",
+    "segment": "1004",
+    "type": "R1",
+    "vehicles": 2682.0,
+    "longitude": 385715.0,
+    "latitude": 128164.0
+  },
+  {
+    "road": "204",
+    "segment": "1012",
+    "type": "R1",
+    "vehicles": 7536.0,
+    "longitude": 398485.0,
+    "latitude": 85294.0
+  },
+  {
+    "road": "204",
+    "segment": "1013",
+    "type": "R1",
+    "vehicles": 2305.0,
+    "longitude": 405972.0,
+    "latitude": 80559.0
+  },
+  {
+    "road": "204",
+    "segment": "1014",
+    "type": "R1",
+    "vehicles": 1540.0,
+    "longitude": 409414.0,
+    "latitude": 72168.0
+  },
+  {
+    "road": "204",
+    "segment": "1015",
+    "type": "R1",
+    "vehicles": 2727.0,
+    "longitude": 411331.0,
+    "latitude": 68501.0
+  },
+  {
+    "road": "205",
+    "segment": "1026",
+    "type": "R1",
+    "vehicles": 3777.0,
+    "longitude": 412764.0,
+    "latitude": 57741.0
+  },
+  {
+    "road": "206",
+    "segment": "1027",
+    "type": "R1",
+    "vehicles": 1331.0,
+    "longitude": 406692.0,
+    "latitude": 148640.0
+  },
+  {
+    "road": "206",
+    "segment": "1028",
+    "type": "R1",
+    "vehicles": 504.0,
+    "longitude": 403643.0,
+    "latitude": 141553.0
+  },
+  {
+    "road": "206",
+    "segment": "1029",
+    "type": "R1",
+    "vehicles": 1556.0,
+    "longitude": 390227.0,
+    "latitude": 134699.0
+  },
+  {
+    "road": "207",
+    "segment": "1057",
+    "type": "R1",
+    "vehicles": 1784.0,
+    "longitude": 428741.0,
+    "latitude": 91007.0
+  },
+  {
+    "road": "207",
+    "segment": "1058",
+    "type": "R1",
+    "vehicles": 1164.0,
+    "longitude": 424360.0,
+    "latitude": 85929.0
+  },
+  {
+    "road": "207",
+    "segment": "1413",
+    "type": "R1",
+    "vehicles": 3138.0,
+    "longitude": 420251.0,
+    "latitude": 82888.0
+  },
+  {
+    "road": "208",
+    "segment": "1434",
+    "type": "R1",
+    "vehicles": 4281.0,
+    "longitude": 411932.0,
+    "latitude": 46118.0
+  },
+  {
+    "road": "208",
+    "segment": "1059",
+    "type": "R1",
+    "vehicles": 3041.0,
+    "longitude": 411738.0,
+    "latitude": 42376.0
+  },
+  {
+    "road": "208",
+    "segment": "1060",
+    "type": "R1",
+    "vehicles": 2128.5,
+    "longitude": 413469.5,
+    "latitude": 38019.5
+  },
+  {
+    "road": "208",
+    "segment": "1149",
+    "type": "R1",
+    "vehicles": 1800.0,
+    "longitude": 410931.0,
+    "latitude": 45272.0
+  },
+  {
+    "road": "209",
+    "segment": "1088",
+    "type": "R1",
+    "vehicles": 19812.0,
+    "longitude": 432630.0,
+    "latitude": 136746.0
+  },
+  {
+    "road": "209",
+    "segment": "1089",
+    "type": "R1",
+    "vehicles": 6417.5,
+    "longitude": 429285.0,
+    "latitude": 134006.0
+  },
+  {
+    "road": "209",
+    "segment": "1090",
+    "type": "R1",
+    "vehicles": 4636.0,
+    "longitude": 423037.0,
+    "latitude": 128213.0
+  },
+  {
+    "road": "209",
+    "segment": "1091",
+    "type": "R1",
+    "vehicles": 5551.0,
+    "longitude": 419120.0,
+    "latitude": 126838.0
+  },
+  {
+    "road": "209",
+    "segment": "1092",
+    "type": "R1",
+    "vehicles": 3898.0,
+    "longitude": 414562.0,
+    "latitude": 126699.0
+  },
+  {
+    "road": "210",
+    "segment": "1105",
+    "type": "R1",
+    "vehicles": 840.0,
+    "longitude": 463639.0,
+    "latitude": 142205.0
+  },
+  {
+    "road": "210",
+    "segment": "1106",
+    "type": "R1",
+    "vehicles": 1457.0,
+    "longitude": 461332.0,
+    "latitude": 131189.0
+  },
+  {
+    "road": "210",
+    "segment": "1107",
+    "type": "R1",
+    "vehicles": 2800.0,
+    "longitude": 455278.0,
+    "latitude": 126378.0
+  },
+  {
+    "road": "210",
+    "segment": "1108",
+    "type": "R1",
+    "vehicles": 20523.0,
+    "longitude": 452082.0,
+    "latitude": 122452.0
+  },
+  {
+    "road": "210",
+    "segment": "1109",
+    "type": "R1",
+    "vehicles": 13967.0,
+    "longitude": 448108.0,
+    "latitude": 117502.0
+  },
+  {
+    "road": "210",
+    "segment": "1392",
+    "type": "R1",
+    "vehicles": 10656.0,
+    "longitude": 447556.0,
+    "latitude": 114017.0
+  },
+  {
+    "road": "210",
+    "segment": "1110",
+    "type": "R1",
+    "vehicles": 8313.0,
+    "longitude": 440339.0,
+    "latitude": 110439.0
+  },
+  {
+    "road": "210",
+    "segment": "1111",
+    "type": "R1",
+    "vehicles": 4826.0,
+    "longitude": 431720.0,
+    "latitude": 107836.0
+  },
+  {
+    "road": "210",
+    "segment": "1112",
+    "type": "R1",
+    "vehicles": 1622.0,
+    "longitude": 428359.0,
+    "latitude": 104991.0
+  },
+  {
+    "road": "210",
+    "segment": "1113",
+    "type": "R1",
+    "vehicles": 1070.0,
+    "longitude": 425214.0,
+    "latitude": 106759.0
+  },
+  {
+    "road": "210",
+    "segment": "1114",
+    "type": "R1",
+    "vehicles": 2829.0,
+    "longitude": 421074.0,
+    "latitude": 109717.0
+  },
+  {
+    "road": "210",
+    "segment": "1078",
+    "type": "R1",
+    "vehicles": 14508.0,
+    "longitude": 449834.0,
+    "latitude": 114347.0
+  },
+  {
+    "road": "211",
+    "segment": "0211",
+    "type": "R1",
+    "vehicles": 8195.0,
+    "longitude": 451377.0,
+    "latitude": 118335.0
+  },
+  {
+    "road": "211",
+    "segment": "0212",
+    "type": "R1",
+    "vehicles": 21591.0,
+    "longitude": 455386.0,
+    "latitude": 110890.0
+  },
+  {
+    "road": "212",
+    "segment": "1116",
+    "type": "R1",
+    "vehicles": 8846.0,
+    "longitude": 446120.0,
+    "latitude": 75185.0
+  },
+  {
+    "road": "212",
+    "segment": "1117",
+    "type": "R1",
+    "vehicles": 10175.0,
+    "longitude": 447796.0,
+    "latitude": 74512.0
+  },
+  {
+    "road": "212",
+    "segment": "1118",
+    "type": "R1",
+    "vehicles": 5774.0,
+    "longitude": 455088.0,
+    "latitude": 70302.0
+  },
+  {
+    "road": "212",
+    "segment": "1119",
+    "type": "R1",
+    "vehicles": 2873.0,
+    "longitude": 461575.0,
+    "latitude": 70455.0
+  },
+  {
+    "road": "212",
+    "segment": "1120",
+    "type": "R1",
+    "vehicles": 2917.0,
+    "longitude": 472667.0,
+    "latitude": 68618.0
+  },
+  {
+    "road": "213",
+    "segment": "1365",
+    "type": "R1",
+    "vehicles": 3062.0,
+    "longitude": 458686.0,
+    "latitude": 64360.0
+  },
+  {
+    "road": "213",
+    "segment": "1366",
+    "type": "R1",
+    "vehicles": 607.0,
+    "longitude": 465572.0,
+    "latitude": 56400.0
+  },
+  {
+    "road": "214",
+    "segment": "1156",
+    "type": "R1",
+    "vehicles": 2063.0,
+    "longitude": 489283.0,
+    "latitude": 58901.0
+  },
+  {
+    "road": "214",
+    "segment": "1157",
+    "type": "R1",
+    "vehicles": 1547.0,
+    "longitude": 494474.0,
+    "latitude": 68972.0
+  },
+  {
+    "road": "215",
+    "segment": "1490",
+    "type": "R1",
+    "vehicles": 6559.0,
+    "longitude": 504341.0,
+    "latitude": 84579.0
+  },
+  {
+    "road": "215",
+    "segment": "1162",
+    "type": "R1",
+    "vehicles": 6644.0,
+    "longitude": 505769.5,
+    "latitude": 89082.0
+  },
+  {
+    "road": "215",
+    "segment": "1163",
+    "type": "R1",
+    "vehicles": 2787.0,
+    "longitude": 518871.0,
+    "latitude": 94463.0
+  },
+  {
+    "road": "216",
+    "segment": "1367",
+    "type": "R1",
+    "vehicles": 8088.0,
+    "longitude": 484883.0,
+    "latitude": 88036.0
+  },
+  {
+    "road": "216",
+    "segment": "1175",
+    "type": "R1",
+    "vehicles": 3589.0,
+    "longitude": 487246.0,
+    "latitude": 79936.0
+  },
+  {
+    "road": "216",
+    "segment": "1158",
+    "type": "R1",
+    "vehicles": 3958.0,
+    "longitude": 496698.0,
+    "latitude": 75285.0
+  },
+  {
+    "road": "216",
+    "segment": "1176",
+    "type": "R1",
+    "vehicles": 5278.0,
+    "longitude": 498125.0,
+    "latitude": 73525.0
+  },
+  {
+    "road": "216",
+    "segment": "1177",
+    "type": "R1",
+    "vehicles": 3860.0,
+    "longitude": 503361.0,
+    "latitude": 66570.0
+  },
+  {
+    "road": "216",
+    "segment": "1178",
+    "type": "R1",
+    "vehicles": 5160.0,
+    "longitude": 510937.0,
+    "latitude": 54536.0
+  },
+  {
+    "road": "217",
+    "segment": "1208",
+    "type": "R1",
+    "vehicles": 772.0,
+    "longitude": 496371.0,
+    "latitude": 47550.0
+  },
+  {
+    "road": "217",
+    "segment": "1209",
+    "type": "R1",
+    "vehicles": 831.0,
+    "longitude": 508014.0,
+    "latitude": 46329.5
+  },
+  {
+    "road": "218",
+    "segment": "1211",
+    "type": "R1",
+    "vehicles": 3500.0,
+    "longitude": 521845.0,
+    "latitude": 53166.0
+  },
+  {
+    "road": "218",
+    "segment": "1212",
+    "type": "R1",
+    "vehicles": 3901.0,
+    "longitude": 520190.0,
+    "latitude": 52365.0
+  },
+  {
+    "road": "218",
+    "segment": "1393",
+    "type": "R1",
+    "vehicles": 4802.0,
+    "longitude": 514094.0,
+    "latitude": 48122.0
+  },
+  {
+    "road": "218",
+    "segment": "1394",
+    "type": "R1",
+    "vehicles": 8011.0,
+    "longitude": 513361.0,
+    "latitude": 46905.0
+  },
+  {
+    "road": "218",
+    "segment": "1214",
+    "type": "R1",
+    "vehicles": 3539.0,
+    "longitude": 513662.0,
+    "latitude": 42235.0
+  },
+  {
+    "road": "218",
+    "segment": "1215",
+    "type": "R1",
+    "vehicles": 1867.0,
+    "longitude": 519443.0,
+    "latitude": 35194.0
+  },
+  {
+    "road": "219",
+    "segment": "1236",
+    "type": "R1",
+    "vehicles": 6266.0,
+    "longitude": 544246.0,
+    "latitude": 132678.0
+  },
+  {
+    "road": "219",
+    "segment": "1237",
+    "type": "R1",
+    "vehicles": 4465.0,
+    "longitude": 544123.0,
+    "latitude": 123160.0
+  },
+  {
+    "road": "219",
+    "segment": "1239",
+    "type": "R1",
+    "vehicles": 6390.0,
+    "longitude": 546968.0,
+    "latitude": 113325.0
+  },
+  {
+    "road": "219",
+    "segment": "1240",
+    "type": "R1",
+    "vehicles": 2807.0,
+    "longitude": 547788.0,
+    "latitude": 105830.0
+  },
+  {
+    "road": "219",
+    "segment": "1241",
+    "type": "R1",
+    "vehicles": 2443.0,
+    "longitude": 553399.0,
+    "latitude": 98369.0
+  },
+  {
+    "road": "219",
+    "segment": "1242",
+    "type": "R1",
+    "vehicles": 8978.0,
+    "longitude": 547859.5,
+    "latitude": 85515.5
+  },
+  {
+    "road": "220",
+    "segment": "1334",
+    "type": "R1",
+    "vehicles": 5906.0,
+    "longitude": 543734.0,
+    "latitude": 89887.5
+  },
+  {
+    "road": "221",
+    "segment": "1227",
+    "type": "R1",
+    "vehicles": 7406.0,
+    "longitude": 494073.0,
+    "latitude": 113329.0
+  },
+  {
+    "road": "221",
+    "segment": "1218",
+    "type": "R1",
+    "vehicles": 9697.0,
+    "longitude": 496699.0,
+    "latitude": 111392.0
+  },
+  {
+    "road": "221",
+    "segment": "1219",
+    "type": "R1",
+    "vehicles": 4220.0,
+    "longitude": 502097.0,
+    "latitude": 111423.0
+  },
+  {
+    "road": "221",
+    "segment": "1220",
+    "type": "R1",
+    "vehicles": 10493.0,
+    "longitude": 502669.0,
+    "latitude": 110756.0
+  },
+  {
+    "road": "221",
+    "segment": "1221",
+    "type": "R1",
+    "vehicles": 280.0,
+    "longitude": 506256.0,
+    "latitude": 114005.0
+  },
+  {
+    "road": "221",
+    "segment": "1222",
+    "type": "R1",
+    "vehicles": 4662.0,
+    "longitude": 510193.0,
+    "latitude": 111116.0
+  },
+  {
+    "road": "222",
+    "segment": "1228",
+    "type": "R1",
+    "vehicles": 7692.0,
+    "longitude": 499608.0,
+    "latitude": 108990.0
+  },
+  {
+    "road": "223",
+    "segment": "1229",
+    "type": "R1",
+    "vehicles": 7359.0,
+    "longitude": 502700.0,
+    "latitude": 110402.0
+  },
+  {
+    "road": "224",
+    "segment": "1230",
+    "type": "R1",
+    "vehicles": 5000.0,
+    "longitude": 507197.0,
+    "latitude": 109809.0
+  },
+  {
+    "road": "225",
+    "segment": "1140",
+    "type": "R1",
+    "vehicles": 11851.0,
+    "longitude": 468242.0,
+    "latitude": 117098.0
+  },
+  {
+    "road": "225",
+    "segment": "1359",
+    "type": "R1",
+    "vehicles": 17446.0,
+    "longitude": 469440.0,
+    "latitude": 118486.0
+  },
+  {
+    "road": "225",
+    "segment": "1083",
+    "type": "R1",
+    "vehicles": 5132.0,
+    "longitude": 469972.0,
+    "latitude": 121375.0
+  },
+  {
+    "road": "225",
+    "segment": "1084",
+    "type": "R1",
+    "vehicles": 1789.0,
+    "longitude": 472775.0,
+    "latitude": 124816.0
+  },
+  {
+    "road": "225",
+    "segment": "1085",
+    "type": "R1",
+    "vehicles": 1503.5,
+    "longitude": 482206.0,
+    "latitude": 127304.5
+  },
+  {
+    "road": "225",
+    "segment": "1248",
+    "type": "R1",
+    "vehicles": 8850.5,
+    "longitude": 494859.5,
+    "latitude": 131195.0
+  },
+  {
+    "road": "225",
+    "segment": "1247",
+    "type": "R1",
+    "vehicles": 10951.0,
+    "longitude": 497977.0,
+    "latitude": 133293.0
+  },
+  {
+    "road": "225",
+    "segment": "1246",
+    "type": "R1",
+    "vehicles": 9482.75,
+    "longitude": 503148.25,
+    "latitude": 128403.0
+  },
+  {
+    "road": "227",
+    "segment": "1264",
+    "type": "R1",
+    "vehicles": 7702.0,
+    "longitude": 498681.0,
+    "latitude": 154197.0
+  },
+  {
+    "road": "227",
+    "segment": "1423",
+    "type": "R1",
+    "vehicles": 7273.0,
+    "longitude": 505029.0,
+    "latitude": 151371.0
+  },
+  {
+    "road": "228",
+    "segment": "1291",
+    "type": "R1",
+    "vehicles": 4194.0,
+    "longitude": 578236.0,
+    "latitude": 138585.0
+  },
+  {
+    "road": "229",
+    "segment": "1417",
+    "type": "R1",
+    "vehicles": 7682.0,
+    "longitude": 567676.0,
+    "latitude": 143180.0
+  },
+  {
+    "road": "229",
+    "segment": "1286",
+    "type": "R1",
+    "vehicles": 4023.0,
+    "longitude": 567490.0,
+    "latitude": 150654.0
+  },
+  {
+    "road": "230",
+    "segment": "0327",
+    "type": "R1",
+    "vehicles": 6291.0,
+    "longitude": 575551.0,
+    "latitude": 171971.0
+  },
+  {
+    "road": "230",
+    "segment": "0366",
+    "type": "R1",
+    "vehicles": 7621.0,
+    "longitude": 578672.0,
+    "latitude": 168271.0
+  },
+  {
+    "road": "230",
+    "segment": "1308",
+    "type": "R1",
+    "vehicles": 3986.0,
+    "longitude": 580335.0,
+    "latitude": 166920.0
+  },
+  {
+    "road": "230",
+    "segment": "1399",
+    "type": "R1",
+    "vehicles": 4553.0,
+    "longitude": 586103.0,
+    "latitude": 160330.0
+  },
+  {
+    "road": "230",
+    "segment": "1309",
+    "type": "R1",
+    "vehicles": 5898.0,
+    "longitude": 589925.0,
+    "latitude": 156100.0
+  },
+  {
+    "road": "230",
+    "segment": "1310",
+    "type": "R1",
+    "vehicles": 2481.0,
+    "longitude": 588836.0,
+    "latitude": 147680.0
+  },
+  {
+    "road": "230",
+    "segment": "1311",
+    "type": "R1",
+    "vehicles": 4519.0,
+    "longitude": 590054.0,
+    "latitude": 142576.0
+  },
+  {
+    "road": "230",
+    "segment": "1507",
+    "type": "R1",
+    "vehicles": 1947.0,
+    "longitude": 588845.0,
+    "latitude": 141045.0
+  },
+  {
+    "road": "231",
+    "segment": "1325",
+    "type": "R1",
+    "vehicles": 581.0,
+    "longitude": 600364.0,
+    "latitude": 154260.0
+  },
+  {
+    "road": "231",
+    "segment": "1323",
+    "type": "R1",
+    "vehicles": 2764.0,
+    "longitude": 596060.0,
+    "latitude": 153777.0
+  },
+  {
+    "road": "231",
+    "segment": "1327",
+    "type": "R1",
+    "vehicles": 3806.0,
+    "longitude": 594502.0,
+    "latitude": 153118.0
+  },
+  {
+    "road": "232",
+    "segment": "1314",
+    "type": "R1",
+    "vehicles": 680.6666666666666,
+    "longitude": 598755.5,
+    "latitude": 186838.5
+  },
+  {
+    "road": "232",
+    "segment": "1315",
+    "type": "R1",
+    "vehicles": 3650.0,
+    "longitude": 589317.0,
+    "latitude": 178676.0
+  },
+  {
+    "road": "232",
+    "segment": "1316",
+    "type": "R1",
+    "vehicles": 12829.0,
+    "longitude": 590293.0,
+    "latitude": 170795.0
+  },
+  {
+    "road": "232",
+    "segment": "1517",
+    "type": "R1",
+    "vehicles": 4686.0,
+    "longitude": 589445.0,
+    "latitude": 168199.0
+  },
+  {
+    "road": "234",
+    "segment": "1476",
+    "type": "R1",
+    "vehicles": 8459.0,
+    "longitude": 529705.0,
+    "latitude": 123135.0
+  },
+  {
+    "road": "234",
+    "segment": "1280",
+    "type": "R1",
+    "vehicles": 11939.0,
+    "longitude": 529622.0,
+    "latitude": 122073.0
+  },
+  {
+    "road": "235",
+    "segment": "0317",
+    "type": "R1",
+    "vehicles": 5404.0,
+    "longitude": 580553.0,
+    "latitude": 168522.0
+  },
+  {
+    "road": "235",
+    "segment": "0318",
+    "type": "R1",
+    "vehicles": 5772.0,
+    "longitude": 584386.0,
+    "latitude": 168461.0
+  },
+  {
+    "road": "235",
+    "segment": "1396",
+    "type": "R1",
+    "vehicles": 4741.0,
+    "longitude": 587664.0,
+    "latitude": 168223.0
+  },
+  {
+    "road": "401",
+    "segment": "1020",
+    "type": "R2",
+    "vehicles": 288.0,
+    "longitude": 382760.0,
+    "latitude": 130538.0
+  },
+  {
+    "road": "402",
+    "segment": "1426",
+    "type": "R2",
+    "vehicles": 3070.0,
+    "longitude": 392372.0,
+    "latitude": 95027.0
+  },
+  {
+    "road": "402",
+    "segment": "1465",
+    "type": "R2",
+    "vehicles": 2380.0,
+    "longitude": 388164.0,
+    "latitude": 97183.0
+  },
+  {
+    "road": "402",
+    "segment": "1045",
+    "type": "R2",
+    "vehicles": 2934.0,
+    "longitude": 382445.0,
+    "latitude": 97190.0
+  },
+  {
+    "road": "403",
+    "segment": "1071",
+    "type": "R2",
+    "vehicles": 1250.0,
+    "longitude": 404929.0,
+    "latitude": 112810.0
+  },
+  {
+    "road": "403",
+    "segment": "1072",
+    "type": "R2",
+    "vehicles": 860.0,
+    "longitude": 413162.0,
+    "latitude": 114416.0
+  },
+  {
+    "road": "403",
+    "segment": "1073",
+    "type": "R2",
+    "vehicles": 630.0,
+    "longitude": 422752.0,
+    "latitude": 119915.0
+  },
+  {
+    "road": "403",
+    "segment": "1074",
+    "type": "R2",
+    "vehicles": 380.0,
+    "longitude": 422961.0,
+    "latitude": 119839.0
+  },
+  {
+    "road": "403",
+    "segment": "1075",
+    "type": "R2",
+    "vehicles": 1555.5,
+    "longitude": 432281.0,
+    "latitude": 119379.5
+  },
+  {
+    "road": "403",
+    "segment": "1076",
+    "type": "R2",
+    "vehicles": 8314.5,
+    "longitude": 441490.0,
+    "latitude": 118153.0
+  },
+  {
+    "road": "403",
+    "segment": "1077",
+    "type": "R2",
+    "vehicles": 20037.0,
+    "longitude": 446967.0,
+    "latitude": 114396.0
+  },
+  {
+    "road": "404",
+    "segment": "1379",
+    "type": "R2",
+    "vehicles": 2982.0,
+    "longitude": 439552.0,
+    "latitude": 48207.0
+  },
+  {
+    "road": "404",
+    "segment": "1380",
+    "type": "R2",
+    "vehicles": 6130.0,
+    "longitude": 439392.0,
+    "latitude": 57420.0
+  },
+  {
+    "road": "405",
+    "segment": "6845",
+    "type": "R2",
+    "vehicles": 2460.0,
+    "longitude": 420805.0,
+    "latitude": 60355.0
+  },
+  {
+    "road": "405",
+    "segment": "1022",
+    "type": "R2",
+    "vehicles": 1584.0,
+    "longitude": 429622.0,
+    "latitude": 56913.0
+  },
+  {
+    "road": "406",
+    "segment": "1405",
+    "type": "R2",
+    "vehicles": 5519.0,
+    "longitude": 405337.0,
+    "latitude": 47661.0
+  },
+  {
+    "road": "406",
+    "segment": "1407",
+    "type": "R2",
+    "vehicles": 6867.5,
+    "longitude": 402079.6666666667,
+    "latitude": 49632.666666666664
+  },
+  {
+    "road": "407",
+    "segment": "1144",
+    "type": "R2",
+    "vehicles": 587.5,
+    "longitude": 435773.0,
+    "latitude": 104386.0
+  },
+  {
+    "road": "407",
+    "segment": "1145",
+    "type": "R2",
+    "vehicles": 1194.6666666666667,
+    "longitude": 445967.0,
+    "latitude": 98026.0
+  },
+  {
+    "road": "408",
+    "segment": "1374",
+    "type": "R2",
+    "vehicles": 1910.5,
+    "longitude": 437060.5,
+    "latitude": 91410.0
+  },
+  {
+    "road": "408",
+    "segment": "1375",
+    "type": "R2",
+    "vehicles": 3945.0,
+    "longitude": 431022.0,
+    "latitude": 102374.0
+  },
+  {
+    "road": "409",
+    "segment": "0358",
+    "type": "R2",
+    "vehicles": 11500.0,
+    "longitude": 456471.0,
+    "latitude": 98932.0
+  },
+  {
+    "road": "409",
+    "segment": "0300",
+    "type": "R2",
+    "vehicles": 15587.0,
+    "longitude": 451686.0,
+    "latitude": 96796.5
+  },
+  {
+    "road": "409",
+    "segment": "0301",
+    "type": "R2",
+    "vehicles": 6660.0,
+    "longitude": 441157.0,
+    "latitude": 89155.0
+  },
+  {
+    "road": "409",
+    "segment": "0303",
+    "type": "R2",
+    "vehicles": 2700.0,
+    "longitude": 438914.0,
+    "latitude": 81742.0
+  },
+  {
+    "road": "409",
+    "segment": "0304",
+    "type": "R2",
+    "vehicles": 2100.0,
+    "longitude": 440660.0,
+    "latitude": 73603.0
+  },
+  {
+    "road": "409",
+    "segment": "0306",
+    "type": "R2",
+    "vehicles": 5483.0,
+    "longitude": 437117.0,
+    "latitude": 70301.0
+  },
+  {
+    "road": "409",
+    "segment": "0307",
+    "type": "R2",
+    "vehicles": 2361.0,
+    "longitude": 425856.0,
+    "latitude": 65361.0
+  },
+  {
+    "road": "409",
+    "segment": "0308",
+    "type": "R2",
+    "vehicles": 2369.0,
+    "longitude": 419926.0,
+    "latitude": 60577.0
+  },
+  {
+    "road": "409",
+    "segment": "0309",
+    "type": "R2",
+    "vehicles": 2899.0,
+    "longitude": 419631.0,
+    "latitude": 59539.0
+  },
+  {
+    "road": "409",
+    "segment": "0310",
+    "type": "R2",
+    "vehicles": 1600.0,
+    "longitude": 419558.0,
+    "latitude": 57343.0
+  },
+  {
+    "road": "409",
+    "segment": "0311",
+    "type": "R2",
+    "vehicles": 2163.0,
+    "longitude": 414658.0,
+    "latitude": 48879.0
+  },
+  {
+    "road": "409",
+    "segment": "0312",
+    "type": "R2",
+    "vehicles": 1973.0,
+    "longitude": 412156.0,
+    "latitude": 47179.0
+  },
+  {
+    "road": "409",
+    "segment": "1435",
+    "type": "R2",
+    "vehicles": 2019.0,
+    "longitude": 410373.0,
+    "latitude": 45438.0
+  },
+  {
+    "road": "409",
+    "segment": "0313",
+    "type": "R2",
+    "vehicles": 4275.0,
+    "longitude": 406889.0,
+    "latitude": 45866.0
+  },
+  {
+    "road": "410",
+    "segment": "1133",
+    "type": "R2",
+    "vehicles": 12356.0,
+    "longitude": 445764.0,
+    "latitude": 135335.0
+  },
+  {
+    "road": "410",
+    "segment": "1134",
+    "type": "R2",
+    "vehicles": 3514.5,
+    "longitude": 448474.0,
+    "latitude": 130565.0
+  },
+  {
+    "road": "410",
+    "segment": "1135",
+    "type": "R2",
+    "vehicles": 12249.0,
+    "longitude": 450206.0,
+    "latitude": 125008.0
+  },
+  {
+    "road": "411",
+    "segment": "1428",
+    "type": "R2",
+    "vehicles": 4994.0,
+    "longitude": 446155.0,
+    "latitude": 127097.0
+  },
+  {
+    "road": "411",
+    "segment": "1528",
+    "type": "R2",
+    "vehicles": 3456.0,
+    "longitude": 443159.0,
+    "latitude": 128936.0
+  },
+  {
+    "road": "411",
+    "segment": "1429",
+    "type": "R2",
+    "vehicles": 3127.0,
+    "longitude": 440297.0,
+    "latitude": 131713.0
+  },
+  {
+    "road": "412",
+    "segment": "1454",
+    "type": "R2",
+    "vehicles": 18943.0,
+    "longitude": 449434.0,
+    "latitude": 123766.0
+  },
+  {
+    "road": "412",
+    "segment": "0359",
+    "type": "R2",
+    "vehicles": 20837.0,
+    "longitude": 449972.0,
+    "latitude": 122686.0
+  },
+  {
+    "road": "412",
+    "segment": "0210",
+    "type": "R2",
+    "vehicles": 16082.0,
+    "longitude": 449771.0,
+    "latitude": 121906.0
+  },
+  {
+    "road": "413",
+    "segment": "1079",
+    "type": "R2",
+    "vehicles": 5793.0,
+    "longitude": 455768.0,
+    "latitude": 114268.0
+  },
+  {
+    "road": "413",
+    "segment": "1080",
+    "type": "R2",
+    "vehicles": 12261.0,
+    "longitude": 463094.0,
+    "latitude": 117073.0
+  },
+  {
+    "road": "413",
+    "segment": "1081",
+    "type": "R2",
+    "vehicles": 10878.0,
+    "longitude": 466324.0,
+    "latitude": 117616.0
+  },
+  {
+    "road": "414",
+    "segment": "1349",
+    "type": "R2",
+    "vehicles": 2564.5,
+    "longitude": 488467.5,
+    "latitude": 120372.5
+  },
+  {
+    "road": "415",
+    "segment": "1216",
+    "type": "R2",
+    "vehicles": 4520.333333333333,
+    "longitude": 473977.0,
+    "latitude": 111835.0
+  },
+  {
+    "road": "415",
+    "segment": "1217",
+    "type": "R2",
+    "vehicles": 1751.5,
+    "longitude": 486149.5,
+    "latitude": 110669.5
+  },
+  {
+    "road": "416",
+    "segment": "1346",
+    "type": "R2",
+    "vehicles": 5755.0,
+    "longitude": 487829.0,
+    "latitude": 101981.0
+  },
+  {
+    "road": "416",
+    "segment": "1347",
+    "type": "R2",
+    "vehicles": 1454.0,
+    "longitude": 487897.0,
+    "latitude": 99456.0
+  },
+  {
+    "road": "416",
+    "segment": "1348",
+    "type": "R2",
+    "vehicles": 1788.0,
+    "longitude": 490342.0,
+    "latitude": 88028.0
+  },
+  {
+    "road": "417",
+    "segment": "1190",
+    "type": "R2",
+    "vehicles": 1017.5,
+    "longitude": 489175.0,
+    "latitude": 99996.0
+  },
+  {
+    "road": "417",
+    "segment": "1187",
+    "type": "R2",
+    "vehicles": 1039.0,
+    "longitude": 497081.0,
+    "latitude": 95067.0
+  },
+  {
+    "road": "417",
+    "segment": "4326",
+    "type": "R2",
+    "vehicles": 1000.0,
+    "longitude": 498601.0,
+    "latitude": 95514.0
+  },
+  {
+    "road": "418",
+    "segment": "1199",
+    "type": "R2",
+    "vehicles": 1536.0,
+    "longitude": 518933.0,
+    "latitude": 85873.0
+  },
+  {
+    "road": "418",
+    "segment": "1200",
+    "type": "R2",
+    "vehicles": 1379.0,
+    "longitude": 519681.0,
+    "latitude": 85407.0
+  },
+  {
+    "road": "418",
+    "segment": "1201",
+    "type": "R2",
+    "vehicles": 4265.0,
+    "longitude": 523823.0,
+    "latitude": 83636.0
+  },
+  {
+    "road": "418",
+    "segment": "1202",
+    "type": "R2",
+    "vehicles": 3393.0,
+    "longitude": 525680.0,
+    "latitude": 81613.0
+  },
+  {
+    "road": "419",
+    "segment": "1203",
+    "type": "R2",
+    "vehicles": 8082.0,
+    "longitude": 506212.0,
+    "latitude": 71287.5
+  },
+  {
+    "road": "419",
+    "segment": "1204",
+    "type": "R2",
+    "vehicles": 3800.5,
+    "longitude": 519613.5,
+    "latitude": 76295.5
+  },
+  {
+    "road": "419",
+    "segment": "1205",
+    "type": "R2",
+    "vehicles": 3803.0,
+    "longitude": 530863.0,
+    "latitude": 79662.5
+  },
+  {
+    "road": "419",
+    "segment": "1206",
+    "type": "R2",
+    "vehicles": 3030.0,
+    "longitude": 541291.0,
+    "latitude": 83040.0
+  },
+  {
+    "road": "420",
+    "segment": "1335",
+    "type": "R2",
+    "vehicles": 3079.0,
+    "longitude": 550700.5,
+    "latitude": 84259.5
+  },
+  {
+    "road": "421",
+    "segment": "2506",
+    "type": "R2",
+    "vehicles": 2782.0,
+    "longitude": 514167.0,
+    "latitude": 56369.0
+  },
+  {
+    "road": "421",
+    "segment": "2507",
+    "type": "R2",
+    "vehicles": 1333.0,
+    "longitude": 517588.0,
+    "latitude": 60767.0
+  },
+  {
+    "road": "422",
+    "segment": "1333",
+    "type": "R2",
+    "vehicles": 3354.5,
+    "longitude": 539290.5,
+    "latitude": 98179.5
+  },
+  {
+    "road": "423",
+    "segment": "1226",
+    "type": "R2",
+    "vehicles": 8439.0,
+    "longitude": 532510.0,
+    "latitude": 118115.0
+  },
+  {
+    "road": "423",
+    "segment": "1281",
+    "type": "R2",
+    "vehicles": 1295.0,
+    "longitude": 534222.0,
+    "latitude": 112303.0
+  },
+  {
+    "road": "423",
+    "segment": "1282",
+    "type": "R2",
+    "vehicles": 1531.0,
+    "longitude": 542866.0,
+    "latitude": 104192.0
+  },
+  {
+    "road": "423",
+    "segment": "1283",
+    "type": "R2",
+    "vehicles": 1400.0,
+    "longitude": 548296.0,
+    "latitude": 100482.0
+  },
+  {
+    "road": "423",
+    "segment": "1243",
+    "type": "R2",
+    "vehicles": 923.0,
+    "longitude": 551055.0,
+    "latitude": 103477.0
+  },
+  {
+    "road": "424",
+    "segment": "1166",
+    "type": "R2",
+    "vehicles": 1153.0,
+    "longitude": 528213.0,
+    "latitude": 102626.0
+  },
+  {
+    "road": "424",
+    "segment": "1170",
+    "type": "R2",
+    "vehicles": 2392.0,
+    "longitude": 531354.0,
+    "latitude": 107908.0
+  },
+  {
+    "road": "424",
+    "segment": "1225",
+    "type": "R2",
+    "vehicles": 2763.0,
+    "longitude": 530025.0,
+    "latitude": 110891.0
+  },
+  {
+    "road": "425",
+    "segment": "1265",
+    "type": "R2",
+    "vehicles": 2972.6666666666665,
+    "longitude": 491720.6666666667,
+    "latitude": 150822.0
+  },
+  {
+    "road": "425",
+    "segment": "1266",
+    "type": "R2",
+    "vehicles": 1201.0,
+    "longitude": 503807.0,
+    "latitude": 139144.0
+  },
+  {
+    "road": "425",
+    "segment": "1267",
+    "type": "R2",
+    "vehicles": 11713.0,
+    "longitude": 504085.0,
+    "latitude": 137171.0
+  },
+  {
+    "road": "425",
+    "segment": "1419",
+    "type": "R2",
+    "vehicles": 11738.0,
+    "longitude": 506255.0,
+    "latitude": 136473.0
+  },
+  {
+    "road": "426",
+    "segment": "1269",
+    "type": "R2",
+    "vehicles": 6918.0,
+    "longitude": 504472.0,
+    "latitude": 135896.0
+  },
+  {
+    "road": "426",
+    "segment": "7949",
+    "type": "R2",
+    "vehicles": 4410.5,
+    "longitude": 501830.5,
+    "latitude": 132413.0
+  },
+  {
+    "road": "427",
+    "segment": "1351",
+    "type": "R2",
+    "vehicles": 4553.0,
+    "longitude": 505867.0,
+    "latitude": 119675.0
+  },
+  {
+    "road": "428",
+    "segment": "1249",
+    "type": "R2",
+    "vehicles": 2440.0,
+    "longitude": 486681.0,
+    "latitude": 134165.0
+  },
+  {
+    "road": "428",
+    "segment": "1250",
+    "type": "R2",
+    "vehicles": 1041.0,
+    "longitude": 476693.0,
+    "latitude": 142166.0
+  },
+  {
+    "road": "429",
+    "segment": "1245",
+    "type": "R2",
+    "vehicles": 5450.5,
+    "longitude": 520423.5,
+    "latitude": 130545.0
+  },
+  {
+    "road": "429",
+    "segment": "1154",
+    "type": "R2",
+    "vehicles": 2916.0,
+    "longitude": 517007.0,
+    "latitude": 132170.0
+  },
+  {
+    "road": "429",
+    "segment": "1422",
+    "type": "R2",
+    "vehicles": 3957.0,
+    "longitude": 514229.0,
+    "latitude": 131536.0
+  },
+  {
+    "road": "430",
+    "segment": "0032",
+    "type": "R2",
+    "vehicles": 24631.0,
+    "longitude": 550749.0,
+    "latitude": 158527.0
+  },
+  {
+    "road": "430",
+    "segment": "0033",
+    "type": "R2",
+    "vehicles": 23816.333333333332,
+    "longitude": 550691.0,
+    "latitude": 156245.0
+  },
+  {
+    "road": "430",
+    "segment": "0274",
+    "type": "R2",
+    "vehicles": 7657.5,
+    "longitude": 549271.0,
+    "latitude": 145502.5
+  },
+  {
+    "road": "430",
+    "segment": "1452",
+    "type": "R2",
+    "vehicles": 4800.0,
+    "longitude": 545881.0,
+    "latitude": 140014.0
+  },
+  {
+    "road": "430",
+    "segment": "0276",
+    "type": "R2",
+    "vehicles": 7813.0,
+    "longitude": 542873.0,
+    "latitude": 137809.0
+  },
+  {
+    "road": "430",
+    "segment": "0277",
+    "type": "R2",
+    "vehicles": 2651.0,
+    "longitude": 540009.0,
+    "latitude": 136629.0
+  },
+  {
+    "road": "430",
+    "segment": "0278",
+    "type": "R2",
+    "vehicles": 12845.0,
+    "longitude": 534819.0,
+    "latitude": 133735.0
+  },
+  {
+    "road": "430",
+    "segment": "0280",
+    "type": "R2",
+    "vehicles": 10677.0,
+    "longitude": 530425.5,
+    "latitude": 135583.0
+  },
+  {
+    "road": "430",
+    "segment": "0281",
+    "type": "R2",
+    "vehicles": 5611.0,
+    "longitude": 528310.0,
+    "latitude": 135630.0
+  },
+  {
+    "road": "430",
+    "segment": "0282",
+    "type": "R2",
+    "vehicles": 21586.0,
+    "longitude": 522403.0,
+    "latitude": 124989.5
+  },
+  {
+    "road": "431",
+    "segment": "1350",
+    "type": "R2",
+    "vehicles": 3287.0,
+    "longitude": 522972.0,
+    "latitude": 138141.0
+  },
+  {
+    "road": "432",
+    "segment": "1440",
+    "type": "R2",
+    "vehicles": 1935.0,
+    "longitude": 554002.0,
+    "latitude": 120599.0
+  },
+  {
+    "road": "432",
+    "segment": "1284",
+    "type": "R2",
+    "vehicles": 1100.0,
+    "longitude": 555046.0,
+    "latitude": 127594.0
+  },
+  {
+    "road": "432",
+    "segment": "1285",
+    "type": "R2",
+    "vehicles": 4765.0,
+    "longitude": 559917.0,
+    "latitude": 137431.0
+  },
+  {
+    "road": "432",
+    "segment": "6276",
+    "type": "R2",
+    "vehicles": 4804.0,
+    "longitude": 561438.0,
+    "latitude": 140981.0
+  },
+  {
+    "road": "433",
+    "segment": "1287",
+    "type": "R2",
+    "vehicles": 4400.0,
+    "longitude": 566471.0,
+    "latitude": 158869.0
+  },
+  {
+    "road": "433",
+    "segment": "1288",
+    "type": "R2",
+    "vehicles": 2481.0,
+    "longitude": 562525.3333333334,
+    "latitude": 167170.0
+  },
+  {
+    "road": "433",
+    "segment": "1289",
+    "type": "R2",
+    "vehicles": 2235.5,
+    "longitude": 560044.5,
+    "latitude": 174370.0
+  },
+  {
+    "road": "434",
+    "segment": "1352",
+    "type": "R2",
+    "vehicles": 1220.0,
+    "longitude": 515815.0,
+    "latitude": 167220.0
+  },
+  {
+    "road": "435",
+    "segment": "1431",
+    "type": "R2",
+    "vehicles": 10005.0,
+    "longitude": 543999.0,
+    "latitude": 157749.0
+  },
+  {
+    "road": "435",
+    "segment": "1439",
+    "type": "R2",
+    "vehicles": 3836.0,
+    "longitude": 538347.0,
+    "latitude": 156345.0
+  },
+  {
+    "road": "436",
+    "segment": "1328",
+    "type": "R2",
+    "vehicles": 4292.0,
+    "longitude": 547092.0,
+    "latitude": 166741.0
+  },
+  {
+    "road": "436",
+    "segment": "1329",
+    "type": "R2",
+    "vehicles": 625.0,
+    "longitude": 542250.0,
+    "latitude": 167631.0
+  },
+  {
+    "road": "437",
+    "segment": "0267",
+    "type": "R2",
+    "vehicles": 7161.0,
+    "longitude": 549582.0,
+    "latitude": 171881.0
+  },
+  {
+    "road": "437",
+    "segment": "0268",
+    "type": "R2",
+    "vehicles": 5641.0,
+    "longitude": 551391.0,
+    "latitude": 164888.0
+  },
+  {
+    "road": "438",
+    "segment": "1306",
+    "type": "R2",
+    "vehicles": 2156.0,
+    "longitude": 552635.0,
+    "latitude": 172530.0
+  },
+  {
+    "road": "438",
+    "segment": "1307",
+    "type": "R2",
+    "vehicles": 2665.0,
+    "longitude": 568662.0,
+    "latitude": 173443.0
+  },
+  {
+    "road": "439",
+    "segment": "1299",
+    "type": "R2",
+    "vehicles": 950.0,
+    "longitude": 603466.0,
+    "latitude": 169013.0
+  },
+  {
+    "road": "439",
+    "segment": "1300",
+    "type": "R2",
+    "vehicles": 782.0,
+    "longitude": 602292.0,
+    "latitude": 168778.0
+  },
+  {
+    "road": "439",
+    "segment": "1301",
+    "type": "R2",
+    "vehicles": 2038.0,
+    "longitude": 597502.0,
+    "latitude": 166771.0
+  },
+  {
+    "road": "439",
+    "segment": "1302",
+    "type": "R2",
+    "vehicles": 4151.5,
+    "longitude": 591515.0,
+    "latitude": 163989.5
+  },
+  {
+    "road": "439",
+    "segment": "1303",
+    "type": "R2",
+    "vehicles": 850.0,
+    "longitude": 582809.0,
+    "latitude": 157337.0
+  },
+  {
+    "road": "439",
+    "segment": "1304",
+    "type": "R2",
+    "vehicles": 2467.0,
+    "longitude": 578772.0,
+    "latitude": 158480.0
+  },
+  {
+    "road": "439",
+    "segment": "1305",
+    "type": "R2",
+    "vehicles": 720.0,
+    "longitude": 574915.0,
+    "latitude": 158750.0
+  },
+  {
+    "road": "439",
+    "segment": "1525",
+    "type": "R2",
+    "vehicles": 1288.5,
+    "longitude": 569264.0,
+    "latitude": 157782.0
+  },
+  {
+    "road": "440",
+    "segment": "1294",
+    "type": "R2",
+    "vehicles": 1434.0,
+    "longitude": 580302.0,
+    "latitude": 171488.0
+  },
+  {
+    "road": "440",
+    "segment": "1295",
+    "type": "R2",
+    "vehicles": 2700.0,
+    "longitude": 579742.6666666666,
+    "latitude": 174087.66666666666
+  },
+  {
+    "road": "440",
+    "segment": "1296",
+    "type": "R2",
+    "vehicles": 2412.3333333333335,
+    "longitude": 579205.6666666666,
+    "latitude": 183323.33333333334
+  },
+  {
+    "road": "441",
+    "segment": "1298",
+    "type": "R2",
+    "vehicles": 6638.25,
+    "longitude": 582561.3333333334,
+    "latitude": 171036.0
+  },
+  {
+    "road": "442",
+    "segment": "1318",
+    "type": "R2",
+    "vehicles": 3886.5,
+    "longitude": 595809.0,
+    "latitude": 171527.5
+  },
+  {
+    "road": "442",
+    "segment": "1319",
+    "type": "R2",
+    "vehicles": 2256.0,
+    "longitude": 609884.0,
+    "latitude": 162536.0
+  },
+  {
+    "road": "443",
+    "segment": "1397",
+    "type": "R2",
+    "vehicles": 12161.0,
+    "longitude": 592499.0,
+    "latitude": 166552.0
+  },
+  {
+    "road": "443",
+    "segment": "0320",
+    "type": "R2",
+    "vehicles": 9864.0,
+    "longitude": 593816.0,
+    "latitude": 164608.0
+  },
+  {
+    "road": "443",
+    "segment": "0321",
+    "type": "R2",
+    "vehicles": 4165.0,
+    "longitude": 597638.0,
+    "latitude": 161753.0
+  },
+  {
+    "road": "443",
+    "segment": "0322",
+    "type": "R2",
+    "vehicles": 3112.0,
+    "longitude": 604352.0,
+    "latitude": 157770.0
+  },
+  {
+    "road": "443",
+    "segment": "1488",
+    "type": "R2",
+    "vehicles": 3465.0,
+    "longitude": 611364.0,
+    "latitude": 158108.0
+  },
+  {
+    "road": "443",
+    "segment": "1320",
+    "type": "R2",
+    "vehicles": 1581.5,
+    "longitude": 617180.0,
+    "latitude": 154800.0
+  },
+  {
+    "road": "444",
+    "segment": "0344",
+    "type": "R2",
+    "vehicles": 787.0,
+    "longitude": 422885.0,
+    "latitude": 71867.0
+  },
+  {
+    "road": "444",
+    "segment": "0345",
+    "type": "R2",
+    "vehicles": 3990.0,
+    "longitude": 418770.0,
+    "latitude": 77524.0
+  },
+  {
+    "road": "444",
+    "segment": "1473",
+    "type": "R2",
+    "vehicles": 5988.5,
+    "longitude": 417337.0,
+    "latitude": 81292.0
+  },
+  {
+    "road": "444",
+    "segment": "0387",
+    "type": "R2",
+    "vehicles": 6255.0,
+    "longitude": 414620.0,
+    "latitude": 83040.0
+  },
+  {
+    "road": "444",
+    "segment": "0346",
+    "type": "R2",
+    "vehicles": 7899.0,
+    "longitude": 413698.0,
+    "latitude": 83522.0
+  },
+  {
+    "road": "444",
+    "segment": "0347",
+    "type": "R2",
+    "vehicles": 6197.0,
+    "longitude": 399255.6666666667,
+    "latitude": 89624.66666666667
+  },
+  {
+    "road": "444",
+    "segment": "0348",
+    "type": "R2",
+    "vehicles": 7776.0,
+    "longitude": 394269.0,
+    "latitude": 90011.0
+  },
+  {
+    "road": "445",
+    "segment": "0349",
+    "type": "R2",
+    "vehicles": 2197.5,
+    "longitude": 416728.5,
+    "latitude": 65823.0
+  },
+  {
+    "road": "445",
+    "segment": "0350",
+    "type": "R2",
+    "vehicles": 9069.0,
+    "longitude": 411157.0,
+    "latitude": 63446.0
+  },
+  {
+    "road": "446",
+    "segment": "1016",
+    "type": "R2",
+    "vehicles": 3290.0,
+    "longitude": 412627.0,
+    "latitude": 63984.0
+  },
+  {
+    "road": "447",
+    "segment": "0286",
+    "type": "R2",
+    "vehicles": 14921.0,
+    "longitude": 515548.0,
+    "latitude": 122794.0
+  },
+  {
+    "road": "447",
+    "segment": "0367",
+    "type": "R2",
+    "vehicles": 13392.5,
+    "longitude": 510959.5,
+    "latitude": 124062.5
+  },
+  {
+    "road": "447",
+    "segment": "0290",
+    "type": "R2",
+    "vehicles": 4752.5,
+    "longitude": 498820.5,
+    "latitude": 122694.0
+  },
+  {
+    "road": "447",
+    "segment": "0291",
+    "type": "R2",
+    "vehicles": 2930.0,
+    "longitude": 492344.0,
+    "latitude": 117077.0
+  },
+  {
+    "road": "447",
+    "segment": "0292",
+    "type": "R2",
+    "vehicles": 4248.5,
+    "longitude": 482227.0,
+    "latitude": 114833.0
+  },
+  {
+    "road": "447",
+    "segment": "0293",
+    "type": "R2",
+    "vehicles": 10442.0,
+    "longitude": 472321.0,
+    "latitude": 113198.0
+  },
+  {
+    "road": "447",
+    "segment": "0294",
+    "type": "R2",
+    "vehicles": 14549.5,
+    "longitude": 467526.5,
+    "latitude": 110987.5
+  },
+  {
+    "road": "448",
+    "segment": "1196",
+    "type": "R2",
+    "vehicles": 7253.0,
+    "longitude": 486247.0,
+    "latitude": 89338.0
+  },
+  {
+    "road": "448",
+    "segment": "1197",
+    "type": "R2",
+    "vehicles": 1700.0,
+    "longitude": 493321.0,
+    "latitude": 87768.0
+  },
+  {
+    "road": "448",
+    "segment": "1160",
+    "type": "R2",
+    "vehicles": 2339.0,
+    "longitude": 497392.0,
+    "latitude": 85640.0
+  },
+  {
+    "road": "448",
+    "segment": "0220",
+    "type": "R2",
+    "vehicles": 7004.0,
+    "longitude": 499980.0,
+    "latitude": 85037.0
+  },
+  {
+    "road": "448",
+    "segment": "0221",
+    "type": "R2",
+    "vehicles": 2444.0,
+    "longitude": 507529.0,
+    "latitude": 83006.0
+  },
+  {
+    "road": "448",
+    "segment": "1510",
+    "type": "R2",
+    "vehicles": 3545.0,
+    "longitude": 512112.0,
+    "latitude": 78320.0
+  },
+  {
+    "road": "448",
+    "segment": "0222",
+    "type": "R2",
+    "vehicles": 2818.0,
+    "longitude": 513301.0,
+    "latitude": 77248.0
+  },
+  {
+    "road": "448",
+    "segment": "1512",
+    "type": "R2",
+    "vehicles": 9613.0,
+    "longitude": 514382.0,
+    "latitude": 76265.0
+  },
+  {
+    "road": "448",
+    "segment": "0223",
+    "type": "R2",
+    "vehicles": 10648.5,
+    "longitude": 515816.0,
+    "latitude": 76797.0
+  },
+  {
+    "road": "448",
+    "segment": "0224",
+    "type": "R2",
+    "vehicles": 7492.0,
+    "longitude": 519474.0,
+    "latitude": 78825.0
+  },
+  {
+    "road": "448",
+    "segment": "1513",
+    "type": "R2",
+    "vehicles": 8473.0,
+    "longitude": 519701.0,
+    "latitude": 79434.0
+  },
+  {
+    "road": "448",
+    "segment": "1514",
+    "type": "R2",
+    "vehicles": 2346.0,
+    "longitude": 522026.0,
+    "latitude": 81027.0
+  },
+  {
+    "road": "449",
+    "segment": "0314",
+    "type": "R2",
+    "vehicles": 3716.0,
+    "longitude": 558924.0,
+    "latitude": 159022.0
+  },
+  {
+    "road": "449",
+    "segment": "1543",
+    "type": "R2",
+    "vehicles": 12956.0,
+    "longitude": 563104.0,
+    "latitude": 159789.0
+  },
+  {
+    "road": "449",
+    "segment": "0315",
+    "type": "R2",
+    "vehicles": 3739.0,
+    "longitude": 569816.0,
+    "latitude": 166766.0
+  },
+  {
+    "road": "449",
+    "segment": "0316",
+    "type": "R2",
+    "vehicles": 6880.0,
+    "longitude": 574249.0,
+    "latitude": 171728.0
+  },
+  {
+    "road": "450",
+    "segment": "1404",
+    "type": "R2",
+    "vehicles": 5106.0,
+    "longitude": 551412.0,
+    "latitude": 150774.0
+  },
+  {
+    "road": "451",
+    "segment": "1448",
+    "type": "R2",
+    "vehicles": 7694.0,
+    "longitude": 513931.0,
+    "latitude": 124528.0
+  },
+  {
+    "road": "452",
+    "segment": "0368",
+    "type": "R2",
+    "vehicles": 11734.333333333334,
+    "longitude": 427236.5,
+    "latitude": 144564.0
+  },
+  {
+    "road": "452",
+    "segment": "0206",
+    "type": "R2",
+    "vehicles": 7321.0,
+    "longitude": 433231.0,
+    "latitude": 141134.0
+  },
+  {
+    "road": "452",
+    "segment": "0207",
+    "type": "R2",
+    "vehicles": 8269.0,
+    "longitude": 434532.0,
+    "latitude": 138401.0
+  },
+  {
+    "road": "452",
+    "segment": "0208",
+    "type": "R2",
+    "vehicles": 5546.333333333333,
+    "longitude": 438110.3333333333,
+    "latitude": 133946.66666666666
+  },
+  {
+    "road": "454",
+    "segment": "1400",
+    "type": "R2",
+    "vehicles": 7064.5,
+    "longitude": 555582.0,
+    "latitude": 150504.0
+  },
+  {
+    "road": "454",
+    "segment": "1519",
+    "type": "R2",
+    "vehicles": 1991.0,
+    "longitude": 560433.0,
+    "latitude": 145409.0
+  },
+  {
+    "road": "454",
+    "segment": "1495",
+    "type": "R2",
+    "vehicles": 9886.0,
+    "longitude": 563970.0,
+    "latitude": 141827.0
+  },
+  {
+    "road": "454",
+    "segment": "1520",
+    "type": "R2",
+    "vehicles": 1476.0,
+    "longitude": 566948.0,
+    "latitude": 138361.0
+  },
+  {
+    "road": "602",
+    "segment": "1032",
+    "type": "R3",
+    "vehicles": 720.0,
+    "longitude": 386256.0,
+    "latitude": 124081.0
+  },
+  {
+    "road": "603",
+    "segment": "1041",
+    "type": "R3",
+    "vehicles": 1110.0,
+    "longitude": 401144.0,
+    "latitude": 114247.0
+  },
+  {
+    "road": "604",
+    "segment": "5701",
+    "type": "R3",
+    "vehicles": 220.0,
+    "longitude": 397553.0,
+    "latitude": 108625.0
+  },
+  {
+    "road": "605",
+    "segment": "5702",
+    "type": "R3",
+    "vehicles": 90.0,
+    "longitude": 395679.0,
+    "latitude": 110722.0
+  },
+  {
+    "road": "606",
+    "segment": "5703",
+    "type": "R3",
+    "vehicles": 380.0,
+    "longitude": 394173.0,
+    "latitude": 106093.0
+  },
+  {
+    "road": "607",
+    "segment": "5723",
+    "type": "R3",
+    "vehicles": 800.0,
+    "longitude": 397901.0,
+    "latitude": 96613.0
+  },
+  {
+    "road": "608",
+    "segment": "1067",
+    "type": "R3",
+    "vehicles": 2542.0,
+    "longitude": 396379.5,
+    "latitude": 94524.0
+  },
+  {
+    "road": "608",
+    "segment": "1065",
+    "type": "R3",
+    "vehicles": 110.0,
+    "longitude": 406223.0,
+    "latitude": 97917.0
+  },
+  {
+    "road": "608",
+    "segment": "1068",
+    "type": "R3",
+    "vehicles": 215.0,
+    "longitude": 409519.0,
+    "latitude": 105589.0
+  },
+  {
+    "road": "609",
+    "segment": "2117",
+    "type": "R3",
+    "vehicles": 1960.0,
+    "longitude": 414152.0,
+    "latitude": 86816.0
+  },
+  {
+    "road": "609",
+    "segment": "1066",
+    "type": "R3",
+    "vehicles": 230.0,
+    "longitude": 404634.0,
+    "latitude": 112182.0
+  },
+  {
+    "road": "610",
+    "segment": "1370",
+    "type": "R3",
+    "vehicles": 70.0,
+    "longitude": 410374.0,
+    "latitude": 106238.0
+  },
+  {
+    "road": "610",
+    "segment": "1371",
+    "type": "R3",
+    "vehicles": 985.0,
+    "longitude": 428073.0,
+    "latitude": 98849.0
+  },
+  {
+    "road": "611",
+    "segment": "1024",
+    "type": "R3",
+    "vehicles": 2174.0,
+    "longitude": 404936.0,
+    "latitude": 84461.0
+  },
+  {
+    "road": "612",
+    "segment": "1042",
+    "type": "R3",
+    "vehicles": 810.0,
+    "longitude": 390716.0,
+    "latitude": 100873.0
+  },
+  {
+    "road": "613",
+    "segment": "1437",
+    "type": "R3",
+    "vehicles": 14191.5,
+    "longitude": 396778.0,
+    "latitude": 91636.0
+  },
+  {
+    "road": "614",
+    "segment": "1550",
+    "type": "R3",
+    "vehicles": 7206.5,
+    "longitude": 393438.0,
+    "latitude": 86386.0
+  },
+  {
+    "road": "614",
+    "segment": "1408",
+    "type": "R3",
+    "vehicles": 6101.0,
+    "longitude": 392272.0,
+    "latitude": 85248.0
+  },
+  {
+    "road": "614",
+    "segment": "1047",
+    "type": "R3",
+    "vehicles": 1000.0,
+    "longitude": 391331.0,
+    "latitude": 83718.0
+  },
+  {
+    "road": "614",
+    "segment": "1048",
+    "type": "R3",
+    "vehicles": 548.0,
+    "longitude": 394839.0,
+    "latitude": 78664.0
+  },
+  {
+    "road": "614",
+    "segment": "1049",
+    "type": "R3",
+    "vehicles": 1006.0,
+    "longitude": 406229.5,
+    "latitude": 75784.5
+  },
+  {
+    "road": "614",
+    "segment": "1050",
+    "type": "R3",
+    "vehicles": 1074.0,
+    "longitude": 417495.0,
+    "latitude": 75891.0
+  },
+  {
+    "road": "615",
+    "segment": "5736",
+    "type": "R3",
+    "vehicles": 4790.0,
+    "longitude": 399549.0,
+    "latitude": 87146.0
+  },
+  {
+    "road": "615",
+    "segment": "5740",
+    "type": "R3",
+    "vehicles": 3115.5,
+    "longitude": 394844.0,
+    "latitude": 84958.5
+  },
+  {
+    "road": "616",
+    "segment": "1056",
+    "type": "R3",
+    "vehicles": 430.0,
+    "longitude": 393003.0,
+    "latitude": 75753.0
+  },
+  {
+    "road": "617",
+    "segment": "1054",
+    "type": "R3",
+    "vehicles": 1846.0,
+    "longitude": 402311.0,
+    "latitude": 75809.0
+  },
+  {
+    "road": "617",
+    "segment": "1055",
+    "type": "R3",
+    "vehicles": 790.0,
+    "longitude": 399810.0,
+    "latitude": 74280.0
+  },
+  {
+    "road": "618",
+    "segment": "6807",
+    "type": "R3",
+    "vehicles": 850.0,
+    "longitude": 406158.0,
+    "latitude": 79919.0
+  },
+  {
+    "road": "618",
+    "segment": "6805",
+    "type": "R3",
+    "vehicles": 1000.0,
+    "longitude": 405289.0,
+    "latitude": 72402.0
+  },
+  {
+    "road": "618",
+    "segment": "6804",
+    "type": "R3",
+    "vehicles": 1250.0,
+    "longitude": 407136.0,
+    "latitude": 70243.0
+  },
+  {
+    "road": "619",
+    "segment": "1025",
+    "type": "R3",
+    "vehicles": 1777.0,
+    "longitude": 407662.0,
+    "latitude": 65985.0
+  },
+  {
+    "road": "620",
+    "segment": "6831",
+    "type": "R3",
+    "vehicles": 860.0,
+    "longitude": 415305.0,
+    "latitude": 69574.0
+  },
+  {
+    "road": "621",
+    "segment": "1412",
+    "type": "R3",
+    "vehicles": 671.0,
+    "longitude": 431163.0,
+    "latitude": 80901.0
+  },
+  {
+    "road": "622",
+    "segment": "6848",
+    "type": "R3",
+    "vehicles": 570.0,
+    "longitude": 428318.5,
+    "latitude": 59615.0
+  },
+  {
+    "road": "623",
+    "segment": "3718",
+    "type": "R3",
+    "vehicles": 550.0,
+    "longitude": 415915.0,
+    "latitude": 45226.0
+  },
+  {
+    "road": "624",
+    "segment": "3721",
+    "type": "R3",
+    "vehicles": 138.0,
+    "longitude": 419494.0,
+    "latitude": 35075.0
+  },
+  {
+    "road": "625",
+    "segment": "1061",
+    "type": "R3",
+    "vehicles": 3726.5,
+    "longitude": 408617.0,
+    "latitude": 43796.0
+  },
+  {
+    "road": "626",
+    "segment": "3726",
+    "type": "R3",
+    "vehicles": 90.0,
+    "longitude": 410154.0,
+    "latitude": 35000.0
+  },
+  {
+    "road": "627",
+    "segment": "3716",
+    "type": "R3",
+    "vehicles": 1057.0,
+    "longitude": 411281.0,
+    "latitude": 47380.0
+  },
+  {
+    "road": "628",
+    "segment": "1427",
+    "type": "R3",
+    "vehicles": 2029.0,
+    "longitude": 393083.0,
+    "latitude": 36864.0
+  },
+  {
+    "road": "629",
+    "segment": "1479",
+    "type": "R3",
+    "vehicles": 6138.0,
+    "longitude": 389730.0,
+    "latitude": 42925.0
+  },
+  {
+    "road": "630",
+    "segment": "1069",
+    "type": "R3",
+    "vehicles": 241.66666666666666,
+    "longitude": 433463.6666666667,
+    "latitude": 50206.666666666664
+  },
+  {
+    "road": "630",
+    "segment": "1070",
+    "type": "R3",
+    "vehicles": 180.0,
+    "longitude": 428682.0,
+    "latitude": 44923.0
+  },
+  {
+    "road": "631",
+    "segment": "3223",
+    "type": "R3",
+    "vehicles": 20.0,
+    "longitude": 436704.0,
+    "latitude": 39950.0
+  },
+  {
+    "road": "632",
+    "segment": "1378",
+    "type": "R3",
+    "vehicles": 1289.5,
+    "longitude": 445006.5,
+    "latitude": 42578.0
+  },
+  {
+    "road": "632",
+    "segment": "3224",
+    "type": "R3",
+    "vehicles": 550.0,
+    "longitude": 443743.0,
+    "latitude": 39716.0
+  },
+  {
+    "road": "633",
+    "segment": "1099",
+    "type": "R3",
+    "vehicles": 1950.0,
+    "longitude": 419759.0,
+    "latitude": 128775.0
+  },
+  {
+    "road": "633",
+    "segment": "1098",
+    "type": "R3",
+    "vehicles": 1457.0,
+    "longitude": 417122.0,
+    "latitude": 129109.0
+  },
+  {
+    "road": "634",
+    "segment": "1104",
+    "type": "R3",
+    "vehicles": 2789.0,
+    "longitude": 429473.0,
+    "latitude": 142375.0
+  },
+  {
+    "road": "634",
+    "segment": "1094",
+    "type": "R3",
+    "vehicles": 5161.0,
+    "longitude": 429789.0,
+    "latitude": 138197.0
+  },
+  {
+    "road": "634",
+    "segment": "1546",
+    "type": "R3",
+    "vehicles": 8568.0,
+    "longitude": 431706.0,
+    "latitude": 137540.0
+  },
+  {
+    "road": "635",
+    "segment": "1121",
+    "type": "R3",
+    "vehicles": 1915.0,
+    "longitude": 437171.0,
+    "latitude": 131125.0
+  },
+  {
+    "road": "635",
+    "segment": "1122",
+    "type": "R3",
+    "vehicles": 1037.5,
+    "longitude": 437341.0,
+    "latitude": 126120.5
+  },
+  {
+    "road": "635",
+    "segment": "1127",
+    "type": "R3",
+    "vehicles": 1000.0,
+    "longitude": 435752.0,
+    "latitude": 123110.0
+  },
+  {
+    "road": "636",
+    "segment": "1126",
+    "type": "R3",
+    "vehicles": 1840.0,
+    "longitude": 440876.5,
+    "latitude": 128834.5
+  },
+  {
+    "road": "636",
+    "segment": "1529",
+    "type": "R3",
+    "vehicles": 2473.0,
+    "longitude": 444097.0,
+    "latitude": 130646.5
+  },
+  {
+    "road": "638",
+    "segment": "1131",
+    "type": "R3",
+    "vehicles": 2899.0,
+    "longitude": 434397.0,
+    "latitude": 140116.0
+  },
+  {
+    "road": "638",
+    "segment": "1132",
+    "type": "R3",
+    "vehicles": 770.0,
+    "longitude": 439610.0,
+    "latitude": 138089.0
+  },
+  {
+    "road": "639",
+    "segment": "1141",
+    "type": "R3",
+    "vehicles": 7279.0,
+    "longitude": 459042.0,
+    "latitude": 110027.5
+  },
+  {
+    "road": "639",
+    "segment": "1142",
+    "type": "R3",
+    "vehicles": 3602.0,
+    "longitude": 460581.5,
+    "latitude": 118801.0
+  },
+  {
+    "road": "639",
+    "segment": "1143",
+    "type": "R3",
+    "vehicles": 3617.0,
+    "longitude": 460320.0,
+    "latitude": 121921.0
+  },
+  {
+    "road": "640",
+    "segment": "1373",
+    "type": "R3",
+    "vehicles": 639.0,
+    "longitude": 443251.0,
+    "latitude": 80142.0
+  },
+  {
+    "road": "641",
+    "segment": "1369",
+    "type": "R3",
+    "vehicles": 3798.3333333333335,
+    "longitude": 452923.0,
+    "latitude": 102722.0
+  },
+  {
+    "road": "642",
+    "segment": "1146",
+    "type": "R3",
+    "vehicles": 3191.0,
+    "longitude": 450694.0,
+    "latitude": 87482.0
+  },
+  {
+    "road": "642",
+    "segment": "1565",
+    "type": "R3",
+    "vehicles": 9212.0,
+    "longitude": 445895.0,
+    "latitude": 92335.0
+  },
+  {
+    "road": "642",
+    "segment": "1147",
+    "type": "R3",
+    "vehicles": 1568.0,
+    "longitude": 458654.0,
+    "latitude": 92894.0
+  },
+  {
+    "road": "642",
+    "segment": "1360",
+    "type": "R3",
+    "vehicles": 6982.0,
+    "longitude": 463547.0,
+    "latitude": 91698.0
+  },
+  {
+    "road": "643",
+    "segment": "1436",
+    "type": "R3",
+    "vehicles": 1635.0,
+    "longitude": 455267.0,
+    "latitude": 90582.0
+  },
+  {
+    "road": "643",
+    "segment": "1362",
+    "type": "R3",
+    "vehicles": 355.0,
+    "longitude": 455734.0,
+    "latitude": 83016.0
+  },
+  {
+    "road": "644",
+    "segment": "1356",
+    "type": "R3",
+    "vehicles": 9807.0,
+    "longitude": 466871.0,
+    "latitude": 104368.0
+  },
+  {
+    "road": "644",
+    "segment": "1357",
+    "type": "R3",
+    "vehicles": 9036.0,
+    "longitude": 467855.0,
+    "latitude": 106123.0
+  },
+  {
+    "road": "644",
+    "segment": "1358",
+    "type": "R3",
+    "vehicles": 8572.0,
+    "longitude": 468744.0,
+    "latitude": 116193.0
+  },
+  {
+    "road": "645",
+    "segment": "1188",
+    "type": "R3",
+    "vehicles": 6845.0,
+    "longitude": 468404.0,
+    "latitude": 100272.0
+  },
+  {
+    "road": "645",
+    "segment": "1189",
+    "type": "R3",
+    "vehicles": 1662.0,
+    "longitude": 473475.0,
+    "latitude": 99575.0
+  },
+  {
+    "road": "646",
+    "segment": "1194",
+    "type": "R3",
+    "vehicles": 1268.0,
+    "longitude": 468142.0,
+    "latitude": 94040.0
+  },
+  {
+    "road": "646",
+    "segment": "1443",
+    "type": "R3",
+    "vehicles": 3737.0,
+    "longitude": 470982.0,
+    "latitude": 92392.0
+  },
+  {
+    "road": "646",
+    "segment": "1444",
+    "type": "R3",
+    "vehicles": 14515.0,
+    "longitude": 471834.0,
+    "latitude": 91734.0
+  },
+  {
+    "road": "646",
+    "segment": "1195",
+    "type": "R3",
+    "vehicles": 2152.0,
+    "longitude": 481372.0,
+    "latitude": 89966.0
+  },
+  {
+    "road": "647",
+    "segment": "1172",
+    "type": "R3",
+    "vehicles": 8023.0,
+    "longitude": 473521.0,
+    "latitude": 91806.0
+  },
+  {
+    "road": "647",
+    "segment": "1173",
+    "type": "R3",
+    "vehicles": 7035.0,
+    "longitude": 474321.0,
+    "latitude": 89318.0
+  },
+  {
+    "road": "647",
+    "segment": "1174",
+    "type": "R3",
+    "vehicles": 825.0,
+    "longitude": 476674.0,
+    "latitude": 87477.0
+  },
+  {
+    "road": "647",
+    "segment": "1368",
+    "type": "R3",
+    "vehicles": 2677.0,
+    "longitude": 474535.5,
+    "latitude": 84565.0
+  },
+  {
+    "road": "648",
+    "segment": "2912",
+    "type": "R3",
+    "vehicles": 850.0,
+    "longitude": 478264.0,
+    "latitude": 74752.0
+  },
+  {
+    "road": "648",
+    "segment": "3601",
+    "type": "R3",
+    "vehicles": 248.5,
+    "longitude": 486665.5,
+    "latitude": 71311.0
+  },
+  {
+    "road": "649",
+    "segment": "2915",
+    "type": "R3",
+    "vehicles": 170.0,
+    "longitude": 486673.0,
+    "latitude": 71942.0
+  },
+  {
+    "road": "650",
+    "segment": "1159",
+    "type": "R3",
+    "vehicles": 1102.0,
+    "longitude": 496718.0,
+    "latitude": 79460.0
+  },
+  {
+    "road": "651",
+    "segment": "1198",
+    "type": "R3",
+    "vehicles": 1900.0,
+    "longitude": 507602.0,
+    "latitude": 78625.0
+  },
+  {
+    "road": "651",
+    "segment": "0252",
+    "type": "R3",
+    "vehicles": 10479.5,
+    "longitude": 512190.0,
+    "latitude": 77812.0
+  },
+  {
+    "road": "651",
+    "segment": "1492",
+    "type": "R3",
+    "vehicles": 2094.0,
+    "longitude": 507390.0,
+    "latitude": 80711.0
+  },
+  {
+    "road": "652",
+    "segment": "1457",
+    "type": "R3",
+    "vehicles": 1325.0,
+    "longitude": 497544.5,
+    "latitude": 90215.5
+  },
+  {
+    "road": "653",
+    "segment": "1363",
+    "type": "R3",
+    "vehicles": 888.0,
+    "longitude": 469341.0,
+    "latitude": 67586.0
+  },
+  {
+    "road": "653",
+    "segment": "1364",
+    "type": "R3",
+    "vehicles": 53.0,
+    "longitude": 472799.0,
+    "latitude": 50415.0
+  },
+  {
+    "road": "654",
+    "segment": "3611",
+    "type": "R3",
+    "vehicles": 1104.0,
+    "longitude": 484661.0,
+    "latitude": 48290.0
+  },
+  {
+    "road": "655",
+    "segment": "6643",
+    "type": "R3",
+    "vehicles": 950.0,
+    "longitude": 480841.0,
+    "latitude": 57110.0
+  },
+  {
+    "road": "656",
+    "segment": "3651",
+    "type": "R3",
+    "vehicles": 223.0,
+    "longitude": 483212.0,
+    "latitude": 45499.0
+  },
+  {
+    "road": "657",
+    "segment": "3610",
+    "type": "R3",
+    "vehicles": 180.0,
+    "longitude": 488422.0,
+    "latitude": 36127.0
+  },
+  {
+    "road": "657",
+    "segment": "1345",
+    "type": "R3",
+    "vehicles": 180.0,
+    "longitude": 476631.0,
+    "latitude": 43509.0
+  },
+  {
+    "road": "658",
+    "segment": "2517",
+    "type": "R3",
+    "vehicles": 520.0,
+    "longitude": 507486.0,
+    "latitude": 39238.0
+  },
+  {
+    "road": "658",
+    "segment": "1433",
+    "type": "R3",
+    "vehicles": 756.0,
+    "longitude": 504512.0,
+    "latitude": 40483.0
+  },
+  {
+    "road": "659",
+    "segment": "2515",
+    "type": "R3",
+    "vehicles": 162.0,
+    "longitude": 505607.0,
+    "latitude": 38656.0
+  },
+  {
+    "road": "660",
+    "segment": "1179",
+    "type": "R3",
+    "vehicles": 2453.0,
+    "longitude": 515484.0,
+    "latitude": 47346.0
+  },
+  {
+    "road": "660",
+    "segment": "1342",
+    "type": "R3",
+    "vehicles": 583.3333333333334,
+    "longitude": 525839.0,
+    "latitude": 40921.0
+  },
+  {
+    "road": "661",
+    "segment": "1210",
+    "type": "R3",
+    "vehicles": 565.0,
+    "longitude": 528374.5,
+    "latitude": 58560.0
+  },
+  {
+    "road": "662",
+    "segment": "5407",
+    "type": "R3",
+    "vehicles": 604.5,
+    "longitude": 526664.0,
+    "latitude": 56432.0
+  },
+  {
+    "road": "664",
+    "segment": "2501",
+    "type": "R3",
+    "vehicles": 2398.0,
+    "longitude": 509786.0,
+    "latitude": 65542.0
+  },
+  {
+    "road": "665",
+    "segment": "1191",
+    "type": "R3",
+    "vehicles": 717.5,
+    "longitude": 510129.0,
+    "latitude": 102642.0
+  },
+  {
+    "road": "666",
+    "segment": "8115",
+    "type": "R3",
+    "vehicles": 1100.0,
+    "longitude": 499895.0,
+    "latitude": 107217.0
+  },
+  {
+    "road": "667",
+    "segment": "1385",
+    "type": "R3",
+    "vehicles": 3450.5,
+    "longitude": 519396.0,
+    "latitude": 82688.5
+  },
+  {
+    "road": "668",
+    "segment": "5846",
+    "type": "R3",
+    "vehicles": 1265.0,
+    "longitude": 520289.0,
+    "latitude": 73826.0
+  },
+  {
+    "road": "670",
+    "segment": "1244",
+    "type": "R3",
+    "vehicles": 290.0,
+    "longitude": 556330.0,
+    "latitude": 100834.0
+  },
+  {
+    "road": "671",
+    "segment": "2237",
+    "type": "R3",
+    "vehicles": 674.0,
+    "longitude": 536776.0,
+    "latitude": 80263.0
+  },
+  {
+    "road": "672",
+    "segment": "1337",
+    "type": "R3",
+    "vehicles": 2875.0,
+    "longitude": 526324.0,
+    "latitude": 91236.0
+  },
+  {
+    "road": "672",
+    "segment": "1338",
+    "type": "R3",
+    "vehicles": 1558.0,
+    "longitude": 529411.0,
+    "latitude": 86254.0
+  },
+  {
+    "road": "672",
+    "segment": "3927",
+    "type": "R3",
+    "vehicles": 1755.0,
+    "longitude": 528752.0,
+    "latitude": 84250.0
+  },
+  {
+    "road": "673",
+    "segment": "1340",
+    "type": "R3",
+    "vehicles": 2985.0,
+    "longitude": 534975.0,
+    "latitude": 81143.0
+  },
+  {
+    "road": "674",
+    "segment": "1384",
+    "type": "R3",
+    "vehicles": 1290.0,
+    "longitude": 523223.0,
+    "latitude": 86512.0
+  },
+  {
+    "road": "675",
+    "segment": "1207",
+    "type": "R3",
+    "vehicles": 858.0,
+    "longitude": 551743.0,
+    "latitude": 81127.0
+  },
+  {
+    "road": "675",
+    "segment": "1481",
+    "type": "R3",
+    "vehicles": 3697.0,
+    "longitude": 553116.0,
+    "latitude": 78321.0
+  },
+  {
+    "road": "676",
+    "segment": "2204",
+    "type": "R3",
+    "vehicles": 2832.5,
+    "longitude": 546899.0,
+    "latitude": 90756.0
+  },
+  {
+    "road": "676",
+    "segment": "2216",
+    "type": "R3",
+    "vehicles": 99.0,
+    "longitude": 554559.0,
+    "latitude": 87113.0
+  },
+  {
+    "road": "677",
+    "segment": "2203",
+    "type": "R3",
+    "vehicles": 276.0,
+    "longitude": 555068.0,
+    "latitude": 96336.0
+  },
+  {
+    "road": "677",
+    "segment": "2202",
+    "type": "R3",
+    "vehicles": 635.0,
+    "longitude": 542359.0,
+    "latitude": 93298.0
+  },
+  {
+    "road": "678",
+    "segment": "2215",
+    "type": "R3",
+    "vehicles": 350.0,
+    "longitude": 554680.0,
+    "latitude": 93059.0
+  },
+  {
+    "road": "679",
+    "segment": "1192",
+    "type": "R3",
+    "vehicles": 783.0,
+    "longitude": 516089.0,
+    "latitude": 102094.0
+  },
+  {
+    "road": "679",
+    "segment": "3909",
+    "type": "R3",
+    "vehicles": 1551.0,
+    "longitude": 526818.0,
+    "latitude": 97050.33333333333
+  },
+  {
+    "road": "680",
+    "segment": "1223",
+    "type": "R3",
+    "vehicles": 325.0,
+    "longitude": 525828.0,
+    "latitude": 106064.0
+  },
+  {
+    "road": "680",
+    "segment": "1224",
+    "type": "R3",
+    "vehicles": 350.0,
+    "longitude": 526200.0,
+    "latitude": 105862.0
+  },
+  {
+    "road": "681",
+    "segment": "4006",
+    "type": "R3",
+    "vehicles": 450.0,
+    "longitude": 527394.0,
+    "latitude": 114433.0
+  },
+  {
+    "road": "682",
+    "segment": "1441",
+    "type": "R3",
+    "vehicles": 312.0,
+    "longitude": 538691.0,
+    "latitude": 107956.0
+  },
+  {
+    "road": "683",
+    "segment": "1169",
+    "type": "R3",
+    "vehicles": 1000.0,
+    "longitude": 540235.0,
+    "latitude": 107178.0
+  },
+  {
+    "road": "683",
+    "segment": "1414",
+    "type": "R3",
+    "vehicles": 529.0,
+    "longitude": 547127.0,
+    "latitude": 110089.0
+  },
+  {
+    "road": "684",
+    "segment": "7460",
+    "type": "R3",
+    "vehicles": 1015.0,
+    "longitude": 544440.0,
+    "latitude": 107316.0
+  },
+  {
+    "road": "685",
+    "segment": "7495",
+    "type": "R3",
+    "vehicles": 4593.0,
+    "longitude": 547438.0,
+    "latitude": 122332.0
+  },
+  {
+    "road": "685",
+    "segment": "7450",
+    "type": "R3",
+    "vehicles": 725.0,
+    "longitude": 549639.0,
+    "latitude": 119554.0
+  },
+  {
+    "road": "686",
+    "segment": "1278",
+    "type": "R3",
+    "vehicles": 2743.0,
+    "longitude": 536963.0,
+    "latitude": 130973.0
+  },
+  {
+    "road": "686",
+    "segment": "1279",
+    "type": "R3",
+    "vehicles": 586.0,
+    "longitude": 532324.5,
+    "latitude": 128330.0
+  },
+  {
+    "road": "687",
+    "segment": "7207",
+    "type": "R3",
+    "vehicles": 2174.0,
+    "longitude": 533263.0,
+    "latitude": 123458.0
+  },
+  {
+    "road": "688",
+    "segment": "1231",
+    "type": "R3",
+    "vehicles": 6294.0,
+    "longitude": 533375.0,
+    "latitude": 133007.0
+  },
+  {
+    "road": "688",
+    "segment": "1232",
+    "type": "R3",
+    "vehicles": 4023.0,
+    "longitude": 540711.0,
+    "latitude": 130223.0
+  },
+  {
+    "road": "688",
+    "segment": "1233",
+    "type": "R3",
+    "vehicles": 1168.0,
+    "longitude": 548806.0,
+    "latitude": 130377.0
+  },
+  {
+    "road": "689",
+    "segment": "6260",
+    "type": "R3",
+    "vehicles": 746.0,
+    "longitude": 559492.0,
+    "latitude": 125488.0
+  },
+  {
+    "road": "690",
+    "segment": "1234",
+    "type": "R3",
+    "vehicles": 755.0,
+    "longitude": 558866.0,
+    "latitude": 133863.0
+  },
+  {
+    "road": "690",
+    "segment": "1235",
+    "type": "R3",
+    "vehicles": 1874.5,
+    "longitude": 572115.5,
+    "latitude": 133176.5
+  },
+  {
+    "road": "691",
+    "segment": "6251",
+    "type": "R3",
+    "vehicles": 940.0,
+    "longitude": 581048.0,
+    "latitude": 138226.0
+  },
+  {
+    "road": "692",
+    "segment": "6223",
+    "type": "R3",
+    "vehicles": 221.0,
+    "longitude": 578561.0,
+    "latitude": 132037.0
+  },
+  {
+    "road": "694",
+    "segment": "1268",
+    "type": "R3",
+    "vehicles": 5510.0,
+    "longitude": 507767.5,
+    "latitude": 129678.5
+  },
+  {
+    "road": "695",
+    "segment": "7951",
+    "type": "R3",
+    "vehicles": 900.0,
+    "longitude": 503838.0,
+    "latitude": 130147.0
+  },
+  {
+    "road": "695",
+    "segment": "1458",
+    "type": "R3",
+    "vehicles": 4240.0,
+    "longitude": 499967.0,
+    "latitude": 133286.0
+  },
+  {
+    "road": "696",
+    "segment": "7912",
+    "type": "R3",
+    "vehicles": 5050.0,
+    "longitude": 508081.0,
+    "latitude": 136921.0
+  },
+  {
+    "road": "696",
+    "segment": "7919",
+    "type": "R3",
+    "vehicles": 660.0,
+    "longitude": 508215.0,
+    "latitude": 141163.0
+  },
+  {
+    "road": "696",
+    "segment": "6904",
+    "type": "R3",
+    "vehicles": 2050.0,
+    "longitude": 506508.0,
+    "latitude": 147984.0
+  },
+  {
+    "road": "697",
+    "segment": "5514",
+    "type": "R3",
+    "vehicles": 1250.0,
+    "longitude": 491658.0,
+    "latitude": 127136.0
+  },
+  {
+    "road": "698",
+    "segment": "6505",
+    "type": "R3",
+    "vehicles": 420.0,
+    "longitude": 486676.0,
+    "latitude": 154469.0
+  },
+  {
+    "road": "699",
+    "segment": "1263",
+    "type": "R3",
+    "vehicles": 341.5,
+    "longitude": 495702.0,
+    "latitude": 164877.0
+  },
+  {
+    "road": "700",
+    "segment": "1272",
+    "type": "R3",
+    "vehicles": 1938.0,
+    "longitude": 534092.0,
+    "latitude": 138341.0
+  },
+  {
+    "road": "700",
+    "segment": "1273",
+    "type": "R3",
+    "vehicles": 4207.0,
+    "longitude": 540203.0,
+    "latitude": 138267.0
+  },
+  {
+    "road": "701",
+    "segment": "1270",
+    "type": "R3",
+    "vehicles": 1085.5,
+    "longitude": 530669.0,
+    "latitude": 156369.0
+  },
+  {
+    "road": "701",
+    "segment": "1430",
+    "type": "R3",
+    "vehicles": 3669.3333333333335,
+    "longitude": 528543.6666666666,
+    "latitude": 140707.0
+  },
+  {
+    "road": "702",
+    "segment": "2703",
+    "type": "R3",
+    "vehicles": 580.0,
+    "longitude": 508244.0,
+    "latitude": 162739.5
+  },
+  {
+    "road": "702",
+    "segment": "2704",
+    "type": "R3",
+    "vehicles": 605.5,
+    "longitude": 511346.5,
+    "latitude": 162308.5
+  },
+  {
+    "road": "703",
+    "segment": "6304",
+    "type": "R3",
+    "vehicles": 1700.0,
+    "longitude": 510978.0,
+    "latitude": 163176.0
+  },
+  {
+    "road": "703",
+    "segment": "6303",
+    "type": "R3",
+    "vehicles": 480.0,
+    "longitude": 510611.0,
+    "latitude": 163667.0
+  },
+  {
+    "road": "704",
+    "segment": "1353",
+    "type": "R3",
+    "vehicles": 1141.0,
+    "longitude": 517995.0,
+    "latitude": 160697.0
+  },
+  {
+    "road": "704",
+    "segment": "1355",
+    "type": "R3",
+    "vehicles": 645.0,
+    "longitude": 524759.0,
+    "latitude": 157388.0
+  },
+  {
+    "road": "705",
+    "segment": "1432",
+    "type": "R3",
+    "vehicles": 2230.0,
+    "longitude": 533215.0,
+    "latitude": 155892.0
+  },
+  {
+    "road": "706",
+    "segment": "6301",
+    "type": "R3",
+    "vehicles": 345.0,
+    "longitude": 530545.0,
+    "latitude": 160535.0
+  },
+  {
+    "road": "709",
+    "segment": "8615",
+    "type": "R3",
+    "vehicles": 4161.0,
+    "longitude": 553588.5,
+    "latitude": 157712.0
+  },
+  {
+    "road": "710",
+    "segment": "1292",
+    "type": "R3",
+    "vehicles": 6766.0,
+    "longitude": 557891.0,
+    "latitude": 151869.0
+  },
+  {
+    "road": "710",
+    "segment": "0247",
+    "type": "R3",
+    "vehicles": 12866.0,
+    "longitude": 565812.0,
+    "latitude": 142228.0
+  },
+  {
+    "road": "711",
+    "segment": "9006",
+    "type": "R3",
+    "vehicles": 7152.0,
+    "longitude": 550740.0,
+    "latitude": 146101.0
+  },
+  {
+    "road": "711",
+    "segment": "9013",
+    "type": "R3",
+    "vehicles": 1160.0,
+    "longitude": 555214.0,
+    "latitude": 145070.0
+  },
+  {
+    "road": "712",
+    "segment": "1331",
+    "type": "R3",
+    "vehicles": 1971.6666666666667,
+    "longitude": 573017.0,
+    "latitude": 147266.5
+  },
+  {
+    "road": "713",
+    "segment": "4910",
+    "type": "R3",
+    "vehicles": 5496.333333333333,
+    "longitude": 573560.0,
+    "latitude": 145247.66666666666
+  },
+  {
+    "road": "714",
+    "segment": "1293",
+    "type": "R3",
+    "vehicles": 3077.0,
+    "longitude": 578012.0,
+    "latitude": 160630.0
+  },
+  {
+    "road": "714",
+    "segment": "2806",
+    "type": "R3",
+    "vehicles": 1350.0,
+    "longitude": 575205.0,
+    "latitude": 161944.0
+  },
+  {
+    "road": "714",
+    "segment": "2807",
+    "type": "R3",
+    "vehicles": 1742.0,
+    "longitude": 575173.0,
+    "latitude": 162015.0
+  },
+  {
+    "road": "715",
+    "segment": "5645",
+    "type": "R3",
+    "vehicles": 2343.6666666666665,
+    "longitude": 586007.3333333334,
+    "latitude": 174159.33333333334
+  },
+  {
+    "road": "716",
+    "segment": "5637",
+    "type": "R3",
+    "vehicles": 774.0,
+    "longitude": 583413.0,
+    "latitude": 178978.0
+  },
+  {
+    "road": "716",
+    "segment": "5630",
+    "type": "R3",
+    "vehicles": 650.0,
+    "longitude": 583042.0,
+    "latitude": 185988.0
+  },
+  {
+    "road": "717",
+    "segment": "5614",
+    "type": "R3",
+    "vehicles": 670.0,
+    "longitude": 577280.0,
+    "latitude": 176711.0
+  },
+  {
+    "road": "718",
+    "segment": "5620",
+    "type": "R3",
+    "vehicles": 300.0,
+    "longitude": 577827.0,
+    "latitude": 182357.0
+  },
+  {
+    "road": "719",
+    "segment": "5621",
+    "type": "R3",
+    "vehicles": 720.0,
+    "longitude": 578754.0,
+    "latitude": 185532.0
+  },
+  {
+    "road": "721",
+    "segment": "1317",
+    "type": "R3",
+    "vehicles": 943.3333333333334,
+    "longitude": 587979.5,
+    "latitude": 188093.5
+  },
+  {
+    "road": "722",
+    "segment": "1446",
+    "type": "R3",
+    "vehicles": 102.0,
+    "longitude": 587261.0,
+    "latitude": 191121.0
+  },
+  {
+    "road": "723",
+    "segment": "5691",
+    "type": "R3",
+    "vehicles": 395.0,
+    "longitude": 597339.0,
+    "latitude": 187845.0
+  },
+  {
+    "road": "724",
+    "segment": "5693",
+    "type": "R3",
+    "vehicles": 130.0,
+    "longitude": 600633.0,
+    "latitude": 186248.0
+  },
+  {
+    "road": "724",
+    "segment": "5661",
+    "type": "R3",
+    "vehicles": 290.0,
+    "longitude": 598932.0,
+    "latitude": 180895.0
+  },
+  {
+    "road": "724",
+    "segment": "4210",
+    "type": "R3",
+    "vehicles": 365.0,
+    "longitude": 602266.0,
+    "latitude": 176568.0
+  },
+  {
+    "road": "725",
+    "segment": "5672",
+    "type": "R3",
+    "vehicles": 1760.0,
+    "longitude": 591690.0,
+    "latitude": 174848.0
+  },
+  {
+    "road": "725",
+    "segment": "5677",
+    "type": "R3",
+    "vehicles": 830.0,
+    "longitude": 593226.0,
+    "latitude": 175891.0
+  },
+  {
+    "road": "725",
+    "segment": "5668",
+    "type": "R3",
+    "vehicles": 865.0,
+    "longitude": 596189.0,
+    "latitude": 177883.0
+  },
+  {
+    "road": "726",
+    "segment": "1321",
+    "type": "R3",
+    "vehicles": 3231.0,
+    "longitude": 601090.0,
+    "latitude": 164866.0
+  },
+  {
+    "road": "726",
+    "segment": "1322",
+    "type": "R3",
+    "vehicles": 2547.0,
+    "longitude": 597575.0,
+    "latitude": 157769.0
+  },
+  {
+    "road": "726",
+    "segment": "1324",
+    "type": "R3",
+    "vehicles": 903.0,
+    "longitude": 593267.0,
+    "latitude": 147094.0
+  },
+  {
+    "road": "728",
+    "segment": "1148",
+    "type": "R3",
+    "vehicles": 4632.0,
+    "longitude": 464001.0,
+    "latitude": 90600.0
+  },
+  {
+    "road": "728",
+    "segment": "4815",
+    "type": "R3",
+    "vehicles": 568.0,
+    "longitude": 459015.0,
+    "latitude": 87789.5
+  },
+  {
+    "road": "729",
+    "segment": "4206",
+    "type": "R3",
+    "vehicles": 770.0,
+    "longitude": 602909.0,
+    "latitude": 159835.0
+  },
+  {
+    "road": "729",
+    "segment": "4207",
+    "type": "R3",
+    "vehicles": 1746.0,
+    "longitude": 595483.0,
+    "latitude": 163651.0
+  },
+  {
+    "road": "730",
+    "segment": "4104",
+    "type": "R3",
+    "vehicles": 1300.0,
+    "longitude": 564930.0,
+    "latitude": 166533.0
+  },
+  {
+    "road": "731",
+    "segment": "8209",
+    "type": "R3",
+    "vehicles": 2325.0,
+    "longitude": 503424.0,
+    "latitude": 127098.0
+  },
+  {
+    "road": "732",
+    "segment": "8215",
+    "type": "R3",
+    "vehicles": 520.0,
+    "longitude": 500252.0,
+    "latitude": 122610.0
+  },
+  {
+    "road": "733",
+    "segment": "5831",
+    "type": "R3",
+    "vehicles": 3104.0,
+    "longitude": 504434.0,
+    "latitude": 68947.0
+  },
+  {
+    "road": "734",
+    "segment": "4121",
+    "type": "R3",
+    "vehicles": 490.0,
+    "longitude": 572731.0,
+    "latitude": 149334.0
+  },
+  {
+    "road": "737",
+    "segment": "9017",
+    "type": "R3",
+    "vehicles": 2157.0,
+    "longitude": 553661.0,
+    "latitude": 143544.0
+  },
+  {
+    "road": "738",
+    "segment": "6727",
+    "type": "R3",
+    "vehicles": 785.0,
+    "longitude": 513278.0,
+    "latitude": 97052.0
+  },
+  {
+    "road": "739",
+    "segment": "6219",
+    "type": "R3",
+    "vehicles": 755.0,
+    "longitude": 567580.0,
+    "latitude": 149891.0
+  },
+  {
+    "road": "741",
+    "segment": "0235",
+    "type": "R3",
+    "vehicles": 8022.5,
+    "longitude": 405276.0,
+    "latitude": 48195.0
+  },
+  {
+    "road": "741",
+    "segment": "3751",
+    "type": "R3",
+    "vehicles": 8690.0,
+    "longitude": 403209.0,
+    "latitude": 45563.0
+  },
+  {
+    "road": "742",
+    "segment": "4806",
+    "type": "R3",
+    "vehicles": 7646.5,
+    "longitude": 454196.0,
+    "latitude": 96031.5
+  },
+  {
+    "road": "744",
+    "segment": "2346",
+    "type": "R3",
+    "vehicles": 831.5,
+    "longitude": 522029.0,
+    "latitude": 116736.0
+  },
+  {
+    "road": "745",
+    "segment": "4116",
+    "type": "R3",
+    "vehicles": 1120.0,
+    "longitude": 565430.0,
+    "latitude": 149740.0
+  },
+  {
+    "road": "745",
+    "segment": "4118",
+    "type": "R3",
+    "vehicles": 1224.0,
+    "longitude": 559528.0,
+    "latitude": 154433.0
+  },
+  {
+    "road": "747",
+    "segment": "4120",
+    "type": "R3",
+    "vehicles": 1000.0,
+    "longitude": 565607.0,
+    "latitude": 160367.0
+  },
+  {
+    "road": "747",
+    "segment": "2805",
+    "type": "R3",
+    "vehicles": 870.0,
+    "longitude": 575136.0,
+    "latitude": 161833.0
+  },
+  {
+    "road": "748",
+    "segment": "2412",
+    "type": "R3",
+    "vehicles": 911.3333333333334,
+    "longitude": 469007.5,
+    "latitude": 74276.5
+  },
+  {
+    "road": "749",
+    "segment": "8616",
+    "type": "R3",
+    "vehicles": 1689.0,
+    "longitude": 555289.0,
+    "latitude": 164699.0
+  },
+  {
+    "road": "749",
+    "segment": "4109",
+    "type": "R3",
+    "vehicles": 915.0,
+    "longitude": 560005.0,
+    "latitude": 163616.0
+  },
+  {
+    "road": "752",
+    "segment": "7206",
+    "type": "R3",
+    "vehicles": 3989.0,
+    "longitude": 524364.0,
+    "latitude": 125278.0
+  },
+  {
+    "road": "752",
+    "segment": "1403",
+    "type": "R3",
+    "vehicles": 6678.0,
+    "longitude": 523967.0,
+    "latitude": 123649.0
+  },
+  {
+    "road": "753",
+    "segment": "1544",
+    "type": "R3",
+    "vehicles": 200.0,
+    "longitude": 399768.0,
+    "latitude": 116232.0
+  },
+  {
+    "road": "754",
+    "segment": "1493",
+    "type": "R3",
+    "vehicles": 1603.0,
+    "longitude": 442332.0,
+    "latitude": 77287.0
+  },
+  {
+    "road": "901",
+    "segment": "1001",
+    "type": "RT",
+    "vehicles": 770.0,
+    "longitude": 402013.0,
+    "latitude": 150828.0
+  },
+  {
+    "road": "902",
+    "segment": "1019",
+    "type": "RT",
+    "vehicles": 95.0,
+    "longitude": 392815.0,
+    "latitude": 143929.0
+  },
+  {
+    "road": "903",
+    "segment": "1021",
+    "type": "RT",
+    "vehicles": 185.0,
+    "longitude": 391758.0,
+    "latitude": 119035.0
+  },
+  {
+    "road": "904",
+    "segment": "1093",
+    "type": "RT",
+    "vehicles": 910.0,
+    "longitude": 412484.0,
+    "latitude": 127171.0
+  },
+  {
+    "road": "905",
+    "segment": "1096",
+    "type": "RT",
+    "vehicles": 1395.5,
+    "longitude": 424713.5,
+    "latitude": 136324.0
+  },
+  {
+    "road": "905",
+    "segment": "1097",
+    "type": "RT",
+    "vehicles": 225.0,
+    "longitude": 421974.0,
+    "latitude": 134847.0
+  },
+  {
+    "road": "906",
+    "segment": "1100",
+    "type": "RT",
+    "vehicles": 1170.0,
+    "longitude": 421817.0,
+    "latitude": 134940.0
+  },
+  {
+    "road": "907",
+    "segment": "1101",
+    "type": "RT",
+    "vehicles": 280.0,
+    "longitude": 427092.0,
+    "latitude": 138115.0
+  },
+  {
+    "road": "907",
+    "segment": "1102",
+    "type": "RT",
+    "vehicles": 600.0,
+    "longitude": 418676.0,
+    "latitude": 147079.0
+  },
+  {
+    "road": "908",
+    "segment": "1383",
+    "type": "RT",
+    "vehicles": 857.5,
+    "longitude": 417980.0,
+    "latitude": 146744.0
+  },
+  {
+    "road": "909",
+    "segment": "1125",
+    "type": "RT",
+    "vehicles": 800.0,
+    "longitude": 420256.0,
+    "latitude": 126243.0
+  },
+  {
+    "road": "909",
+    "segment": "1129",
+    "type": "RT",
+    "vehicles": 340.0,
+    "longitude": 425058.0,
+    "latitude": 121260.0
+  },
+  {
+    "road": "910",
+    "segment": "1130",
+    "type": "RT",
+    "vehicles": 440.0,
+    "longitude": 427294.0,
+    "latitude": 119469.0
+  },
+  {
+    "road": "911",
+    "segment": "1123",
+    "type": "RT",
+    "vehicles": 300.0,
+    "longitude": 435318.0,
+    "latitude": 123514.0
+  },
+  {
+    "road": "912",
+    "segment": "7350",
+    "type": "RT",
+    "vehicles": 336.0,
+    "longitude": 426144.0,
+    "latitude": 114944.0
+  },
+  {
+    "road": "912",
+    "segment": "3105",
+    "type": "RT",
+    "vehicles": 677.0,
+    "longitude": 425192.0,
+    "latitude": 112282.0
+  },
+  {
+    "road": "914",
+    "segment": "1372",
+    "type": "RT",
+    "vehicles": 2112.0,
+    "longitude": 443220.0,
+    "latitude": 74007.0
+  },
+  {
+    "road": "914",
+    "segment": "2402",
+    "type": "RT",
+    "vehicles": 750.0,
+    "longitude": 447623.0,
+    "latitude": 72870.0
+  },
+  {
+    "road": "915",
+    "segment": "1376",
+    "type": "RT",
+    "vehicles": 350.0,
+    "longitude": 442124.0,
+    "latitude": 47723.0
+  },
+  {
+    "road": "915",
+    "segment": "2427",
+    "type": "RT",
+    "vehicles": 80.0,
+    "longitude": 459068.0,
+    "latitude": 59809.0
+  },
+  {
+    "road": "917",
+    "segment": "3602",
+    "type": "RT",
+    "vehicles": 1809.0,
+    "longitude": 490658.0,
+    "latitude": 56326.0
+  },
+  {
+    "road": "917",
+    "segment": "3621",
+    "type": "RT",
+    "vehicles": 90.0,
+    "longitude": 491585.0,
+    "latitude": 57444.0
+  },
+  {
+    "road": "918",
+    "segment": "3652",
+    "type": "RT",
+    "vehicles": 110.0,
+    "longitude": 503972.0,
+    "latitude": 39453.0
+  },
+  {
+    "road": "918",
+    "segment": "3617",
+    "type": "RT",
+    "vehicles": 90.0,
+    "longitude": 492515.0,
+    "latitude": 37822.0
+  },
+  {
+    "road": "919",
+    "segment": "1341",
+    "type": "RT",
+    "vehicles": 845.0,
+    "longitude": 521934.0,
+    "latitude": 49647.0
+  },
+  {
+    "road": "919",
+    "segment": "1466",
+    "type": "RT",
+    "vehicles": 785.0,
+    "longitude": 520093.0,
+    "latitude": 35880.0
+  },
+  {
+    "road": "919",
+    "segment": "1343",
+    "type": "RT",
+    "vehicles": 300.0,
+    "longitude": 519117.0,
+    "latitude": 35282.0
+  },
+  {
+    "road": "921",
+    "segment": "4306",
+    "type": "RT",
+    "vehicles": 785.0,
+    "longitude": 486724.0,
+    "latitude": 108954.0
+  },
+  {
+    "road": "923",
+    "segment": "1087",
+    "type": "RT",
+    "vehicles": 740.0,
+    "longitude": 470358.0,
+    "latitude": 127047.0
+  },
+  {
+    "road": "924",
+    "segment": "3559",
+    "type": "RT",
+    "vehicles": 415.0,
+    "longitude": 476687.0,
+    "latitude": 126845.0
+  },
+  {
+    "road": "926",
+    "segment": "6506",
+    "type": "RT",
+    "vehicles": 280.0,
+    "longitude": 484969.0,
+    "latitude": 147446.0
+  },
+  {
+    "road": "928",
+    "segment": "1253",
+    "type": "RT",
+    "vehicles": 1253.0,
+    "longitude": 496789.0,
+    "latitude": 133647.0
+  },
+  {
+    "road": "929",
+    "segment": "1332",
+    "type": "RT",
+    "vehicles": 2839.5,
+    "longitude": 547449.5,
+    "latitude": 150205.0
+  },
+  {
+    "road": "930",
+    "segment": "7065",
+    "type": "RT",
+    "vehicles": 425.0,
+    "longitude": 534166.0,
+    "latitude": 139536.0
+  },
+  {
+    "road": "932",
+    "segment": "6924",
+    "type": "RT",
+    "vehicles": 512.5,
+    "longitude": 509699.0,
+    "latitude": 151024.0
+  },
+  {
+    "road": "933",
+    "segment": "1193",
+    "type": "RT",
+    "vehicles": 595.0,
+    "longitude": 522306.5,
+    "latitude": 103385.5
+  },
+  {
+    "road": "934",
+    "segment": "6838",
+    "type": "RT",
+    "vehicles": 2174.0,
+    "longitude": 412634.0,
+    "latitude": 62458.0
+  },
+  {
+    "road": "934",
+    "segment": "6840",
+    "type": "RT",
+    "vehicles": 1150.0,
+    "longitude": 413572.0,
+    "latitude": 60610.0
+  },
+  {
+    "road": "935",
+    "segment": "9042",
+    "type": "RT",
+    "vehicles": 415.0,
+    "longitude": 547478.0,
+    "latitude": 146828.0
+  },
+  {
+    "road": "936",
+    "segment": "1063",
+    "type": "RT",
+    "vehicles": 854.0,
+    "longitude": 419920.0,
+    "latitude": 84760.0
+  },
+  {
+    "road": "940",
+    "segment": "1018",
+    "type": "RT",
+    "vehicles": 775.0,
+    "longitude": 421638.0,
+    "latitude": 58342.0
+  },
+  {
+    "road": "940",
+    "segment": "3214",
+    "type": "RT",
+    "vehicles": 340.0,
+    "longitude": 426949.5,
+    "latitude": 53185.5
+  },
+  {
+    "road": "940",
+    "segment": "3213",
+    "type": "RT",
+    "vehicles": 345.0,
+    "longitude": 432027.0,
+    "latitude": 49280.0
+  },
+  {
+    "road": "941",
+    "segment": "1541",
+    "type": "RT",
+    "vehicles": 2092.0,
+    "longitude": 579010.0,
+    "latitude": 164870.0
+  }
+]
